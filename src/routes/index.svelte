@@ -44,7 +44,7 @@
 
 <figure>
 	<img alt="Success Kid" src="{successkid}">
-	<figcaption>Have fun with Sapper!</figcaption>
+	<!-- <figcaption>Have fun with Sapper!</figcaption> -->
   <a href="contact">Contact page</a>
 </figure>
 
