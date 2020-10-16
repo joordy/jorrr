@@ -7,22 +7,32 @@
   section {
     position: fixed;
     top: 0;
-    left: 1.875rem;
+    left: 0.675rem;
     height: 100vh;
-    width: 65px;
-    // background-color: hotpink;
+    width: 45px;
+    @media screen and (min-width: 600px) {
+      width: 65px;
+      left: 1rem;
+    }
+    @media screen and (min-width: 1195px) {
+      left: 1.875rem;
+    }
     .social__navigation {
       .logo {
         font-size: 64px;
         font-weight: 700;
       }
       .wrapper {
-        position: absolute;
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
-        bottom: 0;
+        display: none;
+        @media screen and (min-width: 600px) {
+          display: block;
+          position: absolute;
+          margin-left: auto;
+          margin-right: auto;
+          left: 0;
+          right: 0;
+          bottom: 0;
+        }
         .social__icons {
           width: 30px;
           margin: 0 auto;

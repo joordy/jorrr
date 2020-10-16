@@ -1,4 +1,6 @@
 <script>
+  export let textCTA;
+  export let linkTO;
 </script>
 
 <style lang="scss">
@@ -11,8 +13,7 @@
     color: #212738;
     font-weight: 700;
     text-decoration: none;
-    
   }
 </style>
 
-<a href="#">Let's chat</a>
+<a href={linkTO}>{textCTA}</a>

@@ -4,12 +4,12 @@ html {
 
 body {
   margin: 0;
-  /* font-family: 'IBM Plex Mono', monospace; */
   font-family: 'Inter', sans-serif;
   font-size: 14px;
   line-height: 1.5;
   background-color: #212738;
   color: #edf2ef;
+  overflow-x: hidden;
 }
 
 h1,

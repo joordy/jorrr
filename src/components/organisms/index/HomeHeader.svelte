@@ -10,14 +10,25 @@
   @import '../..//styles/variables/context.scss';
 
   section {
-    height: 90vh;
-    // width: 70vw;
+    height: 100vh;
     position: relative;
+    @media screen and (min-width: 600px) {
+      height: 90vh;
+    }
     img {
       position: absolute;
-      right: -5vw;
+      right: -15vw;
       bottom: 0;
-      max-width: 625px;
+      width: 250px;
+      height: auto;
+      @media screen and (min-width: 600px) {
+        width: 400px;
+        right: -10vw;
+      }
+      @media screen and (min-width: 1195px) {
+        width: 575px;
+        right: -1.5vw;
+      }
     }
   }
 </style>

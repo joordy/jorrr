@@ -10,8 +10,11 @@
     padding-top: 6.25rem;
     position: relative;
     h1 {
-      font-size: $title-size;
+      font-size: $h1-size;
       font-weight: 700;
+      @media screen and (min-width:500px) {
+        font-size: $title-size;
+      }
     }
     div {
       width: 100%;

@@ -1,4 +1,5 @@
 <script>
+  export let textSubject;
 </script>
 
 <style lang="scss">
@@ -40,5 +41,5 @@
 
 <article>
   <div></div>
-  <p>Frontend Developer</p>
+  <p>{textSubject}</p>
 </article>

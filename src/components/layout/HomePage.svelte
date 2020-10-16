@@ -9,13 +9,17 @@
 
 <style lang="scss">
   section {
-      width: 75vw;
-      margin: 0 auto;
-    @media screen and (min-width: 1190px) {
+    position: relative;
+    width: calc(100vw - 2em);
+    padding: 1em;
+    margin: 0 auto;
+    @media screen and (min-width: 600px) {
+      padding: 0;
       width: 70vw;
-      // padding: 1em 12.5em;
-      
     }
+    // @media screen and (min-width: 1195px) {
+    //   width: 70vw;
+    // }
   }
 </style>
 
