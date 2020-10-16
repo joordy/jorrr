@@ -7,12 +7,19 @@
   @import '../..//styles/variables/context.scss';
 
   section {
+    width: 100%;
     .wrapper {
+      width: 100%;
       display: grid;
-      grid-gap: 1em;
+      grid-template-columns: auto;
+      grid-gap: 1rem;
       @media screen and (min-width: 600px) {
         grid-template-columns: auto auto;
       }
+      @media screen and (min-width: 1195px) {
+        grid-gap: 2rem;
+      }
+
     }
   }
 </style>
@@ -26,4 +33,4 @@
     <MyProject />
   </div>
 
-</section>
+</section> 
