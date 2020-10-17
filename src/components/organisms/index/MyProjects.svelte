@@ -1,6 +1,6 @@
 <script>
   import { BlockTitle } from '@/components/atoms/index.js'
-  import MyProject from '@/components/molecules/projects/Project.svelte';
+  import MyProject from '@/components/molecules/home/Project.svelte';
 </script>
 
 <style lang="scss">
@@ -8,25 +8,20 @@
 
   section {
     width: 100%;
-    .wrapper {
-      width: 100%;
+    .allProjects {
+      max-width: 100%;
       display: grid;
       grid-template-columns: auto;
-      grid-gap: 1rem;
-      @media screen and (min-width: 600px) {
+      @media screen and (min-width: 800px) {
         grid-template-columns: auto auto;
       }
-      @media screen and (min-width: 1195px) {
-        grid-gap: 2rem;
-      }
-
     }
   }
 </style>
 
 <section id="cases">
   <BlockTitle pageSectionTitle="Cases"/>
-  <div class="wrapper">
+  <div class="allProjects">
     <MyProject />
     <MyProject />
     <MyProject />

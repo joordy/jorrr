@@ -1,5 +1,5 @@
 <script>
-  import TextContent from '@/components/molecules/header/TextContent.svelte';
+  import TextContent from '@/components/molecules/home/TextContent.svelte';
   let image = {
     imageSource: 'https://user-images.githubusercontent.com/48051912/96291796-e42e4900-0fe8-11eb-8f12-b52e16f6957c.png',
     imageAlt: 'Photo of Jordy'
@@ -13,7 +13,7 @@
     height: 100vh;
     position: relative;
     @media screen and (min-width: 600px) {
-      height: 90vh;
+      height: 95vh;
     }
     img {
       position: absolute;
@@ -26,7 +26,7 @@
         right: -10vw;
       }
       @media screen and (min-width: 1195px) {
-        width: 575px;
+        width: 525px;
         right: -1.5vw;
       }
     }
