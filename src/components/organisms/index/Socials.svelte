@@ -34,26 +34,26 @@
           bottom: 0;
         }
         .social__icons {
-          width: 30px;
+          width: 1.5rem;
           margin: 0 auto;
-          margin-bottom: 4rem;
+          margin-bottom: 1rem;
           div {
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
-            width: 30px;
-            height: 300px;
+            width: 100%;
+            height: 14rem;
             list-style: none;
             a {
-              width: 2rem;
-              height: 2rem;
+              width: 1.5rem;
+              height: 1.5rem;
               margin: 0 auto;
               font-family: FontAwesome;
               font-weight: normal;
               font-style: normal;
               display: inline-block;
               text-decoration: inherit;        
-              font-size: 2rem;    
+              font-size: 1.5rem;    
               &:nth-of-type(1) {
                 &::before {
                   content: "\f0e1"

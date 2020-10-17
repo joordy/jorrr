@@ -22,10 +22,12 @@
       display: flex;
       justify-content: center;   
       align-items: center;   
-        ul {
+      ul {
+        margin-right: -4rem;
         direction: rtl;
         display: grid;
         grid-gap: 1.25rem;
+        list-style: none;
         li {
           font-family: 'IBM Plex Mono', monospace; 
           text-align: right;
