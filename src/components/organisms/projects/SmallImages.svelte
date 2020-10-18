@@ -3,14 +3,16 @@
 
 <style lang="scss">
   .image__wrapper {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
-    display: flex;
-    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
     article {
+      display: inline-block;
       margin: 1rem;
       height: 250px;
-      width: 350px;
+      min-width: 350px;
       background-color: hotpink;
       img {
         width: 100%;
