@@ -1,5 +1,5 @@
 <script>
-  import IndexPage from '../components/layout/HomePage.svelte';
+  import IndexPage from '@/components/layout/HomePage.svelte';
 </script>
 
 <style lang="scss">

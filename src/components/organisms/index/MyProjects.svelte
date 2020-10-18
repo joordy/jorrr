@@ -1,16 +1,18 @@
 <script>
   import { BlockTitle } from '@/components/atoms/index.js'
-  import MyProject from '@/components/molecules/projects/Project.svelte';
+  import MyProject from '@/components/molecules/home/Project.svelte';
 </script>
 
 <style lang="scss">
   @import '../..//styles/variables/context.scss';
 
   section {
-    .wrapper {
+    width: 100%;
+    .allProjects {
+      max-width: 100%;
       display: grid;
-      grid-gap: 1em;
-      @media screen and (min-width: 600px) {
+      grid-template-columns: auto;
+      @media screen and (min-width: 800px) {
         grid-template-columns: auto auto;
       }
     }
@@ -19,11 +21,11 @@
 
 <section id="cases">
   <BlockTitle pageSectionTitle="Cases"/>
-  <div class="wrapper">
+  <div class="allProjects">
     <MyProject />
     <MyProject />
     <MyProject />
     <MyProject />
   </div>
 
-</section>
+</section> 

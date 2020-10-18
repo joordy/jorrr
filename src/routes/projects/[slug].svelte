@@ -16,12 +16,38 @@
 	}
 </script>
 
-<script>
-  export let project;
-  console.log(project);
+<!-- <script>
+  // console.log(project);
+  
+  import ProjectPage from '@/components/layouts/ProjectPage.svelte';
 </script>
 
 <section class="project">
   <h2>{project.title}</h2>
-  <p>This is my {project.intro}</p>
+  <p>{project.intro}</p>
+  
 </section>
+  <ProjectPage /> -->
+
+<script>
+  export let project;
+
+  import ProjectPage from '@/components/layout/ProjectPage.svelte';
+</script>
+
+<style lang="scss">
+  section {
+    background-color: white;
+  }
+</style> 
+
+<section>
+  <ProjectPage />
+</section>
+<!-- <section class="project">
+  <h2>{project.title}</h2>
+  <p>{project.intro}</p>
+  
+</section> -->
+
+
