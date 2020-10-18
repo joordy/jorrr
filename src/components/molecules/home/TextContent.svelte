@@ -2,6 +2,8 @@
   import { ButtonCTA, ButtonSubject } from '@/components/atoms/index.js'
   let headingOne = 'Jordy Fronik'
   let text = 'I’m a dutch creative Frontend Developer & Designer from Amsterdam, with a passion for building fluid web applications.'
+    import { fade } from 'svelte/transition';
+
 </script>
 
 <style lang="scss">
@@ -31,7 +33,7 @@
 
 </style>
 
-<section>
+<section in:fade>
   <ButtonSubject textSubject="Frontend Developer" />
   <h1>{headingOne}</h1>
   <p>{text}</p>

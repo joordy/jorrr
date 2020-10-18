@@ -8,15 +8,27 @@
     width: 70vw;
     margin: 3rem auto 3rem auto;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    @media screen and (min-width: 700px) {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    // justify-content: space-between;
     .text__one {
-      width: 50%;
+      width: 100%;
+      @media screen and (min-width: 700px) {
+      width: 47.5%;
+      }
     }
     .text__two {
-      width: 40%;
+      width: 100%;
+      @media screen and (min-width: 700px) {
+        width:  47.5%;
+      }    
     }
-
-
     // h1 {
     //   font-size: $h2-size;
     // }
