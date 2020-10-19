@@ -1,4 +1,5 @@
 <script>
+  export let project;
 </script>
 
 <style lang="scss">
@@ -25,17 +26,10 @@
 
 <section>
   <section class="image__wrapper">
-    <article>
-      <img src="https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png" alt="">
-    </article>    
-    <article>
-      <img src="https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png" alt="">
-    </article>    
-    <article>
-      <img src="https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png" alt="">
-    </article>    
-    <article>
-      <img src="https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png" alt="">
-    </article>
+    {#each project.smallImageSlider as photo}
+      <article>
+        <img src={photo.src} alt={photo.alt}>
+      </article>
+    {/each}
   </section>
 </section>

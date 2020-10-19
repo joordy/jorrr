@@ -1,6 +1,8 @@
 <script>
   import { ButtonCTA } from '@/components/atoms/index.js'
-  // import projects from '@/routes/projects/_data.js';
+  // import { projects } from '../../../routes/projects/_data';
+
+  export let project
 </script>
 
 <style lang="scss">
@@ -78,37 +80,17 @@
   }
 </style>
 
-<!-- {#each projects as project} -->
   <section class="projectCard">
-    <a href="/projects/datio-dating-application">
+    <a href="/projects/{project.slug}">
       <article class="backimage">
         <div class="backimage__overlay"></div>
         <img src="https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png" alt="">
       </article>
-      <div class="idnumber">01</div>
+      <div class="idnumber">{project.idNumber}</div>
       <article class="projectInfo">
-        <h3>Dat.io Dating Application</h3>
-        <p>Dating Application for IT-students</p>
-        <ButtonCTA linkTO="/" textCTA="explore" />
+        <h3>{project.title}</h3>
+        <p>{project.subTitle}</p>
+        <ButtonCTA linkTO="/projects/{project.slug}" textCTA="explore" />
       </article>
     </a> 
   </section>
-<!-- {/each} -->
-
-
-
-
-    <!-- </section> -->
-  <!-- <a href="/">
-    <section class="card">
-      <div class="backimage">
-        <div class="backimage__overlay"></div>
-        <img src="https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png" alt="">
-      </div>
-      <div class="idnumber">01</div>
-      <article>
-        <h3>Dat.io Dating Application</h3>
-        <p>Dating Application for IT-students</p>
-        <ButtonCTA linkTO="/" textCTA="explore" />
-      </article>
-    </section>-->

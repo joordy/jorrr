@@ -5,6 +5,9 @@
   import Result from '@/components/organisms/projects/Result.svelte'
   import LargeImages from '@/components/organisms/projects/LargeImages.svelte'
   import MoreCases from '@/components/organisms/projects/MoreCases.svelte'
+
+  export let project;
+
 </script>
 
 <style lang="scss">
@@ -24,10 +27,10 @@
 
 
 <section>
-  <ProjectHeader />
-  <Challenge />
-  <SmallImages />
-  <Result />
-  <LargeImages />
-  <MoreCases />
+  <ProjectHeader project={project} />
+  <Challenge project={project}/>
+  <SmallImages project={project}/>
+  <Result project={project}/>
+  <LargeImages project={project}/>
+  <MoreCases project={project}/>
 </section>

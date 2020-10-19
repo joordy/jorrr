@@ -31,6 +31,9 @@
   }
 </style>
 
+<svelte:head>
+	<title>My work — Jorrr.dev</title>
+</svelte:head>
 
 <section>
   <p>  Hello here is my project </p>
