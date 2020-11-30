@@ -9,17 +9,17 @@
       id: 1,
     },
     {
-      path: 'https://user-images.githubusercontent.com/48051912/100670369-0c86c280-335f-11eb-91de-cc8f52c1e73d.jpg',
+      path: 'https://user-images.githubusercontent.com/48051912/100673083-23c7af00-3363-11eb-902a-b2be732a27ae.jpg',
       alt: 'image2',
       id: 2,
     },
     {
-      path: 'https://user-images.githubusercontent.com/48051912/100670369-0c86c280-335f-11eb-91de-cc8f52c1e73d.jpg',
+      path: 'https://user-images.githubusercontent.com/48051912/100673084-24604580-3363-11eb-93fa-2efc3581c5a9.jpg',
       alt: 'image3',
       id: 3,
     },
     {
-      path: 'https://user-images.githubusercontent.com/48051912/100670369-0c86c280-335f-11eb-91de-cc8f52c1e73d.jpg',
+      path: 'https://user-images.githubusercontent.com/48051912/100673088-25917280-3363-11eb-87ef-6bfeb1c955d3.jpg',
       alt: 'image4',
       id: 4,
     },
