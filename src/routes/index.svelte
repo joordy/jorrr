@@ -1,8 +1,13 @@
 <script>
-  import IndexPage from '@/components/layout/HomePage.svelte';
+  import IndexPage from '@/components/layout/IndexPage.svelte';
+  import {projects} from './projects/_data'
 </script>
 
 <style lang="scss">
 </style>
 
-<IndexPage />
+<svelte:head>
+	<title>Portfolio — Jorrr.dev</title>
+</svelte:head>
+
+<IndexPage projects={projects} />

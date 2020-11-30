@@ -1,4 +1,5 @@
 <script>
+  export let project;
 </script>
 
 <style lang="scss">
@@ -23,7 +24,11 @@
 <section class="more__cases">
   <h3>More Cases</h3>
   <section class="cases">
-    <article></article>
-    <article></article>
+    {#each project.moreCases as otherCase}
+      <article>
+        <h4>{otherCase.name}</h4>
+        <img src={otherCase.src} alt={otherCase.alt}>
+      </article>
+    {/each}
   </section>
 </section>

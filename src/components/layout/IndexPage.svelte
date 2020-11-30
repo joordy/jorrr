@@ -5,6 +5,8 @@
   import AboutMe from '@/components/organisms/index/AboutMe.svelte';
   import MyProjects from '@/components/organisms/index/MyProjects.svelte';
   import ContactMe from '@/components/organisms/index/ContactMe.svelte';
+
+  export let projects;
 </script>
 
 <style lang="scss">
@@ -28,6 +30,6 @@
   <Navigation  />
   <HomeHeader />
   <AboutMe />
-  <MyProjects />
+  <MyProjects projects={projects} />
   <ContactMe />
 </section>

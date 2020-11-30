@@ -2,8 +2,8 @@
   import TextContent from '@/components/molecules/home/TextContent.svelte';
   let image = {
     imageSource: 'https://user-images.githubusercontent.com/48051912/96291796-e42e4900-0fe8-11eb-8f12-b52e16f6957c.png',
-    imageAlt: 'Photo of Jordy'
-  }
+    imageAlt: 'Photo of Jordy',
+  };
 </script>
 
 <style lang="scss">
@@ -12,6 +12,7 @@
   section {
     height: 100vh;
     position: relative;
+    transition: moveSectionIn 1s;
     @media screen and (min-width: 600px) {
       height: 95vh;
     }
@@ -35,5 +36,5 @@
 
 <section id="home">
   <TextContent />
-  <img src={image.imageSource} alt={image.imageAlt}>
+  <img src={image.imageSource} alt={image.imageAlt} />
 </section>

@@ -1,6 +1,8 @@
 <script>
   import { BlockTitle } from '@/components/atoms/index.js'
   import MyProject from '@/components/molecules/home/Project.svelte';
+
+  export let projects;
 </script>
 
 <style lang="scss">
@@ -22,10 +24,14 @@
 <section id="cases">
   <BlockTitle pageSectionTitle="Cases"/>
   <div class="allProjects">
+
+    {#each projects as project}
+      <MyProject project={project}/>
+    {/each}
+    <!-- <MyProject />
     <MyProject />
     <MyProject />
-    <MyProject />
-    <MyProject />
+    <MyProject /> -->
   </div>
 
 </section> 

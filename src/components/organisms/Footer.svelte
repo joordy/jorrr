@@ -1,4 +1,4 @@
-<style lang="scss"> 
+<style lang="scss">
   footer {
     background-color: #434958;
     color: #fff;
@@ -6,7 +6,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;  
+    justify-content: center;
     p {
       display: inline-block;
     }

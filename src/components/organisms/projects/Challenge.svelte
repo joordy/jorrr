@@ -1,4 +1,5 @@
 <script>
+  export let project;
 </script>
 
 <style lang="scss">
@@ -29,33 +30,27 @@
         width:  47.5%;
       }    
     }
-    // h1 {
-    //   font-size: $h2-size;
-    // }
   }
 </style>
 
 <section class="challenge">
   <section class="text__one">
     <h5>Challenge</h5>
-    <h2>Complete datingapp</h2>
-     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum. Ultrices ac ultrices mauris purus pharetra massa dui. Neque tempor nunc maecenas sed enim.
-      Sed quis eget morbi risus ridiculus mattis felis et potenti. 
-    </p>
+    <h2>{project.subTitle}</h2>
+     <p>{project.shortExplenation}</p>
   </section>
   <section class="text__two">
     <article>
       <h4>Services</h4>
-      <p>Lorem</p>
+      <p>{project.services}</p>
     </article> 
     <article>
       <h4>Languages</h4>
-      <p>Lorem</p>
+      <p>{project.languages}</p>
     </article> 
     <article>
       <h4>Live Preview</h4>
-      <p>Lorem</p>
+      <p>{project.livePreview}</p>
     </article>
   </section>
 </section>

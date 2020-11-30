@@ -16,22 +16,9 @@
 	}
 </script>
 
-<!-- <script>
-  // console.log(project);
-  
-  import ProjectPage from '@/components/layouts/ProjectPage.svelte';
-</script>
-
-<section class="project">
-  <h2>{project.title}</h2>
-  <p>{project.intro}</p>
-  
-</section>
-  <ProjectPage /> -->
 
 <script>
   export let project;
-
   import ProjectPage from '@/components/layout/ProjectPage.svelte';
 </script>
 
@@ -41,13 +28,12 @@
   }
 </style> 
 
-<section>
-  <ProjectPage />
-</section>
-<!-- <section class="project">
-  <h2>{project.title}</h2>
-  <p>{project.intro}</p>
-  
-</section> -->
+<svelte:head>
+	<title>{project.title}  — Jorrr.dev</title>
+</svelte:head> 
 
+<section>
+  <ProjectPage project={project} />
+</section>
+  
 

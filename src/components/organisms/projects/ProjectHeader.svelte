@@ -1,4 +1,5 @@
 <script>
+  export let project;
 </script>
 
 <style lang="scss">
@@ -21,7 +22,7 @@
 <section>
   <article>
     <a href="/"> — Back</a>
-    <h1>Dat.io</h1>
-    <p>bla bla bla</p>
+    <h1>{project.title}</h1>
+    <p>{project.intro}</p>
   </article>
 </section>
