@@ -2,7 +2,7 @@
 </script>
 
 <style lang="scss">
-  @import '../../styles/variables/context.scss';
+  @import 'src/styles/index.scss';
 
   .wrapper {
     display: none;
@@ -26,7 +26,7 @@
         width: 100%;
         height: 14rem;
         list-style: none;
-        a {
+        span {
           width: 1.5rem;
           height: 1.5rem;
           margin: 0 auto;
@@ -34,24 +34,23 @@
           font-weight: normal;
           font-style: normal;
           display: inline-block;
-          text-decoration: inherit;        
-          font-size: 1.5rem;    
+          text-decoration: inherit;
+          font-size: 1.5rem;
           &:nth-of-type(1) {
             &::before {
-              content: "\f0e1"
+              content: '\f0e1';
             }
           }
           &:nth-of-type(2) {
             &::before {
-              content: "\f16d"
+              content: '\f16d';
             }
           }
           &:nth-of-type(3) {
             &::before {
-              content: "\f09b"
+              content: '\f09b';
             }
           }
-          
         }
       }
     }
@@ -65,12 +64,15 @@
 </style>
 
 <div class="wrapper">
-    <article class="social__icons">
-      <div>
-        <a href="https://www.linkedin.com/in/jordy-fronik-09426812b/" target="_blank"></a>
-        <a href="https://www.instagram.com/jorrr.dev/" target="_blank"></a>
-        <a href="https://github.com/joordy" target="_blank"></a>
-      </div>
-    </article>
-    <div class="social__line"></div>
+  <article class="social__icons">
+    <div>
+      <span
+        href="https://www.linkedin.com/in/jordy-fronik-09426812b/"
+        target="_blank"
+      />
+      <span href="https://www.instagram.com/jorrr.dev/" target="_blank" />
+      <span href="https://github.com/joordy" target="_blank" />
+    </div>
+  </article>
+  <div class="social__line" />
 </div>

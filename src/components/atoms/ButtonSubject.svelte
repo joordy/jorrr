@@ -1,9 +1,9 @@
 <script>
-  export let textSubject;
+  export let textSubject
 </script>
 
 <style lang="scss">
-  @import './styles/variables/context.scss';
+  @import 'src/styles/index.scss';
 
   article {
     height: 1.75rem;
@@ -21,7 +21,7 @@
       opacity: 0.2;
     }
     p {
-      font-family: 'IBM Plex Mono', monospace; 
+      font-family: 'IBM Plex Mono', monospace;
       font-size: $small-font-size;
       position: absolute;
       height: 16px;
@@ -40,6 +40,6 @@
 </style>
 
 <article>
-  <div></div>
+  <div />
   <p>{textSubject}</p>
 </article>

@@ -1,5 +1,6 @@
-import ButtonCTA from './ButtonCTA.svelte';
-import ButtonSubject from './ButtonSubject.svelte';
-import BlockTitle from './BlockTitle.svelte';
+import ButtonFilled from './ButtonFilled.svelte'
+import ButtonOutline from './ButtonOutline.svelte'
+import ButtonSubject from './ButtonSubject.svelte'
+import BlockTitle from './BlockTitle.svelte'
 
-export { ButtonCTA, ButtonSubject, BlockTitle };
+export { ButtonFilled, ButtonOutline, ButtonSubject, BlockTitle }

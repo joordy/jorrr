@@ -1,12 +1,12 @@
 <script>
-  import Navigation from '@/components/organisms/index/Navigation.svelte';
-  import Socials from '@/components/organisms/index/Socials.svelte';
-  import HomeHeader from '@/components/organisms/index/HomeHeader.svelte';
-  import AboutMe from '@/components/organisms/index/AboutMe.svelte';
-  import MyProjects from '@/components/organisms/index/MyProjects.svelte';
-  import ContactMe from '@/components/organisms/index/ContactMe.svelte';
+  import Navigation from '@/components/organisms/index/Navigation.svelte'
+  import Socials from '@/components/organisms/index/Socials.svelte'
+  import HomeHeader from '@/components/organisms/index/HomeHeader.svelte'
+  import AboutMe from '@/components/organisms/index/AboutMe.svelte'
+  import MyProjects from '@/components/organisms/index/MyProjects.svelte'
+  import ContactMe from '@/components/organisms/index/ContactMe.svelte'
 
-  export let projects;
+  export let projects
 </script>
 
 <style lang="scss">
@@ -27,9 +27,9 @@
 
 <section>
   <Socials />
-  <Navigation  />
+  <!-- <Navigation  /> -->
   <HomeHeader />
   <AboutMe />
-  <MyProjects projects={projects} />
+  <MyProjects {projects} />
   <ContactMe />
 </section>
