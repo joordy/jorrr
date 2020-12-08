@@ -4,7 +4,8 @@
     ButtonOutline,
     ButtonSubject,
   } from '@/components/atoms/index.js'
-  const text =
+  const textTitle = `hi! I'm Jordy Fronik`
+  const textOne =
     'I design and creates stuff on the internet. I’m a creative Frontend Developer with a passion for buidling fluid web applications.'
   // let headingOne = 'Jordy Fronik'
   // let text =
@@ -15,7 +16,7 @@
   @import 'src/styles/index.scss';
 
   section {
-    padding-top: 45vh;
+    padding-top: 35vh;
     h1 {
       font-size: $h2-size;
       font-weight: 900;
@@ -35,14 +36,21 @@
         font-size: $large-font-size;
       }
     }
+    div {
+      width: 350px;
+      display: flex;
+      justify-content: space-between;
+    }
   }
 </style>
 
 <section>
   <!-- <ButtonSubject textSubject="Frontend Developer" /> -->
-  <!-- <h1>{headingOne}</h1>
-  <p>{text}</p> -->
-  <p>{text}</p>
-  <ButtonFilled linkTO="#contact" textCTA="My work" />
-  <ButtonOutline linkTO="#contact" textCTA="Contact" />
+  <!-- <h1>{headingOne}</h1>-->
+  <p>{textTitle}</p>
+  <p>{textOne}</p>
+  <div>
+    <ButtonFilled linkTO="#cases" textCTA="My work" />
+    <ButtonOutline linkTO="#contact" textCTA="Contact" />
+  </div>
 </section>

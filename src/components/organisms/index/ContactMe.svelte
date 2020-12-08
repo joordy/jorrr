@@ -6,7 +6,7 @@
   @import '../..//styles/variables/context.scss';
 
   section {
-    height: 100vh;
+    height: 60vh;
     h1 {
       font-size: $title-size;
       font-weight: 700;
@@ -15,5 +15,5 @@
 </style>
 
 <section id="contact">
-  <BlockTitle pageSectionTitle="Contact"/>
+  <BlockTitle pageSectionTitle="Contact" />
 </section>
