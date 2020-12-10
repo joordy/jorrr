@@ -1,12 +1,12 @@
 <script>
   import { BlockTitle } from '@/components/atoms/index.js'
-  import MyProject from '@/components/molecules/home/Project.svelte';
+  import MyProject from '@/components/molecules/home/Project.svelte'
 
-  export let projects;
+  export let projects
 </script>
 
 <style lang="scss">
-  @import '../..//styles/variables/context.scss';
+  @import 'src/styles/index.scss';
 
   section {
     width: 100%;
@@ -22,16 +22,10 @@
 </style>
 
 <section id="cases">
-  <BlockTitle pageSectionTitle="Cases"/>
+  <BlockTitle pageSectionTitle="Cases" />
   <div class="allProjects">
-
     {#each projects as project}
-      <MyProject project={project}/>
+      <MyProject {project} />
     {/each}
-    <!-- <MyProject />
-    <MyProject />
-    <MyProject />
-    <MyProject /> -->
   </div>
-
-</section> 
+</section>

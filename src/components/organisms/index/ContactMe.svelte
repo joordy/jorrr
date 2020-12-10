@@ -3,7 +3,7 @@
 </script>
 
 <style lang="scss">
-  @import '../..//styles/variables/context.scss';
+  @import 'src/styles/index.scss';
 
   section {
     height: 60vh;

@@ -7,7 +7,7 @@
 </script>
 
 <style>
-  @import '../styles/layout.scss';
+  @import 'src/styles/index.scss';
   /* main {
 		position: relative;
     color: white;
@@ -21,8 +21,6 @@
 
 <HeaderElement />
 
-<main>
-  <slot />
-</main>
+<slot />
 
 <Footer />

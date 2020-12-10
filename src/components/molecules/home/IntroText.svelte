@@ -33,7 +33,8 @@
       index++
       setTimeout(type, speed)
     }
-    type()
+    setTimeout(type(), 2000)
+    // type()
   })
 </script>
 

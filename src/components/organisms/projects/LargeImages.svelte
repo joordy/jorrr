@@ -31,6 +31,8 @@
 </script>
 
 <style lang="scss">
+  @import 'src/styles/index.scss';
+
   section {
     width: 80%;
     margin: 3rem auto 3rem auto;

@@ -6,11 +6,12 @@
   import LargeImages from '@/components/organisms/projects/LargeImages.svelte'
   import MoreCases from '@/components/organisms/projects/MoreCases.svelte'
 
-  export let project;
-
+  export let project
 </script>
 
 <style lang="scss">
+  @import 'src/styles/index.scss';
+
   section {
     position: relative;
     background-color: white;
@@ -25,12 +26,11 @@
   }
 </style>
 
-
 <section>
-  <ProjectHeader project={project} />
-  <Challenge project={project}/>
-  <SmallImages project={project}/>
-  <Result project={project}/>
-  <LargeImages project={project}/>
-  <MoreCases project={project}/>
+  <ProjectHeader {project} />
+  <Challenge {project} />
+  <SmallImages {project} />
+  <Result {project} />
+  <LargeImages {project} />
+  <MoreCases {project} />
 </section>

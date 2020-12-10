@@ -1,13 +1,14 @@
 <script>
-  export let project;
+  export let project
 </script>
 
 <style lang="scss">
-  @import '../..//styles/variables/context.scss';
+  @import 'src/styles/index.scss';
+
   .more__cases {
     text-align: center;
     padding: 3rem 0rem;
-    .cases {  
+    .cases {
       width: 70%;
       margin: 0 auto;
       display: flex;
@@ -27,7 +28,7 @@
     {#each project.moreCases as otherCase}
       <article>
         <h4>{otherCase.name}</h4>
-        <img src={otherCase.src} alt={otherCase.alt}>
+        <img src={otherCase.src} alt={otherCase.alt} />
       </article>
     {/each}
   </section>

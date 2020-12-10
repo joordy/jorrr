@@ -1,9 +1,9 @@
 <script>
-  export let project;
+  export let project
 </script>
 
 <style lang="scss">
-  @import '../..//styles/variables/context.scss';
+  @import 'src/styles/index.scss';
 
   .challenge {
     width: 70vw;
@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
     @media screen and (min-width: 700px) {
       flex-direction: row;
       justify-content: space-between;
@@ -21,14 +21,14 @@
     .text__one {
       width: 100%;
       @media screen and (min-width: 700px) {
-      width: 47.5%;
+        width: 47.5%;
       }
     }
     .text__two {
       width: 100%;
       @media screen and (min-width: 700px) {
-        width:  47.5%;
-      }    
+        width: 47.5%;
+      }
     }
   }
 </style>
@@ -37,17 +37,17 @@
   <section class="text__one">
     <h5>Challenge</h5>
     <h2>{project.subTitle}</h2>
-     <p>{project.shortExplenation}</p>
+    <p>{project.shortExplenation}</p>
   </section>
   <section class="text__two">
     <article>
       <h4>Services</h4>
       <p>{project.services}</p>
-    </article> 
+    </article>
     <article>
       <h4>Languages</h4>
       <p>{project.languages}</p>
-    </article> 
+    </article>
     <article>
       <h4>Live Preview</h4>
       <p>{project.livePreview}</p>

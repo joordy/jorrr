@@ -15,6 +15,9 @@
   section {
     height: 95vh;
     position: relative;
+    // @media (min-width: 900px) {
+    //   display: block;
+    // }
     // transition: moveSectionIn 1s;
     // @media screen and (min-width: 600px) {
     //   height: 95vh;

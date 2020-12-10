@@ -1,4 +1,6 @@
 <style lang="scss">
+  @import 'src/styles/index.scss';
+
   footer {
     background-color: #292831;
     color: #fff;

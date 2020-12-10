@@ -2,7 +2,7 @@
 </script>
 
 <style lang="scss">
-  @import '../../styles/variables/context.scss';
+  @import 'src/styles/index.scss';
 
   section {
     display: none;
@@ -14,26 +14,26 @@
       right: 1.875rem;
       height: 100vh;
       width: 5rem;
-    }  
-    
+    }
+
     .menu {
       display: flex;
-      justify-content: center;   
-      align-items: center;   
+      justify-content: center;
+      align-items: center;
       ul {
         direction: rtl;
         display: grid;
         grid-gap: 1.25rem;
         list-style: none;
         li {
-          font-family: 'IBM Plex Mono', monospace; 
+          font-family: 'IBM Plex Mono', monospace;
           text-align: right;
           a {
             text-decoration: none;
             color: $ui-dark-grey;
             &:hover {
               color: $ui-soft-white;
-              transition: .2s
+              transition: 0.2s;
             }
           }
         }

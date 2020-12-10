@@ -1,7 +1,7 @@
 /* CONTEXT (No code outputted) */
-@import 'variables/context';
+@import './vars/context.scss';
 
 /* BASE */
-@import 'fonts';
-@import 'base';
-@import 'layout';
+@import './fonts.scss';
+@import './layout.scss';
+@import './base.scss';

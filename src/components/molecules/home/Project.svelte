@@ -15,7 +15,6 @@
     background-color: hotpink;
     overflow: hidden;
     transition: 0.3s;
-
     &:hover {
       transform: scale(1.03);
     }

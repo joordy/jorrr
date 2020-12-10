@@ -2,25 +2,27 @@
 </script>
 
 <style lang="scss">
+  @import 'src/styles/index.scss';
+
   header {
-    // display: flex;
-    // justify-content: space-between;
-    // padding: 0 15vw;
-    // width: 100%;
-    // height: 60px;
-    // background-color: hotpink;
+    color: $ui-soft-white;
     position: sticky;
     top: 0;
     z-index: 100;
     width: 100%;
-    // height: 60px;
     background-color: hotpink;
     .wrapper {
       display: flex;
       justify-content: space-between;
       align-content: center;
       align-items: center;
-      padding: 1em 15vw;
+      padding: 1em 3vw;
+      @media (min-width: 900px) {
+        padding: 1em 7.5vw;
+      }
+      @media (min-width: 1180px) {
+        padding: 1em 15vw;
+      }
       h1 {
         margin: 0;
         text-transform: uppercase;

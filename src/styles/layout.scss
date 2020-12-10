@@ -1,13 +1,20 @@
-@import '../styles/variables/context';
+@import './vars/context.scss';
 
-main {
-  color: white;
+* {
+  margin: 0;
+  padding: 0;
+  color: $ui-soft-white;
+  font-family: 'Inter', sans-serif;
 }
-// .flex {
-//   display: flex;
-// }
-
-// .flex--center {
-//   justify-content: center;
-//   align-items: center;
-// }
+main {
+  position: relative;
+  width: calc(100vw - 2em);
+  margin: 0 auto;
+  padding: 0;
+  @media (min-width: 900px) {
+    width: 80vw;
+  }
+  @media (min-width: 1180px) {
+    width: 70vw;
+  }
+}
