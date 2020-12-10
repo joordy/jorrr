@@ -55,7 +55,7 @@
         <li><a href="#about">About </a></li>
         <li><a href="#cases">Cases </a></li>
         <li><a href="#contact">Contact </a></li>
-        <li><a href="#">Resume </a></li>
+        <li><a href="https://read.cv/jordy" target="_blank">Resume </a></li>
       </ul>
     </nav>
   </div>

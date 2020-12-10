@@ -26,7 +26,7 @@
         width: 100%;
         height: 14rem;
         list-style: none;
-        span {
+        a {
           width: 1.5rem;
           height: 1.5rem;
           margin: 0 auto;
@@ -51,6 +51,9 @@
               content: '\f09b';
             }
           }
+          &:hover {
+            transform: scale(1.1);
+          }
         }
       }
     }
@@ -66,12 +69,12 @@
 <div class="wrapper">
   <article class="social__icons">
     <div>
-      <span
+      <a
         href="https://www.linkedin.com/in/jordy-fronik-09426812b/"
         target="_blank"
       />
-      <span href="https://www.instagram.com/jorrr.dev/" target="_blank" />
-      <span href="https://github.com/joordy" target="_blank" />
+      <a href="https://www.instagram.com/jorrr.dev/" target="_blank" />
+      <a href="https://github.com/joordy" target="_blank" />
     </div>
   </article>
   <div class="social__line" />

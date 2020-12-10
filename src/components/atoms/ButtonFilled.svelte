@@ -15,6 +15,11 @@
     color: #212738;
     font-weight: 700;
     text-decoration: none;
+    transition: 275ms ease;
+    &:hover {
+      background-color: #212738;
+      color: $ui-turquoise;
+    }
   }
 </style>
 

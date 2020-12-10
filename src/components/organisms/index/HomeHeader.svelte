@@ -13,12 +13,12 @@
   @import 'src/styles/index.scss';
 
   section {
-    height: 100vh;
+    height: 95vh;
     position: relative;
-    transition: moveSectionIn 1s;
-    @media screen and (min-width: 600px) {
-      height: 95vh;
-    }
+    // transition: moveSectionIn 1s;
+    // @media screen and (min-width: 600px) {
+    //   height: 95vh;
+    // }
     // img {
     //   position: absolute;
     //   right: -15vw;
