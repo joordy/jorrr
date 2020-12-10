@@ -1,6 +1,8 @@
 <style lang="scss">
+  @import 'src/styles/index.scss';
+
   footer {
-    background-color: #434958;
+    background-color: #292831;
     color: #fff;
     padding: 100px 0px;
     display: flex;

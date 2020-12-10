@@ -1,13 +1,14 @@
 <script>
-	// import Nav from '../components/Nav.svelte';
-	import Footer from '../components/organisms/Footer.svelte';
+  // import Nav from '../components/Nav.svelte';
+  import HeaderElement from '../components/organisms/HeaderElement.svelte'
+  import Footer from '../components/organisms/Footer.svelte'
 
-	// export let segment;
+  // export let segment;
 </script>
 
 <style>
-  @import '../styles/layout.scss';
-	/* main {
+  @import 'src/styles/index.scss';
+  /* main {
 		position: relative;
     color: white;
 		padding: 2em;
@@ -18,8 +19,8 @@
 
 <!-- <Nav {segment}/> -->
 
-<main>
-	<slot></slot>
-</main>
+<HeaderElement />
+
+<slot />
 
 <Footer />

@@ -1,9 +1,9 @@
 <script>
-  import SocialHeader from '@/components/molecules/home/SocialHeader.svelte';
+  import SocialHeader from '@/components/molecules/home/SocialHeader.svelte'
 </script>
 
 <style lang="scss">
-  @import '../..//styles/variables/context.scss';
+  @import 'src/styles/index.scss';
 
   section {
     position: fixed;
@@ -18,18 +18,9 @@
     @media screen and (min-width: 1195px) {
       left: 1.875rem;
     }
-    .social__navigation {
-      .logo {
-        font-size: 64px;
-        font-weight: 700;
-      }
-    }
   }
 </style>
 
 <section id="socials">
-  <section class="social__navigation">
-    <div class="logo">JF</div>
-    <SocialHeader />
-  </section>
+  <SocialHeader />
 </section>

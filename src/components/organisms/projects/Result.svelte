@@ -1,9 +1,9 @@
 <script>
-  export let project;
+  export let project
 </script>
 
 <style lang="scss">
-  @import '../..//styles/variables/context.scss';
+  @import 'src/styles/index.scss';
 
   .result {
     width: 70vw;
@@ -19,15 +19,15 @@
 </style>
 
 <section class="result">
-    <h5>Result</h5>
-    <h2>{project.subTitle}</h2>
+  <h5>Result</h5>
+  <h2>{project.subTitle}</h2>
 
   <section class="text__result">
     <article>
       <p>{project.detailsOne}</p>
-    </article> 
+    </article>
     <article>
       <p>{project.detailsOne}</p>
-    </article> 
+    </article>
   </section>
 </section>
