@@ -34,10 +34,18 @@
   @import 'src/styles/index.scss';
 
   section {
-    width: 80%;
+    width: 95vw;
     margin: 5rem auto 5rem auto;
     height: 600px;
-    // background-color: hotpink;
+    @include size-s {
+      width: 80vw;
+    }
+    @include size-xl {
+      width: 70vw;
+    }
+    @include size-ultra {
+      width: 50vw;
+    }
   }
 </style>
 

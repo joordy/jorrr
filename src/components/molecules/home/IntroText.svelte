@@ -4,86 +4,41 @@
     ButtonOutline,
     ButtonSubject,
   } from '@/components/atoms/index.js'
-  import { onMount } from 'svelte'
-  import Typewriter from 'typewriter-effect/dist/core'
 
   const textTitle = `hi! I'm Jordy Fronik`
   const textOne =
     'I design and creates stuff on the internet. I’m a creative Frontend Developer with a passion for buidling fluid web applications.'
-  // let headingOne = 'Jordy Fronik'
-  // let text =
-  //   'I’m a dutch creative Frontend Developer & Designer from Amsterdam, with a passion for building fluid web applications.'
-
-  // onMount(() => {
-  //   let index = 0
-  //   let text = `hi! I'm Jordy Fronik`
-  //   let speed = 125
-  //   const type = () => {
-  //     document.querySelector('#typedText').innerHTML += text.charAt(index)
-  //     index++
-  //     setTimeout(type, speed)
-  //   }
-  //   type()
-  // })
-  onMount(() => {})
 </script>
 
 <style lang="scss">
   @import 'src/styles/index.scss';
 
   section {
-    width: 400px;
-    padding-top: 30vh;
+    width: 80%;
+    max-width: 350px;
+    padding-top: 20vh;
+    @include size-m {
+      padding-top: 30vh;
+      width: 400px;
+    }
     p {
       font-family: 'IBM Plex Mono', monospace;
       text-transform: uppercase;
-      font-size: $large-font-size;
+      font-size: $basic-font-size;
       margin-bottom: $margin1;
+      @include size-s {
+        font-size: $large-font-size;
+      }
     }
-    // div {
-    //   p {
-    //     font-family: 'IBM Plex Mono', monospace;
-    //     text-transform: uppercase;
-    //     font-size: $large-font-size;
-    //     display: block;
-    //     padding-right: 4px;
-    //     border-right: 4px solid #66ccff;
-    //     animation: blink 1s infinite;
-    //   }
-    // }
-    // p {
-    //   // // &:nth-of-type(1) {
-    //   // //   display: inline;
-    //   // //   padding-right: 4px;
-    //   // //   border-right: 4px solid #66ccff;
-    //   // //   animation: blink 1s infinite;
-    //   // // }
-    //   // &:nth-of-type(2) {
-    //   //   margin: 2rem 0rem;
-    //   // }
-    // }
     div {
       margin-top: 3rem;
       display: flex;
       justify-content: space-between;
     }
   }
-  // @keyframes blink {
-  //   50% {
-  //     border-right: none;
-  //   }
-  // }
 </style>
 
 <section>
-  <!-- <ButtonSubject textSubject="Frontend Developer" /> -->
-  <!-- <h1>{headingOne}</h1>-->
-  <!-- <div>
-    <p id="typedTitle" />
-  </div>
-  <div>
-    <p id="typedText" />
-  </div> -->
   <p>{textTitle}</p>
   <p>{textOne}</p>
   <div>

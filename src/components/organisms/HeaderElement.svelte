@@ -12,10 +12,10 @@
         document.documentElement.scrollTop > 150
       ) {
         document.querySelector('.wrapper').style.padding = '0.4em 0em'
-        document.querySelector('.websiteTitle').style.fontSize = '24px'
+        document.querySelector('.websiteTitle').style.fontSize = '16px'
       } else {
         document.querySelector('.wrapper').style.padding = '1em 0em'
-        document.querySelector('.websiteTitle').style.fontSize = '36px'
+        document.querySelector('.websiteTitle').style.fontSize = '24px'
       }
     }
   })
@@ -37,20 +37,18 @@
       justify-content: space-between;
       align-content: center;
       align-items: center;
-      padding: 1em 3vw;
       transition: 0.2s;
-      @media (min-width: 900px) {
-        padding: 1em 0;
-        margin: 0 7.5vw;
+      width: 95%;
+      margin: 1em auto;
+      transition: 0.2s;
+      @include size-s {
+        width: 80vw;
       }
-      @media (min-width: 1180px) {
-        padding: 1em 0;
-        margin: 0 15vw;
+      @include size-xl {
+        width: 70vw;
       }
-      @media (min-width: 1800px) {
+      @include size-ultra {
         width: 1200px;
-        padding: 1em 0;
-        margin: 0 auto;
       }
       a {
         color: $ui-soft-white;
@@ -58,8 +56,12 @@
         h1 {
           margin: 0;
           text-transform: uppercase;
-          font-size: 36px;
+          font-size: 24px;
           font-weight: 700;
+          transition: 0.2s;
+          @include size-s {
+            font-size: 36px;
+          }
         }
       }
       nav {
@@ -69,15 +71,30 @@
           li {
             width: 100px;
             list-style: none;
+            text-align: center;
+
+            &:nth-of-type(1),
+            &:nth-of-type(2),
+            &:nth-of-type(3),
+            &:nth-of-type(4) {
+              display: none;
+              @include size-m {
+                display: block;
+              }
+            }
             a {
               font-family: 'IBM Plex Mono', monospace;
               text-decoration: none;
               font-weight: 700;
               color: $ui-inActive;
               transition: 0.2s;
+              font-size: $small-font-size;
               &:hover {
                 color: $ui-active;
                 border-bottom: 1px solid $ui-active;
+              }
+              @include size-s {
+                font-size: $basic-font-size;
               }
             }
           }

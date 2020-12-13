@@ -6,13 +6,15 @@
   @import 'src/styles/index.scss';
 
   article {
-    width: 70vw;
-    margin: $margin3 auto $margin3 auto;
+    width: 600px;
+    height: 100%;
+    margin: $margin3 0;
+
     a {
       text-decoration: none;
     }
     section {
-      margin-top: $margin6;
+      margin-top: $margin10;
       h1 {
         margin-top: 0;
         font-size: $h1-size;
@@ -24,7 +26,10 @@
       }
       p {
         margin-top: $margin4;
-        width: 400px;
+        width: 300px;
+        @include size-m {
+          width: 400px;
+        }
       }
     }
   }

@@ -16,6 +16,7 @@
       }
       .wrapper {
         display: flex;
+        flex-wrap: wrap;
         div {
           margin: 3px 3px 3px 0;
           border-radius: 4px;

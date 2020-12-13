@@ -8,8 +8,8 @@
 
   a {
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 1em;
-    padding: calc(1em - 4px) 3em;
+    font-size: 14px;
+    padding: calc(1em - 4px) 2em;
     border-radius: 30px;
     border: 4px solid $ui-turquoise;
     color: $ui-turquoise;
@@ -19,6 +19,10 @@
     &:hover {
       background-color: $ui-turquoise;
       color: #212738;
+    }
+    @include size-s {
+      padding: calc(1em - 4px) 3em;
+      font-size: $basic-font-size;
     }
   }
 </style>

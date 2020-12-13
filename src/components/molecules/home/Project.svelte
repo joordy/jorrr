@@ -12,13 +12,18 @@
     margin: 1rem;
     height: 400px;
     position: relative;
-    background-color: hotpink;
     overflow: hidden;
     transition: 0.3s;
+    &:nth-of-type(2) {
+      margin-top: 9rem;
+    }
+    &:nth-of-type(3) {
+      margin-top: -7rem;
+    }
     &:hover {
       transform: scale(1.03);
     }
-    @media screen and (min-width: 1195px) {
+    @include size-m {
       height: 600px;
       &:nth-of-type(2) {
         margin-top: 15rem;
@@ -27,7 +32,6 @@
         margin-top: -13rem;
       }
     }
-
     a {
       color: $ui-soft-white;
       width: 100%;
