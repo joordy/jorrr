@@ -15,7 +15,6 @@
       height: 100vh;
       width: 5rem;
     }
-
     .menu {
       display: flex;
       justify-content: center;

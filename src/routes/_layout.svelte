@@ -8,13 +8,6 @@
 
 <style>
   @import 'src/styles/index.scss';
-  /* main {
-		position: relative;
-    color: white;
-		padding: 2em;
-    margin: 0px 200px;
-		box-sizing: border-box;
-	} */
 </style>
 
 <!-- <Nav {segment}/> -->

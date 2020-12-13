@@ -12,25 +12,26 @@
 <style lang="scss">
   @import 'src/styles/index.scss';
 
-  section {
+  main {
     position: relative;
     background-color: white;
-    color: black;
+    // color: black !important;
+    width: 100vw !important;
     // width: calc(100vw - 2em);
     // padding: 1em;
     // margin: 0 auto;
-    @media screen and (min-width: 600px) {
-      // padding: 0;
-      // width: 70vw;
-    }
+    // @media screen and (min-width: 600px) {
+    //   // padding: 0;
+    //   // width: 70vw;
+    // }
   }
 </style>
 
-<section>
+<main>
   <ProjectHeader {project} />
   <Challenge {project} />
   <SmallImages {project} />
   <Result {project} />
   <LargeImages {project} />
   <MoreCases {project} />
-</section>
+</main>

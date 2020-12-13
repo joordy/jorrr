@@ -1,39 +1,34 @@
 <script context="module">
-	export async function preload(page, session) {
-    const { slug } = page.params;
-    
-    const res = await this.fetch(`projects/${slug}.json`);
-    
+  export async function preload(page, session) {
+    const { slug } = page.params
+
+    const res = await this.fetch(`projects/${slug}.json`)
+
     if (res.status === 200) {
-      const project = await res.json();
-      return { project };
+      const project = await res.json()
+      return { project }
     }
 
     if (res.status === 404) {
-      const { error } = await res.json();
+      const { error } = await res.json()
       this.error(404, error)
     }
-	}
+  }
 </script>
 
-
 <script>
-  export let project;
-  import ProjectPage from '@/components/layout/ProjectPage.svelte';
+  export let project
+  import ProjectPage from '@/components/layout/ProjectPage.svelte'
 </script>
 
 <style lang="scss">
   section {
     background-color: white;
   }
-</style> 
+</style>
 
 <svelte:head>
-	<title>{project.title}  — Jorrr.dev</title>
-</svelte:head> 
+  <title>{project.title} — Jorrr.dev</title>
+</svelte:head>
 
-<section>
-  <ProjectPage project={project} />
-</section>
-  
-
+<ProjectPage {project} />

@@ -1,4 +1,6 @@
 <script>
+  import IntroText from '@/components/molecules/projects/IntroText.svelte'
+  import MockupImage from '@/components/molecules/projects/MockupImage.svelte'
   export let project
 </script>
 
@@ -9,20 +11,12 @@
     height: 60vh;
     background-color: $ui-dark-blue;
     color: $ui-soft-white;
-    article {
-      width: 70vw;
-      margin: 3rem auto 3rem auto;
-    }
-    h1 {
-      font-size: $h1-size;
-    }
+    position: relative;
+    overflow: hidden;
   }
 </style>
 
 <section>
-  <article>
-    <a href="/"> — Back</a>
-    <h1>{project.title}</h1>
-    <p>{project.intro}</p>
-  </article>
+  <IntroText {project} />
+  <MockupImage {project} />
 </section>

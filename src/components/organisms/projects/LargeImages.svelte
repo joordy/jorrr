@@ -35,7 +35,7 @@
 
   section {
     width: 80%;
-    margin: 3rem auto 3rem auto;
+    margin: 5rem auto 5rem auto;
     height: 600px;
     // background-color: hotpink;
   }

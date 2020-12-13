@@ -14,6 +14,9 @@
 <style lang="scss">
   @import 'src/styles/index.scss';
 
+  * {
+    color: $ui-soft-white !important;
+  }
   // section {
   //   position: relative;
   //   width: calc(100vw - 2em);

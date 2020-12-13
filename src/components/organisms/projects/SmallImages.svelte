@@ -1,19 +1,21 @@
 <script>
-  export let project;
+  export let project
 </script>
 
 <style lang="scss">
+  @import 'src/styles/index.scss';
+
   .image__wrapper {
-    width: 100%;
+    width: 70vw;
     margin: 0 auto;
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
     article {
       display: inline-block;
-      margin: 1rem;
-      height: 250px;
-      min-width: 350px;
+      margin-right: $margin1;
+      height: 350px;
+      width: 350px;
       background-color: hotpink;
       img {
         width: 100%;
@@ -27,9 +29,7 @@
 <section>
   <section class="image__wrapper">
     {#each project.smallImageSlider as photo}
-      <article>
-        <img src={photo.src} alt={photo.alt}>
-      </article>
+      <article><img src={photo.src} alt={photo.alt} /></article>
     {/each}
   </section>
 </section>
