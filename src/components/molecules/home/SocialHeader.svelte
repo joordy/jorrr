@@ -27,6 +27,7 @@
         height: 14rem;
         list-style: none;
         a {
+          color: $ui-soft-white;
           width: 1.5rem;
           height: 1.5rem;
           margin: 0 auto;

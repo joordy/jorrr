@@ -5,24 +5,22 @@
 <style lang="scss">
   @import 'src/styles/index.scss';
 
-  .result {
+  section {
     width: 70vw;
-    margin: 3rem auto 3rem auto;
-    .text__result {
-      display: flex;
-      justify-content: space-between;
-      article {
-        width: 47.5%;
-      }
+    margin: 5rem auto 5rem auto;
+    .result {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 6em;
     }
   }
 </style>
 
-<section class="result">
+<section>
   <h5>Result</h5>
   <h2>{project.subTitle}</h2>
 
-  <section class="text__result">
+  <section class="result">
     <article>
       <p>{project.detailsOne}</p>
     </article>

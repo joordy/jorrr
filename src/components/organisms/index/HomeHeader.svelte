@@ -15,28 +15,6 @@
   section {
     height: 95vh;
     position: relative;
-    // @media (min-width: 900px) {
-    //   display: block;
-    // }
-    // transition: moveSectionIn 1s;
-    // @media screen and (min-width: 600px) {
-    //   height: 95vh;
-    // }
-    // img {
-    //   position: absolute;
-    //   right: -15vw;
-    //   bottom: 0;
-    //   width: 250px;
-    //   height: auto;
-    //   @media screen and (min-width: 600px) {
-    //     width: 400px;
-    //     right: -10vw;
-    //   }
-    //   @media screen and (min-width: 1195px) {
-    //     width: 525px;
-    //     right: -1.5vw;
-    //   }
-    // }
   }
 </style>
 

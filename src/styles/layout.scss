@@ -3,7 +3,6 @@
 * {
   margin: 0;
   padding: 0;
-  color: $ui-soft-white;
   font-family: 'Inter', sans-serif;
 }
 main {
@@ -17,4 +16,10 @@ main {
   @media (min-width: 1180px) {
     width: 70vw;
   }
+  @media (min-width: 1800px) {
+    width: 1200px;
+  }
+  // @media (min-width: 1800px) {
+  //   width: 60vw;
+  // }
 }

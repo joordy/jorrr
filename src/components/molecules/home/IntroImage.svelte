@@ -19,6 +19,9 @@
     @media (min-width: 1180px) {
       width: 60%;
     }
+    @media (min-width: 1800px) {
+      right: 0;
+    }
   }
 </style>
 

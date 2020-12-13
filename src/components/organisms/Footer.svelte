@@ -16,5 +16,5 @@
 </style>
 
 <footer>
-  <p>Crafted with passion</p>
+  <p>Built with love</p>
 </footer>
