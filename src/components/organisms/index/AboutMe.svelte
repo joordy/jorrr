@@ -6,12 +6,20 @@
   @import 'src/styles/index.scss';
 
   section {
-    // height: 100vh;
-    .about__text {
-      display: flex;
-      justify-content: space-between;
+    width: 100%;
+    article {
+      display: block;
+      @include size-s {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+      }
+      @include size-l {
+        grid-gap: 6em;
+      }
       p {
-        width: 47.5%;
+        width: 100%;
+        margin-bottom: $margin2;
       }
     }
   }
@@ -19,7 +27,7 @@
 
 <section id="about">
   <BlockTitle pageSectionTitle="About" />
-  <section class="about__text">
+  <article class="about__text">
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum
       elementum tincidunt turpis consectetur viverra purus dolor varius mi. Mi
@@ -38,5 +46,5 @@
       nibh mauris viverra in lacus, maecenas ac. Varius lorem mattis eget
       ullamcorper faucibus nunc. Eu tristique vel, nibh pellentesque.
     </p>
-  </section>
+  </article>
 </section>

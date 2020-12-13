@@ -17,25 +17,17 @@
   * {
     color: $ui-soft-white !important;
   }
-  // section {
-  //   position: relative;
-  //   width: calc(100vw - 2em);
-  //   padding: 1em;
-  //   margin: 0 auto;
-  //   @media screen and (min-width: 600px) {
-  //     padding: 0;
-  //     width: 70vw;
-  //   }
-  //   // @media screen and (min-width: 1195px) {
-  //   //   width: 70vw;
-  //   // }
-  // }
+  main {
+    background-color: $ui-dark-blue;
+  }
 </style>
 
 <main>
-  <Socials />
-  <HomeHeader />
-  <AboutMe />
-  <MyProjects {projects} />
-  <ContactMe />
+  <section class="mainWrapper">
+    <Socials />
+    <HomeHeader />
+    <AboutMe />
+    <MyProjects {projects} />
+    <ContactMe />
+  </section>
 </main>

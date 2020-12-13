@@ -5,21 +5,25 @@
   @import 'src/styles/index.scss';
 
   section {
-    display: none;
-    @media (min-width: 900px) {
-      display: block;
+    display: block;
+    height: 60vw;
+    min-height: 230px;
+    max-height: 400px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #c4c4c4;
+    position: absolute;
+    bottom: 0;
+    @include size-s {
+      top: 25%;
+      right: -10vw;
       height: 500px;
       width: 50%;
-      border-radius: 5px;
-      background-color: #c4c4c4;
-      position: absolute;
-      top: 25%;
-      right: -15vw;
     }
-    @media (min-width: 1180px) {
+    @include size-l {
       width: 60%;
     }
-    @media (min-width: 1800px) {
+    @include size-xl {
       right: 0;
     }
   }

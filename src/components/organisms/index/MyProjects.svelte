@@ -14,7 +14,7 @@
       max-width: 100%;
       display: grid;
       grid-template-columns: auto;
-      @media screen and (min-width: 800px) {
+      @include size-s {
         grid-template-columns: auto auto;
       }
     }

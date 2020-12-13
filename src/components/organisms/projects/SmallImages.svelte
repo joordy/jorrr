@@ -5,22 +5,37 @@
 <style lang="scss">
   @import 'src/styles/index.scss';
 
-  .image__wrapper {
-    width: 70vw;
-    margin: 0 auto;
-    overflow-x: auto;
-    overflow-y: hidden;
-    white-space: nowrap;
-    article {
-      display: inline-block;
-      margin-right: $margin1;
-      height: 350px;
-      width: 350px;
-      background-color: hotpink;
-      img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
+  section {
+    .image__wrapper {
+      width: 95vw;
+      margin: 0 auto;
+      overflow-x: auto;
+      overflow-y: hidden;
+      white-space: nowrap;
+      @include size-s {
+        width: 80vw;
+      }
+      @include size-xl {
+        width: 70vw;
+      }
+      @include size-ultra {
+        width: 50vw;
+      }
+      article {
+        display: inline-block;
+        margin-right: $margin1;
+        height: 250px;
+        width: 250px;
+        background-color: hotpink;
+        @include size-s {
+          height: 320px;
+          width: 320px;
+        }
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
       }
     }
   }

@@ -6,6 +6,8 @@
   @import 'src/styles/index.scss';
 
   .title__block {
+    width: 80%;
+
     padding-top: 6.25rem;
     position: relative;
     h1 {
@@ -16,7 +18,6 @@
       }
     }
     div {
-      width: 100%;
       height: 100px;
       position: absolute;
       bottom: 6px;
