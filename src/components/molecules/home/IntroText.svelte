@@ -7,7 +7,7 @@
 
   const textTitle = `hi! I'm Jordy Fronik`
   const textOne =
-    'I design and creates stuff on the internet. I’m a creative Frontend Developer with a passion for buidling fluid web applications.'
+    'I design and create stuff on the internet. I’m a creative Frontend Developer with a passion for buidling fluid web applications.'
 </script>
 
 <style lang="scss">

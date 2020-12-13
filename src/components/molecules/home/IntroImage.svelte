@@ -22,6 +22,7 @@
     }
     @include size-l {
       width: 60%;
+      max-height: 500px;
     }
     @include size-xl {
       right: 0;

@@ -95,7 +95,7 @@
     <div class="idnumber">{project.idNumber}</div>
     <article class="projectInfo">
       <h3>{project.title}</h3>
-      <p>{project.subTitle}</p>
+      <p>{project.intro}</p>
       <ButtonFilled linkTO="/projects/{project.slug}" textCTA="explore" />
     </article>
   </a>

@@ -23,11 +23,11 @@
       &:nth-of-type(2) {
         position: absolute;
         right: 0;
-        bottom: -12em;
+        bottom: -6em;
         z-index: 2;
         height: 90%;
         @include size-m {
-          bottom: -15em;
+          bottom: -8em;
           height: 100%;
         }
         img {

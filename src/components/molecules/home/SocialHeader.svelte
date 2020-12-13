@@ -37,6 +37,7 @@
           display: inline-block;
           text-decoration: inherit;
           font-size: 1.5rem;
+          transition: 0.2s;
           &:nth-of-type(1) {
             &::before {
               content: '\f0e1';
@@ -53,7 +54,7 @@
             }
           }
           &:hover {
-            transform: scale(1.1);
+            transform: scale(1.3);
           }
         }
       }

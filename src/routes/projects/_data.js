@@ -8,7 +8,7 @@ export let projects = [
     slug: 'datio-dating-application',
     intro: 'An application made for IT students.',
     mockupHeaderImage:
-      'https://user-images.githubusercontent.com/48051912/101927568-eff74f80-3bd4-11eb-9891-16e820a1f26c.png',
+      'https://user-images.githubusercontent.com/48051912/102026263-1b2c9b00-3d9d-11eb-9f6b-92c10aa420ac.png',
     backgroundImage:
       'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
     smallImageSlider: [
@@ -35,7 +35,8 @@ export let projects = [
     ],
     shortExplenation:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum. Ultrices ac ultrices mauris purus pharetra massa dui. Neque tempor nunc maecenas sed enim. Sed quis eget morbi risus ridiculus mattis felis et potenti.',
-    services: 'development, concepting',
+    kindOfProject: 'Team project',
+    services: ['Development', 'Concepting', 'Dating'],
     languages: ['NodeJS', 'EJS', 'Javascript', 'CSS', 'HTML', 'GIT'],
     livePreview: 'https://bt-datingapp.herokuapp.com/signIn',
     longExplenation:
@@ -78,7 +79,7 @@ export let projects = [
     slug: 'travelplan',
     intro: 'Travelplan, your all in one Travel Manager.',
     mockupHeaderImage:
-      'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
+      'https://user-images.githubusercontent.com/48051912/102026263-1b2c9b00-3d9d-11eb-9f6b-92c10aa420ac.png',
     backgroundImage:
       'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
     smallImageSlider: [
@@ -105,9 +106,11 @@ export let projects = [
     ],
     shortExplenation:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum. Ultrices ac ultrices mauris purus pharetra massa dui. Neque tempor nunc maecenas sed enim. Sed quis eget morbi risus ridiculus mattis felis et potenti.',
-    services: 'development, concepting',
-    languages: 'NodeJS, EJS, Javascript, CSS, HTML',
-    livePreview: 'www.example.com',
+    kindOfProject: 'Individual',
+    services: ['Web Design', 'Concepting', 'UI-Design'],
+    languages: ['Figma'],
+    livePreview:
+      'https://www.figma.com/proto/cIA8OhNzIL6bLMSecXxGUU/Project-Web.jordyfronik?node-id=469%3A12464&viewport=55%2C166%2C0.040915731340646744&scaling=scale-down',
     longExplenation:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum. Ultrices ac ultrices mauris purus pharetra massa dui. Neque tempor nunc maecenas sed enim. Sed quis eget morbi risus ridiculus mattis felis et potenti. Nibh ultrices nunc sed mauris risus, vulputate a. Vitae tincidunt scelerisque blandit leo tincidunt proin elit, gravida cras. Neque est at sit sagittis cursus. Fringilla massa tincidunt leo dignissim purus adipiscing etiam elit bibendum. Purus mauris sit mi fames nec. Vel eleifend egestas hendrerit mauris. Dignissim venenatis at et sagittis. Ultricies blandit diam, ac enim risus. Et in felis cras ipsum. Tortor, feugiat phasellus pharetra nec. Volutpat dignissim sed ut id consectetur facilisi nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum.',
     largeImageSlider: [
@@ -148,7 +151,7 @@ export let projects = [
     slug: 'vormgeving-2',
     intro: 'Redesign of the HvanA website',
     mockupHeaderImage:
-      'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
+      'https://user-images.githubusercontent.com/48051912/102026263-1b2c9b00-3d9d-11eb-9f6b-92c10aa420ac.png',
     backgroundImage:
       'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
 
@@ -176,8 +179,9 @@ export let projects = [
     ],
     shortExplenation:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum. Ultrices ac ultrices mauris purus pharetra massa dui. Neque tempor nunc maecenas sed enim. Sed quis eget morbi risus ridiculus mattis felis et potenti.',
-    services: 'webdesign, concepting',
-    languages: '',
+    kindOfProject: 'Individual',
+    services: ['webdesign', 'concepting', 'UI-Design'],
+    languages: ['Figma'],
     livePreview: 'www.example.com',
     longExplenation:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum. Ultrices ac ultrices mauris purus pharetra massa dui. Neque tempor nunc maecenas sed enim. Sed quis eget morbi risus ridiculus mattis felis et potenti. Nibh ultrices nunc sed mauris risus, vulputate a. Vitae tincidunt scelerisque blandit leo tincidunt proin elit, gravida cras. Neque est at sit sagittis cursus. Fringilla massa tincidunt leo dignissim purus adipiscing etiam elit bibendum. Purus mauris sit mi fames nec. Vel eleifend egestas hendrerit mauris. Dignissim venenatis at et sagittis. Ultricies blandit diam, ac enim risus. Et in felis cras ipsum. Tortor, feugiat phasellus pharetra nec. Volutpat dignissim sed ut id consectetur facilisi nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum.',
@@ -220,7 +224,7 @@ export let projects = [
     intro:
       'Activity tracker for topsporters, to track their trainings, fitness, etc.',
     mockupHeaderImage:
-      'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
+      'https://user-images.githubusercontent.com/48051912/102026263-1b2c9b00-3d9d-11eb-9f6b-92c10aa420ac.png',
     backgroundImage:
       'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
     smallImageSlider: [
@@ -247,9 +251,9 @@ export let projects = [
     ],
     shortExplenation:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum. Ultrices ac ultrices mauris purus pharetra massa dui. Neque tempor nunc maecenas sed enim. Sed quis eget morbi risus ridiculus mattis felis et potenti.',
-    services: 'Design, User Experience, concepting',
-    languages: '',
-    livePreview: 'www.example.com',
+    kindOfProject: 'Individual',
+    services: ['UI Design', 'UX Design', 'Concepting'],
+    languages: ['Figma'],
     longExplenation:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum. Ultrices ac ultrices mauris purus pharetra massa dui. Neque tempor nunc maecenas sed enim. Sed quis eget morbi risus ridiculus mattis felis et potenti. Nibh ultrices nunc sed mauris risus, vulputate a. Vitae tincidunt scelerisque blandit leo tincidunt proin elit, gravida cras. Neque est at sit sagittis cursus. Fringilla massa tincidunt leo dignissim purus adipiscing etiam elit bibendum. Purus mauris sit mi fames nec. Vel eleifend egestas hendrerit mauris. Dignissim venenatis at et sagittis. Ultricies blandit diam, ac enim risus. Et in felis cras ipsum. Tortor, feugiat phasellus pharetra nec. Volutpat dignissim sed ut id consectetur facilisi nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum.',
     largeImageSlider: [

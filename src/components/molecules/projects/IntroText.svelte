@@ -9,9 +9,16 @@
     width: 600px;
     height: 100%;
     margin: $margin3 0;
-
     a {
+      color: white;
       text-decoration: none;
+      span {
+        font-family: 'FontAwesome';
+
+        &::before {
+          content: '\f060';
+        }
+      }
     }
     section {
       margin-top: $margin10;
@@ -36,8 +43,7 @@
 </style>
 
 <article>
-  <i class="fas fa-arrow-left">Ja</i>
-  <a href="/"> Back</a>
+  <a href="/"> <span /> Back</a>
   <section>
     <h2>Case study</h2>
     <h1>{project.title}</h1>

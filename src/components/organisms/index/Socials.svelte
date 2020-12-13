@@ -11,11 +11,11 @@
     left: 0.675rem;
     height: 100vh;
     width: 45px;
-    @media screen and (min-width: 600px) {
+    @include size-m {
       width: 65px;
       left: 1rem;
     }
-    @media screen and (min-width: 1195px) {
+    @include size-l {
       left: 1.875rem;
     }
   }
