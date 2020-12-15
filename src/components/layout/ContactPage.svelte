@@ -1,5 +1,5 @@
 <script>
-  import ContactForm from '@/components/organisms/ContactForm.svelte'
+  import { ContactForm } from '@/components/organisms/other/allOtherElements.js'
 </script>
 
 <style lang="scss">

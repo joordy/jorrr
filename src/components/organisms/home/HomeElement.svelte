@@ -1,5 +1,8 @@
 <script>
-  import { IntroImage, IntroText } from '@/components/molecules/home/index.js'
+  import {
+    IntroImage,
+    IntroText,
+  } from '@/components/molecules/home/allHomeMolecules.js'
 </script>
 
 <style lang="scss">

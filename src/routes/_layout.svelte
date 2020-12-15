@@ -1,8 +1,8 @@
 <script>
-  // import Nav from '../components/Nav.svelte';
-  import HeaderElement from '../components/organisms/HeaderElement.svelte'
-  import Footer from '../components/organisms/Footer.svelte'
-
+  import {
+    Header,
+    Footer,
+  } from '@/components/organisms/other/allOtherElements.js'
   // export let segment;
 </script>
 
@@ -12,7 +12,7 @@
 
 <!-- <Nav {segment}/> -->
 
-<HeaderElement />
+<Header />
 
 <slot />
 
