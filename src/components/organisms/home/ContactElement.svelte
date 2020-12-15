@@ -1,5 +1,5 @@
 <script>
-  import { BlockTitle } from '@/components/atoms/index.js'
+  import { BlockTitle } from '@/components/atoms/allAtoms.js'
 </script>
 
 <style lang="scss">
@@ -34,5 +34,5 @@
     Interested in working together? Feel free to contact me for a project or an
     collaboration.
   </p>
-  <a href="mailto:jmfronik@gmail.com">me@jorrr.nl</a>
+  <a href="/contact">Send e-mail</a>
 </section>

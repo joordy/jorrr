@@ -1,9 +1,5 @@
 <script>
-  import {
-    ButtonFilled,
-    ButtonOutline,
-    ButtonSubject,
-  } from '@/components/atoms/index.js'
+  import { ButtonFilled, ButtonOutline } from '@/components/atoms/allAtoms.js'
 
   const textTitle = `hi! I'm Jordy Fronik`
   const textOne =

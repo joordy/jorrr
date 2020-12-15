@@ -1,5 +1,5 @@
 <script>
-  import SocialHeader from '@/components/molecules/home/SocialHeader.svelte'
+  import { SocialHeader } from '@/components/molecules/home/index.js'
 </script>
 
 <style lang="scss">

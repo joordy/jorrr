@@ -1,10 +1,12 @@
 <script>
-  import ProjectHeader from '@/components/organisms/projects/ProjectHeader.svelte'
-  import Challenge from '@/components/organisms/projects/Challenge.svelte'
-  import SmallImages from '@/components/organisms/projects/SmallImages.svelte'
-  import Result from '@/components/organisms/projects/Result.svelte'
-  import LargeImages from '@/components/organisms/projects/LargeImages.svelte'
-  import MoreCases from '@/components/organisms/projects/MoreCases.svelte'
+  import {
+    ChallengeElement,
+    LargeImageElement,
+    MoreCasesElement,
+    HeaderProjectElement,
+    ResultElement,
+    SmallImageElement,
+  } from '@/components/organisms/projects/allProjectElements.js'
 
   export let project
 </script>
@@ -20,11 +22,11 @@
 
 <main>
   <section class="mainWrapper">
-    <ProjectHeader {project} />
-    <Challenge {project} />
-    <SmallImages {project} />
-    <Result {project} />
-    <LargeImages {project} />
-    <MoreCases {project} />
+    <HeaderProjectElement {project} />
+    <ChallengeElement {project} />
+    <SmallImageElement {project} />
+    <ResultElement {project} />
+    <LargeImageElement {project} />
+    <MoreCasesElement {project} />
   </section>
 </main>

@@ -1,6 +1,5 @@
 <script>
-  import { ButtonFilled, ButtonOutline } from '@/components/atoms/index.js'
-  // import { projects } from '../../../routes/projects/_data';
+  import { ButtonFilled } from '@/components/atoms/allAtoms.js'
 
   export let project
 </script>

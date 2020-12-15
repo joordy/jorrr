@@ -1,12 +1,11 @@
 <script>
-  // import Navigation from '@/components/organisms/index/Navigation.svelte'
-  //   <!-- <Navigation  /> -->
-
-  import Socials from '@/components/organisms/index/Socials.svelte'
-  import HomeHeader from '@/components/organisms/index/HomeHeader.svelte'
-  import AboutMe from '@/components/organisms/index/AboutMe.svelte'
-  import MyProjects from '@/components/organisms/index/MyProjects.svelte'
-  import ContactMe from '@/components/organisms/index/ContactMe.svelte'
+  import {
+    TextAboutElement,
+    ContactElement,
+    HomeElement,
+    ProjectElement,
+    SocialElement,
+  } from '@/components/organisms/home/allHomeOrganisms.js'
 
   export let projects
 </script>
@@ -24,10 +23,10 @@
 
 <main>
   <section class="mainWrapper">
-    <Socials />
-    <HomeHeader />
-    <AboutMe />
-    <MyProjects {projects} />
-    <ContactMe />
+    <HomeElement />
+    <TextAboutElement />
+    <ProjectElement {projects} />
+    <ContactElement />
+    <SocialElement />
   </section>
 </main>

@@ -1,5 +1,5 @@
 <script>
-  import { BlockTitle } from '@/components/atoms/index.js'
+  import { BlockTitle } from '@/components/atoms/allAtoms.js'
 </script>
 
 <style lang="scss">
