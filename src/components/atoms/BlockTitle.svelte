@@ -10,7 +10,7 @@
 
     padding-top: 6.25rem;
     position: relative;
-    h1 {
+    h2 {
       font-size: $h1-size;
       font-weight: 700;
       @media screen and (min-width: 500px) {
@@ -19,6 +19,7 @@
     }
     div {
       height: 100px;
+      width: 80vw;
       position: absolute;
       bottom: 6px;
       background: linear-gradient(
@@ -31,6 +32,6 @@
 </style>
 
 <article class="title__block">
-  <h1>{pageSectionTitle}</h1>
+  <h2>{pageSectionTitle}</h2>
   <div />
 </article>

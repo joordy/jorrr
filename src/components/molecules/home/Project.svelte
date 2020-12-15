@@ -52,7 +52,7 @@
           height: 100%;
         }
       }
-      .idnumber {
+      h4 {
         position: absolute;
         z-index: 2;
         right: 8px;
@@ -92,7 +92,7 @@
         alt=""
       />
     </article>
-    <div class="idnumber">{project.idNumber}</div>
+    <h4 class="idnumber">{project.idNumber}</h4>
     <article class="projectInfo">
       <h3>{project.title}</h3>
       <p>{project.intro}</p>

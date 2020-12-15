@@ -16,7 +16,7 @@
   section {
     width: 80%;
     max-width: 350px;
-    padding-top: 20vh;
+    padding-top: clamp(150px, 20vh, 30vh);
     @include size-m {
       padding-top: 30vh;
       width: 400px;
