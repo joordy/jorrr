@@ -1,5 +1,5 @@
 <script>
-  import Carousel from '@/components/molecules/projects/Carousel.svelte'
+  import { Carousel } from '@/components/molecules/projects/allProjectMolecules.js'
   export let project
 
   const images = [

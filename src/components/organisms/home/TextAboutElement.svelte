@@ -1,5 +1,5 @@
 <script>
-  import { BlockTitle } from '@/components/atoms/index.js'
+  import { BlockTitle } from '@/components/atoms/allAtoms.js'
 </script>
 
 <style lang="scss">
@@ -18,6 +18,7 @@
         grid-gap: 6em;
       }
       p {
+        font-family: 'IBM Plex Mono', monospace;
         width: 100%;
         margin-bottom: $margin2;
       }

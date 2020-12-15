@@ -1,13 +1,9 @@
 <script>
-  import {
-    ButtonFilled,
-    ButtonOutline,
-    ButtonSubject,
-  } from '@/components/atoms/index.js'
+  import { ButtonFilled, ButtonOutline } from '@/components/atoms/allAtoms.js'
 
   const textTitle = `hi! I'm Jordy Fronik`
   const textOne =
-    'I design and creates stuff on the internet. I’m a creative Frontend Developer with a passion for buidling fluid web applications.'
+    'I design and create stuff on the internet. I’m a creative Frontend Developer with a passion for buidling fluid web applications.'
 </script>
 
 <style lang="scss">
@@ -16,7 +12,7 @@
   section {
     width: 80%;
     max-width: 350px;
-    padding-top: 20vh;
+    padding-top: clamp(150px, 20vh, 30vh);
     @include size-m {
       padding-top: 30vh;
       width: 400px;

@@ -1,6 +1,5 @@
 <script>
-  import { ButtonFilled, ButtonOutline } from '@/components/atoms/index.js'
-  // import { projects } from '../../../routes/projects/_data';
+  import { ButtonFilled } from '@/components/atoms/allAtoms.js'
 
   export let project
 </script>
@@ -52,7 +51,7 @@
           height: 100%;
         }
       }
-      .idnumber {
+      h4 {
         position: absolute;
         z-index: 2;
         right: 8px;
@@ -92,10 +91,10 @@
         alt=""
       />
     </article>
-    <div class="idnumber">{project.idNumber}</div>
+    <h4 class="idnumber">{project.idNumber}</h4>
     <article class="projectInfo">
       <h3>{project.title}</h3>
-      <p>{project.subTitle}</p>
+      <p>{project.intro}</p>
       <ButtonFilled linkTO="/projects/{project.slug}" textCTA="explore" />
     </article>
   </a>

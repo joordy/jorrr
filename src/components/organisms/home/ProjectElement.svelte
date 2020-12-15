@@ -1,6 +1,6 @@
 <script>
-  import { BlockTitle } from '@/components/atoms/index.js'
-  import MyProject from '@/components/molecules/home/Project.svelte'
+  import { BlockTitle } from '@/components/atoms/allAtoms.js'
+  import { MyProject } from '@/components/molecules/home/allHomeMolecules.js'
 
   export let projects
 </script>

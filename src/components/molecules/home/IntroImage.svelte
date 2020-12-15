@@ -16,12 +16,13 @@
     bottom: 0;
     @include size-s {
       top: 25%;
-      right: -10vw;
+      right: -9.4vw;
       height: 500px;
       width: 50%;
     }
     @include size-l {
       width: 60%;
+      max-height: 500px;
     }
     @include size-xl {
       right: 0;

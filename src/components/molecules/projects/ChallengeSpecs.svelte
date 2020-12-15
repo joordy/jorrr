@@ -33,7 +33,14 @@
 <section>
   <article>
     <h4>Services</h4>
-    <p>{project.services}</p>
+    <div class="wrapper">
+      {#each project.services as service}
+        <div>
+          <p>{service}</p>
+        </div>
+      {/each}
+    </div>
+    <!-- <p>{project.services}</p> -->
   </article>
   <article>
     <h4>Languages</h4>

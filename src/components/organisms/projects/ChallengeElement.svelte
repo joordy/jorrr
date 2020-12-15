@@ -1,6 +1,8 @@
 <script>
-  import ChallengeDesc from '@/components/molecules/projects/ChallengeDesc.svelte'
-  import ChallengeSpecs from '@/components/molecules/projects/ChallengeSpecs.svelte'
+  import {
+    ChallengeDesc,
+    ChallengeSpecs,
+  } from '@/components/molecules/projects/allProjectMolecules.js'
   export let project
 </script>
 
@@ -27,21 +29,6 @@
         grid-gap: 6em;
       }
     }
-    // width: 100vw;
-    // margin: 5rem auto 5rem auto;
-    // display: grid;
-    // grid-template-columns: 1fr;
-    // grid-template-rows: 1fr 1fr;
-    // grid-gap: 6em;
-    // color: $ui-dark-blue;
-    // @include size-s {
-    //   grid-template-columns: 1fr 1fr;
-    //   grid-template-rows: 1fr;
-    // }
-    // div {
-    //   width: 90%;
-    //   margin: 0 auto;
-    // }
   }
 </style>
 
