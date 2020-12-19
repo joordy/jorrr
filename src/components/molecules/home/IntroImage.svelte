@@ -1,4 +1,6 @@
 <script>
+  let src =
+    'https://user-images.githubusercontent.com/48051912/102694257-142fdd80-4220-11eb-9612-e7cd6510ae17.jpg'
 </script>
 
 <style lang="scss">
@@ -10,10 +12,15 @@
     min-height: 230px;
     max-height: 400px;
     width: 100%;
-    border-radius: 5px;
-    background-color: #c4c4c4;
+    // background-color: #c4c4c4;
     position: absolute;
     bottom: 0;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 5px;
+    }
     @include size-s {
       top: 25%;
       right: -9.4vw;
@@ -30,4 +37,4 @@
   }
 </style>
 
-<section />
+<section><img {src} /></section>

@@ -9,13 +9,13 @@
     bottom: 0;
     z-index: -1;
     width: 100%;
-    height: 300px;
+    height: 200px;
     background-color: #292831;
     color: $ui-soft-white;
     display: grid;
     place-items: center;
     section {
-      height: 100px;
+      height: 50px;
       display: grid;
       place-items: center;
       p {

@@ -7,7 +7,6 @@
 
   .title__block {
     width: 80%;
-
     padding-top: 6.25rem;
     position: relative;
     h2 {
@@ -18,15 +17,19 @@
       }
     }
     div {
-      height: 100px;
-      width: 80vw;
+      height: 40px;
+      width: 100%;
       position: absolute;
-      bottom: 6px;
+      bottom: 2px;
       background: linear-gradient(
         180deg,
         rgba(26, 24, 36, 0) 44.87%,
         rgba(26, 24, 36, 1) 74.35%
       );
+      @include size-s {
+        bottom: 6px;
+        height: 100px;
+      }
     }
   }
 </style>
