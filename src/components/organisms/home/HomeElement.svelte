@@ -9,8 +9,11 @@
   @import 'src/styles/index.scss';
 
   section {
-    height: 95vh;
+    height: 110vh;
     position: relative;
+    @include size-m {
+      height: 90vh;
+    }
   }
 </style>
 

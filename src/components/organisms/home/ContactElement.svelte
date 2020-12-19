@@ -14,7 +14,7 @@
     }
     p {
       font-family: 'IBM Plex Mono', monospace;
-      width: 330px;
+      max-width: 330px;
       margin: $margin2 0;
     }
     a {

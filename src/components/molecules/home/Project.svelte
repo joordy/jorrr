@@ -13,15 +13,19 @@
     position: relative;
     overflow: hidden;
     transition: 0.3s;
-    &:nth-of-type(2) {
-      margin-top: 9rem;
-    }
-    &:nth-of-type(3) {
-      margin-top: -7rem;
-    }
+
     &:hover {
       transform: scale(1.03);
     }
+    @include size-s {
+      &:nth-of-type(2) {
+        margin-top: 9rem;
+      }
+      &:nth-of-type(3) {
+        margin-top: -7rem;
+      }
+    }
+
     @include size-m {
       height: 600px;
       &:nth-of-type(2) {
