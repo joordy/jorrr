@@ -26,12 +26,16 @@
       right: -9.4vw;
       height: 500px;
       width: 50%;
+      border-radius: 5px;
+      background-color: #c4c4c4;
+      position: absolute;
+      top: 25%;
+      right: -15vw;
     }
-    @include size-l {
+    @media (min-width: 1180px) {
       width: 60%;
-      max-height: 500px;
     }
-    @include size-xl {
+    @media (min-width: 1800px) {
       right: 0;
     }
   }
