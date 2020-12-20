@@ -3,29 +3,10 @@
     ButtonFilled,
     ButtonOutline,
     ButtonSubject,
-  } from '@/components/atoms/index.js'
-  import { onMount } from 'svelte'
-  import Typewriter from 'typewriter-effect/dist/core'
-
+  } from '@/components/atoms/allAtoms.js'
   const textTitle = `hi! I'm Jordy Fronik`
   const textOne =
     'I design and creates stuff on the internet. I’m a creative Frontend Developer with a passion for buidling fluid web applications.'
-  // let headingOne = 'Jordy Fronik'
-  // let text =
-  //   'I’m a dutch creative Frontend Developer & Designer from Amsterdam, with a passion for building fluid web applications.'
-
-  // onMount(() => {
-  //   let index = 0
-  //   let text = `hi! I'm Jordy Fronik`
-  //   let speed = 125
-  //   const type = () => {
-  //     document.querySelector('#typedText').innerHTML += text.charAt(index)
-  //     index++
-  //     setTimeout(type, speed)
-  //   }
-  //   type()
-  // })
-  onMount(() => {})
 </script>
 
 <style lang="scss">

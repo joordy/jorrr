@@ -10,6 +10,9 @@
   }
   main {
     background-color: $ui-dark-blue;
+    section {
+      margin-top: -4em;
+    }
   }
 </style>
 

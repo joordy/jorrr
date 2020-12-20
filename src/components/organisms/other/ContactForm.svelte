@@ -7,7 +7,7 @@
   section {
     height: 100vh;
     div {
-      margin-top: $margin8;
+      margin-top: $margin4;
     }
   }
 </style>
