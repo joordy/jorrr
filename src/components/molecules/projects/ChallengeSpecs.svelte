@@ -31,29 +31,53 @@
 </style>
 
 <section>
-  <article>
-    <h4>Services</h4>
-    <div class="wrapper">
-      {#each project.services as service}
+  {#if project.kindOfProject}
+    <article>
+      <h4>Type of project</h4>
+      <div class="wrapper">
         <div>
-          <p>{service}</p>
+          <p>{project.kindOfProject}</p>
         </div>
-      {/each}
-    </div>
-    <!-- <p>{project.services}</p> -->
-  </article>
-  <article>
-    <h4>Languages</h4>
-    <div class="wrapper">
-      {#each project.languages as language}
-        <div>
-          <p>{language}</p>
-        </div>
-      {/each}
-    </div>
-  </article>
-  <article>
-    <h4>Live Preview</h4>
-    <a href={project.livePreview}>Bekijk het project</a>
-  </article>
+      </div>
+    </article>
+  {/if}
+
+  {#if project.services}
+    <article>
+      <h4>Services</h4>
+      <div class="wrapper">
+        {#each project.services as service}
+          <div>
+            <p>{service}</p>
+          </div>
+        {/each}
+      </div>
+    </article>
+  {/if}
+
+  {#if project.languages}
+    <article>
+      <h4>Languages</h4>
+      <div class="wrapper">
+        {#each project.languages as language}
+          <div>
+            <p>{language}</p>
+          </div>
+        {/each}
+      </div>
+    </article>
+  {/if}
+
+  {#if project.livePreview}
+    <article>
+      <h4>Live Preview</h4>
+      <a href={project.livePreview}>Bekijk het project</a>
+    </article>
+  {/if}
+  {#if project.githubSource}
+    <article>
+      <h4>Github link</h4>
+      <a href={project.githubSource}>GitHub Repository</a>
+    </article>
+  {/if}
 </section>

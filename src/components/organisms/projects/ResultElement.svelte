@@ -29,7 +29,7 @@
   }
 </style>
 
-<section>
+<section class="longResult">
   <h5>Result</h5>
   <h2>{project.subTitle}</h2>
 

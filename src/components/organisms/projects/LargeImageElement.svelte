@@ -34,22 +34,13 @@
   @import 'src/styles/index.scss';
 
   section {
-    width: 95vw;
+    width: 100%;
     margin: 5rem auto 5rem auto;
     height: 600px;
-    @include size-s {
-      width: 80vw;
-    }
-    @include size-xl {
-      width: 70vw;
-    }
-    @include size-ultra {
-      width: 50vw;
-    }
   }
 </style>
 
-<section>
+<section class="largeSlider">
   <Carousel {images}>
     <!--Value-->
   </Carousel>

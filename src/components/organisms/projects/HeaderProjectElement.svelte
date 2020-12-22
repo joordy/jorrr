@@ -10,7 +10,7 @@
   @import 'src/styles/index.scss';
 
   section {
-    width: 100vw;
+    width: calc(100vw - 7.5px);
     margin-left: -2.5vw;
     background-color: $ui-dark-blue;
     color: $ui-soft-white;
@@ -18,13 +18,13 @@
     position: relative;
     overflow: hidden;
     @include size-s {
-      margin-left: -10vw;
+      margin-left: -20vw;
     }
     @include size-xl {
-      margin-left: -15vw;
+      margin-left: -25vw;
     }
     @include size-ultra {
-      margin-left: -25vw;
+      margin-left: -30vw;
     }
     article {
       width: 95vw;
@@ -33,19 +33,19 @@
       display: flex;
       justify-content: space-between;
       @include size-s {
-        width: 80vw;
+        width: 60vw;
       }
       @include size-xl {
-        width: 70vw;
+        width: 50vw;
       }
       @include size-ultra {
-        width: 50vw;
+        width: 40vw;
       }
     }
   }
 </style>
 
-<section>
+<section class="header">
   <article>
     <IntroText {project} />
     <MockupImage {project} />

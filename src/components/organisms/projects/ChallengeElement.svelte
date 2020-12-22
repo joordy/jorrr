@@ -10,18 +10,21 @@
   @import 'src/styles/index.scss';
 
   .challenge {
-    height: 550px;
+    height: 700px;
     display: grid;
     place-items: center;
-    @include size-s {
-      height: 450px;
+    @include size-m {
+      height: 500px;
+    }
+    @include size-xl {
+      height: 470px;
     }
     div {
       display: grid;
       grid-template-columns: auto;
       grid-template-rows: auto auto;
       grid-gap: 2em;
-      @include size-s {
+      @include size-m {
         grid-template-columns: auto auto;
         grid-template-rows: auto;
       }

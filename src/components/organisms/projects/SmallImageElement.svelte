@@ -13,14 +13,14 @@
       overflow-y: hidden;
       white-space: nowrap;
       @include size-s {
-        width: 80vw;
+        width: 100%;
       }
-      @include size-xl {
-        width: 70vw;
-      }
-      @include size-ultra {
-        width: 50vw;
-      }
+      // @include size-xl {
+      //   width: 70vw;
+      // }
+      // @include size-ultra {
+      //   width: 50vw;
+      // }
       article {
         display: inline-block;
         margin-right: $margin1;
@@ -41,7 +41,7 @@
   }
 </style>
 
-<section>
+<section class="smallSlider">
   <section class="image__wrapper">
     {#each project.smallImageSlider as photo}
       <article><img src={photo.src} alt={photo.alt} /></article>

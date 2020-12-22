@@ -17,6 +17,17 @@
   main {
     background-color: white;
     position: relative;
+    .mainWrapper {
+      @include size-s {
+        width: 60vw !important;
+      }
+      @include size-xl {
+        width: 50vw !important;
+      }
+      @include size-ultra {
+        width: 40vw !important;
+      }
+    }
   }
 </style>
 
