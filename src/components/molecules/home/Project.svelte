@@ -98,7 +98,7 @@
     <h4 class="idnumber">{project.idNumber}</h4>
     <article class="projectInfo">
       <h3>{project.title}</h3>
-      <p>{project.intro}</p>
+      <p>{project.subTitle}</p>
       <ButtonFilled linkTO="/projects/{project.slug}" textCTA="explore" />
     </article>
   </a>

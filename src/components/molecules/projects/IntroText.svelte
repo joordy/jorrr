@@ -47,6 +47,6 @@
   <section>
     <h2>Case study</h2>
     <h1>{project.title}</h1>
-    <p>{project.longIntro}</p>
+    <p>{project.intro}</p>
   </section>
 </article>

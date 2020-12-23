@@ -1,21 +1,53 @@
 <script>
+  import FormElement from '@/components/molecules/other/FormElement.svelte'
+  import FormInformation from '@/components/molecules/other/FormInformation.svelte'
+  import { SocialsIcons } from '@/components/atoms/allAtoms.js'
+
   import { BlockTitle } from '@/components/atoms/allAtoms.js'
 </script>
 
 <style lang="scss">
   @import 'src/styles/index.scss';
-  section {
-    height: 100vh;
+  .contact {
+    min-height: 100vh;
     div {
-      margin-top: $margin4;
+      padding-top: calc(75px + 3em);
+      a {
+        color: white;
+        text-decoration: none;
+        span {
+          font-family: 'FontAwesome';
+
+          &::before {
+            content: '\f060';
+          }
+        }
+      }
+    }
+    article {
+      padding: 10em 0em;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 5em;
+      @include size-s {
+        grid-template-columns: 3fr 4fr;
+      }
+      section {
+        font-family: 'IBM Plex Mono', monospace;
+        height: 200px;
+      }
     }
   }
 </style>
 
-<section>
-  <div>
-    <BlockTitle pageSectionTitle={'Contact'} />
-  </div>
+<section class="contact">
+  <div><a href="/"> <span /> Back</a></div>
 
-  <form action="" />
+  <article>
+    <section>
+      <FormInformation />
+    </section>
+
+    <FormElement />
+  </article>
 </section>

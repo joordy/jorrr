@@ -33,7 +33,7 @@
       display: flex;
       justify-content: space-between;
       @include size-s {
-        width: 60vw;
+        width: 80vw;
       }
       @include size-xl {
         width: 50vw;
