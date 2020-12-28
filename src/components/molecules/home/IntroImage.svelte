@@ -30,7 +30,7 @@
       background-color: #c4c4c4;
       position: absolute;
       top: 25%;
-      right: -15vw;
+      // right: -15vw;
     }
     @media (min-width: 1180px) {
       width: 60%;

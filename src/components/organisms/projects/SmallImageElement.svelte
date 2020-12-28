@@ -15,12 +15,6 @@
       @include size-s {
         width: 100%;
       }
-      // @include size-xl {
-      //   width: 70vw;
-      // }
-      // @include size-ultra {
-      //   width: 50vw;
-      // }
       article {
         display: inline-block;
         margin-right: $margin1;

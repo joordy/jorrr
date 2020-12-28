@@ -1,40 +1,57 @@
 <script>
-	export let status;
-	export let error;
+  import {
+    ButtonFilled,
+    ButtonOutline,
+    ButtonSubject,
+  } from '@/components/atoms/allAtoms.js'
 
-	const dev = process.env.NODE_ENV === 'development';
+  export let status
+  export let error
+
+  const dev = process.env.NODE_ENV === 'development'
 </script>
 
-<style>
-	h1, p {
-		margin: 0 auto;
-	}
+<style lang="scss">
+  @import 'src/styles/index.scss';
 
-	h1 {
-		font-size: 2.8em;
-		font-weight: 700;
-		margin: 0 0 0.5em 0;
-	}
+  main {
+    background-color: $ui-dark-blue;
+    color: $ui-soft-white;
+    min-height: 300px;
+    height: 84vh;
+    display: grid;
+    place-items: center;
+    section {
+      text-align: center;
+      width: auto;
+      max-height: 150px;
+      h1 {
+        font-size: 3.8em;
+        font-weight: 700;
+        margin: 0 0 106px 0;
+        padding: 0;
+      }
 
-	p {
-		margin: 1em auto;
-	}
-
-	@media (min-width: 480px) {
-		h1 {
-			font-size: 4em;
-		}
-	}
+      p {
+        margin: 1em auto;
+      }
+    }
+  }
 </style>
 
 <svelte:head>
-	<title>{status}</title>
+  <title>404! Pagina niet gevonden.</title>
 </svelte:head>
 
-<h1>{status}</h1>
+<main class="error">
+  <section>
+    <p>Oeps! Er is iets mis gegaan.</p>
 
-<p>{error.message}</p>
+    <h1>Pagina niet gevonden.</h1>
+    <ButtonFilled linkTO="/" textCTA="Terug naar home" />
+  </section>
+</main>
 
 {#if dev && error.stack}
-	<pre>{error.stack}</pre>
+  <pre>{error.stack}</pre>
 {/if}

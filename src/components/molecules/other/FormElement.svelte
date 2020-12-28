@@ -28,7 +28,7 @@
   <form action="">
     <fieldset>
       <div>
-        <label for="name">Name:</label>
+        <label for="name">Naam:</label>
         <input type="text" id="name" name="name" placeholder="John Doe" />
       </div>
       <div>
@@ -41,7 +41,7 @@
         />
       </div>
       <div>
-        <label for="name">Message</label>
+        <label for="name">Bericht</label>
         <textarea
           rows="6"
           cols="50"
@@ -49,7 +49,7 @@
           placeholder="Enter text here"
         />
       </div>
-      <input type="submit" value="send" />
+      <input type="submit" value="Verzenden" />
     </fieldset>
   </form>
 </section>

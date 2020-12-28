@@ -19,7 +19,8 @@
       display: grid;
       place-items: center;
       p {
-        margin-bottom: $margin1;
+        font-size: 12px;
+        margin-bottom: $margin2;
       }
     }
   }
@@ -27,7 +28,7 @@
 
 <footer>
   <section>
-    <p>Built with love</p>
+    <p>Gemaakt met liefde</p>
     <SocialsIcons />
   </section>
 </footer>

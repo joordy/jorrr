@@ -4,9 +4,10 @@
     ButtonOutline,
     ButtonSubject,
   } from '@/components/atoms/allAtoms.js'
-  const textTitle = `hi! I'm Jordy Fronik`
+  const textTitle = `Hey! Mijn naam is Jordy Fronik`
   const textOne =
-    'I design and create stuff for the internet. I’m a creative Frontend Developer with a passion for buidling fluid web applications. Do you want to know more about me? Check it out!'
+    'Ik bouw en ontwerp dingen voor op het internet. Ik ben een Creatieve frontend developer met een passie voor het maken van snelle webapplicaties. Wil je nou meer weten over mij? Lees dan gerust verder! '
+  // 'I design and create stuff for the internet. I’m a creative Frontend Developer with a passion for buidling fluid web applications. Do you want to know more about me? Check it out!'
 </script>
 
 <style lang="scss">
@@ -14,7 +15,7 @@
 
   section {
     width: 80%;
-    max-width: 350px;
+    max-width: 370px;
     padding-top: clamp(200px, 20vh, 30vh);
     @include size-m {
       padding-top: 30vh;
@@ -39,7 +40,7 @@
   <p>{textTitle}</p>
   <p>{textOne}</p>
   <div>
-    <ButtonFilled linkTO="#cases" textCTA="My work" />
+    <ButtonFilled linkTO="#cases" textCTA="Mijn werk" />
     <ButtonOutline linkTO="#contact" textCTA="Contact" />
   </div>
 </section>

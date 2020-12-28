@@ -46,7 +46,7 @@
 </style>
 
 <section class="more__cases">
-  <h3>More Cases</h3>
+  <h3>Meer Cases</h3>
   <div class="cases">
     {#each project.moreCases as otherCase}
       <a href={otherCase.pathname}>

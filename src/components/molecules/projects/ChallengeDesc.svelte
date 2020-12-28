@@ -14,6 +14,6 @@
 
 <section>
   <h5>Challenge</h5>
-  <h2>{project.subTitle}</h2>
-  <p>{project.shortExplenation}</p>
+  <h2>{project.thirdTitle}</h2>
+  <p>{project.explenation}</p>
 </section>

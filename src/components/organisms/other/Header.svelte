@@ -69,7 +69,7 @@
           margin: 0;
           display: flex;
           li {
-            width: 100px;
+            margin: 0 16px;
             list-style: none;
             text-align: center;
 
@@ -112,10 +112,10 @@
       <ul>
         <!-- <li href="#home" /> -->
         <li><a href="#home">Home</a></li>
-        <li><a href="#about">About </a></li>
+        <li><a href="#about">Over </a></li>
         <li><a href="#cases">Cases </a></li>
         <li><a href="#contact">Contact </a></li>
-        <li><a href="https://read.cv/jordy" target="_blank">Resume </a></li>
+        <li><a href="https://read.cv/jordy" target="_blank">CV </a></li>
       </ul>
     </nav>
   </div>

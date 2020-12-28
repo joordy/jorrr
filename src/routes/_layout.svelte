@@ -3,6 +3,9 @@
     Header,
     Footer,
   } from '@/components/organisms/other/allOtherElements.js'
+  import PageTransition from '@/components/PageTransition.svelte'
+  export let segment
+
   // export let segment;
 </script>
 
@@ -14,6 +17,8 @@
 
 <Header />
 
-<slot />
+<PageTransition>
+  <slot />
+</PageTransition>
 
 <Footer />

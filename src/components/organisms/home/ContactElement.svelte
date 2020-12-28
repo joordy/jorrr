@@ -29,10 +29,10 @@
 <section id="contact">
   <BlockTitle pageSectionTitle="Contact" />
 
-  <h3>Say hi!</h3>
+  <h3>Zeg hallo!</h3>
   <p>
-    Interested in working together? Feel free to contact me for a project or an
-    collaboration.
+    Ben je geïnteresseerd om met mij te gaan samenwerken? Neem dan gerust
+    contact met mij op voor een project of een samenwerking.
   </p>
-  <a href="/contact">Send e-mail</a>
+  <a href="/contact">Verstuur e-mail</a>
 </section>

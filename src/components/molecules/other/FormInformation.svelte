@@ -51,7 +51,7 @@
 </style>
 
 <section>
-  <h2>Get in touch</h2>
+  <h2>Neem contact op</h2>
   <p>Lorem ipsum dolor sit amet blaaaa blaa blaaa blaa</p>
 
   <div class="socialicons">
