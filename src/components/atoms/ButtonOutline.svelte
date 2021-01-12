@@ -9,20 +9,39 @@
   a {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 14px;
-    padding: calc(1em - 4px) 2em;
+    width: 190px;
+    height: 44px !important;
+    line-height: 44px;
     border-radius: 30px;
-    border: 4px solid $ui-turquoise;
+    background-color: $ui-dark-blue;
     color: $ui-turquoise;
-    font-weight: 700;
+    text-align: center;
+    font-weight: $bold;
     text-decoration: none;
-    transition: 275ms ease;
-    &:hover {
+    border: 3px solid $ui-turquoise;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 44px;
+      left: -5px;
+      width: calc(100% + 10px);
+      height: 50px;
       background-color: $ui-turquoise;
-      color: #212738;
+      border-radius: 50% 50% 0% 0;
+      z-index: -1;
+      transition: all 0.5s;
+      border: none;
     }
-    @include size-s {
-      padding: calc(1em - 4px) 3em;
-      font-size: $basic-font-size;
+    &:hover {
+      color: $ui-dark-blue;
+      &:before {
+        top: 0px;
+        border-radius: 0;
+      }
     }
   }
 </style>

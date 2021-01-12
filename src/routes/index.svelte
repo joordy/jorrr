@@ -7,7 +7,7 @@
 </style>
 
 <svelte:head>
-  <title>Portfolio — Jorrr.dev</title>
+  <title>Portfolio | Jordy Fronik</title>
 </svelte:head>
 
 <IndexPage {projects} />

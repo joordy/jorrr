@@ -6,7 +6,7 @@
 </style>
 
 <svelte:head>
-  <title>Contact — Jorrr.dev</title>
+  <title>Contact | Jordy Fronik</title>
 </svelte:head>
 
 <ContactPage />

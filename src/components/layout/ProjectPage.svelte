@@ -40,10 +40,5 @@
     <Result {project} />
     <LiveView {project} />
     <MoreCases {project} />
-    <!-- 
-    <SmallImageElement {project} />
-    <ResultElement {project} />
-    <LargeImageElement {project} />
-    <MoreCasesElement {project} /> -->
   </section>
 </main>

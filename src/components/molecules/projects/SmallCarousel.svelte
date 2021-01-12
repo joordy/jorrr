@@ -5,28 +5,37 @@
 <style lang="scss">
   @import 'src/styles/index.scss';
 
-  .image__wrapper {
-    width: 95vw;
-    margin: 0 auto 50px auto;
-    overflow-x: auto;
-    overflow-y: hidden;
-    white-space: nowrap;
+  article {
+    display: block;
+    @include size-xs {
+      display: flex;
+    }
     @include size-s {
-      width: 100%;
+      display: block;
+    }
+    @include size-m {
+      display: flex;
     }
     div {
-      display: inline-block;
-      margin-right: $margin1;
-      height: 250px;
-      width: 250px;
-      background-color: hotpink;
+      height: 200px;
+      width: calc(100% - 2em);
+      padding: 1em;
+      @include size-xs {
+        width: 50%;
+        height: 250px;
+      }
       @include size-s {
-        height: 320px;
-        width: 320px;
+        height: 200px;
+        width: 100%;
+      }
+      @include size-m {
+        width: 50%;
+        height: 250px;
       }
       img {
         width: 100%;
         height: 100%;
+        border-radius: 10px;
         object-fit: cover;
       }
     }

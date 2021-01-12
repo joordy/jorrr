@@ -1,5 +1,5 @@
 <script>
-  import { ButtonFilled } from '@/components/atoms/allAtoms.js'
+  import { ProjectButton } from '@/components/atoms/allAtoms.js'
 
   export let project
 </script>
@@ -13,7 +13,7 @@
     position: relative;
     overflow: hidden;
     transition: 0.3s;
-
+    border-radius: 10px;
     &:hover {
       transform: scale(1.03);
     }
@@ -71,7 +71,7 @@
         margin-right: auto;
         left: 0;
         right: 0;
-        bottom: 3rem;
+        bottom: 5rem;
         width: 90%;
         h3 {
           font-size: $h3-size;
@@ -99,7 +99,7 @@
     <article class="projectInfo">
       <h3>{project.title}</h3>
       <p>{project.subTitle}</p>
-      <ButtonFilled linkTO="/projects/{project.slug}" textCTA="explore" />
+      <ProjectButton linkTO="/projects/{project.slug}" textCTA="Explore" />
     </article>
   </a>
 </section>

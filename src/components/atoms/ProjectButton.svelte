@@ -19,7 +19,7 @@
     font-weight: $bold;
     text-decoration: none;
     border: none;
-    position: relative;
+    position: absolute;
     z-index: 0;
     overflow: hidden;
 

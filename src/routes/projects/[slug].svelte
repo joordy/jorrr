@@ -28,7 +28,7 @@
 </style>
 
 <svelte:head>
-  <title>{project.title} — Jorrr.dev</title>
+  <title>{project.title} | Jordy Fronik</title>
 </svelte:head>
 
 <ProjectPage {project} />

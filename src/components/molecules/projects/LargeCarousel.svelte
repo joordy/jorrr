@@ -41,6 +41,7 @@
       height: 100%;
       object-fit: cover;
       position: absolute;
+      border-radius: 10px;
     }
     button {
       position: absolute;
@@ -56,20 +57,30 @@
       color: white;
       font-family: FontAwesome;
       outline: none;
+      transition: 0.4s;
       &:focus {
         outline: none;
         border: none;
       }
+      &:hover {
+        transform: scale(1.2);
+      }
       &:nth-of-type(1) {
-        left: 10px;
+        left: 20px;
         &:before {
           content: '\f060';
         }
+        &:hover {
+          transform: translate(-10px);
+        }
       }
       &:nth-of-type(2) {
-        right: 10px;
+        right: 20px;
         &:before {
           content: '\f061';
+        }
+        &:hover {
+          transform: translate(10px);
         }
       }
     }
