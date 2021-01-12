@@ -13,7 +13,7 @@
 </style>
 
 <section>
-  <h5>Challenge</h5>
-  <h2>{project.thirdTitle}</h2>
-  <p>{project.explenation}</p>
+  <!-- <h5>Challenge</h5> -->
+  <h2>Assignment</h2>
+  <p>{project.assignmentdesc}</p>
 </section>

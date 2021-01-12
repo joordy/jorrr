@@ -22,20 +22,24 @@
     }
     section {
       margin-top: $margin10;
-      h1 {
+      h2 {
         margin-top: 0;
         font-size: $h1-size;
       }
-      h2 {
+      .case {
         font-size: 16px;
         font-weight: 200;
         text-transform: uppercase;
       }
       p {
-        margin-top: $margin4;
-        width: 300px;
-        @include size-m {
-          width: 400px;
+        &:nth-of-type(2) {
+          margin-top: $margin4;
+        }
+        margin: 0 0 5px 0;
+        span {
+          display: inline-block;
+          width: 80px;
+          font-weight: $bold;
         }
       }
     }
@@ -45,8 +49,11 @@
 <article>
   <a href="/"> <span /> Terug</a>
   <section>
-    <h2>Case study</h2>
-    <h1>{project.title}</h1>
-    <p>{project.intro}</p>
+    <p class="case">Case study</p>
+    <h2>{project.title}</h2>
+    <p><span>Roles:</span>{project.services}</p>
+    <p><span>Task:</span>{project.typeOfProject}</p>
+    <p><span>Tools:</span>{project.languages}</p>
+    <p><span>Team:</span>{project.teamproject}</p>
   </section>
 </article>

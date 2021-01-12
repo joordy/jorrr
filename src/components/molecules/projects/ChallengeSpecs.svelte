@@ -33,7 +33,7 @@
 <section>
   {#if project.kindOfProject}
     <article>
-      <h4>Soort project</h4>
+      <h4>Team</h4>
       <div class="wrapper">
         <div>
           <p>{project.kindOfProject}</p>
@@ -44,7 +44,7 @@
 
   {#if project.services}
     <article>
-      <h4>Methoden</h4>
+      <h4>Taken</h4>
       <div class="wrapper">
         {#each project.services as service}
           <div>
@@ -57,7 +57,7 @@
 
   {#if project.languages}
     <article>
-      <h4>(Programmer) talen</h4>
+      <h4>Tools</h4>
       <div class="wrapper">
         {#each project.languages as language}
           <div>

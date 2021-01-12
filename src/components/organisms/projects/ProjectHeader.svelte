@@ -10,21 +10,21 @@
   @import 'src/styles/index.scss';
 
   section {
+    overflow: hidden;
     width: calc(100vw - 7.5px);
     margin-left: -2.5vw;
     background-color: $ui-dark-blue;
     color: $ui-soft-white;
     height: 700px;
     position: relative;
-    overflow: hidden;
     @include size-s {
-      margin-left: -20vw;
-    }
-    @include size-xl {
       margin-left: -25vw;
     }
-    @include size-ultra {
+    @include size-xl {
       margin-left: -30vw;
+    }
+    @include size-ultra {
+      margin-left: -35vw;
     }
     article {
       width: 95vw;

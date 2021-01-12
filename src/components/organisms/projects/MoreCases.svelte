@@ -17,8 +17,8 @@
       font-size: $h3-size;
     }
     div {
-      max-width: 700px;
-      margin: $margin2 auto;
+      max-width: 100%;
+      margin: $margin2 0;
       display: grid;
       grid-template-columns: 1fr;
       grid-gap: 2em;

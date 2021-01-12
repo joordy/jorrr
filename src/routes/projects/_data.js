@@ -11,11 +11,18 @@ export let projects = [
       'Een dating applicatie gemaakt voor ICT studenten. Het maken van de applicatie was onderdeel van een team project waarbij we drie verschillende aspecten van de dating applicatie hebben gebouwd.',
     mockupHeaderImage:
       'https://user-images.githubusercontent.com/48051912/102026263-1b2c9b00-3d9d-11eb-9f6b-92c10aa420ac.png',
+    assignmentTextOne:
+      'Het web-development project is een onderdeel van het programma van de opleiding Communicatie & Multimedia Design, in het keuze semester: Tech. De opdracht bestond uit het werkend maken van een interactieve dating applicatie, welke gebouwd wordt met de backend programmeertaal NodeJS.  ',
+    assignmentTextTwo:
+      'Voor dit project heb ik er voor gekozen om het proces van gebruikers leuk vinden, en bij wederzijdse interesse de match uit te gaan werken. Halverwege de periode heb ik mijn functionaliteiten samen met die van twee teamgenoten, aan elkaar gekoppeld om vervolgens een werkende applicatie te realiseren.',
+    assignmentdesc:
+      'Dat.io is een dating applicatie wat gebouwd is met de programmeertaal NodeJS. Het project maakt gebruik van onder meer een Express-server en EJS. Samen met mijn teamgenoten hebben we een applicatie gebouwd welke de gebruiker drie verschillende functionaliteiten biedt. Met de applcatie kan de gebruiker zich registreren en/of inloggen, gebruikers filteren, en gebruikers leuk vinden. Als de interesse wederzijds is, krijgt de gebruiker een match.',
     explenation:
       'Dat.io is een dating applicatie wat gebouwd is met de programmeertaal NodeJS. Het project maakt gebruik van onder meer een Express-server en EJS. Samen met mijn teamgenoten hebben we een applicatie gebouwd welke de gebruiker drie verschillende functionaliteiten biedt. Met de applcatie kan de gebruiker zich registreren en/of inloggen, gebruikers filteren, en gebruikers leuk vinden. Als de interesse wederzijds is, krijgt de gebruiker een match.',
-    kindOfProject: 'Team project',
-    services: ['Development', 'Concepting', 'User Experience'],
-    languages: ['NodeJS', 'EJS', 'Javascript', 'CSS', 'HTML', 'GIT'],
+    services: 'Front-end Development & UX Design',
+    typeOfProject: 'Werken met back-end en databases.',
+    languages: 'HTML, CSS, JavaScript, NodeJS, EJS, GIT',
+    teamproject: 'Een team van drie personen',
     livePreview: 'https://bt-datingapp.herokuapp.com/signIn',
     githubSource: 'https://github.com/joordy/Dat.io',
     smallImageSlider: [
@@ -95,9 +102,10 @@ export let projects = [
       'https://user-images.githubusercontent.com/48051912/102026263-1b2c9b00-3d9d-11eb-9f6b-92c10aa420ac.png',
     explenation:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum. Ultrices ac ultrices mauris purus pharetra massa dui. Neque tempor nunc maecenas sed enim. Sed quis eget morbi risus ridiculus mattis felis et potenti.',
-    kindOfProject: 'Individual',
-    services: ['Web Design', 'Concepting', 'UI Design', 'UX Design'],
-    languages: ['Figma'],
+    services: 'UI Design & UX design',
+    typeOfProject: 'Ontwerp een volledige user flow',
+    languages: 'Prototyping, Figma, User testing',
+    teamproject: 'Individueel',
     livePreview:
       'https://www.figma.com/proto/cIA8OhNzIL6bLMSecXxGUU/Project-Web.jordyfronik?node-id=469%3A12464&viewport=55%2C166%2C0.040915731340646744&scaling=scale-down',
     smallImageSlider: [
@@ -179,9 +187,10 @@ export let projects = [
       'https://user-images.githubusercontent.com/48051912/102026263-1b2c9b00-3d9d-11eb-9f6b-92c10aa420ac.png',
     explenation:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum. Ultrices ac ultrices mauris purus pharetra massa dui. Neque tempor nunc maecenas sed enim. Sed quis eget morbi risus ridiculus mattis felis et potenti.',
-    kindOfProject: 'Individual',
-    services: ['Development', 'Datavisualisation'],
-    languages: ['Svelte', 'D3', 'SCSS', 'HTML', 'GIT'],
+    services: 'Front-end development',
+    typeOfProject: 'Een data-story met RDW data',
+    languages: 'HTML, CSS, JavaScript, D3, SvelteJS',
+    teamproject: 'Individueel',
     livePreview: 'https://fa-jorrr.netlify.app/',
     githubSource: 'https://github.com/joordy/frontend-applications',
     smallImageSlider: [
@@ -252,11 +261,11 @@ export let projects = [
   {
     idNumber: '04',
     type: 'Case Study',
-    title: 'Project Skaets',
-    subTitle: 'Activity tracker for pro athletes',
-    thirdTitle: 'Dating applicatie',
-    page_slug: '/projects/project-skaets',
-    slug: 'project-skaets',
+    title: 'Ring-Ring',
+    subTitle: 'Dashboard for policymakers in Amsterdam.',
+    thirdTitle: 'Ring-Ring Dashboard',
+    page_slug: '/projects/ring-ring',
+    slug: 'ring-ring',
     intro:
       'Activity tracker for topsporters, to track their trainings, fitness, etc.',
     mockupHeaderImage:
@@ -287,9 +296,10 @@ export let projects = [
     ],
     explenation:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum. Ultrices ac ultrices mauris purus pharetra massa dui. Neque tempor nunc maecenas sed enim. Sed quis eget morbi risus ridiculus mattis felis et potenti.',
-    kindOfProject: 'Individual',
-    services: ['UI Design', 'UX Design', 'Concepting'],
-    languages: ['Adobe XD'],
+    services: 'Front-end development & User Interface Design',
+    typeOfProject: 'Een data-visualisatie overzicht.',
+    languages: 'HTML, CSS, JavaScript, ChartJS, MapBox, SvelteJS',
+    teamproject: 'Team van drie personen',
     longExplenation:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum. Ultrices ac ultrices mauris purus pharetra massa dui. Neque tempor nunc maecenas sed enim. Sed quis eget morbi risus ridiculus mattis felis et potenti. Nibh ultrices nunc sed mauris risus, vulputate a. Vitae tincidunt scelerisque blandit leo tincidunt proin elit, gravida cras. Neque est at sit sagittis cursus. Fringilla massa tincidunt leo dignissim purus adipiscing etiam elit bibendum. Purus mauris sit mi fames nec. Vel eleifend egestas hendrerit mauris. Dignissim venenatis at et sagittis. Ultricies blandit diam, ac enim risus. Et in felis cras ipsum. Tortor, feugiat phasellus pharetra nec. Volutpat dignissim sed ut id consectetur facilisi nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum.',
     largeImageSlider: [

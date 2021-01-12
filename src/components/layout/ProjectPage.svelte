@@ -1,11 +1,11 @@
 <script>
   import {
-    ChallengeElement,
-    LargeImageElement,
-    MoreCasesElement,
-    HeaderProjectElement,
-    ResultElement,
-    SmallImageElement,
+    Assignment,
+    LiveView,
+    MoreCases,
+    Process,
+    ProjectHeader,
+    Result,
   } from '@/components/organisms/projects/allProjectElements.js'
 
   export let project
@@ -17,15 +17,16 @@
   main {
     background-color: white;
     position: relative;
+    overflow-x: hidden;
     .mainWrapper {
       @include size-s {
-        width: 60vw !important;
-      }
-      @include size-xl {
         width: 50vw !important;
       }
-      @include size-ultra {
+      @include size-xl {
         width: 40vw !important;
+      }
+      @include size-ultra {
+        width: 30vw !important;
       }
     }
   }
@@ -33,11 +34,16 @@
 
 <main>
   <section class="mainWrapper">
-    <HeaderProjectElement {project} />
-    <ChallengeElement {project} />
+    <ProjectHeader {project} />
+    <Assignment {project} />
+    <Process {project} />
+    <Result {project} />
+    <LiveView {project} />
+    <MoreCases {project} />
+    <!-- 
     <SmallImageElement {project} />
     <ResultElement {project} />
     <LargeImageElement {project} />
-    <MoreCasesElement {project} />
+    <MoreCasesElement {project} /> -->
   </section>
 </main>
