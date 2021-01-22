@@ -41,7 +41,8 @@
       height: 100%;
       .backimage {
         width: 100%;
-        height: 100%;
+        height: 80%;
+        margin: 10% 0;
         .backimage__overlay {
           width: 100%;
           height: 100%;
@@ -53,6 +54,7 @@
         img {
           width: 100%;
           height: 100%;
+          object-fit: cover;
         }
       }
       h4 {
@@ -90,10 +92,7 @@
   <a href="/projects/{project.slug}">
     <article class="backimage">
       <div class="backimage__overlay" />
-      <img
-        src="https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png"
-        alt=""
-      />
+      <img src={project.mockupImage} alt="" />
     </article>
     <h4 class="idnumber">{project.idNumber}</h4>
     <article class="projectInfo">

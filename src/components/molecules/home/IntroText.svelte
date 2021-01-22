@@ -4,10 +4,6 @@
     ButtonOutline,
     ButtonSubject,
   } from '@/components/atoms/allAtoms.js'
-  const textTitle = `Hey! Mijn naam is Jordy Fronik`
-  const textOne =
-    'Ik bouw en ontwerp dingen voor op het internet. Ik ben een Creatieve frontend developer met een passie voor het maken van snelle webapplicaties. Wil je nou meer weten over mij? Lees dan gerust verder! '
-  // 'I design and create stuff for the internet. I’m a creative Frontend Developer with a passion for buidling fluid web applications. Do you want to know more about me? Check it out!'
 </script>
 
 <style lang="scss">
@@ -38,8 +34,12 @@
 </style>
 
 <section>
-  <p>{textTitle}</p>
-  <p>{textOne}</p>
+  <p>Hey! Mijn naam is Jordy Fronik</p>
+  <p>
+    Ik ben een creatieve front-end developer die dingen bouwt voor op het
+    internet. Mijn hart smelt van strakke ontwerpen en snelle laadtijden van
+    web-applicaties. Wil je nou meer weten over mij? Lees dan gerust verder!
+  </p>
   <div>
     <ButtonFilled linkTO="#cases" textCTA="Mijn werk" />
     <ButtonOutline linkTO="#contact" textCTA="Contact" />

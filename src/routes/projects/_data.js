@@ -2,6 +2,83 @@ export let projects = [
   {
     idNumber: '01',
     type: 'Case Study',
+    title: 'Ring-Ring',
+    subTitle: 'Dashboard for policymakers in Amsterdam.',
+    thirdTitle: 'Ring-Ring Dashboard',
+    page_slug: '/projects/ring-ring',
+    slug: 'ring-ring',
+    intro:
+      'Activity tracker for topsporters, to track their trainings, fitness, etc.',
+    mockupImage:
+      'https://user-images.githubusercontent.com/48051912/105413873-03b3be00-5c37-11eb-9174-7f487cc1d777.png',
+    mockupHeaderImage:
+      'https://user-images.githubusercontent.com/48051912/102026263-1b2c9b00-3d9d-11eb-9f6b-92c10aa420ac.png',
+    backgroundImage:
+      'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
+    smallImageSlider: [
+      {
+        src:
+          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
+        alt: 'lorem',
+      },
+      {
+        src:
+          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
+        alt: 'lorem',
+      },
+    ],
+    explenation:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum. Ultrices ac ultrices mauris purus pharetra massa dui. Neque tempor nunc maecenas sed enim. Sed quis eget morbi risus ridiculus mattis felis et potenti.',
+    services: 'Front-end development & User Interface Design',
+    typeOfProject: 'Een data-visualisatie overzicht.',
+    languages: 'HTML, CSS, JavaScript, ChartJS, MapBox, SvelteJS',
+    teamproject: 'Team van drie personen',
+    longExplenation:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum. Ultrices ac ultrices mauris purus pharetra massa dui. Neque tempor nunc maecenas sed enim. Sed quis eget morbi risus ridiculus mattis felis et potenti. Nibh ultrices nunc sed mauris risus, vulputate a. Vitae tincidunt scelerisque blandit leo tincidunt proin elit, gravida cras. Neque est at sit sagittis cursus. Fringilla massa tincidunt leo dignissim purus adipiscing etiam elit bibendum. Purus mauris sit mi fames nec. Vel eleifend egestas hendrerit mauris. Dignissim venenatis at et sagittis. Ultricies blandit diam, ac enim risus. Et in felis cras ipsum. Tortor, feugiat phasellus pharetra nec. Volutpat dignissim sed ut id consectetur facilisi nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum.',
+    largeImageSlider: [
+      {
+        src:
+          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
+        alt: 'lorem',
+      },
+      {
+        src:
+          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
+        alt: 'lorem',
+      },
+      {
+        src:
+          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
+        alt: 'lorem',
+      },
+      {
+        src:
+          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
+        alt: 'lorem',
+      },
+    ],
+    detailsOne:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum. Ultrices ac ultrices mauris purus pharetra massa dui. Neque tempor nunc maecenas sed enim. Sed quis eget morbi risus ridiculus mattis felis et potenti. Nibh ultrices nunc sed mauris risus, vulputate a. Vitae tincidunt scelerisque blandit leo tincidunt proin elit, gravida cras. Neque est at sit sagittis cursus. Fringilla massa tincidunt leo dignissim purus adipiscing etiam elit bibendum. Purus mauris sit mi fames nec. Vel eleifend egestas hendrerit mauris. Dignissim venenatis at et sagittis. Ultricies blandit diam, ac enim risus. Et in felis cras ipsum. Tortor, feugiat phasellus pharetra nec. Volutpat dignissim sed ut id consectetur facilisi nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum.',
+    moreCases: [
+      {
+        name: 'Frontend Applications',
+        src:
+          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
+        alt: '',
+        pathname: '/projects/frontend-applications',
+      },
+      {
+        name: 'Dat.io',
+        src:
+          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
+        alt: '',
+        pathname: '/projects/datio-dating-application',
+      },
+    ],
+  },
+  {
+    idNumber: '03',
+    type: 'Case Study',
     title: 'Dat.io',
     subTitle: 'Dating applicatie gemaakt voor studenten',
     thirdTitle: 'Dating applicatie',
@@ -9,6 +86,11 @@ export let projects = [
     slug: 'datio-dating-application',
     intro:
       'Een dating applicatie gemaakt voor ICT studenten. Het maken van de applicatie was onderdeel van een team project waarbij we drie verschillende aspecten van de dating applicatie hebben gebouwd.',
+    mockupImage:
+      'https://user-images.githubusercontent.com/48051912/102026263-1b2c9b00-3d9d-11eb-9f6b-92c10aa420ac.png',
+
+    mockupImage:
+      'https://user-images.githubusercontent.com/48051912/102026263-1b2c9b00-3d9d-11eb-9f6b-92c10aa420ac.png',
     mockupHeaderImage:
       'https://user-images.githubusercontent.com/48051912/102026263-1b2c9b00-3d9d-11eb-9f6b-92c10aa420ac.png',
     assignmentTextOne:
@@ -79,7 +161,7 @@ export let projects = [
     ],
   },
   {
-    idNumber: '02',
+    idNumber: '04',
     type: 'Case Study',
     title: 'Travelplan',
     subTitle: 'Reisplanner voor toekomstige reizen',
@@ -88,6 +170,9 @@ export let projects = [
     slug: 'travelplan',
     intro:
       'Travelplan is een alles-in-een reisplanner. Met behulp van de applicatie is het mogelijk om alle informatie omtrent de geplande reis bij elkaar te houden.',
+    mockupImage:
+      'https://user-images.githubusercontent.com/48051912/102026263-1b2c9b00-3d9d-11eb-9f6b-92c10aa420ac.png',
+
     mockupHeaderImage:
       'https://user-images.githubusercontent.com/48051912/102026263-1b2c9b00-3d9d-11eb-9f6b-92c10aa420ac.png',
     explenation:
@@ -154,7 +239,7 @@ export let projects = [
     ],
   },
   {
-    idNumber: '03',
+    idNumber: '02',
     type: 'Case Study',
     title: 'Frontend Applications',
     subTitle: 'Datavisualisation about parking spots',
@@ -163,6 +248,9 @@ export let projects = [
     slug: 'frontend-applications',
     intro:
       'Data visualisation of the parking spots in big cities of the Netherlands.',
+    mockupImage:
+      'https://user-images.githubusercontent.com/48051912/102026263-1b2c9b00-3d9d-11eb-9f6b-92c10aa420ac.png',
+
     mockupHeaderImage:
       'https://user-images.githubusercontent.com/48051912/102026263-1b2c9b00-3d9d-11eb-9f6b-92c10aa420ac.png',
     explenation:
@@ -218,81 +306,6 @@ export let projects = [
           'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
         alt: '',
         pathname: '/projects/travelplan',
-      },
-      {
-        name: 'Dat.io',
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: '',
-        pathname: '/projects/datio-dating-application',
-      },
-    ],
-  },
-  {
-    idNumber: '04',
-    type: 'Case Study',
-    title: 'Ring-Ring',
-    subTitle: 'Dashboard for policymakers in Amsterdam.',
-    thirdTitle: 'Ring-Ring Dashboard',
-    page_slug: '/projects/ring-ring',
-    slug: 'ring-ring',
-    intro:
-      'Activity tracker for topsporters, to track their trainings, fitness, etc.',
-    mockupHeaderImage:
-      'https://user-images.githubusercontent.com/48051912/102026263-1b2c9b00-3d9d-11eb-9f6b-92c10aa420ac.png',
-    backgroundImage:
-      'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-    smallImageSlider: [
-      {
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: 'lorem',
-      },
-      {
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: 'lorem',
-      },
-    ],
-    explenation:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum. Ultrices ac ultrices mauris purus pharetra massa dui. Neque tempor nunc maecenas sed enim. Sed quis eget morbi risus ridiculus mattis felis et potenti.',
-    services: 'Front-end development & User Interface Design',
-    typeOfProject: 'Een data-visualisatie overzicht.',
-    languages: 'HTML, CSS, JavaScript, ChartJS, MapBox, SvelteJS',
-    teamproject: 'Team van drie personen',
-    longExplenation:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum. Ultrices ac ultrices mauris purus pharetra massa dui. Neque tempor nunc maecenas sed enim. Sed quis eget morbi risus ridiculus mattis felis et potenti. Nibh ultrices nunc sed mauris risus, vulputate a. Vitae tincidunt scelerisque blandit leo tincidunt proin elit, gravida cras. Neque est at sit sagittis cursus. Fringilla massa tincidunt leo dignissim purus adipiscing etiam elit bibendum. Purus mauris sit mi fames nec. Vel eleifend egestas hendrerit mauris. Dignissim venenatis at et sagittis. Ultricies blandit diam, ac enim risus. Et in felis cras ipsum. Tortor, feugiat phasellus pharetra nec. Volutpat dignissim sed ut id consectetur facilisi nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum.',
-    largeImageSlider: [
-      {
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: 'lorem',
-      },
-      {
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: 'lorem',
-      },
-      {
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: 'lorem',
-      },
-      {
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: 'lorem',
-      },
-    ],
-    detailsOne:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum. Ultrices ac ultrices mauris purus pharetra massa dui. Neque tempor nunc maecenas sed enim. Sed quis eget morbi risus ridiculus mattis felis et potenti. Nibh ultrices nunc sed mauris risus, vulputate a. Vitae tincidunt scelerisque blandit leo tincidunt proin elit, gravida cras. Neque est at sit sagittis cursus. Fringilla massa tincidunt leo dignissim purus adipiscing etiam elit bibendum. Purus mauris sit mi fames nec. Vel eleifend egestas hendrerit mauris. Dignissim venenatis at et sagittis. Ultricies blandit diam, ac enim risus. Et in felis cras ipsum. Tortor, feugiat phasellus pharetra nec. Volutpat dignissim sed ut id consectetur facilisi nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum.',
-    moreCases: [
-      {
-        name: 'Frontend Applications',
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: '',
-        pathname: '/projects/frontend-applications',
       },
       {
         name: 'Dat.io',
