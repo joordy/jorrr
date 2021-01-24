@@ -40,6 +40,7 @@
       width: 100%;
       height: 100%;
       h4 {
+        font-family: 'IBM Plex Mono', monospace;
         position: absolute;
         z-index: 2;
         right: -8px;
@@ -62,7 +63,7 @@
           background-color: #282632;
           img {
             width: 100%;
-            height: 100%;
+            height: 80%;
             object-fit: cover;
             opacity: 0.6;
           }
@@ -83,7 +84,7 @@
           }
           p {
             font-family: 'IBM Plex Mono', monospace;
-            margin: 1em 0em 2em 0em;
+            margin: 1em 0em 3em 0em;
           }
         }
       }

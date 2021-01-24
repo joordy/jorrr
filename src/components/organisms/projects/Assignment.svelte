@@ -18,9 +18,9 @@
     }
     img {
       width: 100%;
-      height: 400px;
-      object-fit: cover;
-      border-radius: 10px;
+      height: auto;
+      /* object-fit: cover; */
+      border-radius: 4px;
     }
   }
 </style>
@@ -30,7 +30,7 @@
 
   <p>{project.assignmentTextOne}</p>
 
-  <img src={project.largeImageSlider[0].src} alt="" />
+  <img src={project.introImage} alt="" />
 
   <p>{project.assignmentTextTwo}</p>
   <!-- <div>

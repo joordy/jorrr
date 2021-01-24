@@ -18,7 +18,8 @@
     }
     div {
       height: 200px;
-      width: calc(100% - 2em);
+      width: 100%;
+      /* width: calc(100% - 2em); */
       padding: 1em;
       @include size-xs {
         width: 50%;
@@ -35,7 +36,7 @@
       img {
         width: 100%;
         height: 100%;
-        border-radius: 10px;
+        border-radius: 4px;
         object-fit: cover;
       }
     }

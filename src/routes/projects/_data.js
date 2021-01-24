@@ -10,9 +10,9 @@ export let projects = [
     intro:
       'Activity tracker for topsporters, to track their trainings, fitness, etc.',
     mockupImage:
-      'https://user-images.githubusercontent.com/48051912/105413873-03b3be00-5c37-11eb-9174-7f487cc1d777.png',
-    mockupHeaderImage:
-      'https://user-images.githubusercontent.com/48051912/102026263-1b2c9b00-3d9d-11eb-9f6b-92c10aa420ac.png',
+      'https://user-images.githubusercontent.com/48051912/105644734-6c00da80-5e97-11eb-83b7-d8eb145ff417.png',
+    introImage:
+      'https://user-images.githubusercontent.com/48051912/105644949-dbc39500-5e98-11eb-9a9d-f06619245db0.png',
     backgroundImage:
       'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
     smallImageSlider: [
@@ -33,29 +33,16 @@ export let projects = [
     typeOfProject: 'Een data-visualisatie overzicht.',
     languages: 'HTML, CSS, JavaScript, ChartJS, MapBox, SvelteJS',
     teamproject: 'Team van drie personen',
+    livePreview: 'https://ringring.jorrr.nl',
     longExplenation:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum. Ultrices ac ultrices mauris purus pharetra massa dui. Neque tempor nunc maecenas sed enim. Sed quis eget morbi risus ridiculus mattis felis et potenti. Nibh ultrices nunc sed mauris risus, vulputate a. Vitae tincidunt scelerisque blandit leo tincidunt proin elit, gravida cras. Neque est at sit sagittis cursus. Fringilla massa tincidunt leo dignissim purus adipiscing etiam elit bibendum. Purus mauris sit mi fames nec. Vel eleifend egestas hendrerit mauris. Dignissim venenatis at et sagittis. Ultricies blandit diam, ac enim risus. Et in felis cras ipsum. Tortor, feugiat phasellus pharetra nec. Volutpat dignissim sed ut id consectetur facilisi nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum.',
     largeImageSlider: [
-      {
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: 'lorem',
-      },
-      {
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: 'lorem',
-      },
-      {
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: 'lorem',
-      },
-      {
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: 'lorem',
-      },
+      'https://user-images.githubusercontent.com/48051912/105645344-36f68700-5e9b-11eb-84a2-7068f7caca76.jpg',
+      'https://user-images.githubusercontent.com/48051912/105645343-35c55a00-5e9b-11eb-93a6-c5db3442ed1f.jpg',
+      'https://user-images.githubusercontent.com/48051912/105645336-30680f80-5e9b-11eb-824b-f41c69683480.jpg',
+      'https://user-images.githubusercontent.com/48051912/105645342-33fb9680-5e9b-11eb-8b10-4f429ddea5d8.jpg',
+      'https://user-images.githubusercontent.com/48051912/105645345-378f1d80-5e9b-11eb-8a82-0cf29202713d.jpg',
+      'https://user-images.githubusercontent.com/48051912/105645346-378f1d80-5e9b-11eb-81f9-f0f1f4efded6.jpg',
     ],
     detailsOne:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum. Ultrices ac ultrices mauris purus pharetra massa dui. Neque tempor nunc maecenas sed enim. Sed quis eget morbi risus ridiculus mattis felis et potenti. Nibh ultrices nunc sed mauris risus, vulputate a. Vitae tincidunt scelerisque blandit leo tincidunt proin elit, gravida cras. Neque est at sit sagittis cursus. Fringilla massa tincidunt leo dignissim purus adipiscing etiam elit bibendum. Purus mauris sit mi fames nec. Vel eleifend egestas hendrerit mauris. Dignissim venenatis at et sagittis. Ultricies blandit diam, ac enim risus. Et in felis cras ipsum. Tortor, feugiat phasellus pharetra nec. Volutpat dignissim sed ut id consectetur facilisi nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum.',
@@ -87,9 +74,9 @@ export let projects = [
     intro:
       'Een dating applicatie gemaakt voor ICT studenten. Het maken van de applicatie was onderdeel van een team project waarbij we drie verschillende aspecten van de dating applicatie hebben gebouwd.',
     mockupImage:
+      'https://user-images.githubusercontent.com/48051912/105644734-6c00da80-5e97-11eb-83b7-d8eb145ff417.png',
+    introImage:
       'https://user-images.githubusercontent.com/48051912/105413873-03b3be00-5c37-11eb-9174-7f487cc1d777.png',
-    mockupHeaderImage:
-      'https://user-images.githubusercontent.com/48051912/102026263-1b2c9b00-3d9d-11eb-9f6b-92c10aa420ac.png',
     assignmentTextOne:
       'Het web-development project is een onderdeel van het programma van de opleiding Communicatie & Multimedia Design, in het keuze semester: Tech. De opdracht bestond uit het werkend maken van een interactieve dating applicatie, welke gebouwd wordt met de backend programmeertaal NodeJS.  ',
     assignmentTextTwo:
@@ -117,26 +104,12 @@ export let projects = [
       },
     ],
     largeImageSlider: [
-      {
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: 'A',
-      },
-      {
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: 'B',
-      },
-      {
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: 'C',
-      },
-      {
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: 'D',
-      },
+      'https://user-images.githubusercontent.com/48051912/105645344-36f68700-5e9b-11eb-84a2-7068f7caca76.jpg',
+      'https://user-images.githubusercontent.com/48051912/105645343-35c55a00-5e9b-11eb-93a6-c5db3442ed1f.jpg',
+      'https://user-images.githubusercontent.com/48051912/105645336-30680f80-5e9b-11eb-824b-f41c69683480.jpg',
+      'https://user-images.githubusercontent.com/48051912/105645342-33fb9680-5e9b-11eb-8b10-4f429ddea5d8.jpg',
+      'https://user-images.githubusercontent.com/48051912/105645345-378f1d80-5e9b-11eb-8a82-0cf29202713d.jpg',
+      'https://user-images.githubusercontent.com/48051912/105645346-378f1d80-5e9b-11eb-81f9-f0f1f4efded6.jpg',
     ],
     detailsOne:
       'Dat.io is een dating applicatie wat gebouwd is met de programmeertaal NodeJS. Het project maakt gebruik van onder meer een Express-server en EJS. Samen met mijn teamgenoten hebben we een applicatie gebouwd welke de gebruiker drie verschillende functionaliteiten biedt. Met de applcatie kan de gebruiker zich registreren en/of inloggen, gebruikers filteren, en gebruikers leuk vinden. Als de interesse wederzijds is, krijgt de gebruiker een match.Dat.io is een dating applicatie wat gebouwd is met de programmeertaal NodeJS. Het project maakt gebruik van onder meer een Express-server en EJS. Samen met mijn teamgenoten hebben we een applicatie gebouwd welke de gebruiker drie verschillende functionaliteiten biedt. Met de applcatie kan de gebruiker zich registreren en/of inloggen, gebruikers filteren, en gebruikers leuk vinden. Als de interesse wederzijds is, krijgt de gebruiker een match.',
@@ -168,9 +141,9 @@ export let projects = [
     intro:
       'Travelplan is een alles-in-een reisplanner. Met behulp van de applicatie is het mogelijk om alle informatie omtrent de geplande reis bij elkaar te houden.',
     mockupImage:
+      'https://user-images.githubusercontent.com/48051912/105644734-6c00da80-5e97-11eb-83b7-d8eb145ff417.png',
+    introImage:
       'https://user-images.githubusercontent.com/48051912/105413873-03b3be00-5c37-11eb-9174-7f487cc1d777.png',
-    mockupHeaderImage:
-      'https://user-images.githubusercontent.com/48051912/102026263-1b2c9b00-3d9d-11eb-9f6b-92c10aa420ac.png',
     explenation:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum. Ultrices ac ultrices mauris purus pharetra massa dui. Neque tempor nunc maecenas sed enim. Sed quis eget morbi risus ridiculus mattis felis et potenti.',
     services: 'UI Design & UX design',
@@ -194,26 +167,12 @@ export let projects = [
     longExplenation:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum. Ultrices ac ultrices mauris purus pharetra massa dui. Neque tempor nunc maecenas sed enim. Sed quis eget morbi risus ridiculus mattis felis et potenti. Nibh ultrices nunc sed mauris risus, vulputate a. Vitae tincidunt scelerisque blandit leo tincidunt proin elit, gravida cras. Neque est at sit sagittis cursus. Fringilla massa tincidunt leo dignissim purus adipiscing etiam elit bibendum. Purus mauris sit mi fames nec. Vel eleifend egestas hendrerit mauris. Dignissim venenatis at et sagittis. Ultricies blandit diam, ac enim risus. Et in felis cras ipsum. Tortor, feugiat phasellus pharetra nec. Volutpat dignissim sed ut id consectetur facilisi nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum.',
     largeImageSlider: [
-      {
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: 'lorem',
-      },
-      {
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: 'lorem',
-      },
-      {
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: 'lorem',
-      },
-      {
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: 'lorem',
-      },
+      'https://user-images.githubusercontent.com/48051912/105645344-36f68700-5e9b-11eb-84a2-7068f7caca76.jpg',
+      'https://user-images.githubusercontent.com/48051912/105645343-35c55a00-5e9b-11eb-93a6-c5db3442ed1f.jpg',
+      'https://user-images.githubusercontent.com/48051912/105645336-30680f80-5e9b-11eb-824b-f41c69683480.jpg',
+      'https://user-images.githubusercontent.com/48051912/105645342-33fb9680-5e9b-11eb-8b10-4f429ddea5d8.jpg',
+      'https://user-images.githubusercontent.com/48051912/105645345-378f1d80-5e9b-11eb-8a82-0cf29202713d.jpg',
+      'https://user-images.githubusercontent.com/48051912/105645346-378f1d80-5e9b-11eb-81f9-f0f1f4efded6.jpg',
     ],
     detailsOne:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum. Ultrices ac ultrices mauris purus pharetra massa dui. Neque tempor nunc maecenas sed enim. Sed quis eget morbi risus ridiculus mattis felis et potenti. Nibh ultrices nunc sed mauris risus, vulputate a. Vitae tincidunt scelerisque blandit leo tincidunt proin elit, gravida cras. Neque est at sit sagittis cursus. Fringilla massa tincidunt leo dignissim purus adipiscing etiam elit bibendum. Purus mauris sit mi fames nec. Vel eleifend egestas hendrerit mauris. Dignissim venenatis at et sagittis. Ultricies blandit diam, ac enim risus. Et in felis cras ipsum. Tortor, feugiat phasellus pharetra nec. Volutpat dignissim sed ut id consectetur facilisi nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum.',
@@ -246,8 +205,8 @@ export let projects = [
       'Data visualisation of the parking spots in big cities of the Netherlands.',
     mockupImage:
       'https://user-images.githubusercontent.com/48051912/105413873-03b3be00-5c37-11eb-9174-7f487cc1d777.png',
-    mockupHeaderImage:
-      'https://user-images.githubusercontent.com/48051912/102026263-1b2c9b00-3d9d-11eb-9f6b-92c10aa420ac.png',
+    introImage:
+      'https://user-images.githubusercontent.com/48051912/105413873-03b3be00-5c37-11eb-9174-7f487cc1d777.png',
     explenation:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum. Ultrices ac ultrices mauris purus pharetra massa dui. Neque tempor nunc maecenas sed enim. Sed quis eget morbi risus ridiculus mattis felis et potenti.',
     services: 'Front-end development',
@@ -271,26 +230,12 @@ export let projects = [
     longExplenation:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum. Ultrices ac ultrices mauris purus pharetra massa dui. Neque tempor nunc maecenas sed enim. Sed quis eget morbi risus ridiculus mattis felis et potenti. Nibh ultrices nunc sed mauris risus, vulputate a. Vitae tincidunt scelerisque blandit leo tincidunt proin elit, gravida cras. Neque est at sit sagittis cursus. Fringilla massa tincidunt leo dignissim purus adipiscing etiam elit bibendum. Purus mauris sit mi fames nec. Vel eleifend egestas hendrerit mauris. Dignissim venenatis at et sagittis. Ultricies blandit diam, ac enim risus. Et in felis cras ipsum. Tortor, feugiat phasellus pharetra nec. Volutpat dignissim sed ut id consectetur facilisi nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum.',
     largeImageSlider: [
-      {
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: 'lorem',
-      },
-      {
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: 'lorem',
-      },
-      {
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: 'lorem',
-      },
-      {
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: 'lorem',
-      },
+      'https://user-images.githubusercontent.com/48051912/105645344-36f68700-5e9b-11eb-84a2-7068f7caca76.jpg',
+      'https://user-images.githubusercontent.com/48051912/105645343-35c55a00-5e9b-11eb-93a6-c5db3442ed1f.jpg',
+      'https://user-images.githubusercontent.com/48051912/105645336-30680f80-5e9b-11eb-824b-f41c69683480.jpg',
+      'https://user-images.githubusercontent.com/48051912/105645342-33fb9680-5e9b-11eb-8b10-4f429ddea5d8.jpg',
+      'https://user-images.githubusercontent.com/48051912/105645345-378f1d80-5e9b-11eb-8a82-0cf29202713d.jpg',
+      'https://user-images.githubusercontent.com/48051912/105645346-378f1d80-5e9b-11eb-81f9-f0f1f4efded6.jpg',
     ],
     detailsOne:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum. Ultrices ac ultrices mauris purus pharetra massa dui. Neque tempor nunc maecenas sed enim. Sed quis eget morbi risus ridiculus mattis felis et potenti. Nibh ultrices nunc sed mauris risus, vulputate a. Vitae tincidunt scelerisque blandit leo tincidunt proin elit, gravida cras. Neque est at sit sagittis cursus. Fringilla massa tincidunt leo dignissim purus adipiscing etiam elit bibendum. Purus mauris sit mi fames nec. Vel eleifend egestas hendrerit mauris. Dignissim venenatis at et sagittis. Ultricies blandit diam, ac enim risus. Et in felis cras ipsum. Tortor, feugiat phasellus pharetra nec. Volutpat dignissim sed ut id consectetur facilisi nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum.',

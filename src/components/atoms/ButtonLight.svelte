@@ -12,7 +12,7 @@
     font-weight: $bold;
     color: $ui-dark-blue;
     line-height: 14px;
-    border-radius: 30px;
+    border-radius: 8px;
     background: linear-gradient(
       270deg,
       rgba(9, 108, 99, 1),

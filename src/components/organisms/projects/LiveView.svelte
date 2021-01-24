@@ -4,12 +4,7 @@
 
 <style lang="scss">
   @import 'src/styles/index.scss';
-  // h2 {
-  //   font-size: $h2-size;
-  // }
-  // p {
-  //   margin: $margin2 0;
-  // }
+
   section {
     display: grid;
     place-items: center;

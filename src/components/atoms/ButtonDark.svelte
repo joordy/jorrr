@@ -12,13 +12,13 @@
     font-weight: $bold;
     color: $ui-turquoise;
     line-height: 14px;
-    border-radius: 30px;
+    border-radius: 8px;
     background: linear-gradient(
       270deg,
       rgba(26, 24, 36, 1),
       rgba(8, 49, 45, 1)
     );
-    background-size: 200%;
+    background-size: 300%;
     border: 2px solid $ui-turquoise;
     padding: 1em 4em;
     text-decoration: none;
