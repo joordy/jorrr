@@ -1,5 +1,5 @@
 <script>
-  import { ProjectButton } from '@/components/atoms/allAtoms.js'
+  import { ButtonLight } from '@/components/atoms/allAtoms.js'
 
   export let project
 </script>
@@ -7,16 +7,13 @@
 <style lang="scss">
   @import 'src/styles/index.scss';
 
-  .projectCard {
-    margin: 1rem;
+  section {
+    margin: 20px;
     height: 400px;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
     transition: 0.3s;
-    border-radius: 10px;
-    &:hover {
-      transform: scale(1.03);
-    }
+    border-radius: 5px;
     @include size-s {
       &:nth-of-type(2) {
         margin-top: 9rem;
@@ -35,53 +32,59 @@
         margin-top: -13rem;
       }
     }
+    &:hover {
+      transform: scale(1.03);
+    }
     a {
       color: $ui-soft-white;
       width: 100%;
       height: 100%;
-      .backimage {
-        width: 100%;
-        height: 80%;
-        margin: 10% 0;
-        .backimage__overlay {
-          width: 100%;
-          height: 100%;
-          background-color: $ui-dark-blue;
-          opacity: 0.6;
-          position: absolute;
-          z-index: 1;
-        }
-        img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-        }
-      }
       h4 {
         position: absolute;
         z-index: 2;
-        right: 8px;
-        top: 8px;
-        font-size: 4rem;
-        line-height: 4rem;
+        right: -8px;
+        top: -8px;
+        font-size: 80px;
+        line-height: 80px;
         font-weight: 900;
+        text-shadow: 5px 5px 3px rgba($color: #877878, $alpha: 0.3);
       }
-      .projectInfo {
-        position: absolute;
-        z-index: 2;
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
-        bottom: 5rem;
-        width: 90%;
-        h3 {
-          font-size: $h3-size;
-          font-weight: 700;
+      article {
+        &:nth-of-type(1) {
+          // Background Image
+          position: absolute;
+          top: 0;
+          z-index: 1;
+          width: 100%;
+          height: 90%;
+          margin: 5% 0;
+          border-radius: 10px;
+          background-color: #282632;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.6;
+          }
         }
-        p {
-          font-family: 'IBM Plex Mono', monospace;
-          margin: 1.5rem 0rem 3rem 0rem;
+        &:nth-of-type(2) {
+          // Content
+          position: absolute;
+          z-index: 2;
+          bottom: 15%;
+          left: 5%;
+          width: 90%;
+
+          h3 {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: $h3-size;
+            line-height: $h3-size;
+            font-weight: 700;
+          }
+          p {
+            font-family: 'IBM Plex Mono', monospace;
+            margin: 1em 0em 2em 0em;
+          }
         }
       }
     }
@@ -90,15 +93,16 @@
 
 <section class="projectCard">
   <a href="/projects/{project.slug}">
+    <h4 class="idnumber">{project.idNumber}</h4>
     <article class="backimage">
-      <div class="backimage__overlay" />
+      <!-- <div class="backimage__overlay" /> -->
       <img src={project.mockupImage} alt="" />
     </article>
-    <h4 class="idnumber">{project.idNumber}</h4>
     <article class="projectInfo">
       <h3>{project.title}</h3>
       <p>{project.subTitle}</p>
-      <ProjectButton linkTO="/projects/{project.slug}" textCTA="Explore" />
+      <!-- <a href="/projects/{project.slug}">Explore</a> -->
+      <ButtonLight linkTO="/projects/{project.slug}" textCTA="Explore" />
     </article>
   </a>
 </section>

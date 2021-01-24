@@ -1,8 +1,9 @@
 <script>
   import {
-    ButtonFilled,
-    ButtonOutline,
-    ButtonSubject,
+    ButtonLight,
+    // ButtonFilled,
+    // ButtonOutline,
+    // ButtonSubject,
   } from '@/components/atoms/allAtoms.js'
 
   export let status
@@ -48,7 +49,7 @@
     <p>Oeps! Er is iets mis gegaan.</p>
 
     <h1>Pagina niet gevonden.</h1>
-    <ButtonFilled linkTO="/" textCTA="Terug naar home" />
+    <ButtonLight linkTO="/" textCTA="Terug naar home" />
   </section>
 </main>
 

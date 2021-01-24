@@ -1,9 +1,5 @@
 <script>
-  import {
-    ButtonFilled,
-    ButtonOutline,
-    ButtonSubject,
-  } from '@/components/atoms/allAtoms.js'
+  import { ButtonLight, ButtonDark } from '@/components/atoms/allAtoms.js'
 </script>
 
 <style lang="scss">
@@ -19,29 +15,28 @@
     }
     p {
       font-family: 'IBM Plex Mono', monospace;
-      text-transform: uppercase;
       font-size: $large-font-size;
       margin-bottom: $margin1;
     }
 
     div {
-      width: 400px;
-      margin-top: 3rem;
+      margin-top: 5em;
       display: flex;
       justify-content: space-between;
+      width: 390px;
     }
   }
 </style>
 
 <section>
-  <p>Hey! Mijn naam is Jordy Fronik</p>
+  <p>Hi! Mijn naam is Jordy Fronik</p>
   <p>
     Ik ben een creatieve front-end developer die dingen bouwt voor op het
     internet. Mijn hart smelt van strakke ontwerpen en snelle laadtijden van
     web-applicaties. Wil je nou meer weten over mij? Lees dan gerust verder!
   </p>
   <div>
-    <ButtonFilled linkTO="#cases" textCTA="Mijn werk" />
-    <ButtonOutline linkTO="#contact" textCTA="Contact" />
+    <ButtonLight linkTO="#cases" textCTA="Mijn werk" />
+    <ButtonDark linkTO="#contact" textCTA="Contact" />
   </div>
 </section>

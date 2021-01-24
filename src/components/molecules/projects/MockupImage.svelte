@@ -21,6 +21,8 @@
         filter: blur(150px);
       }
       &:nth-of-type(2) {
+        width: 100%;
+        height: 100%;
         position: absolute;
         right: 0;
         bottom: -6em;
@@ -31,7 +33,9 @@
           height: 100%;
         }
         img {
-          height: 100%;
+          height: 60%;
+          width: 100%;
+          object-fit: cover;
         }
       }
     }
@@ -40,5 +44,5 @@
 
 <article>
   <div />
-  <div><img src={project.mockupHeaderImage} /></div>
+  <div><img src={project.mockupImage} /></div>
 </article>

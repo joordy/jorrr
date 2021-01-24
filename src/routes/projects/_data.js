@@ -77,7 +77,7 @@ export let projects = [
     ],
   },
   {
-    idNumber: '03',
+    idNumber: '02',
     type: 'Case Study',
     title: 'Dat.io',
     subTitle: 'Dating applicatie gemaakt voor studenten',
@@ -87,10 +87,7 @@ export let projects = [
     intro:
       'Een dating applicatie gemaakt voor ICT studenten. Het maken van de applicatie was onderdeel van een team project waarbij we drie verschillende aspecten van de dating applicatie hebben gebouwd.',
     mockupImage:
-      'https://user-images.githubusercontent.com/48051912/102026263-1b2c9b00-3d9d-11eb-9f6b-92c10aa420ac.png',
-
-    mockupImage:
-      'https://user-images.githubusercontent.com/48051912/102026263-1b2c9b00-3d9d-11eb-9f6b-92c10aa420ac.png',
+      'https://user-images.githubusercontent.com/48051912/105413873-03b3be00-5c37-11eb-9174-7f487cc1d777.png',
     mockupHeaderImage:
       'https://user-images.githubusercontent.com/48051912/102026263-1b2c9b00-3d9d-11eb-9f6b-92c10aa420ac.png',
     assignmentTextOne:
@@ -161,7 +158,7 @@ export let projects = [
     ],
   },
   {
-    idNumber: '04',
+    idNumber: '03',
     type: 'Case Study',
     title: 'Travelplan',
     subTitle: 'Reisplanner voor toekomstige reizen',
@@ -171,8 +168,7 @@ export let projects = [
     intro:
       'Travelplan is een alles-in-een reisplanner. Met behulp van de applicatie is het mogelijk om alle informatie omtrent de geplande reis bij elkaar te houden.',
     mockupImage:
-      'https://user-images.githubusercontent.com/48051912/102026263-1b2c9b00-3d9d-11eb-9f6b-92c10aa420ac.png',
-
+      'https://user-images.githubusercontent.com/48051912/105413873-03b3be00-5c37-11eb-9174-7f487cc1d777.png',
     mockupHeaderImage:
       'https://user-images.githubusercontent.com/48051912/102026263-1b2c9b00-3d9d-11eb-9f6b-92c10aa420ac.png',
     explenation:
@@ -239,7 +235,7 @@ export let projects = [
     ],
   },
   {
-    idNumber: '02',
+    idNumber: '04',
     type: 'Case Study',
     title: 'Frontend Applications',
     subTitle: 'Datavisualisation about parking spots',
@@ -249,8 +245,7 @@ export let projects = [
     intro:
       'Data visualisation of the parking spots in big cities of the Netherlands.',
     mockupImage:
-      'https://user-images.githubusercontent.com/48051912/102026263-1b2c9b00-3d9d-11eb-9f6b-92c10aa420ac.png',
-
+      'https://user-images.githubusercontent.com/48051912/105413873-03b3be00-5c37-11eb-9174-7f487cc1d777.png',
     mockupHeaderImage:
       'https://user-images.githubusercontent.com/48051912/102026263-1b2c9b00-3d9d-11eb-9f6b-92c10aa420ac.png',
     explenation:
