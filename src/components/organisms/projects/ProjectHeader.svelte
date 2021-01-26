@@ -1,8 +1,7 @@
 <script>
-  import {
-    IntroText,
-    MockupImage,
-  } from '@/components/molecules/projects/allProjectMolecules.js'
+  import IntroText from '@/components/molecules/projects/IntroText.svelte'
+  import MockupImage from '@/components/molecules/projects/MockupImage.svelte'
+
   export let project
 </script>
 

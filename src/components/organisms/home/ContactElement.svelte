@@ -1,5 +1,5 @@
 <script>
-  import { BlockTitle } from '@/components/atoms/allAtoms.js'
+  import BlockTitle from '@/components/atoms/BlockTitle.svelte'
 </script>
 
 <style lang="scss">

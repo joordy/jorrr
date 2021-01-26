@@ -1,12 +1,10 @@
 <script>
-  import {
-    Assignment,
-    LiveView,
-    MoreCases,
-    Process,
-    ProjectHeader,
-    Result,
-  } from '@/components/organisms/projects/allProjectElements.js'
+  import Assignment from '@/components/organisms/projects/Assignment.svelte'
+  import LiveView from '@/components/organisms/projects/LiveView.svelte'
+  import MoreCases from '@/components/organisms/projects/MoreCases.svelte'
+  import Process from '@/components/organisms/projects/Process.svelte'
+  import ProjectHeader from '@/components/organisms/projects/ProjectHeader.svelte'
+  import Result from '@/components/organisms/projects/Result.svelte'
 
   export let project
 </script>

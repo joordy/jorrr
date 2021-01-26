@@ -1,7 +1,5 @@
 <script>
   let src = 'PictureOfMe.svg'
-  // let src =
-  //   'https://user-images.githubusercontent.com/48051912/102694257-142fdd80-4220-11eb-9612-e7cd6510ae17.jpg'
 </script>
 
 <style lang="scss">

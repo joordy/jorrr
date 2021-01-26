@@ -1,10 +1,7 @@
 <script>
   // import Saos from 'saos'
-
-  import {
-    IntroImage,
-    IntroText,
-  } from '@/components/molecules/home/allHomeMolecules.js'
+  import IntroImage from '@/components/molecules/home/IntroImage.svelte'
+  import IntroText from '@/components/molecules/home/IntroText.svelte'
 </script>
 
 <style lang="scss">

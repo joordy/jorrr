@@ -1,11 +1,9 @@
 <script>
-  import {
-    TextAboutElement,
-    ContactElement,
-    HomeElement,
-    ProjectElement,
-    SocialElement,
-  } from '@/components/organisms/home/allHomeOrganisms.js'
+  import TextAboutElement from '@/components/organisms/home/TextAboutElement.svelte'
+  import ContactElement from '@/components/organisms/home/ContactElement.svelte'
+  import HomeElement from '@/components/organisms/home/HomeElement.svelte'
+  import ProjectElement from '@/components/organisms/home/ProjectElement.svelte'
+  import SocialElement from '@/components/organisms/home/SocialElement.svelte'
 
   export let projects
 </script>

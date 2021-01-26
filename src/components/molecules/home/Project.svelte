@@ -1,5 +1,5 @@
 <script>
-  import { ButtonLight } from '@/components/atoms/allAtoms.js'
+  import ButtonLight from '@/components/atoms/ButtonLight.svelte'
 
   export let project
 </script>

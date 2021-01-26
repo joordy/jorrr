@@ -1,9 +1,8 @@
 <script>
   import FormElement from '@/components/molecules/other/FormElement.svelte'
   import FormInformation from '@/components/molecules/other/FormInformation.svelte'
-  import { SocialsIcons } from '@/components/atoms/allAtoms.js'
-
-  import { BlockTitle } from '@/components/atoms/allAtoms.js'
+  // import SocialsIcons from '@/components/atoms/SocialsIcons.svelte'
+  // import BlockTitle from '@/components/atoms/BlockTitle.svelte'
 </script>
 
 <style lang="scss">

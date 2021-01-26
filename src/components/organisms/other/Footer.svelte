@@ -1,5 +1,5 @@
 <script>
-  import { SocialsIcons } from '@/components/atoms/allAtoms.js'
+  import SocialsIcons from '@/components/atoms/SocialsIcons.svelte'
 </script>
 
 <style lang="scss">

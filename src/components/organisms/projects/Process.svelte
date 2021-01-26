@@ -1,5 +1,5 @@
 <script>
-  import { SmallCarousel } from '@/components/molecules/projects/allProjectMolecules.js'
+  import SmallCarousel from '@/components/molecules/projects/SmallCarousel.svelte'
 
   export let project
 </script>

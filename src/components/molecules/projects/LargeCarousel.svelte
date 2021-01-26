@@ -4,19 +4,12 @@
   export let project
 
   const carouselContent = project.largeImageSlider
-  // const carouselContent = [
-  //   'https://user-images.githubusercontent.com/48051912/100670369-0c86c280-335f-11eb-91de-cc8f52c1e73d.jpg',
-  //   'https://user-images.githubusercontent.com/48051912/100673083-23c7af00-3363-11eb-902a-b2be732a27ae.jpg',
-  //   'https://user-images.githubusercontent.com/48051912/100673084-24604580-3363-11eb-93fa-2efc3581c5a9.jpg',
-  //   'https://user-images.githubusercontent.com/48051912/100673088-25917280-3363-11eb-87ef-6bfeb1c955d3.jpg',
-  // ]
   let index = 0
 
   const next = () => {
     index = (index + 1) % carouselContent.length
     console.log('next', index)
   }
-
   const prev = () => {
     index = (index - 1) % carouselContent.length
     console.log('prev', index)

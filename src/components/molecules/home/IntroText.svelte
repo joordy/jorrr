@@ -1,5 +1,6 @@
 <script>
-  import { ButtonLight, ButtonDark } from '@/components/atoms/allAtoms.js'
+  import ButtonLight from '@/components/atoms/ButtonLight.svelte'
+  import ButtonDark from '@/components/atoms/ButtonDark.svelte'
 </script>
 
 <style lang="scss">

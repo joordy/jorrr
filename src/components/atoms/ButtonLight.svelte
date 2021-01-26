@@ -14,11 +14,11 @@
     line-height: 14px;
     border-radius: 8px;
     background: linear-gradient(
-      270deg,
-      rgba(9, 108, 99, 1),
-      rgba(3, 218, 197, 1)
+      90deg,
+      rgba(9, 218, 197, 1),
+      rgba(13, 89, 82, 1)
     );
-    background-size: 200%;
+    background-size: 240%;
     padding: 1em 4em;
     text-decoration: none;
     transition: 0.6s;
