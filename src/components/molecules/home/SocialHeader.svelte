@@ -23,7 +23,7 @@
     }
     .social__line {
       width: 0.175rem;
-      height: 8rem;
+      height: 190px;
       margin: 0 auto;
       background-color: $ui-soft-white;
     }

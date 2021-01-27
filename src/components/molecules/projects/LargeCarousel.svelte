@@ -14,7 +14,7 @@
     index = (index - 1) % carouselContent.length
     console.log('prev', index)
     if (index === -1) {
-      return (index = 5)
+      return (index = carouselContent.length - 1)
     }
   }
 </script>

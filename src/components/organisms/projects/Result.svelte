@@ -23,11 +23,5 @@
 <section class="result">
   <h2>Result</h2>
 
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorum qui
-    labore nostrum maiores debitis recusandae facere, ipsa suscipit eius esse
-    possimus numquam inventore sunt deserunt quas iste voluptate odit!
-  </p>
-
   <LargeCarousel {project} />
 </section>

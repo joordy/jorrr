@@ -11,7 +11,7 @@
     font-size: 14px;
     font-weight: $bold;
     color: $ui-dark-blue;
-    line-height: 14px;
+    line-height: 20px;
     border-radius: 8px;
     background: linear-gradient(
       90deg,

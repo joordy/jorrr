@@ -77,13 +77,12 @@
           width: 90%;
 
           h3 {
-            font-family: 'IBM Plex Mono', monospace;
             font-size: $h3-size;
             line-height: $h3-size;
             font-weight: 700;
           }
           p {
-            font-family: 'IBM Plex Mono', monospace;
+            line-height: 24px;
             margin: 1em 0em 3em 0em;
           }
         }

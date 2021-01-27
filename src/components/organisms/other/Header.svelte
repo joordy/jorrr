@@ -70,7 +70,7 @@
           margin: 0;
           display: flex;
           li {
-            margin: 0 15px;
+            margin: 0 10px;
             list-style: none;
             text-align: center;
             &:nth-of-type(1),

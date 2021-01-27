@@ -11,12 +11,12 @@
     font-size: 14px;
     font-weight: $bold;
     color: $ui-turquoise;
-    line-height: 14px;
+    line-height: 20px;
     border-radius: 8px;
     background: linear-gradient(
-      270deg,
-      rgba(14, 64, 59, 0.22),
-      rgba(41, 71, 68, 0.01)
+      90deg,
+      rgba(3, 218, 197, 0.12),
+      rgba(41, 71, 68, 0.91)
     );
     background-size: 140%;
     border: 2px solid $ui-turquoise;
