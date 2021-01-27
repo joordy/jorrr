@@ -2,23 +2,66 @@
   @import 'src/styles/index.scss';
 
   section {
-    font-family: 'IBM Plex Mono', monospace;
     color: $ui-dark-blue;
     border-radius: 10px;
     background-color: white;
     form {
-      width: 80%;
+      width: 100%;
       margin: 0 auto;
-      label {
-        display: block;
-      }
-      input[type='text'],
-      input[type='email'] {
-        font-family: 'IBM Plex Mono', monospace;
-        border-radius: 5px;
-        height: 30px;
-        width: calc(100% - 10px);
-        padding: 0px 5px;
+      fieldset {
+        border: none;
+        width: calc(100% - 4em);
+        padding: 2em;
+        display: inline-block;
+        div {
+          margin-bottom: 2em;
+        }
+        label {
+          display: block;
+          padding-bottom: 5px;
+        }
+        input[type='text'],
+        input[type='email'],
+        textarea {
+          border-radius: 5px;
+          border: 1px solid #c4c4c4;
+          &:focus {
+            outline: none;
+            /* outline: 2px solid $ui-turquoise; */
+            box-shadow: 0 0 2px 1px $ui-dark-blue;
+          }
+        }
+        input[type='text'] {
+          color: $ui-soft-white;
+          height: 1.5rem;
+          font-weight: normal;
+          font-style: normal;
+          display: inline-block;
+          text-decoration: inherit;
+          font-size: 1.5rem;
+          transition: 0.2s;
+
+          font-family: FontAwesome;
+          font-size: 12px;
+
+          &::before {
+            content: '\f007';
+          }
+        }
+        input[type='text'],
+        input[type='email'] {
+          height: 30px;
+          width: calc(100% - 10px);
+          padding: 0px 5px;
+        }
+        textarea {
+          padding: 5px;
+          width: calc(100% - 10px);
+          resize: none;
+        }
+        input[type='submit'] {
+          text-align: right;
+        }
       }
     }
   }
@@ -43,8 +86,8 @@
       <div>
         <label for="name">Bericht</label>
         <textarea
-          rows="6"
-          cols="50"
+          type="text"
+          rows="10"
           name="comment"
           placeholder="Enter text here"
         />

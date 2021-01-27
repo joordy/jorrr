@@ -1,10 +1,5 @@
 <script>
-  import {
-    ButtonLight,
-    // ButtonFilled,
-    // ButtonOutline,
-    // ButtonSubject,
-  } from '@/components/atoms/allAtoms.js'
+  import ButtonLight from '@/components/atoms/ButtonLight.svelte'
 
   export let status
   export let error

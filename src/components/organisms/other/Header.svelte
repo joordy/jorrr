@@ -54,6 +54,7 @@
         color: $ui-soft-white;
         text-decoration: none;
         h1 {
+          font-family: 'Inter', sans-serif;
           margin: 0;
           text-transform: uppercase;
           font-size: 24px;
@@ -69,10 +70,9 @@
           margin: 0;
           display: flex;
           li {
-            margin: 0 16px;
+            margin: 0 15px;
             list-style: none;
             text-align: center;
-
             &:nth-of-type(1),
             &:nth-of-type(2),
             &:nth-of-type(3),
@@ -83,15 +83,13 @@
               }
             }
             a {
-              font-family: 'IBM Plex Mono', monospace;
               text-decoration: none;
               font-weight: 700;
               color: $ui-inActive;
               transition: 0.2s;
               font-size: $small-font-size;
               &:hover {
-                color: $ui-active;
-                border-bottom: 1px solid $ui-active;
+                color: $ui-turquoise;
               }
               @include size-s {
                 font-size: $basic-font-size;
@@ -111,11 +109,11 @@
     <nav>
       <ul>
         <!-- <li href="#home" /> -->
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">Over </a></li>
-        <li><a href="#cases">Cases </a></li>
-        <li><a href="#contact">Contact </a></li>
-        <li><a href="https://read.cv/jordy" target="_blank">CV </a></li>
+        <li><a href="#home">.home()</a></li>
+        <li><a href="#about">.over() </a></li>
+        <li><a href="#cases">.cases() </a></li>
+        <li><a href="#contact">.contact() </a></li>
+        <li><a href="https://read.cv/jordy" target="_blank">.cv() </a></li>
       </ul>
     </nav>
   </div>

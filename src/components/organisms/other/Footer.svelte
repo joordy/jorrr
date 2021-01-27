@@ -4,6 +4,7 @@
 
 <style lang="scss">
   @import 'src/styles/index.scss';
+
   footer {
     position: fixed;
     bottom: 0;
@@ -19,6 +20,7 @@
       display: grid;
       place-items: center;
       p {
+        font-family: 'Inter', sans-serif;
         font-size: 12px;
         margin-bottom: $margin2;
       }

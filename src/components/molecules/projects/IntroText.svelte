@@ -23,10 +23,12 @@
     section {
       margin-top: $margin10;
       h2 {
+        font-family: 'Inter', sans-serif;
         margin-top: 0;
         font-size: $h1-size;
       }
       .case {
+        font-family: 'Inter', sans-serif;
         font-size: 16px;
         font-weight: 200;
         text-transform: uppercase;

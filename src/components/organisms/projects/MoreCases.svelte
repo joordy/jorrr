@@ -6,6 +6,10 @@
   @import 'src/styles/index.scss';
 
   section {
+    h2,
+    h3 {
+      font-family: 'Inter', sans-serif;
+    }
     width: 100%;
     height: 600px;
     margin: 2em auto;
@@ -13,7 +17,7 @@
     @include size-xs {
       height: 400px;
     }
-    h3 {
+    h2 {
       font-size: $h3-size;
     }
     div {
@@ -46,11 +50,11 @@
 </style>
 
 <section class="more__cases">
-  <h3>Meer Cases</h3>
+  <h2>Meer Cases</h2>
   <div class="cases">
     {#each project.moreCases as otherCase}
       <a href={otherCase.pathname}>
-        <h4>{otherCase.name}</h4>
+        <h3>{otherCase.name}</h3>
         <img src={otherCase.src} alt={otherCase.alt} />
       </a>
     {/each}

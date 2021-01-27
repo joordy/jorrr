@@ -7,6 +7,10 @@
 <style lang="scss">
   @import 'src/styles/index.scss';
   .process {
+    h2,
+    p {
+      font-family: 'Inter', sans-serif;
+    }
     h2 {
       margin: 75px 0 25px 0;
       font-size: $h2-size;

@@ -2,7 +2,11 @@
   @import 'src/styles/index.scss';
   section {
     h2 {
+      font-family: 'Inter', sans-serif;
       font-size: $h2-size;
+    }
+    p {
+      font-family: 'Inter', sans-serif;
     }
     div {
       ul {

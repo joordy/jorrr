@@ -8,6 +8,10 @@
   .assignment {
     // min-height: 700px;
     padding-top: 2em;
+    h2,
+    p {
+      font-family: 'Inter', sans-serif;
+    }
     h2 {
       margin: 75px 0px 25px 0px;
       font-size: $h2-size;

@@ -10,6 +10,7 @@
     padding-top: 6.25rem;
     position: relative;
     h2 {
+      font-family: 'Inter', sans-serif;
       font-size: $h1-size;
       font-weight: 700;
       @media screen and (min-width: 500px) {
