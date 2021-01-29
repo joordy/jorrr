@@ -49,22 +49,13 @@ export let projects = [
     ],
     detailsOne:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum. Ultrices ac ultrices mauris purus pharetra massa dui. Neque tempor nunc maecenas sed enim. Sed quis eget morbi risus ridiculus mattis felis et potenti. Nibh ultrices nunc sed mauris risus, vulputate a. Vitae tincidunt scelerisque blandit leo tincidunt proin elit, gravida cras. Neque est at sit sagittis cursus. Fringilla massa tincidunt leo dignissim purus adipiscing etiam elit bibendum. Purus mauris sit mi fames nec. Vel eleifend egestas hendrerit mauris. Dignissim venenatis at et sagittis. Ultricies blandit diam, ac enim risus. Et in felis cras ipsum. Tortor, feugiat phasellus pharetra nec. Volutpat dignissim sed ut id consectetur facilisi nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum.',
-    moreCases: [
-      {
-        name: 'Frontend Applications',
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: '',
-        pathname: '/projects/frontend-applications',
-      },
-      {
-        name: 'Dat.io',
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: '',
-        pathname: '/projects/datio-dating-application',
-      },
-    ],
+    otherCase: {
+      name: 'Dat.io',
+      src:
+        'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
+      alt: '',
+      pathname: '/projects/datio-dating-application',
+    },
   },
   {
     idNumber: '02',
@@ -114,22 +105,13 @@ export let projects = [
     ],
     detailsOne:
       'Dat.io is een dating applicatie wat gebouwd is met de programmeertaal NodeJS. Het project maakt gebruik van onder meer een Express-server en EJS. Samen met mijn teamgenoten hebben we een applicatie gebouwd welke de gebruiker drie verschillende functionaliteiten biedt. Met de applcatie kan de gebruiker zich registreren en/of inloggen, gebruikers filteren, en gebruikers leuk vinden. Als de interesse wederzijds is, krijgt de gebruiker een match.Dat.io is een dating applicatie wat gebouwd is met de programmeertaal NodeJS. Het project maakt gebruik van onder meer een Express-server en EJS. Samen met mijn teamgenoten hebben we een applicatie gebouwd welke de gebruiker drie verschillende functionaliteiten biedt. Met de applcatie kan de gebruiker zich registreren en/of inloggen, gebruikers filteren, en gebruikers leuk vinden. Als de interesse wederzijds is, krijgt de gebruiker een match.',
-    moreCases: [
-      {
-        name: 'Travelplan',
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: '',
-        pathname: '/projects/travelplan',
-      },
-      {
-        name: 'Skaets',
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: '',
-        pathname: '/projects/project-skaets',
-      },
-    ],
+    otherCase: {
+      name: 'Dat.io',
+      src:
+        'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
+      alt: '',
+      pathname: '/projects/datio-dating-application',
+    },
   },
   {
     idNumber: '03',
@@ -173,22 +155,13 @@ export let projects = [
       'https://user-images.githubusercontent.com/48051912/106031627-c6847b80-60cf-11eb-92bb-2909e203c6c9.png',
       'https://user-images.githubusercontent.com/48051912/106031629-c6847b80-60cf-11eb-8bda-d7cfc6a8dfb0.png',
     ],
-    moreCases: [
-      {
-        name: 'Dat.io',
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: '',
-        pathname: '/projects/datio-dating-application',
-      },
-      {
-        name: 'Skaets',
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: '',
-        pathname: '/projects/project-skaets',
-      },
-    ],
+    otherCase: {
+      name: 'Dat.io',
+      src:
+        'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
+      alt: '',
+      pathname: '/projects/datio-dating-application',
+    },
   },
   {
     idNumber: '04',
@@ -232,21 +205,12 @@ export let projects = [
       'https://user-images.githubusercontent.com/48051912/106031627-c6847b80-60cf-11eb-92bb-2909e203c6c9.png',
       'https://user-images.githubusercontent.com/48051912/106031629-c6847b80-60cf-11eb-8bda-d7cfc6a8dfb0.png',
     ],
-    moreCases: [
-      {
-        name: 'Travelplan',
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: '',
-        pathname: '/projects/travelplan',
-      },
-      {
-        name: 'Dat.io',
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: '',
-        pathname: '/projects/datio-dating-application',
-      },
-    ],
+    otherCase: {
+      name: 'Dat.io',
+      src:
+        'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
+      alt: '',
+      pathname: '/projects/datio-dating-application',
+    },
   },
 ]

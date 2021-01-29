@@ -20,7 +20,15 @@
     h2 {
       font-size: $h3-size;
     }
-    div {
+    a {
+      &:before {
+        /* content: '';
+        display: block;
+        padding-top: 75%;
+        background-color: blue; */
+      }
+    }
+    /* div {
       max-width: 100%;
       margin: $margin2 0;
       display: grid;
@@ -45,18 +53,24 @@
           object-fit: cover;
         }
       }
-    }
+    } */
   }
 </style>
 
 <section class="more__cases">
   <h2>Meer Cases</h2>
-  <div class="cases">
+  <a href={project.otherCase.pathname}>
+    <h3>{project.otherCase.name}</h3>
+    <img src={project.otherCase.src} alt={project.otherCase.alt} />
+
+    <div />
+  </a>
+  <!-- <div class="cases">
     {#each project.moreCases as otherCase}
       <a href={otherCase.pathname}>
         <h3>{otherCase.name}</h3>
         <img src={otherCase.src} alt={otherCase.alt} />
       </a>
     {/each}
-  </div>
+  </div> -->
 </section>

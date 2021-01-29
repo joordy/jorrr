@@ -20,15 +20,26 @@
 </script>
 
 <style lang="scss">
+  @import 'src/styles/index.scss';
+
   img,
   button {
     position: absolute;
   }
   article {
     width: 100%;
-    height: 400px;
+    height: 62vw;
     overflow: hidden;
     position: relative;
+    @include size-s {
+      height: 30vw;
+    }
+    @include size-m {
+      height: 370px;
+    }
+    @include size-l {
+      height: 420px;
+    }
     img {
       width: 100%;
       height: 94%;
@@ -36,6 +47,8 @@
       object-fit: cover;
       position: absolute;
       border-radius: 4px;
+      /* @include size-s {
+      } */
     }
     button {
       position: absolute;

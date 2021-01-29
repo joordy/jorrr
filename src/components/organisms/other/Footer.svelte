@@ -1,5 +1,7 @@
 <script>
   import SocialsIcons from '@/components/atoms/SocialsIcons.svelte'
+
+  let date = new Date().getFullYear()
 </script>
 
 <style lang="scss">
@@ -30,7 +32,7 @@
 
 <footer>
   <section>
-    <p>Gemaakt met liefde</p>
+    <p>&copy; {date} — Jordy Fronik</p>
     <SocialsIcons />
   </section>
 </footer>

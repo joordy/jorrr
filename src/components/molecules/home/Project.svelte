@@ -65,7 +65,7 @@
             width: 100%;
             height: 80%;
             object-fit: cover;
-            opacity: 0.6;
+            opacity: 0.4;
           }
         }
         &:nth-of-type(2) {
@@ -102,7 +102,7 @@
       <h3>{project.title}</h3>
       <p>{project.subTitle}</p>
       <!-- <a href="/projects/{project.slug}">Explore</a> -->
-      <ButtonLight linkTO="/projects/{project.slug}" textCTA="Explore" />
+      <ButtonLight linkTO="/projects/{project.slug}" textCTA="Bekijk case" />
     </article>
   </a>
 </section>

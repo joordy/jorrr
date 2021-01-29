@@ -15,10 +15,10 @@
     border-radius: 8px;
     background: linear-gradient(
       90deg,
-      rgba(3, 218, 197, 0.12),
-      rgba(41, 71, 68, 0.91)
+      rgba(0, 0, 0, 0.12),
+      rgba(35, 131, 121, 0.41)
     );
-    background-size: 140%;
+    background-size: 200%;
     border: 2px solid $ui-turquoise;
     padding: 1em 4em;
     text-decoration: none;

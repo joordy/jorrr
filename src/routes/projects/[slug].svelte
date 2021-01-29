@@ -28,7 +28,7 @@
 </style>
 
 <svelte:head>
-  <title>{project.title} | Jordy Fronik</title>
+  <title>{project.title} Case Study — Jordy Fronik</title>
 </svelte:head>
 
 <ProjectPage {project} />
