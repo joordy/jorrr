@@ -18,7 +18,7 @@
     }
     div {
       height: 200px;
-      width: 100%;
+      width: calc(100% - 2em);
       /* width: calc(100% - 2em); */
       padding: 1em;
       @include size-xs {
