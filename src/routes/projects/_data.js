@@ -52,7 +52,7 @@ export let projects = [
     otherCase: {
       name: 'Dat.io',
       src:
-        'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
+        'https://user-images.githubusercontent.com/48051912/105644734-6c00da80-5e97-11eb-83b7-d8eb145ff417.png',
       alt: '',
       pathname: '/projects/datio-dating-application',
     },
@@ -208,7 +208,7 @@ export let projects = [
     otherCase: {
       name: 'Dat.io',
       src:
-        'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
+        'https://user-images.githubusercontent.com/48051912/105644734-6c00da80-5e97-11eb-83b7-d8eb145ff417.png',
       alt: '',
       pathname: '/projects/datio-dating-application',
     },

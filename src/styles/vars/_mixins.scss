@@ -47,3 +47,9 @@ $desktop-xxl: 2000px;
     @content;
   }
 }
+
+@mixin lightMode {
+  @media (prefers-color-scheme: light) {
+    @content;
+  }
+}

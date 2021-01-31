@@ -13,9 +13,15 @@
 
   * {
     color: $ui-soft-white !important;
+    @include lightMode {
+      color: #1a1824 !important;
+    }
   }
   main {
     background-color: $ui-dark-blue;
+    @include lightMode {
+      background-color: #f6f6f6;
+    }
   }
 </style>
 

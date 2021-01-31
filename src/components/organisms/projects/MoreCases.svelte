@@ -7,12 +7,7 @@
 
   section {
     width: 100%;
-    /* height: 300px; */
-    /* text-align: center; */
     margin: 75px 0 50px 0;
-    @include size-xs {
-      /* min-height: 400px; */
-    }
     h2,
     h3 {
       font-family: 'Inter', sans-serif;
@@ -30,23 +25,31 @@
         padding: 2em 1em;
         background-color: rgba($color: #f5f5f5, $alpha: 1);
         position: relative;
+        overflow: hidden;
+        @include size-l {
+          width: calc(100% - 6em);
+          padding: 3em 3em;
+          min-height: 400px;
+        }
         img {
           position: absolute;
-          right: 0;
-          max-width: 50%;
+          right: -20%;
+          max-width: 80%;
           height: auto;
-          max-height: 60%;
+          max-height: 80%;
           margin: auto 0;
           top: 0;
           bottom: 0;
         }
         h3 {
+          position: absolute;
+          margin: auto 0;
+          height: 30px;
+          top: 0;
+          bottom: 0;
           font-size: $h3-size;
         }
         p {
-          &:nth-of-type(1) {
-            font-size: 12px;
-          }
           &:nth-of-type(2) {
             position: absolute;
             bottom: 2em;
@@ -87,7 +90,7 @@
 </style>
 
 <section class="more__cases">
-  <h2>Andere projecten</h2>
+  <h2>Meer:</h2>
   <a href={project.otherCase.pathname}>
     <div>
       <p class="case">Case study</p>

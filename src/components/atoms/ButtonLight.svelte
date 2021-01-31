@@ -26,6 +26,14 @@
     &:hover {
       background-position: right;
     }
+    @include lightMode {
+      background: linear-gradient(
+        180deg,
+        rgba(26, 24, 36, 1),
+        rgba(26, 24, 36, 1)
+      );
+      color: #f6f6f6;
+    }
   }
 </style>
 

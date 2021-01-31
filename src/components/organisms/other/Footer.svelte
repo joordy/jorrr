@@ -17,6 +17,12 @@
     color: $ui-soft-white;
     display: grid;
     place-items: center;
+    @include lightMode {
+      background-color: #d6d4d4;
+      * {
+        color: $ui-dark-blue;
+      }
+    }
     section {
       height: 50px;
       display: grid;

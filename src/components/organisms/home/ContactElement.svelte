@@ -22,6 +22,10 @@
       text-decoration: none;
       color: $ui-turquoise;
       border-bottom: 2px solid $ui-turquoise;
+      @include lightMode {
+        color: $ui-dark-blue;
+        border-bottom: 2px solid $ui-dark-blue;
+      }
     }
   }
 </style>

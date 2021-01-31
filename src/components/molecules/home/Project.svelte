@@ -36,6 +36,9 @@
       transform: scale(1.03);
     }
     a {
+      @include lightMode {
+        color: #1a1824;
+      }
       color: $ui-soft-white;
       width: 100%;
       height: 100%;
@@ -61,6 +64,9 @@
           margin: 5% 0;
           border-radius: 10px;
           background-color: #282632;
+          @include lightMode {
+            background-color: #e9e9e9;
+          }
           img {
             width: 100%;
             height: 80%;

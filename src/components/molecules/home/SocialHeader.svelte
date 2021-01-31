@@ -26,6 +26,9 @@
       height: 190px;
       margin: 0 auto;
       background-color: $ui-soft-white;
+      @include lightMode {
+        background-color: $ui-dark-blue;
+      }
     }
   }
 </style>

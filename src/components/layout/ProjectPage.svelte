@@ -16,6 +16,7 @@
     background-color: white;
     position: relative;
     overflow-x: hidden;
+
     .mainWrapper {
       @include size-s {
         width: 50vw !important;

@@ -27,6 +27,15 @@
     &:hover {
       background-position: right;
     }
+    @include lightMode {
+      border: 2px solid #1a1824;
+      color: #1a1824;
+      background: linear-gradient(
+        90deg,
+        rgba($color: #1a1824, $alpha: 0.02),
+        rgba($color: #1a1824, $alpha: 0.21)
+      );
+    }
   }
 </style>
 

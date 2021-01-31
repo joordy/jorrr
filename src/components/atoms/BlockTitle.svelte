@@ -31,6 +31,13 @@
         bottom: 6px;
         height: 100px;
       }
+      @include lightMode {
+        background: linear-gradient(
+          180deg,
+          rgba(246, 246, 246, 0) 44.87%,
+          rgba(246, 246, 246, 1) 74.35%
+        );
+      }
     }
   }
 </style>

@@ -20,6 +20,9 @@
       text-decoration: inherit;
       font-size: 1.5rem;
       transition: 0.2s;
+      @include lightMode {
+        color: $ui-dark-blue;
+      }
       &:nth-of-type(1) {
         &::before {
           content: '\f0e1';
