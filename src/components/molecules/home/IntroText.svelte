@@ -43,7 +43,7 @@
   <p>Hi! Ik ben Jordy Fronik</p>
   <p>
     Ik ben een
-    <span>Creatieve Developer & Designer</span>
+    <span>Creative Developer & Designer</span>
     die dingen bouwt voor op het internet. Mijn hart smelt van strakke ontwerpen
     en snelle laadtijden van web-applicaties. Wil je nou meer weten over mij?
     Lees dan gerust verder!

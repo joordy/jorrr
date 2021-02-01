@@ -29,7 +29,7 @@
         @include size-l {
           width: calc(100% - 6em);
           padding: 3em 3em;
-          min-height: 400px;
+          min-height: 325px;
         }
         img {
           position: absolute;

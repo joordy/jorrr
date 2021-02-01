@@ -17,22 +17,21 @@
       display: flex;
     }
     div {
-      height: 200px;
+      min-height: 200px;
+      height: 65vw;
       width: calc(100% - 2em);
-      /* width: calc(100% - 2em); */
       padding: 1em;
       @include size-xs {
-        width: 50%;
-        height: 250px;
+        min-height: 250px;
+        height: 50vw;
+        max-height: 300px;
       }
       @include size-s {
-        height: 200px;
-        width: 100%;
+        min-height: 200px;
+        height: 30vw;
+        max-height: 275px;
       }
-      @include size-m {
-        width: 50%;
-        height: 250px;
-      }
+
       img {
         width: 100%;
         height: 100%;

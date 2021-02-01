@@ -4,9 +4,11 @@
     h2 {
       font-family: 'Inter', sans-serif;
       font-size: $h2-size;
+      margin-bottom: 3em;
     }
     p {
       font-family: 'Inter', sans-serif;
+      margin-bottom: 2em;
     }
     div {
       ul {

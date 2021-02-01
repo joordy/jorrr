@@ -19,6 +19,7 @@
         label {
           display: block;
           padding-bottom: 5px;
+          font-weight: 700;
         }
         input[type='text'],
         input[type='email'],
@@ -28,7 +29,7 @@
           &:focus {
             outline: none;
             /* outline: 2px solid $ui-turquoise; */
-            box-shadow: 0 0 2px 1px $ui-dark-blue;
+            box-shadow: 0 0 2px 1px #079385;
           }
         }
         input[type='text'] {
@@ -68,7 +69,7 @@
 </style>
 
 <section>
-  <form action="">
+  <form action="https://formspree.io/f/xzbkwdoe" method="POST">
     <fieldset>
       <div>
         <label for="name">Naam:</label>
@@ -79,7 +80,7 @@
         <input
           type="email"
           id="email"
-          name="email"
+          name="_replyto"
           placeholder="johndoe@mail.com"
         />
       </div>
@@ -88,11 +89,11 @@
         <textarea
           type="text"
           rows="10"
-          name="comment"
+          name="message"
           placeholder="Enter text here"
         />
       </div>
-      <input type="submit" value="Verzenden" />
+      <button type="submit">Verzenden</button>
     </fieldset>
   </form>
 </section>

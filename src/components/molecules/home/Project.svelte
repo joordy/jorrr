@@ -12,7 +12,7 @@
     height: 400px;
     position: relative;
     /* overflow: hidden; */
-    transition: 0.3s;
+    transition: 0.5s;
     border-radius: 5px;
     @include size-s {
       &:nth-of-type(2) {
@@ -34,6 +34,16 @@
     }
     &:hover {
       transform: scale(1.03);
+      a {
+        h4 {
+          color: #079385;
+        }
+        article {
+          img {
+            transform: scale(1.1);
+          }
+        }
+      }
     }
     a {
       @include lightMode {
@@ -52,6 +62,7 @@
         line-height: 80px;
         font-weight: 900;
         text-shadow: 5px 5px 3px rgba($color: #877878, $alpha: 0.3);
+        transition: 0.5s;
       }
       article {
         &:nth-of-type(1) {
@@ -72,6 +83,7 @@
             height: 80%;
             object-fit: cover;
             opacity: 0.4;
+            transition: 0.5s;
             @include lightMode {
               opacity: 0.5;
             }

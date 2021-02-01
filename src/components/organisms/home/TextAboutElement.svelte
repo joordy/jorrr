@@ -21,6 +21,7 @@
         font-family: 'IBM Plex Mono', monospace;
         width: 100%;
         margin-bottom: $margin2;
+        line-height: 24px;
       }
     }
   }

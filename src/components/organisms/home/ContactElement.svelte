@@ -35,4 +35,5 @@
     contact met mij op voor een project of een samenwerking.
   </p>
   <a href="/contact">Verstuur e-mail</a>
+  <!-- <a href="mailto:me@jorrr.dev?subject=Contact via website!">Verstuur e-mail</a> -->
 </section>

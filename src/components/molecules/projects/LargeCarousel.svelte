@@ -24,9 +24,17 @@
 
   article {
     width: 100%;
-    height: 450px;
+    min-height: 225px;
+    height: 60vw;
     overflow: hidden;
     position: relative;
+    @include size-s {
+      min-height: 275px;
+      height: 32vw;
+    }
+    @include size-l {
+      height: 500px;
+    }
     img {
       width: 100%;
       height: auto;
@@ -87,6 +95,7 @@
       }
       &:hover {
         transform: scale(1.2);
+        color: #079385;
       }
     }
   }

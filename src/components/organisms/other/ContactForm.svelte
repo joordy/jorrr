@@ -14,6 +14,10 @@
       a {
         color: white;
         text-decoration: none;
+        transition: 0.5s;
+        &:hover {
+          color: #079385;
+        }
         span {
           font-family: 'FontAwesome';
 

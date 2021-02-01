@@ -14,7 +14,7 @@
     background-color: $ui-dark-blue;
     color: $ui-soft-white;
     min-height: 300px;
-    height: 84vh;
+    height: calc(100vh - 190px);
     display: grid;
     place-items: center;
     section {

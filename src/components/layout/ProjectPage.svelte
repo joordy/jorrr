@@ -21,11 +21,8 @@
       @include size-s {
         width: 50vw !important;
       }
-      @include size-xl {
-        width: 40vw !important;
-      }
-      @include size-ultra {
-        width: 30vw !important;
+      @include size-l {
+        width: 800px !important;
       }
     }
   }
