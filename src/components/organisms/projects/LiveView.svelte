@@ -29,13 +29,13 @@
         left: 0px;
         width: 100%;
         height: 100%;
-        background: $ui-turquoise;
+        background: #079385;
         border-radius: 50% 50% 0% 0;
         z-index: -1;
         transition: all 0.5s;
       }
       &:hover {
-        color: $ui-dark-blue;
+        /* color: $ui-dark-blue; */
         &:before {
           top: 0px;
           border-radius: 0;

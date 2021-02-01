@@ -1,8 +1,6 @@
-<script>
+<!--<script>
   export let textSubject
-</script>
-
-<style lang="scss">
+</script><style lang="scss">
   @import 'src/styles/index.scss';
 
   article {
@@ -37,9 +35,7 @@
       }
     }
   }
-</style>
-
-<article>
+</style><article>
   <div />
   <p>{textSubject}</p>
-</article>
+</article> -->

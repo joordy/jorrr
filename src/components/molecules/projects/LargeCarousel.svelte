@@ -22,55 +22,50 @@
 <style lang="scss">
   @import 'src/styles/index.scss';
 
-  img,
-  button {
-    position: absolute;
-  }
   article {
     width: 100%;
-    height: 62vw;
+    height: 450px;
     overflow: hidden;
     position: relative;
-    @include size-s {
-      height: 30vw;
-    }
-    @include size-m {
-      height: 370px;
-    }
-    @include size-l {
-      height: 420px;
-    }
     img {
       width: 100%;
-      height: 94%;
+      height: auto;
       margin: 3% 0;
       object-fit: cover;
       position: absolute;
+      margin: auto;
+      top: 0;
+      bottom: 0;
       border-radius: 4px;
-      /* @include size-s {
-      } */
     }
     button {
       position: absolute;
-      margin: auto 0;
+      margin: auto;
       top: 0;
       bottom: 0;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
       border-radius: 50%;
-      width: 40px;
-      height: 40px;
-      font-size: 2rem;
-      background: transparent;
       border: none;
       color: white;
+      background: transparent;
+      transition: 0.5s;
       font-family: FontAwesome;
+      font-size: 2rem;
       outline: none;
-      transition: 0.4s;
-      &:focus {
-        outline: none;
-        border: none;
-      }
-      &:hover {
-        transform: scale(1.2);
+      &:before {
+        width: 100%;
+        height: 100%;
+        content: '';
+        display: block;
+        position: absolute;
+        z-index: 0;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        background-color: rgba($color: #919191, $alpha: 0.5);
+        border-radius: 50%;
       }
       &:nth-of-type(1) {
         left: 20px;
@@ -89,6 +84,9 @@
         &:hover {
           transform: translate(10px);
         }
+      }
+      &:hover {
+        transform: scale(1.2);
       }
     }
   }

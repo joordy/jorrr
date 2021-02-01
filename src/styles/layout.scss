@@ -5,6 +5,15 @@
   margin: 0;
   padding: 0;
 }
+html {
+  background-color: #1a1824;
+}
+
+@media (prefers-color-scheme: light) {
+  html {
+    background-color: #f6f6f6;
+  }
+}
 body {
   width: 100% !important;
   font-size: 14px;
@@ -36,13 +45,3 @@ main {
     }
   }
 }
-
-// main {
-//   min-height: 600px;
-// }
-// body {
-//   overflow-y: scroll;
-// }
-// html {
-//   margin-left: calc(100vw - 100%); }
-// }

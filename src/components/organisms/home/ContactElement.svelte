@@ -20,12 +20,8 @@
     a {
       font-weight: 700;
       text-decoration: none;
-      color: $ui-turquoise;
-      border-bottom: 2px solid $ui-turquoise;
-      @include lightMode {
-        color: $ui-dark-blue;
-        border-bottom: 2px solid $ui-dark-blue;
-      }
+      color: #079385;
+      border-bottom: 2px solid #079385;
     }
   }
 </style>
@@ -33,7 +29,7 @@
 <section id="contact">
   <BlockTitle pageSectionTitle="Contact" />
 
-  <h3>Zeg hallo!</h3>
+  <h3>Say hi!</h3>
   <p>
     Ben je geïnteresseerd om met mij te gaan samenwerken? Neem dan gerust
     contact met mij op voor een project of een samenwerking.

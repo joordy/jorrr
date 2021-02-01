@@ -19,6 +19,10 @@
         height: 100%;
         background-color: white;
         filter: blur(150px);
+        @include lightMode {
+          filter: blur(700px);
+          background-color: $ui-dark-blue;
+        }
       }
       &:nth-of-type(2) {
         width: 100%;

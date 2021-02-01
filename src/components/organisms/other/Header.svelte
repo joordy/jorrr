@@ -95,7 +95,7 @@
               transition: 0.2s;
               font-size: $small-font-size;
               &:hover {
-                color: $ui-turquoise;
+                color: #079385;
               }
               @include size-s {
                 font-size: $basic-font-size;

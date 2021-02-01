@@ -39,7 +39,8 @@
         }
       }
       &:hover {
-        transform: scale(1.3);
+        transform: scale(1.2);
+        color: #079385;
       }
     }
   }

@@ -10,32 +10,56 @@
     font-family: 'IBM Plex Mono', monospace;
     font-size: 14px;
     font-weight: $bold;
-    color: $ui-turquoise;
+    color: #079385;
     line-height: 20px;
     border-radius: 8px;
-    background: linear-gradient(
-      90deg,
-      rgba(0, 0, 0, 0.12),
-      rgba(35, 131, 121, 0.41)
-    );
+    border: 2px solid #079385;
+    padding: 1em 4em;
+    text-decoration: none;
+    background-color: transparent;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    transition: 1s all ease;
+    cursor: pointer;
+    /* &:hover {
+      color: hotpink;
+    } */
+    /* &:before {
+      background: #079385;
+      content: '';
+      width: 0;
+      height: 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: -1;
+      transition: all 0.6s ease;
+    }
+    &:hover:before {
+      width: 100%;
+      color: hotpink;
+    } */
+
+    /* background-size: 200%; */
+
+    /* font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    font-weight: $bold;
+    color: #079385;
+    line-height: 20px;
+    border-radius: 8px;
+    background-color: transparent;
     background-size: 200%;
-    border: 2px solid $ui-turquoise;
+    border: 2px solid #079385;
     padding: 1em 4em;
     text-decoration: none;
     transition: 0.6s;
     cursor: pointer;
     &:hover {
       background-position: right;
-    }
-    @include lightMode {
-      border: 2px solid #1a1824;
-      color: #1a1824;
-      background: linear-gradient(
-        90deg,
-        rgba($color: #1a1824, $alpha: 0.02),
-        rgba($color: #1a1824, $alpha: 0.21)
-      );
-    }
+    } */
   }
 </style>
 

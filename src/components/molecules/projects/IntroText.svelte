@@ -11,12 +11,19 @@
     a {
       color: white;
       text-decoration: none;
+      transition: 0.5s;
       span {
         font-family: 'FontAwesome';
 
         &::before {
           content: '\f060';
         }
+      }
+      @include lightMode {
+        color: $ui-dark-blue;
+      }
+      &:hover {
+        color: #079385;
       }
     }
     section {
@@ -61,51 +68,6 @@
       }
     }
   }
-  /* article {
-    width: 600px;
-    height: 100%;
-    margin: $margin3 0;
-    a {
-      color: white;
-      text-decoration: none;
-      span {
-        font-family: 'FontAwesome';
-
-        &::before {
-          content: '\f060';
-        }
-      }
-    }
-    section {
-      margin-top: $margin10;
-      h2 {
-        font-family: 'Inter', sans-serif;
-        margin-top: 0;
-        font-size: $h1-size;
-      }
-      .case {
-        font-family: 'Inter', sans-serif;
-        font-size: 16px;
-        font-weight: 200;
-        text-transform: uppercase;
-      }
-      div {
-        article {
-          display: flex;
-          margin: 0;
-          p {
-            &:nth-of-type(1) {
-              width: 60px;
-            }
-            &:nth-of-type(2) {
-              width: 400px;
-            }
-          }
-        }
-      }
-
-    }
-  } */
 </style>
 
 <article>
@@ -119,13 +81,7 @@
         <li value="Task">{project.typeOfProject}</li>
         <li value="Tools">{project.languages}</li>
         <li value="Team">{project.teamproject}</li>
-        <!-- <li>Juice</li>
-        <li>Beer</li> -->
       </ul>
-      <!-- <p><span>Roles:</span>{project.services}</p>
-      <p><span>Task:</span>{project.typeOfProject}</p>
-      <p><span>Tools:</span>{project.languages}</p>
-      <p><span>Team:</span>{project.teamproject}</p> -->
     </div>
   </section>
 </article>

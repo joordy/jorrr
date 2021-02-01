@@ -10,14 +10,12 @@
     font-family: 'IBM Plex Mono', monospace;
     font-size: 14px;
     font-weight: $bold;
-    color: $ui-dark-blue;
     line-height: 20px;
+    vertical-align: middle;
     border-radius: 8px;
-    background: linear-gradient(
-      90deg,
-      rgba(9, 218, 197, 1),
-      rgba(13, 89, 82, 1)
-    );
+    background: transparent;
+    background-color: #079385;
+    color: #f6f6f6;
     background-size: 240%;
     padding: 1em 4em;
     text-decoration: none;
@@ -25,14 +23,6 @@
     cursor: pointer;
     &:hover {
       background-position: right;
-    }
-    @include lightMode {
-      background: linear-gradient(
-        180deg,
-        rgba(26, 24, 36, 1),
-        rgba(26, 24, 36, 1)
-      );
-      color: #f6f6f6;
     }
   }
 </style>

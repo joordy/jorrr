@@ -18,7 +18,7 @@
     display: grid;
     place-items: center;
     @include lightMode {
-      background-color: #d6d4d4;
+      background-color: #f6f6f6;
       * {
         color: $ui-dark-blue;
       }

@@ -72,6 +72,9 @@
             height: 80%;
             object-fit: cover;
             opacity: 0.4;
+            @include lightMode {
+              opacity: 0.5;
+            }
           }
         }
         &:nth-of-type(2) {
@@ -81,11 +84,11 @@
           bottom: 15%;
           left: 5%;
           width: 90%;
-
           h3 {
             font-size: $h3-size;
             line-height: $h3-size;
             font-weight: 700;
+            backdrop-filter: blur(5px);
           }
           p {
             line-height: 24px;

@@ -25,6 +25,10 @@
     @include size-ultra {
       margin-left: -35vw;
     }
+    @include lightMode {
+      background-color: #f6f6f6;
+      color: $ui-dark-blue;
+    }
     article {
       width: 95vw;
       height: 100%;
