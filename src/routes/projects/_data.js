@@ -3,7 +3,7 @@ export let projects = [
     idNumber: '01',
     type: 'Case Study',
     title: 'Ring-Ring',
-    subTitle: 'Dashboard voor beleidsmakers in Amsterdam.',
+    subTitle: 'Dashboard tool for policy-makers in Amsterdam.',
     thirdTitle: 'Ring-Ring Dashboard',
     page_slug: '/projects/ring-ring',
     slug: 'ring-ring',
@@ -25,16 +25,8 @@ export let projects = [
     introImage:
       'https://user-images.githubusercontent.com/48051912/105644949-dbc39500-5e98-11eb-9a9d-f06619245db0.png',
     smallImageSlider: [
-      {
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: 'lorem',
-      },
-      {
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: 'lorem',
-      },
+      'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
+      'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
     ],
 
     // longExplenation:
@@ -60,9 +52,52 @@ export let projects = [
   {
     idNumber: '02',
     type: 'Case Study',
+    title: 'Travelplan',
+    subTitle: 'Travel verview specially for future trips that are planned.',
+    thirdTitle: 'Travelplanner',
+    page_slug: '/projects/travelplan',
+    slug: 'travelplan',
+    intro:
+      'Travelplan is een alles-in-een reisplanner. Met behulp van de applicatie is het mogelijk om alle informatie omtrent de geplande reis bij elkaar te houden.',
+    mockupImage:
+      'https://user-images.githubusercontent.com/48051912/106812227-a58fcd80-666f-11eb-8c8d-7c01211de98d.png',
+    introImage:
+      'https://user-images.githubusercontent.com/48051912/106812459-01f2ed00-6670-11eb-9122-2ecfa35b6823.png',
+    explenation:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum. Ultrices ac ultrices mauris purus pharetra massa dui. Neque tempor nunc maecenas sed enim. Sed quis eget morbi risus ridiculus mattis felis et potenti.',
+    services: 'UI Design & UX design',
+    typeOfProject: 'Ontwerp een volledige user flow',
+    languages: 'Prototyping, Figma, User testing',
+    teamproject: 'Individueel',
+    livePreview:
+      'https://www.figma.com/proto/cIA8OhNzIL6bLMSecXxGUU/Project-Web.jordyfronik?node-id=469%3A12464&viewport=55%2C166%2C0.040915731340646744&scaling=scale-down',
+    smallImageSlider: [
+      'https://user-images.githubusercontent.com/48051912/106812225-a4f73700-666f-11eb-813e-b6b49b0a7e7b.png',
+      'https://user-images.githubusercontent.com/48051912/106812216-a163b000-666f-11eb-85b4-142681c3f112.png',
+    ],
+    largeImageSlider: [
+      'https://user-images.githubusercontent.com/48051912/106812227-a58fcd80-666f-11eb-8c8d-7c01211de98d.png',
+      'https://user-images.githubusercontent.com/48051912/106812225-a4f73700-666f-11eb-813e-b6b49b0a7e7b.png',
+      'https://user-images.githubusercontent.com/48051912/106812956-ad03a680-6670-11eb-8c97-21bf0d608d9a.png',
+      'https://user-images.githubusercontent.com/48051912/106812216-a163b000-666f-11eb-85b4-142681c3f112.png',
+      'https://user-images.githubusercontent.com/48051912/106812955-ad03a680-6670-11eb-89b4-55e2a6f4dc9c.png',
+      'https://user-images.githubusercontent.com/48051912/106812219-a32d7380-666f-11eb-83c1-fc7e1700f20b.png',
+      'https://user-images.githubusercontent.com/48051912/106812459-01f2ed00-6670-11eb-9122-2ecfa35b6823.png',
+    ],
+    otherCase: {
+      name: 'Ring-Ring',
+      src:
+        'https://user-images.githubusercontent.com/48051912/105644734-6c00da80-5e97-11eb-83b7-d8eb145ff417.png',
+      alt: '',
+      pathname: '/projects/ring-ring',
+    },
+  },
+  {
+    idNumber: '03',
+    type: 'Case Study',
     title: 'Dat.io',
-    subTitle: 'Dating applicatie ontwikkeld voor studenten.',
-    thirdTitle: 'Dating applicatie',
+    subTitle: 'Dating application developed for IT students.',
+    thirdTitle: 'Dating application',
     page_slug: '/projects/datio-dating-application',
     slug: 'datio-dating-application',
     intro:
@@ -86,11 +121,7 @@ export let projects = [
     livePreview: 'https://bt-datingapp.herokuapp.com/signIn',
     githubSource: 'https://github.com/joordy/Dat.io',
     smallImageSlider: [
-      {
-        src:
-          'https://user-images.githubusercontent.com/48051912/106788289-0cea5500-6651-11eb-962a-5ac8d022380e.png',
-        alt: 'lorem',
-      },
+      'https://user-images.githubusercontent.com/48051912/106788289-0cea5500-6651-11eb-962a-5ac8d022380e.png',
     ],
     largeImageSlider: [
       'https://user-images.githubusercontent.com/48051912/106788004-b11fcc00-6650-11eb-9386-7fd142b5a31b.png',
@@ -109,56 +140,7 @@ export let projects = [
       pathname: '/projects/ring-ring',
     },
   },
-  {
-    idNumber: '03',
-    type: 'Case Study',
-    title: 'Travelplan',
-    subTitle: 'Reisoverzicht voor toekomstige reizen die op de planning staan.',
-    thirdTitle: 'Reisplanner',
-    page_slug: '/projects/travelplan',
-    slug: 'travelplan',
-    intro:
-      'Travelplan is een alles-in-een reisplanner. Met behulp van de applicatie is het mogelijk om alle informatie omtrent de geplande reis bij elkaar te houden.',
-    mockupImage:
-      'https://user-images.githubusercontent.com/48051912/106779403-3d2cf600-6647-11eb-9863-b22a2698fdf1.png',
-    introImage:
-      'https://user-images.githubusercontent.com/48051912/105413873-03b3be00-5c37-11eb-9174-7f487cc1d777.png',
-    explenation:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum. Ultrices ac ultrices mauris purus pharetra massa dui. Neque tempor nunc maecenas sed enim. Sed quis eget morbi risus ridiculus mattis felis et potenti.',
-    services: 'UI Design & UX design',
-    typeOfProject: 'Ontwerp een volledige user flow',
-    languages: 'Prototyping, Figma, User testing',
-    teamproject: 'Individueel',
-    livePreview:
-      'https://www.figma.com/proto/cIA8OhNzIL6bLMSecXxGUU/Project-Web.jordyfronik?node-id=469%3A12464&viewport=55%2C166%2C0.040915731340646744&scaling=scale-down',
-    smallImageSlider: [
-      {
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: 'lorem',
-      },
-      {
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: 'lorem',
-      },
-    ],
-    largeImageSlider: [
-      'https://user-images.githubusercontent.com/48051912/106031618-c4bab800-60cf-11eb-8587-6b8a7a8c9812.png',
-      'https://user-images.githubusercontent.com/48051912/106031620-c5534e80-60cf-11eb-8aae-344414cb2099.png',
-      'https://user-images.githubusercontent.com/48051912/106031624-c5ebe500-60cf-11eb-940c-1dea7cbbaf87.png',
-      'https://user-images.githubusercontent.com/48051912/106031626-c5ebe500-60cf-11eb-815d-069f62bb98c7.png',
-      'https://user-images.githubusercontent.com/48051912/106031627-c6847b80-60cf-11eb-92bb-2909e203c6c9.png',
-      'https://user-images.githubusercontent.com/48051912/106031629-c6847b80-60cf-11eb-8bda-d7cfc6a8dfb0.png',
-    ],
-    otherCase: {
-      name: 'Dat.io',
-      src:
-        'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-      alt: '',
-      pathname: '/projects/datio-dating-application',
-    },
-  },
+
   // {
   //   idNumber: '04',
   //   type: 'Case Study',

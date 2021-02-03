@@ -33,7 +33,7 @@
         }
         img {
           position: absolute;
-          right: -20%;
+          right: -95px;
           max-width: 80%;
           height: auto;
           max-height: 80%;

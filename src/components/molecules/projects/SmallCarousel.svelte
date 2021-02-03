@@ -44,6 +44,6 @@
 
 <article class="image__wrapper">
   {#each project.smallImageSlider as photo}
-    <div><img src={photo.src} alt={photo.alt} /></div>
+    <div><img src={photo} alt="Summary image of project" /></div>
   {/each}
 </article>

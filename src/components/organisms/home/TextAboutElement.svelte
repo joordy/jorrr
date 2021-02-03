@@ -28,7 +28,7 @@
 </style>
 
 <section id="about">
-  <BlockTitle pageSectionTitle="Over" />
+  <BlockTitle pageSectionTitle="About" />
   <article class="about__text">
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum

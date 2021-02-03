@@ -86,7 +86,7 @@
 </style>
 
 <article>
-  <a href="/"> <span /> Terug</a>
+  <a href="/"> <span /> Back</a>
   <section>
     <p class="case">Case study</p>
     <h2>{project.title}</h2>

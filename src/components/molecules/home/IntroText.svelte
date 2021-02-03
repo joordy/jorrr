@@ -40,16 +40,15 @@
 </style>
 
 <section>
-  <p>Hi! Ik ben Jordy Fronik</p>
+  <p>Hi! I'm Jordy Fronik</p>
   <p>
-    Ik ben een
+    I am a
     <span>Creative Developer & Designer</span>
-    die dingen bouwt voor op het internet. Mijn hart smelt van strakke ontwerpen
-    en snelle laadtijden van web-applicaties. Wil je nou meer weten over mij?
-    Lees dan gerust verder!
+    which builds stuff for the internet. My heart loves to build smooth and
+    blazing fast web applications. Do you want to know more about me? Read on!
   </p>
   <div>
-    <ButtonLight linkTO="#cases" textCTA="Mijn werk" />
+    <ButtonLight linkTO="#cases" textCTA="Cases" />
     <ButtonDark linkTO="#contact" textCTA="Contact" />
   </div>
 </section>

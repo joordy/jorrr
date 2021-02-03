@@ -48,9 +48,9 @@
       margin: 1em auto;
       transition: 0.2s;
       @include size-s {
-        width: 80vw;
+        width: 90vw;
       }
-      @include size-xl {
+      @include size-l {
         width: 70vw;
       }
       @include size-ultra {
@@ -116,10 +116,16 @@
       <ul>
         <!-- <li href="#home" /> -->
         <li><a href="#home">.home()</a></li>
-        <li><a href="#about">.over() </a></li>
+        <li><a href="#about">.about() </a></li>
         <li><a href="#cases">.cases() </a></li>
         <li><a href="#contact">.contact() </a></li>
-        <li><a href="https://read.cv/jordy" target="_blank">.cv() </a></li>
+        <li>
+          <a
+            href="https://develop.jorrr.dev/files/CV_JordyFronik.pdf"
+            target="_blank"
+          >.cv()
+          </a>
+        </li>
       </ul>
     </nav>
   </div>
