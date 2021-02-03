@@ -9,6 +9,44 @@
   @import 'src/styles/index.scss';
 
   section {
+    width: 100vw;
+    margin-left: -2.5vw;
+    overflow: hidden;
+    background-color: $ui-dark-blue;
+    color: $ui-soft-white;
+    /* height: 1700px; */
+    @include size-s {
+      width: 100vw;
+      margin-left: -25vw;
+    }
+    @include size-l {
+      height: 700px;
+
+      width: calc(100vw);
+      margin-left: calc((100vw - 800px) / -2);
+    }
+    article {
+      /* width: 60vw;
+      min-width: 800px;
+      max-width: 1050px; */
+      height: 100%;
+      margin: 5em auto;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      @include size-m {
+        width: 90%;
+        flex-wrap: nowrap;
+      }
+      @include size-l {
+        width: 60vw;
+        min-width: 800px;
+        max-width: 1050px;
+      }
+    }
+    /* position: relative; */
+  }
+  /* section {
     overflow: hidden;
     width: calc(100vw - 7.5px);
     margin-left: -2.5vw;
@@ -45,7 +83,7 @@
         width: 40vw;
       }
     }
-  }
+  } */
 </style>
 
 <section class="header">

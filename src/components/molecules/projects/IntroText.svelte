@@ -6,8 +6,17 @@
   @import 'src/styles/index.scss';
 
   article {
-    height: calc(100% - 100px);
-    margin: $m50 0;
+    /* height: calc(100% - 100px); */
+    min-height: 375px;
+    width: 90%;
+    margin: 50px auto 0 auto;
+    @include size-xs {
+      width: 85%;
+      min-height: 425px;
+    }
+    @include size-s {
+      width: 50%;
+    }
     a {
       color: white;
       text-decoration: none;
@@ -27,7 +36,13 @@
       }
     }
     section {
-      margin-top: $margin10;
+      margin-top: 5em;
+      @include size-s {
+        margin-top: 7.5em;
+      }
+      @include size-m {
+        margin-top: 10em;
+      }
       h2 {
         font-family: 'Inter', sans-serif;
         margin-top: 0;

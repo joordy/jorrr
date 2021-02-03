@@ -3,18 +3,19 @@
 
   export let project
 
-  const carouselContent = project.largeImageSlider
+  let carouselContent = project.largeImageSlider
+
   let index = 0
 
   const next = () => {
-    index = (index + 1) % carouselContent.length
+    index = (index + 1) % project.largeImageSlider.length
     console.log('next', index)
   }
   const prev = () => {
-    index = (index - 1) % carouselContent.length
+    index = (index - 1) % project.largeImageSlider.length
     console.log('prev', index)
     if (index === -1) {
-      return (index = carouselContent.length - 1)
+      return (index = project.largeImageSlider.length - 1)
     }
   }
 </script>
@@ -102,7 +103,7 @@
 </style>
 
 <article>
-  {#each [carouselContent[index]] as src (index)}
+  {#each [project.largeImageSlider[index]] as src (index)}
     <img transition:fade {src} alt="" />
   {/each}
   <button on:click={prev} />

@@ -93,7 +93,7 @@
 
 <section class="more__cases">
   <h2>Meer:</h2>
-  <a href={project.otherCase.pathname}>
+  <a rel="prefetch" href={project.otherCase.pathname}>
     <div>
       <p class="case">Case study</p>
       <h3>{project.otherCase.name}</h3>

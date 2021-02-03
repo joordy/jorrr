@@ -11,7 +11,7 @@ export let projects = [
     typeOfProject: 'Data visualization.',
     languages: 'HTML, CSS, JavaScript, ChartJS, MapBox, SvelteJS',
     teamproject: 'Team of three',
-    livePreview: 'https://ringring.jorrr.nl',
+    livePreview: 'https://ringring.jorrr.dev',
     assignmentTextOne:
       'The assignment was to develop a dashboard tool on behalf of Ring-Ring organization. The tool must be suitable for policy makers, so that they can provide an overview of which traffic conditions can be improved in Amsterdam. The tool should contain different data-visualization formats using the Ring-Ring dataset.',
     assignmentTextTwo:
@@ -52,7 +52,7 @@ export let projects = [
     otherCase: {
       name: 'Dat.io',
       src:
-        'https://user-images.githubusercontent.com/48051912/105644734-6c00da80-5e97-11eb-83b7-d8eb145ff417.png',
+        'https://user-images.githubusercontent.com/48051912/106788004-b11fcc00-6650-11eb-9386-7fd142b5a31b.png',
       alt: '',
       pathname: '/projects/datio-dating-application',
     },
@@ -68,9 +68,9 @@ export let projects = [
     intro:
       'Een dating applicatie gemaakt voor ICT studenten. Het maken van de applicatie was onderdeel van een team project waarbij we drie verschillende aspecten van de dating applicatie hebben gebouwd.',
     mockupImage:
-      'https://user-images.githubusercontent.com/48051912/105644734-6c00da80-5e97-11eb-83b7-d8eb145ff417.png',
+      'https://user-images.githubusercontent.com/48051912/106788004-b11fcc00-6650-11eb-9386-7fd142b5a31b.png',
     introImage:
-      'https://user-images.githubusercontent.com/48051912/105413873-03b3be00-5c37-11eb-9174-7f487cc1d777.png',
+      'https://user-images.githubusercontent.com/48051912/106788003-b0873580-6650-11eb-96e9-50e6e74b0d3f.png',
     assignmentTextOne:
       'Het web-development project is een onderdeel van het programma van de opleiding Communicatie & Multimedia Design, in het keuze semester: Tech. De opdracht bestond uit het werkend maken van een interactieve dating applicatie, welke gebouwd wordt met de backend programmeertaal NodeJS.  ',
     assignmentTextTwo:
@@ -88,29 +88,25 @@ export let projects = [
     smallImageSlider: [
       {
         src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: 'lorem',
-      },
-      {
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
+          'https://user-images.githubusercontent.com/48051912/106788289-0cea5500-6651-11eb-962a-5ac8d022380e.png',
         alt: 'lorem',
       },
     ],
     largeImageSlider: [
-      'https://user-images.githubusercontent.com/48051912/106031618-c4bab800-60cf-11eb-8587-6b8a7a8c9812.png',
-      'https://user-images.githubusercontent.com/48051912/106031620-c5534e80-60cf-11eb-8aae-344414cb2099.png',
-      'https://user-images.githubusercontent.com/48051912/106031624-c5ebe500-60cf-11eb-940c-1dea7cbbaf87.png',
-      'https://user-images.githubusercontent.com/48051912/106031629-c6847b80-60cf-11eb-8bda-d7cfc6a8dfb0.png',
+      'https://user-images.githubusercontent.com/48051912/106788004-b11fcc00-6650-11eb-9386-7fd142b5a31b.png',
+      'https://user-images.githubusercontent.com/48051912/106788003-b0873580-6650-11eb-96e9-50e6e74b0d3f.png',
+      'https://user-images.githubusercontent.com/48051912/106788289-0cea5500-6651-11eb-962a-5ac8d022380e.png',
+      'https://user-images.githubusercontent.com/48051912/106787998-afee9f00-6650-11eb-9936-36a45a503e00.png',
+      'https://user-images.githubusercontent.com/48051912/106787993-aebd7200-6650-11eb-8075-af31ab865cc5.png',
     ],
     detailsOne:
       'Dat.io is een dating applicatie wat gebouwd is met de programmeertaal NodeJS. Het project maakt gebruik van onder meer een Express-server en EJS. Samen met mijn teamgenoten hebben we een applicatie gebouwd welke de gebruiker drie verschillende functionaliteiten biedt. Met de applcatie kan de gebruiker zich registreren en/of inloggen, gebruikers filteren, en gebruikers leuk vinden. Als de interesse wederzijds is, krijgt de gebruiker een match.Dat.io is een dating applicatie wat gebouwd is met de programmeertaal NodeJS. Het project maakt gebruik van onder meer een Express-server en EJS. Samen met mijn teamgenoten hebben we een applicatie gebouwd welke de gebruiker drie verschillende functionaliteiten biedt. Met de applcatie kan de gebruiker zich registreren en/of inloggen, gebruikers filteren, en gebruikers leuk vinden. Als de interesse wederzijds is, krijgt de gebruiker een match.',
     otherCase: {
-      name: 'Dat.io',
+      name: 'Ring-Ring',
       src:
-        'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
+        'https://user-images.githubusercontent.com/48051912/105644734-6c00da80-5e97-11eb-83b7-d8eb145ff417.png',
       alt: '',
-      pathname: '/projects/datio-dating-application',
+      pathname: '/projects/ring-ring',
     },
   },
   {
@@ -124,7 +120,7 @@ export let projects = [
     intro:
       'Travelplan is een alles-in-een reisplanner. Met behulp van de applicatie is het mogelijk om alle informatie omtrent de geplande reis bij elkaar te houden.',
     mockupImage:
-      'https://user-images.githubusercontent.com/48051912/105644734-6c00da80-5e97-11eb-83b7-d8eb145ff417.png',
+      'https://user-images.githubusercontent.com/48051912/106779403-3d2cf600-6647-11eb-9863-b22a2698fdf1.png',
     introImage:
       'https://user-images.githubusercontent.com/48051912/105413873-03b3be00-5c37-11eb-9174-7f487cc1d777.png',
     explenation:
@@ -163,54 +159,54 @@ export let projects = [
       pathname: '/projects/datio-dating-application',
     },
   },
-  {
-    idNumber: '04',
-    type: 'Case Study',
-    title: 'Frontend Applications',
-    subTitle: 'Data-visualisatie over parkeerplaatsen in Nederland.',
-    thirdTitle: 'Dating applicatie',
-    page_slug: '/projects/frontend-applications',
-    slug: 'frontend-applications',
-    intro:
-      'Data visualisation of the parking spots in big cities of the Netherlands.',
-    mockupImage:
-      'https://user-images.githubusercontent.com/48051912/105413873-03b3be00-5c37-11eb-9174-7f487cc1d777.png',
-    introImage:
-      'https://user-images.githubusercontent.com/48051912/105413873-03b3be00-5c37-11eb-9174-7f487cc1d777.png',
-    explenation:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum. Ultrices ac ultrices mauris purus pharetra massa dui. Neque tempor nunc maecenas sed enim. Sed quis eget morbi risus ridiculus mattis felis et potenti.',
-    services: 'Front-end development',
-    typeOfProject: 'Een data-story met RDW data',
-    languages: 'HTML, CSS, JavaScript, D3, SvelteJS',
-    teamproject: 'Individueel',
-    livePreview: 'https://fa-jorrr.netlify.app/',
-    githubSource: 'https://github.com/joordy/frontend-applications',
-    smallImageSlider: [
-      {
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: 'lorem',
-      },
-      {
-        src:
-          'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-        alt: 'lorem',
-      },
-    ],
-    largeImageSlider: [
-      'https://user-images.githubusercontent.com/48051912/106031618-c4bab800-60cf-11eb-8587-6b8a7a8c9812.png',
-      'https://user-images.githubusercontent.com/48051912/106031620-c5534e80-60cf-11eb-8aae-344414cb2099.png',
-      'https://user-images.githubusercontent.com/48051912/106031624-c5ebe500-60cf-11eb-940c-1dea7cbbaf87.png',
-      'https://user-images.githubusercontent.com/48051912/106031626-c5ebe500-60cf-11eb-815d-069f62bb98c7.png',
-      'https://user-images.githubusercontent.com/48051912/106031627-c6847b80-60cf-11eb-92bb-2909e203c6c9.png',
-      'https://user-images.githubusercontent.com/48051912/106031629-c6847b80-60cf-11eb-8bda-d7cfc6a8dfb0.png',
-    ],
-    otherCase: {
-      name: 'Dat.io',
-      src:
-        'https://user-images.githubusercontent.com/48051912/105644734-6c00da80-5e97-11eb-83b7-d8eb145ff417.png',
-      alt: '',
-      pathname: '/projects/datio-dating-application',
-    },
-  },
+  // {
+  //   idNumber: '04',
+  //   type: 'Case Study',
+  //   title: 'Frontend Applications',
+  //   subTitle: 'Data-visualisatie over parkeerplaatsen in Nederland.',
+  //   thirdTitle: 'Dating applicatie',
+  //   page_slug: '/projects/frontend-applications',
+  //   slug: 'frontend-applications',
+  //   intro:
+  //     'Data visualisation of the parking spots in big cities of the Netherlands.',
+  //   mockupImage:
+  //     'https://user-images.githubusercontent.com/48051912/105413873-03b3be00-5c37-11eb-9174-7f487cc1d777.png',
+  //   introImage:
+  //     'https://user-images.githubusercontent.com/48051912/105413873-03b3be00-5c37-11eb-9174-7f487cc1d777.png',
+  //   explenation:
+  //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id venenatis, massa augue lectus eu. Imperdiet a nunc ipsum risus elementum orci pellentesque mattis nulla. Urna, volutpat pulvinar nam et est sodales. A, nulla semper neque facilisis egestas non interdum. Ultrices ac ultrices mauris purus pharetra massa dui. Neque tempor nunc maecenas sed enim. Sed quis eget morbi risus ridiculus mattis felis et potenti.',
+  //   services: 'Front-end development',
+  //   typeOfProject: 'Een data-story met RDW data',
+  //   languages: 'HTML, CSS, JavaScript, D3, SvelteJS',
+  //   teamproject: 'Individueel',
+  //   livePreview: 'https://fa-jorrr.netlify.app/',
+  //   githubSource: 'https://github.com/joordy/frontend-applications',
+  //   smallImageSlider: [
+  //     {
+  //       src:
+  //         'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
+  //       alt: 'lorem',
+  //     },
+  //     {
+  //       src:
+  //         'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
+  //       alt: 'lorem',
+  //     },
+  //   ],
+  //   largeImageSlider: [
+  //     'https://user-images.githubusercontent.com/48051912/106031618-c4bab800-60cf-11eb-8587-6b8a7a8c9812.png',
+  //     'https://user-images.githubusercontent.com/48051912/106031620-c5534e80-60cf-11eb-8aae-344414cb2099.png',
+  //     'https://user-images.githubusercontent.com/48051912/106031624-c5ebe500-60cf-11eb-940c-1dea7cbbaf87.png',
+  //     'https://user-images.githubusercontent.com/48051912/106031626-c5ebe500-60cf-11eb-815d-069f62bb98c7.png',
+  //     'https://user-images.githubusercontent.com/48051912/106031627-c6847b80-60cf-11eb-92bb-2909e203c6c9.png',
+  //     'https://user-images.githubusercontent.com/48051912/106031629-c6847b80-60cf-11eb-8bda-d7cfc6a8dfb0.png',
+  //   ],
+  //   otherCase: {
+  //     name: 'Dat.io',
+  //     src:
+  //       'https://user-images.githubusercontent.com/48051912/105644734-6c00da80-5e97-11eb-83b7-d8eb145ff417.png',
+  //     alt: '',
+  //     pathname: '/projects/datio-dating-application',
+  //   },
+  // },
 ]

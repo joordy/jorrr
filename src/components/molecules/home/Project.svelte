@@ -101,6 +101,7 @@
             line-height: $h3-size;
             font-weight: 700;
             backdrop-filter: blur(5px);
+            display: contents;
           }
           p {
             line-height: 24px;
@@ -116,13 +117,11 @@
   <a href="/projects/{project.slug}">
     <h4 class="idnumber">{project.idNumber}</h4>
     <article class="backimage">
-      <!-- <div class="backimage__overlay" /> -->
       <img src={project.mockupImage} alt="" />
     </article>
     <article class="projectInfo">
       <h3>{project.title}</h3>
       <p>{project.subTitle}</p>
-      <!-- <a href="/projects/{project.slug}">Explore</a> -->
       <ButtonLight linkTO="/projects/{project.slug}" textCTA="Bekijk case" />
     </article>
   </a>
