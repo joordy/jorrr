@@ -95,25 +95,10 @@
   <h2>Meer:</h2>
   <a rel="prefetch" href={project.otherCase.pathname}>
     <div>
-      <p class="case">Case study</p>
+      <p>Case study</p>
       <h3>{project.otherCase.name}</h3>
       <img src={project.otherCase.src} alt={project.otherCase.alt} />
       <p><span /> <span>Bekijk werk</span></p>
     </div>
   </a>
-
-  <!-- <a href={project.otherCase.pathname}> -->
-  <!-- <h3>{project.otherCase.name}</h3>
-    <img src={project.otherCase.src} alt={project.otherCase.alt} />
-
-    <div /> -->
-  <!-- </a> -->
-  <!-- <div class="cases">
-    {#each project.moreCases as otherCase}
-      <a href={otherCase.pathname}>
-        <h3>{otherCase.name}</h3>
-        <img src={otherCase.src} alt={otherCase.alt} />
-      </a>
-    {/each}
-  </div> -->
 </section>

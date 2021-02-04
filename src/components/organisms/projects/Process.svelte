@@ -6,7 +6,7 @@
 
 <style lang="scss">
   @import 'src/styles/index.scss';
-  .process {
+  section {
     h2,
     p {
       font-family: 'Inter', sans-serif;
@@ -21,7 +21,7 @@
   }
 </style>
 
-<section class="process">
+<section>
   <h2>Process</h2>
 
   <p>{project.processOne}</p>

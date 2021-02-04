@@ -11,7 +11,6 @@
     margin: 20px;
     height: 400px;
     position: relative;
-    /* overflow: hidden; */
     transition: 0.5s;
     border-radius: 5px;
     @include size-s {
@@ -22,7 +21,6 @@
         margin-top: -7rem;
       }
     }
-
     @include size-m {
       height: 600px;
       &:nth-of-type(2) {
@@ -113,13 +111,11 @@
   }
 </style>
 
-<section class="projectCard">
+<section>
   <a href="/projects/{project.slug}">
-    <h4 class="idnumber">{project.idNumber}</h4>
-    <article class="backimage">
-      <img src={project.mockupImage} alt="" />
-    </article>
-    <article class="projectInfo">
+    <h4>{project.idNumber}</h4>
+    <article><img src={project.mockupImage} alt="" /></article>
+    <article>
       <h3>{project.title}</h3>
       <p>{project.subTitle}</p>
       <ButtonLight linkTO="/projects/{project.slug}" textCTA="Bekijk case" />

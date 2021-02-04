@@ -7,7 +7,7 @@
 
 <style lang="scss">
   @import 'src/styles/index.scss';
-  .contact {
+  section {
     min-height: 100vh;
     div {
       padding-top: calc(75px + 3em);
@@ -43,7 +43,7 @@
   }
 </style>
 
-<section class="contact">
+<section>
   <div><a href="/"> <span /> Back</a></div>
 
   <article>

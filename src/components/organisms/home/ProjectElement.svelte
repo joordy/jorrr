@@ -10,7 +10,7 @@
 
   section {
     width: 100%;
-    .allProjects {
+    div {
       max-width: 100%;
       display: grid;
       grid-template-columns: auto;
@@ -23,7 +23,7 @@
 
 <section id="cases">
   <BlockTitle pageSectionTitle="Cases" />
-  <div class="allProjects">
+  <div>
     {#each projects as project}
       <MyProject {project} />
     {/each}

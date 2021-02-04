@@ -5,7 +5,7 @@
 <style lang="scss">
   @import 'src/styles/index.scss';
 
-  .wrapper {
+  section {
     display: none;
     @media screen and (min-width: 600px) {
       display: block;
@@ -16,12 +16,12 @@
       right: 0;
       bottom: 0;
     }
-    .social__icons {
+    article {
       width: 1.5rem;
       margin: 0 auto;
       margin-bottom: 1rem;
     }
-    .social__line {
+    div {
       width: 0.175rem;
       height: 290px;
       margin: 0 auto;
@@ -33,9 +33,9 @@
   }
 </style>
 
-<div class="wrapper">
-  <article class="social__icons">
+<section>
+  <article>
     <SocialsIcons />
   </article>
-  <div class="social__line" />
-</div>
+  <div />
+</section>

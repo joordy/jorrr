@@ -38,7 +38,7 @@
         color: $ui-dark-blue;
       }
     }
-    .wrapper {
+    div {
       display: flex;
       justify-content: space-between;
       align-content: center;
@@ -109,8 +109,8 @@
 </style>
 
 <header>
-  <div class="wrapper">
-    <a href="#home"><h1 class="websiteTitle">Jordy Fronik</h1></a>
+  <div>
+    <a href="#home"><h1>Jordy Fronik</h1></a>
 
     <nav>
       <ul>

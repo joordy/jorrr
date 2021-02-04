@@ -29,7 +29,7 @@
 
 <section id="about">
   <BlockTitle pageSectionTitle="About" />
-  <article class="about__text">
+  <article>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum
       elementum tincidunt turpis consectetur viverra purus dolor varius mi. Mi

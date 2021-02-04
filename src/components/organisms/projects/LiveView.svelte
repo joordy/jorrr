@@ -35,7 +35,6 @@
         transition: all 0.5s;
       }
       &:hover {
-        /* color: $ui-dark-blue; */
         &:before {
           top: 0px;
           border-radius: 0;

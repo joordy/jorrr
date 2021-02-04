@@ -5,8 +5,7 @@
 <style lang="scss">
   @import 'src/styles/index.scss';
 
-  .assignment {
-    // min-height: 700px;
+  section {
     padding-top: 2em;
     h2,
     p {
@@ -23,22 +22,14 @@
     img {
       width: 100%;
       height: auto;
-      /* object-fit: cover; */
       border-radius: 4px;
     }
   }
 </style>
 
-<section class="assignment">
+<section>
   <h2>Assignment</h2>
-
   <p>{project.assignmentTextOne}</p>
-
   <img src={project.introImage} alt="" />
-
   <p>{project.assignmentTextTwo}</p>
-  <!-- <div>
-    <ChallengeDesc {project} />
-    <ChallengeSpecs {project} />
-  </div> -->
 </section>

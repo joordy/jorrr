@@ -48,7 +48,7 @@
         margin-top: 0;
         font-size: $h1-size;
       }
-      .case {
+      p {
         font-weight: 200;
         text-transform: uppercase;
       }
@@ -88,7 +88,7 @@
 <article>
   <a href="/"> <span /> Back</a>
   <section>
-    <p class="case">Case study</p>
+    <p>Case study</p>
     <h2>{project.title}</h2>
     <div>
       <ul>

@@ -5,7 +5,7 @@
 
 <style lang="scss">
   @import 'src/styles/index.scss';
-  .result {
+  section {
     h2,
     p {
       font-family: 'Inter', sans-serif;
@@ -20,7 +20,7 @@
   }
 </style>
 
-<section class="result">
+<section>
   <h2>Result</h2>
 
   <LargeCarousel {project} />
