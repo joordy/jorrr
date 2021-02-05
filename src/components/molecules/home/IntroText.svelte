@@ -13,9 +13,13 @@
   @import 'src/styles/index.scss';
 
   section {
-    width: 80%;
-    max-width: 370px;
+    /* width: 80%;
+    max-width: 370px; */
     padding-top: clamp(200px, 20vh, 30vh);
+    width: 100%;
+    @include size-s {
+      width: 390px;
+    }
     @include size-m {
       padding-top: 30vh;
       width: 400px;
@@ -34,7 +38,10 @@
       margin-top: 5em;
       display: flex;
       justify-content: space-between;
-      width: 390px;
+      width: 100%;
+      @include size-s {
+        width: 390px;
+      }
     }
   }
 </style>

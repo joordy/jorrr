@@ -30,12 +30,13 @@ main {
   margin-bottom: 190px;
   .mainWrapper {
     position: relative;
-    width: 95vw;
-    margin: 0 auto;
+    width: calc(100% - 30px);
+    margin: 0 15px;
     padding: 0;
     transition: 0.2s;
     @include size-s {
       width: 80vw;
+      margin: 0 auto;
     }
     @include size-xl {
       width: 70vw;

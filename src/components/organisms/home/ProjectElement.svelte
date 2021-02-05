@@ -10,6 +10,7 @@
 
   section {
     width: 100%;
+
     div {
       max-width: 100%;
       display: grid;

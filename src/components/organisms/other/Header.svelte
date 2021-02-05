@@ -93,7 +93,7 @@
               font-weight: 700;
               color: $ui-inActive;
               transition: 0.2s;
-              font-size: $small-font-size;
+              font-size: $basic-font-size;
               &:hover {
                 color: #079385;
               }
