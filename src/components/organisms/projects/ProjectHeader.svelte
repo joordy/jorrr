@@ -10,7 +10,7 @@
 
   section {
     width: 100vw;
-    margin-left: -2.5vw;
+    margin-left: -15px;
     overflow: hidden;
     background-color: $ui-dark-blue;
     color: $ui-soft-white;
@@ -20,9 +20,12 @@
     }
     @include size-l {
       height: 700px;
-
       width: calc(100vw);
       margin-left: calc((100vw - 800px) / -2);
+    }
+    @include lightMode {
+      background-color: #e7e5e5;
+      color: $ui-dark-blue;
     }
     article {
       height: 100%;
@@ -35,7 +38,7 @@
         flex-wrap: nowrap;
       }
       @include size-l {
-        width: 60vw;
+        width: 80vw;
         min-width: 800px;
         max-width: 1050px;
       }

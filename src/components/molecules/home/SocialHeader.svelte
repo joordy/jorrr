@@ -7,7 +7,7 @@
 
   section {
     display: none;
-    @media screen and (min-width: 600px) {
+    @media screen and (min-width: 760px) {
       display: block;
       position: absolute;
       margin-left: auto;

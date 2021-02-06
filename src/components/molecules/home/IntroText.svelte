@@ -13,19 +13,15 @@
   @import 'src/styles/index.scss';
 
   section {
-    /* width: 80%;
-    max-width: 370px; */
-    padding-top: clamp(200px, 20vh, 30vh);
     width: 100%;
-    @include size-s {
-      width: 390px;
-    }
-    @include size-m {
-      padding-top: 30vh;
+    @include size-xs {
       width: 400px;
     }
+
+    h2 {
+      margin-bottom: 1em;
+    }
     p {
-      font-family: 'IBM Plex Mono', monospace;
       font-size: $large-font-size;
       margin-bottom: $margin1;
       line-height: 26px;
@@ -35,24 +31,24 @@
       }
     }
     div {
-      margin-top: 5em;
+      margin-top: 3em;
       display: flex;
       justify-content: space-between;
       width: 100%;
       @include size-s {
-        width: 390px;
+        max-width: 390px;
       }
     }
   }
 </style>
 
 <section>
-  <p>Hi! I'm Jordy Fronik</p>
+  <h2>Hi, I'm Jordy Fronik</h2>
   <p>
     I am a
     <span>Creative Developer & Designer</span>
     which builds stuff for the internet. My heart loves to build smooth and
-    blazing fast web applications. Do you want to know more about me? Read on!
+    blazing fast web-applications. Do you want to know more about me? Read on!
   </p>
   <div>
     <ButtonLight linkTO="#cases" textCTA="Cases" />

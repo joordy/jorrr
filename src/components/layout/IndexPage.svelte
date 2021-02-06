@@ -22,6 +22,14 @@
     @include lightMode {
       background-color: #f6f6f6;
     }
+    .mainWrapper {
+      @include size-s {
+        width: 50vw !important;
+      }
+      @include size-l {
+        width: 1000px !important;
+      }
+    }
   }
 </style>
 

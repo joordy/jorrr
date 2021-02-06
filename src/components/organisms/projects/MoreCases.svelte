@@ -77,10 +77,10 @@
             &:nth-of-type(2) {
               opacity: 1;
               color: #079385;
-
               span {
+                margin-left: 1em;
                 &:nth-of-type(1) {
-                  transform: scale(1.2);
+                  transform: scale(1.3);
                 }
               }
             }

@@ -5,7 +5,7 @@
 <style lang="scss">
   @import 'src/styles/index.scss';
 
-  section {
+  /* section {
     position: absolute;
     top: 35%;
     right: 0;
@@ -14,6 +14,9 @@
       width: 100%;
       height: auto;
     }
+  } */
+  img {
+    max-width: 40px;
   }
 </style>
 

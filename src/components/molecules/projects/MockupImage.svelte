@@ -31,8 +31,8 @@
         filter: blur(150px);
         margin-top: 12em;
         @include lightMode {
-          filter: blur(700px);
-          background-color: $ui-dark-blue;
+          filter: blur(90px);
+          background-color: #757575;
         }
       }
       // image

@@ -10,6 +10,7 @@
     place-items: center;
     height: 200px;
     text-align: center;
+
     a {
       color: $ui-soft-white;
       text-decoration: none;
@@ -22,6 +23,9 @@
       position: relative;
       z-index: 0;
       overflow: hidden;
+      @include lightMode {
+        background-color: #079385;
+      }
       &:before {
         content: '';
         position: absolute;
@@ -33,6 +37,9 @@
         border-radius: 50% 50% 0% 0;
         z-index: -1;
         transition: all 0.5s;
+        @include lightMode {
+          background-color: $ui-dark-blue;
+        }
       }
       &:hover {
         &:before {
