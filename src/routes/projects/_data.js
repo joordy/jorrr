@@ -140,6 +140,54 @@ export let projects = [
       pathname: '/projects/ring-ring',
     },
   },
+  {
+    idNumber: '04',
+    type: 'Case Study',
+    title: 'PhotoPaint',
+    subTitle: 'Tool where you can edit the perfect Unsplash image.',
+    thirdTitle: 'PhotoPaint',
+    page_slug: '/projects/photo-paint',
+    slug: 'photo-paint',
+    intro:
+      'Een dating applicatie gemaakt voor ICT studenten. Het maken van de applicatie was onderdeel van een team project waarbij we drie verschillende aspecten van de dating applicatie hebben gebouwd.',
+    mockupImage:
+      'https://user-images.githubusercontent.com/48051912/106788004-b11fcc00-6650-11eb-9386-7fd142b5a31b.png',
+    introImage:
+      'https://user-images.githubusercontent.com/48051912/106788003-b0873580-6650-11eb-96e9-50e6e74b0d3f.png',
+    assignmentTextOne:
+      'Het web-development project is een onderdeel van het programma van de opleiding Communicatie & Multimedia Design, in het keuze semester: Tech. De opdracht bestond uit het werkend maken van een interactieve dating applicatie, welke gebouwd wordt met de backend programmeertaal NodeJS.  ',
+    assignmentTextTwo:
+      'Voor dit project heb ik er voor gekozen om het proces van gebruikers leuk vinden, en bij wederzijdse interesse de match uit te gaan werken. Halverwege de periode heb ik mijn functionaliteiten samen met die van twee teamgenoten, aan elkaar gekoppeld om vervolgens een werkende applicatie te realiseren.',
+    assignmentdesc:
+      'Dat.io is een dating applicatie wat gebouwd is met de programmeertaal NodeJS. Het project maakt gebruik van onder meer een Express-server en EJS. Samen met mijn teamgenoten hebben we een applicatie gebouwd welke de gebruiker drie verschillende functionaliteiten biedt. Met de applcatie kan de gebruiker zich registreren en/of inloggen, gebruikers filteren, en gebruikers leuk vinden. Als de interesse wederzijds is, krijgt de gebruiker een match.',
+    explenation:
+      'Dat.io is een dating applicatie wat gebouwd is met de programmeertaal NodeJS. Het project maakt gebruik van onder meer een Express-server en EJS. Samen met mijn teamgenoten hebben we een applicatie gebouwd welke de gebruiker drie verschillende functionaliteiten biedt. Met de applcatie kan de gebruiker zich registreren en/of inloggen, gebruikers filteren, en gebruikers leuk vinden. Als de interesse wederzijds is, krijgt de gebruiker een match.',
+    services: 'Front-end Development & UX Design',
+    typeOfProject: `Werken met API's & virtuele DOM.`,
+    languages: 'HTML, CSS, JavaScript, GIT',
+    teamproject: 'Individueel',
+    livePreview: 'https://wafs-jorrr.netlify.app',
+    githubSource: 'https://github.com/joordy/PhotoPaint',
+    smallImageSlider: [
+      'https://user-images.githubusercontent.com/48051912/106788289-0cea5500-6651-11eb-962a-5ac8d022380e.png',
+    ],
+    largeImageSlider: [
+      'https://user-images.githubusercontent.com/48051912/106788004-b11fcc00-6650-11eb-9386-7fd142b5a31b.png',
+      'https://user-images.githubusercontent.com/48051912/106788003-b0873580-6650-11eb-96e9-50e6e74b0d3f.png',
+      'https://user-images.githubusercontent.com/48051912/106788289-0cea5500-6651-11eb-962a-5ac8d022380e.png',
+      'https://user-images.githubusercontent.com/48051912/106787998-afee9f00-6650-11eb-9936-36a45a503e00.png',
+      'https://user-images.githubusercontent.com/48051912/106787993-aebd7200-6650-11eb-8075-af31ab865cc5.png',
+    ],
+    detailsOne:
+      'Dat.io is een dating applicatie wat gebouwd is met de programmeertaal NodeJS. Het project maakt gebruik van onder meer een Express-server en EJS. Samen met mijn teamgenoten hebben we een applicatie gebouwd welke de gebruiker drie verschillende functionaliteiten biedt. Met de applcatie kan de gebruiker zich registreren en/of inloggen, gebruikers filteren, en gebruikers leuk vinden. Als de interesse wederzijds is, krijgt de gebruiker een match.Dat.io is een dating applicatie wat gebouwd is met de programmeertaal NodeJS. Het project maakt gebruik van onder meer een Express-server en EJS. Samen met mijn teamgenoten hebben we een applicatie gebouwd welke de gebruiker drie verschillende functionaliteiten biedt. Met de applcatie kan de gebruiker zich registreren en/of inloggen, gebruikers filteren, en gebruikers leuk vinden. Als de interesse wederzijds is, krijgt de gebruiker een match.',
+    otherCase: {
+      name: 'Ring-Ring',
+      src:
+        'https://user-images.githubusercontent.com/48051912/105644734-6c00da80-5e97-11eb-83b7-d8eb145ff417.png',
+      alt: '',
+      pathname: '/projects/ring-ring',
+    },
+  },
 
   // {
   //   idNumber: '04',

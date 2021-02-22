@@ -110,7 +110,7 @@
 
 <header>
   <div>
-    <a href="#home"><h1>Jordy Fronik</h1></a>
+    <a href="/"><h1>Jordy Fronik</h1></a>
 
     <nav>
       <ul>

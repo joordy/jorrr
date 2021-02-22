@@ -27,7 +27,10 @@
         width: 50vw !important;
       }
       @include size-l {
-        width: 1000px !important;
+        width: 920px !important;
+      }
+      @include size-ultra {
+        width: 1200px !important;
       }
     }
   }
