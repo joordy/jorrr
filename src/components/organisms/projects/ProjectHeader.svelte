@@ -12,7 +12,7 @@
     width: 100vw;
     margin-left: -15px;
     overflow: hidden;
-    background-color: $ui-dark-blue;
+    background-color: $ui-black;
     color: $ui-soft-white;
     @include size-s {
       width: 100vw;

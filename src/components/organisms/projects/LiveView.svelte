@@ -24,7 +24,7 @@
       z-index: 0;
       overflow: hidden;
       @include lightMode {
-        background-color: #079385;
+        background-color: $ui-blue;
       }
       &:before {
         content: '';

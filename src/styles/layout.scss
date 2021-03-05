@@ -6,7 +6,7 @@
   padding: 0;
 }
 html {
-  background-color: #1a1824;
+  background-color: $ui-black;
 }
 
 @media (prefers-color-scheme: light) {
@@ -35,14 +35,14 @@ main {
     padding: 0;
     transition: 0.2s;
     @include size-s {
-      width: 80vw;
+      width: 70vw !important;
       margin: 0 auto;
     }
-    @include size-xl {
-      width: 70vw;
+    @include size-l {
+      width: 920px !important;
     }
     @include size-ultra {
-      width: 50vw;
+      width: 1200px !important;
     }
   }
 }

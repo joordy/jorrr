@@ -20,8 +20,8 @@
     a {
       font-weight: 700;
       text-decoration: none;
-      color: #079385;
-      border-bottom: 2px solid #079385;
+      color: $ui-blue;
+      border-bottom: 2px solid $ui-blue;
     }
   }
 </style>

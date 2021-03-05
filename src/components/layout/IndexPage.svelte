@@ -18,20 +18,9 @@
     }
   }
   main {
-    background-color: $ui-dark-blue;
+    background-color: $ui-black;
     @include lightMode {
       background-color: #f6f6f6;
-    }
-    .mainWrapper {
-      @include size-s {
-        width: 50vw !important;
-      }
-      @include size-l {
-        width: 920px !important;
-      }
-      @include size-ultra {
-        width: 1200px !important;
-      }
     }
   }
 </style>

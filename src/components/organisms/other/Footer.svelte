@@ -13,7 +13,7 @@
     z-index: -1;
     width: 100%;
     height: 200px;
-    background-color: #292831;
+    background-color: $ui-softBlack;
     color: $ui-soft-white;
     display: grid;
     place-items: center;

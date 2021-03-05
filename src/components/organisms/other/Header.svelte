@@ -30,7 +30,7 @@
     top: 0;
     z-index: 100;
     width: 100%;
-    background-color: #1a1824;
+    background-color: $ui-black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     @include lightMode {
       background-color: #ebebeb;
@@ -95,7 +95,7 @@
               transition: 0.2s;
               font-size: $basic-font-size;
               &:hover {
-                color: #079385;
+                color: $ui-blue;
               }
               @include size-s {
                 font-size: $basic-font-size;

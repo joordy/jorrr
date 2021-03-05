@@ -76,7 +76,7 @@
           p {
             &:nth-of-type(2) {
               opacity: 1;
-              color: #079385;
+              color: $ui-blue;
               span {
                 margin-left: 1em;
                 &:nth-of-type(1) {

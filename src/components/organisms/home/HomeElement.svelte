@@ -3,8 +3,6 @@
   import ButtonDark from '@/components/atoms/ButtonDark.svelte'
 
   // import Saos from 'saos'
-  import IntroImage from '@/components/molecules/home/IntroImage.svelte'
-  import IntroText from '@/components/molecules/home/IntroText.svelte'
   let src = 'PictureOfMe.svg'
 </script>
 
@@ -45,7 +43,7 @@
             margin-bottom: $margin1;
             line-height: 26px;
             span {
-              color: #079385;
+              color: $ui-blue;
               font-weight: 900;
             }
           }
@@ -89,17 +87,19 @@
 
 <section id="home">
   <article>
-    <!-- <IntroText />
-    <IntroImage /> -->
     <aside>
       <h2>Hi, I'm Jordy Fronik</h2>
       <p>
-        I am a
+        I'm a
         <span>Creative Developer & Designer</span>
-        which builds stuff for the internet. My heart loves to build smooth and
-        blazing fast web-applications. Do you want to know more about me? Read
-        on!
+        that builds stuff for the internet. Do you want to know more about me?
+        Read on!
       </p>
+      <!-- <p>
+        I am a which builds stuff for the internet. My heart loves to build
+        smooth and blazing fast web-applications. Do you want to know more about
+        me? Read on!
+      </p> -->
       <div>
         <ButtonLight linkTO="#cases" textCTA="Cases" />
         <ButtonDark linkTO="#contact" textCTA="Contact" />

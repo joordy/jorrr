@@ -25,7 +25,7 @@
       background: linear-gradient(
         180deg,
         rgba(26, 24, 36, 0) 44.87%,
-        rgba(26, 24, 36, 1) 74.35%
+        $ui-black 74.35%
       );
       @include size-s {
         bottom: 6px;

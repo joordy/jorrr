@@ -8,7 +8,7 @@
   * {
     color: $ui-soft-white !important;
     @include lightMode {
-      color: #1a1824 !important;
+      color: $ui-black !important;
     }
   }
   main {

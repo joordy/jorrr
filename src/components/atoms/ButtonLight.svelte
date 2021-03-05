@@ -7,22 +7,26 @@
   @import 'src/styles/index.scss';
 
   a {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 14px;
-    font-weight: $bold;
-    line-height: 20px;
-    vertical-align: middle;
+    min-width: 75px;
+    height: 30px;
+    padding: calc(0.5em + 2px) 2.5em;
+
     border-radius: 8px;
     background: transparent;
-    background-color: #079385;
-    color: #f6f6f6;
+    background-color: $ui-blue;
     background-size: 240%;
-    padding: 1em 4em;
-    text-decoration: none;
     transition: 0.6s;
+
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
     cursor: pointer;
+    color: $ui-black;
     &:hover {
-      background-position: right;
+      transform: scale(1.05);
+      backdrop-filter: blur(10px);
+      box-shadow: 0px 0px 15px 20px rgba($color: $ui-blue, $alpha: 0.3);
     }
   }
 </style>
