@@ -1,5 +1,9 @@
 <script>
   import BlockTitle from '@/components/atoms/BlockTitle.svelte'
+  import SlideIn from '@/components/templates/SlideIn.svelte'
+
+  let left = 'from-left'
+  let right = 'from-right'
 </script>
 
 <style lang="scss">
@@ -13,6 +17,19 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 1em;
+        .from-left {
+          grid-column: 1 / 2;
+          transform: translateX(-50%);
+        }
+
+        .from-right {
+          grid-column: 2 / 3;
+          transform: translateX(50%);
+        }
+        .from-left,
+        .from-right {
+          transition: transform 400ms ease-in;
+        }
       }
       @include size-l {
         grid-gap: 6em;
@@ -32,30 +49,31 @@
 <section id="about">
   <BlockTitle pageSectionTitle="About" />
   <article>
-    <div>
-      <p>
-        I am a Front-end Developer from Purmerend, in the Netherlands, and am
-        currently studying Communication & Multimedia Design at the University
-        of Applied Sciences in Amsterdam.
-      </p>
+    <SlideIn from={left}>
+      <div>
+        <p>
+          I am a Front-end Developer from Purmerend, in the Netherlands, and am
+          currently studying Communication & Multimedia Design at the University
+          of Applied Sciences in Amsterdam.
+        </p>
 
-      <p>
-        I love to realize beautiful designs, with the thoughts of User
-        Experience, User Interaction and performance in mind.
-      </p>
-    </div>
-    <div>
-      <p>
-        <span>Tech Stack: </span>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum
-        elementum tincidunt turpis consectetur viverra purus dolor varius mi. Mi
-        phasellus quis consectetur feugiat. Platea ipsum eleifend id tristique
-        egestas molestie augue. Elementum nam eu consectetur convallis
-        vestibulum, suscipit. Eleifend phasellus nulla quis elementum egestas
-        nunc auctor. At nibh mauris viverra in lacus, maecenas ac. Varius lorem
-        mattis eget ullamcorper faucibus nunc. Eu tristique vel, nibh
-        pellentesque.
-      </p>
-    </div>
+        <p>
+          I love to realize beautiful designs, with the thoughts of User
+          Experience, User Interaction and performance in mind.
+        </p>
+      </div>
+    </SlideIn>
+    <SlideIn from={right}>
+      <div>
+        <p>
+          <span>Tech Stack: </span>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum
+          elementum tincidunt turpis consectetur viverra purus dolor varius mi.
+          Mi phasellus quis consectetur feugiat. Platea ipsum eleifend id
+          tristique egestas molestie augue. Elementum nam eu consectetur
+          convallis vestibulum, suscipit.
+        </p>
+      </div>
+    </SlideIn>
   </article>
 </section>

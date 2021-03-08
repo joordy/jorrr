@@ -30,10 +30,11 @@
   <BlockTitle pageSectionTitle="Contact" />
 
   <h3>Say hi!</h3>
+
   <p>
-    Ben je geïnteresseerd om met mij te gaan samenwerken? Neem dan gerust
-    contact met mij op voor een project of een samenwerking.
+    Are you interested in working with me? Please feel free to contact me for a
+    project or a collaboration together.
   </p>
-  <a href="/contact">Verstuur e-mail</a>
-  <!-- <a href="mailto:me@jorrr.dev?subject=Contact via website!">Verstuur e-mail</a> -->
+
+  <a href="mailto:me@jorrr.dev?subject=Question from website">Send e-mail</a>
 </section>

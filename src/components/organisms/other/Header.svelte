@@ -2,21 +2,21 @@
   import { onMount } from 'svelte'
 
   onMount(() => {
-    window.onscroll = function () {
-      scrollFunction()
-    }
-
-    function scrollFunction() {
+    const scrollFunction = () => {
       if (
         document.body.scrollTop > 150 ||
         document.documentElement.scrollTop > 150
       ) {
-        document.querySelector('.wrapper').style.padding = '0.4em 0em'
+        document.querySelector('.navWrapper').style.margin = '0.4em auto'
         document.querySelector('.websiteTitle').style.fontSize = '16px'
       } else {
-        document.querySelector('.wrapper').style.padding = '1em 0em'
+        document.querySelector('.navWrapper').style.margin = '1em auto'
         document.querySelector('.websiteTitle').style.fontSize = '24px'
       }
+    }
+
+    window.onscroll = function () {
+      scrollFunction()
     }
   })
 </script>
@@ -109,8 +109,8 @@
 </style>
 
 <header>
-  <div>
-    <a href="/"><h1>Jordy Fronik</h1></a>
+  <div class="navWrapper">
+    <a href="/" class="websiteTitle"><h1>Jordy Fronik</h1></a>
 
     <nav>
       <ul>

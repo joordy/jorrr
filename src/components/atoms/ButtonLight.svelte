@@ -25,8 +25,8 @@
     color: $ui-black;
     &:hover {
       transform: scale(1.05);
-      backdrop-filter: blur(10px);
-      box-shadow: 0px 0px 15px 20px rgba($color: $ui-blue, $alpha: 0.3);
+      backdrop-filter: blur(20px);
+      box-shadow: 0px 0px 20px 15px rgba($color: $ui-blue, $alpha: 0.3);
     }
   }
 </style>
