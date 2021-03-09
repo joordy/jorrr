@@ -1,5 +1,4 @@
 <script>
-  import Fade from '@/components/templates/Fade.svelte'
   import SlideIn from '@/components/templates/SlideIn.svelte'
 
   import ButtonLight from '@/components/atoms/ButtonLight.svelte'
@@ -7,8 +6,8 @@
   import { onMount } from 'svelte'
   let src = 'PictureOfMe.svg'
 
-  let left = 'from-left'
-  let right = 'from-right'
+  let bottom = 'fadeinBottom'
+  // let top = 'fadeinTop'
 
   onMount(() => {
     window.addEventListener('load', function () {
@@ -16,7 +15,6 @@
 
       const sliders = document.querySelectorAll('.slideIn')
       sliders.forEach((slide) => {
-        console.log(slide)
         // Half way of image
         const slideInAt =
           window.scrollY + window.innerHeight - slide.offsetHeight / 2
@@ -106,7 +104,7 @@
 </style>
 
 <section id="home">
-  <SlideIn from={left}>
+  <SlideIn from={bottom}>
     <aside class="intro">
       <h2>Hi, I'm Jordy Fronik</h2>
       <p>
@@ -122,7 +120,7 @@
       </div>
     </aside>
   </SlideIn>
-  <SlideIn from={right}>
+  <SlideIn from={bottom}>
     <aside class="img"><img {src} /></aside>
   </SlideIn>
 </section>

@@ -11,25 +11,26 @@
     window.addEventListener(
       'scroll',
       debounce((e) => {
-        sliders.forEach((slide) => {
-          console.log(slide)
-          // Half way of image
-          const slideInAt =
-            window.scrollY + window.innerHeight - slide.offsetHeight / 2
-          // Bottom of image
-          const slideBottom = slide.offsetTop + slide.offsetHeight
+        sliders.forEach((slide, i) => {
+          setTimeout(function () {
+            // Half way of image
+            const slideInAt =
+              window.scrollY + window.innerHeight - slide.offsetHeight / 2
+            // Bottom of image
+            const slideBottom = slide.offsetTop + slide.offsetHeight
 
-          const isHalfShown = slideInAt > slide.offsetTop
+            const isHalfShown = slideInAt > slide.offsetTop
 
-          const isNotScrolledPast = window.scrollY < slideBottom
+            const isNotScrolledPast = window.scrollY < slideBottom
 
-          if (isHalfShown && isNotScrolledPast) {
-            slide.classList.add('active')
-          } else {
-            slide.classList.remove('active')
-          }
+            if (isHalfShown && isNotScrolledPast) {
+              slide.classList.add('active')
+            } else {
+              slide.classList.remove('active')
+            }
+          }, i * 250)
         })
-      }, 62.5)
+      }, 50)
     )
   })
 </script>
@@ -37,22 +38,24 @@
 <style lang="scss">
   @import 'src/styles/index.scss';
 
-  .from-left.slideIn,
-  .from-right.slideIn {
-    opacity: 0;
-    transition: transform 500ms ease-in;
-  }
-  .from-left.slideIn {
+  .fadeinBottom.slideIn {
     @include size-s {
-      transform: translateX(-50%) translateY(25%) scale(0.9);
+      opacity: 0.02;
+      transition: transform 500ms ease-in;
+      transform: translateY(25%);
+    }
+  }
+  /* .from-left.slideIn {
+    @include size-s {
+      transform: translateY(25%);
     }
   }
 
   .from-right.slideIn {
     @include size-s {
-      transform: translateX(50%) translateY(25%) scale(0.9);
+      transform: translateY(25%);
     }
-  }
+  } */
 
   .slideIn.active {
     transform: translateX(0) scale(1);

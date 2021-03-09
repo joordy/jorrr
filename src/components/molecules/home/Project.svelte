@@ -1,5 +1,8 @@
 <script>
   import ButtonLight from '@/components/atoms/ButtonLight.svelte'
+  import SlideIn from '@/components/templates/SlideIn.svelte'
+
+  let bottom = 'fadeinBottom'
 
   export let project
 </script>
@@ -7,6 +10,25 @@
 <style lang="scss">
   @import 'src/styles/index.scss';
 
+  /* .fadeinBottom {
+    @include size-s {
+      &:nth-of-type(2) {
+        margin-top: 9rem;
+      }
+      &:nth-of-type(3) {
+        margin-top: -7rem;
+      }
+    }
+    @include size-m {
+      height: 600px;
+      &:nth-of-type(2) {
+        margin-top: 15rem;
+      }
+      &:nth-of-type(3) {
+        margin-top: -13rem;
+      }
+    }
+  } */
   section {
     margin: 20px;
     height: 400px;
@@ -111,14 +133,16 @@
   }
 </style>
 
-<section>
-  <a href="/projects/{project.slug}">
-    <h4>{project.idNumber}</h4>
-    <article><img src={project.mockupImage} alt="" /></article>
-    <article>
-      <h3>{project.title}</h3>
-      <p>{project.subTitle}</p>
-      <ButtonLight linkTO="/projects/{project.slug}" textCTA="Bekijk case" />
-    </article>
-  </a>
-</section>
+<SlideIn from={bottom}>
+  <section>
+    <a href="/projects/{project.slug}">
+      <h4>{project.idNumber}</h4>
+      <article><img src={project.mockupImage} alt="" /></article>
+      <article>
+        <h3>{project.title}</h3>
+        <p>{project.subTitle}</p>
+        <ButtonLight linkTO="/projects/{project.slug}" textCTA="Bekijk case" />
+      </article>
+    </a>
+  </section>
+</SlideIn>

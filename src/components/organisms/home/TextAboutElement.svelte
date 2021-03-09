@@ -2,8 +2,8 @@
   import BlockTitle from '@/components/atoms/BlockTitle.svelte'
   import SlideIn from '@/components/templates/SlideIn.svelte'
 
-  let left = 'from-left'
-  let right = 'from-right'
+  let bottom = 'fadeinBottom'
+  // let top = 'fadeinTop'
 </script>
 
 <style lang="scss">
@@ -49,7 +49,7 @@
 <section id="about">
   <BlockTitle pageSectionTitle="About" />
   <article>
-    <SlideIn from={left}>
+    <SlideIn from={bottom}>
       <div>
         <p>
           I am a Front-end Developer from Purmerend, in the Netherlands, and am
@@ -63,7 +63,7 @@
         </p>
       </div>
     </SlideIn>
-    <SlideIn from={right}>
+    <SlideIn from={bottom}>
       <div>
         <p>
           <span>Tech Stack: </span>
