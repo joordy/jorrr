@@ -1,38 +1,12 @@
 <script>
-  import Slide from '@/components/templates/Slide.svelte'
+  import SlideLeft from '@/components/animations/SlideLeft.svelte'
+  import SlideRight from '@/components/animations/SlideRight.svelte'
 
+  // Components
   import ButtonLight from '@/components/atoms/ButtonLight.svelte'
   import ButtonDark from '@/components/atoms/ButtonDark.svelte'
-  // import { onMount } from 'svelte'
+
   let src = 'PictureOfMe.svg'
-
-  // let bottom = 'fadeinBottom'
-  // let top = 'fadeinTop'
-
-  // onMount(() => {
-  //   window.addEventListener('load', function () {
-  //     console.log('loaded')
-
-  //     const sliders = document.querySelectorAll('.slideIn')
-  //     sliders.forEach((slide) => {
-  //       // Half way of image
-  //       const slideInAt =
-  //         window.scrollY + window.innerHeight - slide.offsetHeight / 2
-  //       // Bottom of image
-  //       const slideBottom = slide.offsetTop + slide.offsetHeight
-
-  //       const isHalfShown = slideInAt > slide.offsetTop
-
-  //       const isNotScrolledPast = window.scrollY < slideBottom
-
-  //       if (isHalfShown && isNotScrolledPast) {
-  //         slide.classList.add('active')
-  //       } else {
-  //         slide.classList.remove('active')
-  //       }
-  //     })
-  //   })
-  // })
 </script>
 
 <style lang="scss">
@@ -104,7 +78,7 @@
 </style>
 
 <section id="home">
-  <Slide>
+  <SlideLeft elem={'headerIntro'}>
     <aside class="intro">
       <h2>Hi, I'm Jordy Fronik</h2>
       <p>
@@ -119,8 +93,8 @@
         <ButtonDark linkTO="#contact" textCTA="Contact" />
       </div>
     </aside>
-  </Slide>
-  <Slide>
+  </SlideLeft>
+  <SlideRight>
     <aside class="img"><img {src} /></aside>
-  </Slide>
+  </SlideRight>
 </section>

@@ -18,7 +18,7 @@
 
 <script>
   export let project
-  import ProjectPage from '@/components/layout/ProjectPage.svelte'
+  import ProjectPage from '@/components/templates/ProjectPage.svelte'
 </script>
 
 <style lang="scss">

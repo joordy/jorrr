@@ -1,5 +1,5 @@
 <script>
-  import ContactPage from '@/components/layout/ContactPage.svelte'
+  import ContactPage from '@/components/templates/ContactPage.svelte'
 </script>
 
 <style lang="scss">

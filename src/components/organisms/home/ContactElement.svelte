@@ -1,4 +1,8 @@
 <script>
+  // Animations
+  import SlideLeft from '@/components/animations/SlideLeft.svelte'
+
+  // Elements
   import BlockTitle from '@/components/atoms/BlockTitle.svelte'
 </script>
 
@@ -27,14 +31,18 @@
 </style>
 
 <section id="contact">
-  <BlockTitle pageSectionTitle="Contact" />
+  <SlideLeft>
+    <BlockTitle pageSectionTitle="Contact" />
+  </SlideLeft>
 
-  <h3>Say hi!</h3>
+  <SlideLeft>
+    <h3>Say hi!</h3>
 
-  <p>
-    Are you interested in working with me? Please feel free to contact me for a
-    project or a collaboration together.
-  </p>
+    <p>
+      Are you interested in working with me? Please feel free to contact me for
+      a project or a collaboration together.
+    </p>
 
-  <a href="mailto:me@jorrr.dev?subject=Question from website">Send e-mail</a>
+    <a href="mailto:me@jorrr.dev?subject=Question from website">Send e-mail</a>
+  </SlideLeft>
 </section>

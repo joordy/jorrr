@@ -1,5 +1,5 @@
 <script>
-  import IndexPage from '@/components/layout/IndexPage.svelte'
+  import IndexPage from '@/components/templates/IndexPage.svelte'
   import { projects } from './projects/_data'
 </script>
 

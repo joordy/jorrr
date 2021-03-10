@@ -1,7 +1,8 @@
 <script>
-  import BlockTitle from '@/components/atoms/BlockTitle.svelte'
-  import OnScroll from '@/components/templates/OnScroll.svelte'
+  import SlideRight from '@/components/animations/SlideRight.svelte'
+  import SlideLeft from '@/components/animations/SlideLeft.svelte'
 
+  import BlockTitle from '@/components/atoms/BlockTitle.svelte'
   // let bottom = 'fadeinBottom'
   // let top = 'fadeinTop'
 </script>
@@ -47,11 +48,11 @@
 </style>
 
 <section id="about">
-  <OnScroll>
+  <SlideLeft>
     <BlockTitle pageSectionTitle="About" />
-  </OnScroll>
+  </SlideLeft>
   <article>
-    <OnScroll>
+    <SlideLeft>
       <div>
         <p>
           I am a Front-end Developer from Purmerend, in the Netherlands, and am
@@ -64,8 +65,8 @@
           Experience, User Interaction and performance in mind.
         </p>
       </div>
-    </OnScroll>
-    <OnScroll>
+    </SlideLeft>
+    <SlideRight>
       <div>
         <p>
           <span>Tech Stack: </span>
@@ -76,6 +77,6 @@
           convallis vestibulum, suscipit.
         </p>
       </div>
-    </OnScroll>
+    </SlideRight>
   </article>
 </section>
