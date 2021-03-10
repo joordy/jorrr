@@ -1,38 +1,38 @@
 <script>
-  import SlideIn from '@/components/templates/SlideIn.svelte'
+  import Slide from '@/components/templates/Slide.svelte'
 
   import ButtonLight from '@/components/atoms/ButtonLight.svelte'
   import ButtonDark from '@/components/atoms/ButtonDark.svelte'
-  import { onMount } from 'svelte'
+  // import { onMount } from 'svelte'
   let src = 'PictureOfMe.svg'
 
-  let bottom = 'fadeinBottom'
+  // let bottom = 'fadeinBottom'
   // let top = 'fadeinTop'
 
-  onMount(() => {
-    window.addEventListener('load', function () {
-      console.log('loaded')
+  // onMount(() => {
+  //   window.addEventListener('load', function () {
+  //     console.log('loaded')
 
-      const sliders = document.querySelectorAll('.slideIn')
-      sliders.forEach((slide) => {
-        // Half way of image
-        const slideInAt =
-          window.scrollY + window.innerHeight - slide.offsetHeight / 2
-        // Bottom of image
-        const slideBottom = slide.offsetTop + slide.offsetHeight
+  //     const sliders = document.querySelectorAll('.slideIn')
+  //     sliders.forEach((slide) => {
+  //       // Half way of image
+  //       const slideInAt =
+  //         window.scrollY + window.innerHeight - slide.offsetHeight / 2
+  //       // Bottom of image
+  //       const slideBottom = slide.offsetTop + slide.offsetHeight
 
-        const isHalfShown = slideInAt > slide.offsetTop
+  //       const isHalfShown = slideInAt > slide.offsetTop
 
-        const isNotScrolledPast = window.scrollY < slideBottom
+  //       const isNotScrolledPast = window.scrollY < slideBottom
 
-        if (isHalfShown && isNotScrolledPast) {
-          slide.classList.add('active')
-        } else {
-          slide.classList.remove('active')
-        }
-      })
-    })
-  })
+  //       if (isHalfShown && isNotScrolledPast) {
+  //         slide.classList.add('active')
+  //       } else {
+  //         slide.classList.remove('active')
+  //       }
+  //     })
+  //   })
+  // })
 </script>
 
 <style lang="scss">
@@ -104,7 +104,7 @@
 </style>
 
 <section id="home">
-  <SlideIn from={bottom}>
+  <Slide>
     <aside class="intro">
       <h2>Hi, I'm Jordy Fronik</h2>
       <p>
@@ -119,8 +119,8 @@
         <ButtonDark linkTO="#contact" textCTA="Contact" />
       </div>
     </aside>
-  </SlideIn>
-  <SlideIn from={bottom}>
+  </Slide>
+  <Slide>
     <aside class="img"><img {src} /></aside>
-  </SlideIn>
+  </Slide>
 </section>

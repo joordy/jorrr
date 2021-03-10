@@ -11,6 +11,7 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "compression": "^1.7.1",
+    "gsap": "^3.6.0",
     "lorem-ipsum": "^2.0.3",
     "polka": "next",
     "rollup-plugin-alias": "^2.2.0",

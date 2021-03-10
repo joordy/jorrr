@@ -1,8 +1,8 @@
 <script>
   import ButtonLight from '@/components/atoms/ButtonLight.svelte'
-  import SlideIn from '@/components/templates/SlideIn.svelte'
+  // import SlideIn from '@/components/templates/SlideIn.svelte'
 
-  let bottom = 'fadeinBottom'
+  // let bottom = 'fadeinBottom'
 
   export let project
 </script>
@@ -133,16 +133,16 @@
   }
 </style>
 
-<SlideIn from={bottom}>
-  <section>
-    <a href="/projects/{project.slug}">
-      <h4>{project.idNumber}</h4>
-      <article><img src={project.mockupImage} alt="" /></article>
-      <article>
-        <h3>{project.title}</h3>
-        <p>{project.subTitle}</p>
-        <ButtonLight linkTO="/projects/{project.slug}" textCTA="Bekijk case" />
-      </article>
-    </a>
-  </section>
-</SlideIn>
+<!-- <SlideIn from={bottom}> -->
+<section>
+  <a href="/projects/{project.slug}">
+    <h4>{project.idNumber}</h4>
+    <article><img src={project.mockupImage} alt="" /></article>
+    <article>
+      <h3>{project.title}</h3>
+      <p>{project.subTitle}</p>
+      <ButtonLight linkTO="/projects/{project.slug}" textCTA="Bekijk case" />
+    </article>
+  </a>
+</section>
+<!-- </SlideIn> -->
