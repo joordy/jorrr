@@ -1,4 +1,7 @@
 <script>
+  // Animations
+  import SlideLeft from '@/components/animations/SlideLeft.svelte'
+
   export let project
 </script>
 
@@ -28,8 +31,17 @@
 </style>
 
 <section>
-  <h2>Assignment</h2>
-  <p>{project.assignmentTextOne}</p>
-  <img src={project.introImage} alt="" />
-  <p>{project.assignmentTextTwo}</p>
+  <SlideLeft>
+    <h2>Assignment</h2>
+  </SlideLeft>
+
+  <SlideLeft>
+    <p>{project.assignmentTextOne}</p>
+  </SlideLeft>
+
+  <SlideLeft><img src={project.introImage} alt="" /></SlideLeft>
+
+  <SlideLeft>
+    <p>{project.assignmentTextTwo}</p>
+  </SlideLeft>
 </section>

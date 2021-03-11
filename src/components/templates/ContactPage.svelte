@@ -22,6 +22,5 @@
 <main>
   <section class="mainWrapper">
     <ContactForm />
-    <!-- <form action=""></form> -->
   </section>
 </main>

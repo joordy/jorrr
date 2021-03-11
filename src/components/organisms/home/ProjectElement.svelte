@@ -2,7 +2,7 @@
   // Animations
   import SlideLeft from '@/components/animations/SlideLeft.svelte'
 
-  // Elements
+  // Components
   import BlockTitle from '@/components/atoms/BlockTitle.svelte'
   import MyProject from '@/components/molecules/home/Project.svelte'
 

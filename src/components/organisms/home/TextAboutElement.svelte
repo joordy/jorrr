@@ -1,10 +1,10 @@
 <script>
+  // Animations
   import SlideRight from '@/components/animations/SlideRight.svelte'
   import SlideLeft from '@/components/animations/SlideLeft.svelte'
 
+  //Components
   import BlockTitle from '@/components/atoms/BlockTitle.svelte'
-  // let bottom = 'fadeinBottom'
-  // let top = 'fadeinTop'
 </script>
 
 <style lang="scss">
@@ -61,20 +61,20 @@
         </p>
 
         <p>
-          I love to realize beautiful designs, with the thoughts of User
-          Experience, User Interaction and performance in mind.
+          I love creating stuff that lives on the internet, whether that be
+          websites, applications, or anything in between. My goal is to always
+          build products that provide a good User Experience, and high
+          performance experiences.
         </p>
       </div>
     </SlideLeft>
     <SlideRight>
       <div>
         <p>
-          <span>Tech Stack: </span>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum
-          elementum tincidunt turpis consectetur viverra purus dolor varius mi.
-          Mi phasellus quis consectetur feugiat. Platea ipsum eleifend id
-          tristique egestas molestie augue. Elementum nam eu consectetur
-          convallis vestibulum, suscipit.
+          I’ve spent the past 2+ years working across different areas of digital
+          design; Front-end Development, User Experience & User Interaction
+          design. Currently I get a lot of satisfaction from developing web
+          applications, also check out my work to see what I have built.
         </p>
       </div>
     </SlideRight>

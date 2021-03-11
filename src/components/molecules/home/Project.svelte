@@ -1,7 +1,7 @@
 <script>
   import ButtonLight from '@/components/atoms/ButtonLight.svelte'
-  import ProjectBackground from '@/components/atoms/ProjectBackground.svelte'
-  import ProjectDesc from '@/components/atoms/ProjectDesc.svelte'
+  import ProjectBackground from '@/components/atoms/home/ProjectBackground.svelte'
+  import ProjectDesc from '@/components/atoms/home/ProjectDesc.svelte'
 
   export let project
 </script>

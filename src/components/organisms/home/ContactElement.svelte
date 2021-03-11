@@ -2,7 +2,7 @@
   // Animations
   import SlideLeft from '@/components/animations/SlideLeft.svelte'
 
-  // Elements
+  // Components
   import BlockTitle from '@/components/atoms/BlockTitle.svelte'
 </script>
 
@@ -26,6 +26,10 @@
       text-decoration: none;
       color: $ui-blue;
       border-bottom: 2px solid $ui-blue;
+      transition: 0.3s;
+      &:hover {
+        transform: scale(1.05);
+      }
     }
   }
 </style>

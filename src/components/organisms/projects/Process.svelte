@@ -1,4 +1,8 @@
 <script>
+  // Animations
+  import SlideLeft from '@/components/animations/SlideLeft.svelte'
+
+  // Components
   import SmallCarousel from '@/components/molecules/projects/SmallCarousel.svelte'
 
   export let project
@@ -22,11 +26,19 @@
 </style>
 
 <section>
-  <h2>Process</h2>
+  <SlideLeft>
+    <h2>Process</h2>
+  </SlideLeft>
 
-  <p>{project.processOne}</p>
+  <SlideLeft>
+    <p>{project.processOne}</p>
+  </SlideLeft>
 
-  <SmallCarousel {project} />
+  <SlideLeft>
+    <SmallCarousel {project} />
+  </SlideLeft>
 
-  <p>{project.processTwo}</p>
+  <SlideLeft>
+    <p>{project.processTwo}</p>
+  </SlideLeft>
 </section>

@@ -30,6 +30,7 @@
 
   @include lightMode {
     article {
+      background-color: #e9e9e9;
       img {
         opacity: 0.5;
       }

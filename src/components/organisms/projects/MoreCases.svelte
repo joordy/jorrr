@@ -1,4 +1,7 @@
 <script>
+  // Animations
+  import SlideLeft from '@/components/animations/SlideLeft.svelte'
+
   export let project
 </script>
 
@@ -91,14 +94,16 @@
   }
 </style>
 
-<section class="more__cases">
-  <h2>Meer:</h2>
-  <a rel="prefetch" href={project.otherCase.pathname}>
-    <div>
-      <p>Case study</p>
-      <h3>{project.otherCase.name}</h3>
-      <img src={project.otherCase.src} alt={project.otherCase.alt} />
-      <p><span /> <span>Bekijk werk</span></p>
-    </div>
-  </a>
-</section>
+<SlideLeft>
+  <section class="more__cases">
+    <h2>Meer:</h2>
+    <a rel="prefetch" href={project.otherCase.pathname}>
+      <div>
+        <p>Case study</p>
+        <h3>{project.otherCase.name}</h3>
+        <img src={project.otherCase.src} alt={project.otherCase.alt} />
+        <p><span /> <span>Bekijk werk</span></p>
+      </div>
+    </a>
+  </section>
+</SlideLeft>

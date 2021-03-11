@@ -8,13 +8,13 @@
   @include size-s {
     @keyframes -global-from-right {
       0% {
-        -webkit-transform: translateY(100px) translateX(100vw);
-        transform: translateY(100px) translateX(100vw);
+        -webkit-transform: translateY(100px) translateX(100vw) scale(0.85);
+        transform: translateY(100px) translateX(100vw) scale(0.85);
         opacity: 0;
       }
       100% {
-        -webkit-transform: translateY(0) translateX(0);
-        transform: translateY(0) translateX(0);
+        -webkit-transform: translateY(0) translateX(0) scale(1);
+        transform: translateY(0) translateX(0) scale(1);
         opacity: 1;
       }
     }

@@ -1,4 +1,8 @@
 <script>
+  // Animations
+  import SlideLeft from '@/components/animations/SlideLeft.svelte'
+
+  // Components
   import LargeCarousel from '@/components/molecules/projects/LargeCarousel.svelte'
   export let project
 </script>
@@ -21,7 +25,11 @@
 </style>
 
 <section>
-  <h2>Result</h2>
+  <SlideLeft>
+    <h2>Result</h2>
+  </SlideLeft>
 
-  <LargeCarousel {project} />
+  <SlideLeft>
+    <LargeCarousel {project} />
+  </SlideLeft>
 </section>

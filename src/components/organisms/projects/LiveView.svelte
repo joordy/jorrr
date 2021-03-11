@@ -1,4 +1,7 @@
 <script>
+  // Animations
+  import SlideLeft from '@/components/animations/SlideLeft.svelte'
+
   export let project
 </script>
 
@@ -51,6 +54,8 @@
   }
 </style>
 
-<section>
-  <a href={project.livePreview} target="_blank">Bekijk de live-versie</a>
-</section>
+<SlideLeft>
+  <section>
+    <a href={project.livePreview} target="_blank">Bekijk de live-versie</a>
+  </section>
+</SlideLeft>

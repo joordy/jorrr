@@ -1,4 +1,5 @@
 <script>
+  // Components
   import SocialHeader from '@/components/molecules/home/SocialHeader.svelte'
 </script>
 

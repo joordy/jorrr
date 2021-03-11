@@ -1,0 +1,32 @@
+<script>
+  let src = 'PictureOfMe.svg'
+</script>
+
+<style lang="scss">
+  @import 'src/styles/index.scss';
+
+  .img {
+    margin: 0 0 2em auto;
+    width: 100%;
+    max-width: 395px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2em;
+    img {
+      width: 70%;
+      max-width: 250px;
+
+      &:after {
+        content: '';
+        filter: blur(1em);
+        background: #000;
+      }
+      @include size-m {
+        width: 70%;
+        max-width: 450px;
+      }
+    }
+  }
+</style>
+
+<aside class="img"><img {src} alt="Photo of Jordy" /></aside>
