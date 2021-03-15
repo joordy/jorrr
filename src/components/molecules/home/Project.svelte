@@ -128,7 +128,7 @@
 
 <!-- <SlideIn from={bottom}> -->
 <section>
-  <a href="/projects/{project.slug}">
+  <a href="/projects/{project.slug}/">
     <h4>{project.idNumber}</h4>
     <ProjectBackground {project} />
     <article>

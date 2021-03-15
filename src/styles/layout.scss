@@ -42,8 +42,5 @@ main {
     @include size-l {
       width: 920px !important;
     }
-    @include size-ultra {
-      width: 1200px !important;
-    }
   }
 }

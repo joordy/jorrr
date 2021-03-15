@@ -15,7 +15,7 @@
     img {
       width: 70%;
       max-width: 250px;
-
+      margin: 0 auto;
       &:after {
         content: '';
         filter: blur(1em);
@@ -24,6 +24,7 @@
       @include size-m {
         width: 70%;
         max-width: 450px;
+        margin: unset;
       }
     }
   }

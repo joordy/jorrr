@@ -56,6 +56,6 @@
 
 <SlideBottom>
   <section>
-    <a href={project.livePreview} target="_blank">Bekijk de live-versie</a>
+    <a href={project.livePreview} target="_blank">See live-version</a>
   </section>
 </SlideBottom>

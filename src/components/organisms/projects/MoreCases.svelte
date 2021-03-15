@@ -92,13 +92,13 @@
 
 <SlideBottom>
   <section class="more__cases">
-    <h2>Meer:</h2>
+    <h2>More:</h2>
     <a rel="prefetch" href={project.otherCase.pathname}>
       <div>
         <p>Case study</p>
         <h3>{project.otherCase.name}</h3>
         <img src={project.otherCase.src} alt={project.otherCase.alt} />
-        <p><span>&rarr; </span> <span>Bekijk werk</span></p>
+        <p><span>&rarr; </span> <span>See case</span></p>
       </div>
     </a>
   </section>
