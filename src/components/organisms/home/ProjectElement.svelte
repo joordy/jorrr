@@ -1,6 +1,6 @@
 <script>
   // Animations
-  import SlideLeft from '@/components/animations/SlideLeft.svelte'
+  import SlideBottom from '@/components/animations/SlideBottom.svelte'
 
   // Components
   import BlockTitle from '@/components/atoms/BlockTitle.svelte'
@@ -28,15 +28,15 @@
 </style>
 
 <section id="cases">
-  <SlideLeft>
+  <SlideBottom>
     <BlockTitle pageSectionTitle="Cases" />
-  </SlideLeft>
+  </SlideBottom>
 
   <div>
     {#each projects as project}
-      <SlideLeft>
+      <SlideBottom>
         <MyProject {project} />
-      </SlideLeft>
+      </SlideBottom>
     {/each}
   </div>
 </section>

@@ -1,6 +1,6 @@
 <script>
   // Animations
-  import SlideLeft from '@/components/animations/SlideLeft.svelte'
+  import SlideBottom from '@/components/animations/SlideBottom.svelte'
 
   export let project
 </script>
@@ -15,7 +15,7 @@
     text-align: center;
 
     a {
-      color: $ui-soft-white;
+      color: $ui-white;
       text-decoration: none;
       width: 100%;
       height: 55px;
@@ -36,7 +36,7 @@
         left: 0px;
         width: 100%;
         height: 100%;
-        background: #079385;
+        background: $ui-blue;
         border-radius: 50% 50% 0% 0;
         z-index: -1;
         transition: all 0.5s;
@@ -54,8 +54,8 @@
   }
 </style>
 
-<SlideLeft>
+<SlideBottom>
   <section>
     <a href={project.livePreview} target="_blank">Bekijk de live-versie</a>
   </section>
-</SlideLeft>
+</SlideBottom>

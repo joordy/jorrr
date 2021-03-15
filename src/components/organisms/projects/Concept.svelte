@@ -1,6 +1,6 @@
 <script>
   // Animations
-  import SlideLeft from '@/components/animations/SlideLeft.svelte'
+  import SlideBottom from '@/components/animations/SlideBottom.svelte'
 
   export let project
 </script>
@@ -31,17 +31,17 @@
 </style>
 
 <section>
-  <SlideLeft>
-    <h2>Assignment</h2>
-  </SlideLeft>
+  <SlideBottom>
+    <h2>Concept</h2>
+  </SlideBottom>
 
-  <SlideLeft>
-    <p>{project.assignmentTextOne}</p>
-  </SlideLeft>
+  <SlideBottom>
+    <p>{project.assignment[0]}</p>
+  </SlideBottom>
 
-  <SlideLeft><img src={project.introImage} alt="" /></SlideLeft>
+  <SlideBottom><img src={project.introImage} alt="" /></SlideBottom>
 
-  <SlideLeft>
-    <p>{project.assignmentTextTwo}</p>
-  </SlideLeft>
+  <SlideBottom>
+    <p>{project.assignment[1]}</p>
+  </SlideBottom>
 </section>

@@ -133,7 +133,7 @@
     <ProjectBackground {project} />
     <article>
       <ProjectDesc {project} />
-      <ButtonLight linkTO="/projects/{project.slug}" textCTA="Bekijk case" />
+      <ButtonLight linkTO="/projects/{project.slug}" textCTA="See more" />
     </article>
   </a>
 </section>

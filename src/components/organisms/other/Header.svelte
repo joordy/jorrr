@@ -62,7 +62,7 @@
         h1 {
           font-family: 'Inter', sans-serif;
           margin: 0;
-          text-transform: uppercase;
+          /* text-transform: uppercase; */
           font-size: 24px;
           font-weight: 700;
           transition: 0.2s;
@@ -110,7 +110,7 @@
 
 <header>
   <div class="navWrapper">
-    <a href="/" class="websiteTitle"><h1>Jordy Fronik</h1></a>
+    <a href="/" class="websiteTitle"><h1>Jorrr</h1></a>
 
     <nav>
       <ul>

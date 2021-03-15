@@ -40,8 +40,8 @@
   <p>
     I'm a
     <span>Creative Developer & Designer</span>
-    that builds stuff for the internet. Do you want to know more about me? Read
-    on!
+    that builds websites and applications for the internet. Do you want to know
+    more about me? Read on!
   </p>
 
   <div>

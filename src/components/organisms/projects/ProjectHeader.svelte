@@ -1,7 +1,6 @@
 <script>
   // Animations
-  import SlideLeft from '@/components/animations/SlideLeft.svelte'
-  import SlideRight from '@/components/animations/SlideRight.svelte'
+  import SlideBottom from '@/components/animations/SlideBottom.svelte'
 
   // Components
   import IntroText from '@/components/molecules/projects/IntroText.svelte'
@@ -52,10 +51,10 @@
 </style>
 
 <section>
-  <SlideLeft>
+  <SlideBottom>
     <article>
       <IntroText {project} />
       <MockupImage {project} />
     </article>
-  </SlideLeft>
+  </SlideBottom>
 </section>

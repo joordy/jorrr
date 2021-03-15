@@ -26,57 +26,18 @@
         transform: translateX(-50%) scale(1.1);
       }
     }
-  }
-
-  @include lightMode {
-    article {
-      background-color: #e9e9e9;
-      img {
-        opacity: 0.5;
-      }
-    }
-  }
-
-  @include size-s {
-    article {
+    @include size-s {
       img {
         height: 60%;
       }
     }
-  }
-  /* article {
-    background-color: #1d1d1d;
-    border-radius: 10px;
-    margin: 1rem;
-    height: 100%;
     @include lightMode {
       background-color: #e9e9e9;
-    }
-    img {
-      width: auto;
-      height: 100%;
-      object-fit: cover;
-      opacity: 0.4;
-      transition: 0.5s;
-      @include lightMode {
+      img {
         opacity: 0.5;
       }
     }
-    &:hover {
-      img {
-        transform: scale(1.1);
-      }
-    }
-  } */
-
-  /* position: absolute;
-    top: 0;
-    z-index: 1;
-    width: 100%;
-    height: 90%;
-    margin: 5% 0;
-    border-radius: 10px;
-    background-color: $ui-softBlack; */
+  }
 </style>
 
 <article><img src={project.mockupImage} alt="" /></article>

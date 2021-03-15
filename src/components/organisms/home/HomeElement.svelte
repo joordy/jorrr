@@ -1,7 +1,6 @@
 <script>
   // Animations
-  import SlideLeft from '@/components/animations/SlideLeft.svelte'
-  import SlideRight from '@/components/animations/SlideRight.svelte'
+  import SlideBottom from '@/components/animations/SlideBottom.svelte'
 
   // Components
   import HeaderImage from '@/components/molecules/home/HeaderImage.svelte'
@@ -13,7 +12,6 @@
 
   section {
     width: 100%;
-    /* min-height: 600px; */
     height: 100%;
     padding-top: 17vh;
     padding-bottom: 4em;
@@ -28,11 +26,11 @@
 </style>
 
 <section id="home">
-  <SlideLeft>
+  <SlideBottom>
     <HeaderText />
-  </SlideLeft>
+  </SlideBottom>
 
-  <SlideRight>
+  <SlideBottom>
     <HeaderImage />
-  </SlideRight>
+  </SlideBottom>
 </section>

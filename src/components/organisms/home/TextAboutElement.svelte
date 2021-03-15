@@ -1,7 +1,6 @@
 <script>
   // Animations
-  import SlideRight from '@/components/animations/SlideRight.svelte'
-  import SlideLeft from '@/components/animations/SlideLeft.svelte'
+  import SlideBottom from '@/components/animations/SlideBottom.svelte'
 
   //Components
   import BlockTitle from '@/components/atoms/BlockTitle.svelte'
@@ -48,35 +47,34 @@
 </style>
 
 <section id="about">
-  <SlideLeft>
+  <SlideBottom>
     <BlockTitle pageSectionTitle="About" />
-  </SlideLeft>
+  </SlideBottom>
   <article>
-    <SlideLeft>
+    <SlideBottom>
       <div>
         <p>
-          I am a Front-end Developer from Purmerend, in the Netherlands, and am
-          currently studying Communication & Multimedia Design at the University
-          of Applied Sciences in Amsterdam.
+          I am a Front-end Developer from Purmerend, in the Netherlands.
+          Currently I'm studying Communication & Multimedia Design at the
+          University of Applied Sciences in Amsterdam.
         </p>
-
         <p>
-          I love creating stuff that lives on the internet, whether that be
-          websites, applications, or anything in between. My goal is to always
-          build products that provide a good User Experience, and high
-          performance experiences.
+          I love writing code for the internet, whether that be websites,
+          applications, or something else. My goal is to always develop products
+          which has a good User Experience & Interaction, and high performance
+          experiences.
         </p>
       </div>
-    </SlideLeft>
-    <SlideRight>
+    </SlideBottom>
+    <SlideBottom>
       <div>
         <p>
-          I’ve spent the past 2+ years working across different areas of digital
-          design; Front-end Development, User Experience & User Interaction
-          design. Currently I get a lot of satisfaction from developing web
-          applications, also check out my work to see what I have built.
+          During my education I gained my experience with Front-end Development,
+          User Experience & User Interaction. The past 2 years I've mainly
+          focused on Front-end Development, you can view my work to see what I
+          have created.
         </p>
       </div>
-    </SlideRight>
+    </SlideBottom>
   </article>
 </section>

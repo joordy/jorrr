@@ -11,7 +11,7 @@
   @import 'src/styles/index.scss';
 
   main {
-    background-color: $ui-dark-blue;
+    background-color: $ui-black;
     color: $ui-soft-white;
     min-height: 300px;
     height: calc(100vh - 190px);
@@ -31,6 +31,10 @@
       p {
         margin: 1em auto;
       }
+    }
+    @include lightMode {
+      background-color: #f6f6f6;
+      color: $ui-black;
     }
   }
 </style>

@@ -2,8 +2,6 @@
   // Animations
   import SlideBottom from '@/components/animations/SlideBottom.svelte'
 
-  // Components
-  import LargeCarousel from '@/components/molecules/projects/LargeCarousel.svelte'
   export let project
 </script>
 
@@ -26,10 +24,12 @@
 
 <section>
   <SlideBottom>
-    <h2>Result</h2>
+    <h2>Process</h2>
   </SlideBottom>
 
   <SlideBottom>
-    <LargeCarousel {project} />
+    {#each project.process as processText}
+      <p>{processText}</p>
+    {/each}
   </SlideBottom>
 </section>

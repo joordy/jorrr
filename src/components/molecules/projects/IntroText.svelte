@@ -23,10 +23,6 @@
       transition: 0.5s;
       span {
         font-family: 'FontAwesome';
-
-        &::before {
-          content: '\f060';
-        }
       }
       @include lightMode {
         color: $ui-dark-blue;
@@ -77,16 +73,13 @@
         li:nth-of-type(3):before {
           content: 'Tools';
         }
-        li:nth-of-type(4):before {
-          content: 'Team';
-        }
       }
     }
   }
 </style>
 
 <article>
-  <a href="/"> <span /> Back</a>
+  <a href="/"> <span>&larr;</span> Back</a>
   <section>
     <p>Case study</p>
     <h2>{project.title}</h2>
@@ -95,7 +88,6 @@
         <li value="Roles">{project.services}</li>
         <li value="Task">{project.typeOfProject}</li>
         <li value="Tools">{project.languages}</li>
-        <li value="Team">{project.teamproject}</li>
       </ul>
     </div>
   </section>

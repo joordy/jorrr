@@ -1,8 +1,8 @@
 <script>
-  import Assignment from '@/components/organisms/projects/Assignment.svelte'
+  import Goal from '@/components/organisms/projects/Goal.svelte'
   import LiveView from '@/components/organisms/projects/LiveView.svelte'
   import MoreCases from '@/components/organisms/projects/MoreCases.svelte'
-  import Process from '@/components/organisms/projects/Process.svelte'
+  import Concept from '@/components/organisms/projects/Concept.svelte'
   import ProjectHeader from '@/components/organisms/projects/ProjectHeader.svelte'
   import Result from '@/components/organisms/projects/Result.svelte'
 
@@ -31,8 +31,8 @@
 <main>
   <section class="mainWrapper">
     <ProjectHeader {project} />
-    <Assignment {project} />
-    <Process {project} />
+    <Concept {project} />
+    <Goal {project} />
     <Result {project} />
     <LiveView {project} />
     <MoreCases {project} />

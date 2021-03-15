@@ -1,6 +1,6 @@
 <script>
   // Animations
-  import SlideLeft from '@/components/animations/SlideLeft.svelte'
+  import SlideBottom from '@/components/animations/SlideBottom.svelte'
 
   // Components
   import BlockTitle from '@/components/atoms/BlockTitle.svelte'
@@ -28,18 +28,18 @@
       border-bottom: 2px solid $ui-blue;
       transition: 0.3s;
       &:hover {
-        transform: scale(1.05);
+        transform: scale(1.1);
       }
     }
   }
 </style>
 
 <section id="contact">
-  <SlideLeft>
+  <SlideBottom>
     <BlockTitle pageSectionTitle="Contact" />
-  </SlideLeft>
+  </SlideBottom>
 
-  <SlideLeft>
+  <SlideBottom>
     <h3>Say hi!</h3>
 
     <p>
@@ -48,5 +48,5 @@
     </p>
 
     <a href="mailto:me@jorrr.dev?subject=Question from website">Send e-mail</a>
-  </SlideLeft>
+  </SlideBottom>
 </section>

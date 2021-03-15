@@ -57,8 +57,7 @@
       line-height: 50px;
       border-radius: 50%;
       border: none;
-      color: white;
-      background: transparent;
+      color: #6f6f6f;
       transition: 0.5s;
       font-family: FontAwesome;
       font-size: 2rem;
@@ -75,27 +74,21 @@
         bottom: 0;
         background-color: rgba($color: #919191, $alpha: 0.5);
         border-radius: 50%;
+        color: white;
       }
       &:nth-of-type(1) {
         left: 20px;
-        &:before {
-          content: '\f060';
-        }
         &:hover {
           transform: translate(-10px);
         }
       }
       &:nth-of-type(2) {
         right: 20px;
-        &:before {
-          content: '\f061';
-        }
         &:hover {
           transform: translate(10px);
         }
       }
       &:hover {
-        transform: scale(1.2);
         color: $ui-blue;
       }
     }
@@ -106,6 +99,6 @@
   {#each [project.largeImageSlider[index]] as src (index)}
     <img transition:fade {src} alt="" />
   {/each}
-  <button on:click={prev} />
-  <button on:click={next} />
+  <button on:click={prev}>&larr; </button>
+  <button on:click={next}>&rarr; </button>
 </article>

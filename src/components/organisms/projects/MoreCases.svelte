@@ -1,6 +1,6 @@
 <script>
   // Animations
-  import SlideLeft from '@/components/animations/SlideLeft.svelte'
+  import SlideBottom from '@/components/animations/SlideBottom.svelte'
 
   export let project
 </script>
@@ -66,11 +66,7 @@
               &:nth-of-type(1) {
                 transition: 0.2s;
                 font-family: FontAwesome;
-                &:before {
-                  content: '\f061';
-                }
-              }
-              &:nth-of-type(2) {
+                font-weight: 900;
               }
             }
           }
@@ -94,7 +90,7 @@
   }
 </style>
 
-<SlideLeft>
+<SlideBottom>
   <section class="more__cases">
     <h2>Meer:</h2>
     <a rel="prefetch" href={project.otherCase.pathname}>
@@ -102,8 +98,8 @@
         <p>Case study</p>
         <h3>{project.otherCase.name}</h3>
         <img src={project.otherCase.src} alt={project.otherCase.alt} />
-        <p><span /> <span>Bekijk werk</span></p>
+        <p><span>&rarr; </span> <span>Bekijk werk</span></p>
       </div>
     </a>
   </section>
-</SlideLeft>
+</SlideBottom>
