@@ -28,9 +28,10 @@
       display: grid;
       place-items: center;
       p {
-        font-family: 'Inter', sans-serif;
+        text-align: center;
         font-size: 12px;
         margin-bottom: $margin2;
+        padding: 0em 2em;
       }
     }
   }
@@ -38,7 +39,7 @@
 
 <footer>
   <section>
-    <p>&copy; {date} — Jordy Fronik</p>
+    <p>&copy; {date} — Designed & Built by Jordy Fronik</p>
     <SocialsIcons />
   </section>
 </footer>

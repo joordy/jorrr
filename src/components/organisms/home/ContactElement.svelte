@@ -13,6 +13,7 @@
     height: 60vh;
     min-height: 550px;
     h3 {
+      margin-top: 3em;
       font-size: $h3-size;
       font-weight: 700;
     }
@@ -40,13 +41,13 @@
   </SlideBottom>
 
   <SlideBottom>
-    <h3>Say hi!</h3>
+    <h3>Get In Touch</h3>
 
     <p>
       Are you interested in working with me? Please feel free to contact me for
       a project or a collaboration together.
     </p>
 
-    <a href="mailto:me@jorrr.dev?subject=Question from website">Send e-mail</a>
+    <a href="mailto:me@jorrr.dev?subject=Question from website">Say hello!</a>
   </SlideBottom>
 </section>

@@ -13,11 +13,15 @@
   @import 'src/styles/index.scss';
 
   section {
-    width: 100vw;
-    margin-left: -15px;
+    width: calc(100% + 40px);
+    margin-left: -20px;
     overflow: hidden;
     background-color: $ui-black;
     color: $ui-soft-white;
+    @include size-xs {
+      width: calc(100% + 10vw);
+      margin-left: -5vw;
+    }
     @include size-s {
       width: 100vw;
       margin-left: -25vw;

@@ -43,7 +43,10 @@
       h2 {
         font-family: 'Inter', sans-serif;
         margin-top: 0;
-        font-size: $h1-size;
+        font-size: $h2-size;
+        @include size-xs {
+          font-size: $h1-size;
+        }
       }
       p {
         font-weight: 200;
