@@ -70,9 +70,8 @@
       <div>
         <p>
           During my education I gained my experience with Front-end Development,
-          User Experience & User Interaction. The past 2 years I've mainly
-          focused on Front-end Development, you can view my work to see what I
-          have created.
+          User Experience & User Interaction. I've mainly focused on Front-end
+          Development, you can view my work to see what I have created.
         </p>
       </div>
     </SlideBottom>

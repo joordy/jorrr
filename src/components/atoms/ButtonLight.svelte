@@ -26,7 +26,7 @@
       backdrop-filter: blur(20px);
       box-shadow: 0px 0px 20px 15px rgba($color: $ui-blue, $alpha: 0.3);
     }
-    @include size-s {
+    @include size-m {
       padding: calc(0.5em + 2px) 2.5em;
     }
   }

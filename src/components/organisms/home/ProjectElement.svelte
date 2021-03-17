@@ -22,6 +22,14 @@
       @include size-s {
         grid-template-columns: auto auto;
         grid-gap: 2rem;
+        div {
+          &:nth-child(2) {
+            margin-top: 200px;
+          }
+          &:nth-child(3) {
+            margin-top: -200px;
+          }
+        }
       }
     }
   }
@@ -34,9 +42,11 @@
 
   <div>
     {#each projects as project}
-      <SlideBottom>
-        <MyProject {project} />
-      </SlideBottom>
+      <div>
+        <SlideBottom>
+          <MyProject {project} />
+        </SlideBottom>
+      </div>
     {/each}
   </div>
 </section>

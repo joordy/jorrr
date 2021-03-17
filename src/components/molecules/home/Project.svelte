@@ -28,8 +28,8 @@
       font-size: 60px;
       position: absolute;
       z-index: 2;
-      right: -8px;
-      top: -8px;
+      right: -15px;
+      top: -30px;
       line-height: 80px;
       font-weight: 900;
       text-shadow: 5px 5px 3px rgba($color: #877878, $alpha: 0.3);
@@ -62,6 +62,18 @@
       a {
         color: #1a1824;
       }
+    }
+  }
+
+  @include size-s {
+    section {
+      width: 100%;
+      height: 475px;
+    }
+  }
+  @include size-m {
+    section {
+      height: 600px;
     }
   }
 </style>

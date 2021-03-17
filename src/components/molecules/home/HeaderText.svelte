@@ -25,9 +25,10 @@
     div {
       margin-top: 3em;
       display: flex;
-      justify-content: space-between;
+      justify-content: start;
       width: 100%;
       @include size-s {
+        justify-content: space-between;
         max-width: 390px;
       }
     }
