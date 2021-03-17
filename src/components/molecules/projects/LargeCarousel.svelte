@@ -55,41 +55,28 @@
       width: 50px;
       height: 50px;
       line-height: 50px;
-      border-radius: 50%;
       border: none;
-      color: #6f6f6f;
+      border-radius: 50%;
+      color: $ui-black;
       transition: 0.5s;
       font-family: FontAwesome;
       font-size: 2rem;
+      font-weight: 900;
       outline: none;
-      &:before {
-        width: 100%;
-        height: 100%;
-        content: '';
-        display: block;
-        position: absolute;
-        z-index: 0;
-        margin: auto;
-        top: 0;
-        bottom: 0;
-        background-color: rgba($color: #919191, $alpha: 0.5);
-        border-radius: 50%;
-        color: white;
-      }
       &:nth-of-type(1) {
-        left: 20px;
-        &:hover {
-          transform: translate(-10px);
-        }
+        left: 10px;
       }
       &:nth-of-type(2) {
-        right: 20px;
-        &:hover {
-          transform: translate(10px);
-        }
+        right: 10px;
       }
       &:hover {
         color: $ui-blue;
+        &:nth-of-type(1) {
+          transform: translate(-10px);
+        }
+        &:nth-of-type(2) {
+          transform: translate(10px);
+        }
       }
     }
   }

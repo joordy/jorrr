@@ -8,9 +8,8 @@
   @import 'src/styles/index.scss';
 
   .intro {
-    margin: 0 auto 2em 0;
+    margin: 0 auto 2em auto;
     width: 100%;
-    max-width: 395px;
     h2 {
       margin-bottom: 1em;
     }
@@ -31,6 +30,10 @@
       @include size-s {
         max-width: 390px;
       }
+    }
+    @include size-m {
+      margin: 0 auto 2em 0;
+      max-width: 400px;
     }
   }
 </style>

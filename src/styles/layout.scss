@@ -31,13 +31,15 @@ main {
   overflow: hidden;
   .mainWrapper {
     position: relative;
-    width: calc(100% - 30px);
-    margin: 0 15px;
+    width: calc(100% - 40px);
+    margin: 0 auto;
     padding: 0;
     transition: 0.2s;
+    @include size-xs {
+      width: calc(100% - 10vw);
+    }
     @include size-s {
       width: 70vw !important;
-      margin: 0 auto;
     }
     @include size-l {
       width: 920px !important;

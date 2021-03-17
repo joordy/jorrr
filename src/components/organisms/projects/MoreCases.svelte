@@ -39,10 +39,11 @@
           right: -95px;
           max-width: 80%;
           height: auto;
-          max-height: 80%;
+          max-height: 100%;
           margin: auto 0;
           top: 0;
           bottom: 0;
+          transition: 0.2s;
         }
         h3 {
           position: absolute;
@@ -51,34 +52,50 @@
           top: 0;
           bottom: 0;
           font-size: $h3-size;
+          transition: 0.2s;
         }
         p {
+          transition: 0.2s;
+          &:nth-of-type(1) {
+            position: absolute;
+            top: 0;
+            margin: auto 0;
+            bottom: 50px;
+            height: 30px;
+          }
           &:nth-of-type(2) {
             position: absolute;
             bottom: 2em;
             display: flex;
-            justify-content: space-between;
             width: inherit;
             color: #191a1e;
             opacity: 0.6;
-            transition: 0.2s;
             span {
               &:nth-of-type(1) {
-                transition: 0.2s;
+              }
+              &:nth-of-type(2) {
                 font-family: FontAwesome;
                 font-weight: 900;
+                margin-left: 1em;
               }
             }
           }
         }
         &:hover {
+          color: $ui-blue;
+          img {
+            transform: scale(1.1);
+          }
+          h3 {
+            margin-left: 0.5em;
+          }
           p {
+            margin-left: 1em;
             &:nth-of-type(2) {
               opacity: 1;
               color: $ui-blue;
               span {
-                margin-left: 1em;
-                &:nth-of-type(1) {
+                &:nth-of-type(2) {
                   transform: scale(1.3);
                 }
               }
@@ -98,7 +115,7 @@
         <p>Case study</p>
         <h3>{project.otherCase.name}</h3>
         <img src={project.otherCase.src} alt={project.otherCase.alt} />
-        <p><span>&rarr; </span> <span>See case</span></p>
+        <p><span>See case</span><span>&rarr; </span></p>
       </div>
     </a>
   </section>

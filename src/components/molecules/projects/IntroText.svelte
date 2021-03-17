@@ -21,6 +21,7 @@
       color: white;
       text-decoration: none;
       transition: 0.5s;
+      font-weight: 900;
       span {
         font-family: 'FontAwesome';
       }
@@ -28,7 +29,7 @@
         color: $ui-dark-blue;
       }
       &:hover {
-        color: #079385;
+        color: $ui-blue;
       }
     }
     section {
