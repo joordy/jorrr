@@ -42,9 +42,9 @@
 <aside class="intro">
   <h2>Hi, I'm Jordy Fronik</h2>
   <p>
-    I'm a
+    I'm a freelance
     <span>Creative Developer & Designer</span>
-    that builds websites and applications for the internet. Do you want to know
+    that build websites and applications for the internet. Do you want to know
     more about me? Read on!
   </p>
 

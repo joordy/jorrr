@@ -3,8 +3,6 @@
 
   export let project
 
-  let carouselContent = project.largeImageSlider
-
   let index = 0
 
   const next = () => {

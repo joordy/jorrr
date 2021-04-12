@@ -1,37 +1,34 @@
-import path from 'path';
-import resolve from '@rollup/plugin-node-resolve';
-import replace from '@rollup/plugin-replace';
-import commonjs from '@rollup/plugin-commonjs';
-import url from '@rollup/plugin-url';
-import svelte from 'rollup-plugin-svelte';
-import babel from '@rollup/plugin-babel';
-import { terser } from 'rollup-plugin-terser';
-import config from 'sapper/config/rollup.js';
-import pkg from './package.json';
-import sveltePreprocess from 'svelte-preprocess';
-import alias from '@rollup/plugin-alias';
+import path from 'path'
+import resolve from '@rollup/plugin-node-resolve'
+import replace from '@rollup/plugin-replace'
+import commonjs from '@rollup/plugin-commonjs'
+import url from '@rollup/plugin-url'
+import svelte from 'rollup-plugin-svelte'
+import babel from '@rollup/plugin-babel'
+import { terser } from 'rollup-plugin-terser'
+import config from 'sapper/config/rollup.js'
+import pkg from './package.json'
+import sveltePreprocess from 'svelte-preprocess'
+import alias from '@rollup/plugin-alias'
 
-const mode = process.env.NODE_ENV;
-const dev = mode === 'development';
-const legacy = !!process.env.SAPPER_LEGACY_BUILD;
+const mode = process.env.NODE_ENV
+const dev = mode === 'development'
+const legacy = !!process.env.SAPPER_LEGACY_BUILD
 
 const onwarn = (warning, onwarn) =>
   (warning.code === 'MISSING_EXPORT' && /'preload'/.test(warning.message)) ||
-  (warning.code === 'CIRCULAR_DEPENDENCY' && /[/\\]@sapper[/\\]/.test(warning.message)) ||
-  onwarn(warning);
+  (warning.code === 'CIRCULAR_DEPENDENCY' &&
+    /[/\\]@sapper[/\\]/.test(warning.message)) ||
+  onwarn(warning)
 
 const preprocess = sveltePreprocess({
   scss: {
     includePaths: ['src'],
   },
-});
+})
 const aliases = alias({
   resolve: ['.svelte', '.js'],
   entries: [
-    {
-      find: '@/utils',
-      replacement: path.resolve(__dirname, 'src/helpers/utils'),
-    },
     {
       find: '@/components',
       replacement: path.resolve(__dirname, 'src/components'),
@@ -40,8 +37,12 @@ const aliases = alias({
       find: '@/styles',
       replacement: path.resolve(__dirname, 'src/styles'),
     },
+    {
+      find: '@/stores',
+      replacement: path.resolve(__dirname, 'src/stores'),
+    },
   ],
-});
+})
 
 export default {
   client: {
@@ -130,7 +131,9 @@ export default {
       }),
       commonjs(),
     ],
-    external: Object.keys(pkg.dependencies).concat(require('module').builtinModules),
+    external: Object.keys(pkg.dependencies).concat(
+      require('module').builtinModules
+    ),
 
     preserveEntrySignatures: 'strict',
     onwarn,
@@ -152,4 +155,4 @@ export default {
     preserveEntrySignatures: false,
     onwarn,
   },
-};
+}
