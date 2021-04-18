@@ -18,7 +18,7 @@
       margin-bottom: $margin1;
       line-height: 26px;
       span {
-        color: $ui-blue;
+        color: $ui-green;
         font-weight: 900;
       }
     }

@@ -95,7 +95,7 @@
               transition: 0.2s;
               font-size: $basic-font-size;
               &:hover {
-                color: $ui-blue;
+                color: $ui-green;
               }
               @include size-s {
                 font-size: $basic-font-size;

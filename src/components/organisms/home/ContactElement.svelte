@@ -52,6 +52,8 @@
       a project or a collaboration together.
     </p>
 
-    <ButtonLight linkTO="/contact" textCTA="Contact me!" />
+    <a href="#">Mail mij</a>
+
+    <!-- <ButtonLight linkTO="/contact" textCTA="Contact me!" /> -->
   </SlideBottom>
 </section>

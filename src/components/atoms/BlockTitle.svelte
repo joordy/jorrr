@@ -6,7 +6,7 @@
   @import 'src/styles/index.scss';
 
   .title__block {
-    width: 80%;
+    /* width: 80%; */
     padding-top: 6.25rem;
     position: relative;
     h2 {

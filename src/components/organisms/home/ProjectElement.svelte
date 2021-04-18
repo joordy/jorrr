@@ -14,22 +14,13 @@
 
   section {
     width: 100%;
-
-    div {
-      max-width: 100%;
+    .projectWrapper {
+      margin-top: 2rem;
       display: grid;
-      grid-template-columns: auto;
+      grid-template-columns: 1fr;
+      grid-gap: 2rem;
       @include size-s {
         grid-template-columns: auto auto;
-        grid-gap: 2rem;
-        div {
-          &:nth-child(2) {
-            margin-top: 200px;
-          }
-          &:nth-child(3) {
-            margin-top: -200px;
-          }
-        }
       }
     }
   }
@@ -40,13 +31,11 @@
     <BlockTitle pageSectionTitle="Cases" />
   </SlideBottom>
 
-  <div>
+  <div class="projectWrapper">
     {#each projects as project}
-      <div>
-        <SlideBottom>
-          <MyProject {project} />
-        </SlideBottom>
-      </div>
+      <SlideBottom>
+        <MyProject {project} />
+      </SlideBottom>
     {/each}
   </div>
 </section>

@@ -1,4 +1,6 @@
 <script>
+  import SlideBottom from '@/components/animations/SlideBottom.svelte'
+
   import ButtonLight from '@/components/atoms/ButtonLight.svelte'
   import ProjectBackground from '@/components/atoms/home/ProjectBackground.svelte'
   import ProjectDesc from '@/components/atoms/home/ProjectDesc.svelte'
@@ -10,81 +12,85 @@
   @import 'src/styles/index.scss';
 
   section {
-    margin: 15px 15px;
-    height: 400px;
-    width: calc(100% - 30px);
+    height: auto;
+    background-color: #202020;
+    border-radius: 8px;
+    padding: 1rem;
     position: relative;
     transition: 0.3s;
-    @include size-s {
-      width: 100%;
-    }
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     a {
       color: $ui-soft-white;
       width: 100%;
       height: 100%;
-    }
-    h4 {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 60px;
-      position: absolute;
-      z-index: 2;
-      right: -15px;
-      top: -30px;
-      line-height: 80px;
-      font-weight: 900;
-      text-shadow: 5px 5px 3px rgba($color: #877878, $alpha: 0.3);
-      transition: 0.5s;
-      @include size-s {
-        font-size: 80px;
-      }
-    }
-    article {
-      position: absolute;
-      left: 16px;
-      bottom: 24px;
-      right: 16px;
-      @include size-s {
-        max-width: 450px;
+      text-decoration: none;
+      article {
+        &:first-of-type {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 1rem;
+          h3 {
+            font-size: 1.9rem;
+            line-height: 1.9rem;
+            font-weight: 700;
+          }
+          span {
+            font-size: 1rem;
+            transition: 0.2s;
+            font-family: FontAwesome;
+            font-weight: 900;
+          }
+        }
+        &:nth-of-type(2) {
+          width: 100%;
+          height: 22em;
+          img {
+            transform: rotate(10deg) translateX(-10%) translateY(17.5%);
+            width: 180%;
+          }
+        }
+        &:last-of-type {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          background-color: rgba(0, 0, 0, 0.7);
+          padding: 1rem 2rem;
+          transition: 0.4s ease;
+          transform: translateY(6rem);
+        }
       }
     }
     &:hover {
       transform: scale(1.03);
       a {
-        h4 {
-          color: $ui-blue;
+        color: $ui-green;
+        article {
+          &:last-of-type {
+            transform: translateY(0);
+          }
         }
       }
-    }
-  }
-
-  @include lightMode {
-    section {
-      a {
-        color: #1a1824;
-      }
-    }
-  }
-
-  @include size-s {
-    section {
-      width: 100%;
-      height: 475px;
-    }
-  }
-  @include size-m {
-    section {
-      height: 600px;
     }
   }
 </style>
 
 <section>
   <a href="/projects/{project.slug}/">
-    <h4>{project.idNumber}</h4>
-    <ProjectBackground {project} />
     <article>
-      <ProjectDesc {project} />
-      <ButtonLight linkTO="/projects/{project.slug}" textCTA="See more" />
+      <h3>{project.title}</h3>
+      <span>→</span>
+    </article>
+    <article>
+      <img
+        src="https://user-images.githubusercontent.com/48051912/115161820-055b1980-a0a0-11eb-975a-e21692192d42.png"
+        alt=""
+      />
+    </article>
+    <article>
+      <p>{project.subTitle}</p>
     </article>
   </a>
 </section>

@@ -26,7 +26,7 @@
 
       &:hover {
         transform: scale(1.2);
-        color: $ui-blue;
+        color: $ui-green;
       }
     }
   }

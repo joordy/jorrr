@@ -12,7 +12,7 @@
     padding: calc(0.5em + 2px) 2em;
     border-radius: 8px;
     background: transparent;
-    background-color: $ui-blue;
+    background-color: $ui-green;
     background-size: 240%;
     transition: 0.6s;
     font-family: 'IBM Plex Mono', monospace;
@@ -24,7 +24,7 @@
     &:hover {
       transform: scale(1.05);
       backdrop-filter: blur(20px);
-      box-shadow: 0px 0px 20px 15px rgba($color: $ui-blue, $alpha: 0.3);
+      box-shadow: 0px 0px 20px 15px rgba($color: $ui-green, $alpha: 0.3);
     }
     @include size-m {
       padding: calc(0.5em + 2px) 2.5em;
