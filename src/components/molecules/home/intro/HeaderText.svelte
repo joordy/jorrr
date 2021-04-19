@@ -45,7 +45,7 @@
     I'm a freelance
     <span>Creative Developer & Designer</span>
     that build websites and applications for the internet. Do you want to know
-    more about me? Read on!
+    more about me or my work? Read on!
   </p>
 
   <div>

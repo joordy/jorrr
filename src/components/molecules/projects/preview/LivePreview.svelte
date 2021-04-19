@@ -19,7 +19,7 @@
     z-index: 0;
     overflow: hidden;
     @include lightMode {
-      background-color: $ui-green;
+      /* background-color: $ui-green; */
     }
     &:before {
       content: '';
@@ -28,13 +28,13 @@
       left: 0px;
       width: 100%;
       height: 100%;
-      background: $ui-green;
+      background: #438b4a;
       border-radius: 50% 50% 0% 0;
       z-index: -1;
       transition: all 0.5s;
       color: $ui-dark-blue;
       @include lightMode {
-        background-color: $ui-dark-blue;
+        /* background-color: $ui-dark-blue; */
       }
     }
     &:hover {

@@ -33,9 +33,9 @@
     background-color: $ui-black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     @include lightMode {
-      background-color: #ebebeb;
+      /* background-color: #ebebeb; */
       * {
-        color: $ui-dark-blue;
+        /* color: $ui-dark-blue; */
       }
     }
     div {
@@ -62,7 +62,6 @@
         h1 {
           font-family: 'Inter', sans-serif;
           margin: 0;
-          /* text-transform: uppercase; */
           font-size: 24px;
           font-weight: 700;
           transition: 0.2s;
@@ -114,7 +113,6 @@
 
     <nav>
       <ul>
-        <!-- <li href="#home" /> -->
         <li><a href="#home">.home()</a></li>
         <li><a href="#about">.about() </a></li>
         <li><a href="#cases">.cases() </a></li>

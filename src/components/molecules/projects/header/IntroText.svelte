@@ -1,4 +1,5 @@
 <script>
+  // Exports
   export let project
 </script>
 
@@ -26,7 +27,7 @@
         font-family: 'FontAwesome';
       }
       @include lightMode {
-        color: $ui-dark-blue;
+        /* color: $ui-dark-blue; */
       }
       &:hover {
         color: $ui-blue;

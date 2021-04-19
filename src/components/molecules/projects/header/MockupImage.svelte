@@ -1,4 +1,5 @@
 <script>
+  // Exports
   export let project
 </script>
 
@@ -31,8 +32,8 @@
         filter: blur(150px);
         margin-top: 12em;
         @include lightMode {
-          filter: blur(90px);
-          background-color: #757575;
+          /* filter: blur(90px); */
+          /* background-color: #757575; */
         }
       }
       // image

@@ -68,7 +68,7 @@
         right: 10px;
       }
       &:hover {
-        color: $ui-blue;
+        color: $ui-green;
         &:nth-of-type(1) {
           transform: translate(-10px);
         }

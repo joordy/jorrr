@@ -2,13 +2,61 @@ export let projects = [
   {
     idNumber: '01',
     type: 'Case Study',
+    title: 'iCall',
+    subTitle: `A video-call platform where you can connect with your friends, and get random Cat Fact's`,
+    thumbImg:
+      'https://user-images.githubusercontent.com/48051912/115306726-84b42000-a168-11eb-86f9-d50e368be3ea.png',
+    thirdTitle: 'iCall',
+    page_slug: '/projects/i-call',
+    slug: 'i-call',
+    services: 'Full Stack Development',
+    typeOfProject: `Real Time Application, WebRTC Connection`,
+    languages: 'HTML, CSS, JS, NodeJS, Express, Handlebars, GIT, SocketIO',
+    livePreview: 'https://i-call.herokuapp.com/',
+    githubSource: 'https://github.com/joordy/i-call',
+    assignment: [
+      `The assignment was a part of the minor CMD Web Design & Development, to develop a web application in combination with a available web API. The application must contain several conditions, such as a Progressive Web Application, high performance based, and progressive enhanced. No requirements were set for the functionalities and the design of the application.`,
+      `The project focused on getting started with a web API. By first developing a Single Page App, the basis of the application has been created. After this has been completed, I converted the application to a NodeJS application. This makes it now a Progressive Web App.`,
+    ],
+    process: [
+      `Before we converted this application to a Progressive Web App, we've build it as a Single Page Web Application. This application was written with a virtual DOM, the data was fetched from an external API and cleaned up.`,
+      `After finishing the Single Page Web Application, I've converted it to a NodeJS server with Express and Express Handlebars. By converting to a server-side application, it's now possible to use this application as a Progressive Web App. The project has also several Progressive Enhancement features, such as editing the image, and download the images with this styling.`,
+    ],
+    mockupImage:
+      'https://user-images.githubusercontent.com/48051912/109642877-cb679f80-7b53-11eb-8de3-9c67d573e28f.png',
+    introImage:
+      'https://user-images.githubusercontent.com/48051912/109642883-cd316300-7b53-11eb-8e61-73bed74d7b1c.png',
+    smallImageSlider: [
+      'https://user-images.githubusercontent.com/48051912/109642883-cd316300-7b53-11eb-8e61-73bed74d7b1c.png',
+      'https://user-images.githubusercontent.com/48051912/109642887-cdc9f980-7b53-11eb-8ab1-c7d47b052378.png',
+    ],
+    largeImageSlider: [
+      'https://user-images.githubusercontent.com/48051912/106788004-b11fcc00-6650-11eb-9386-7fd142b5a31b.png',
+      'https://user-images.githubusercontent.com/48051912/106788003-b0873580-6650-11eb-96e9-50e6e74b0d3f.png',
+      'https://user-images.githubusercontent.com/48051912/106788289-0cea5500-6651-11eb-962a-5ac8d022380e.png',
+      'https://user-images.githubusercontent.com/48051912/106787998-afee9f00-6650-11eb-9936-36a45a503e00.png',
+      'https://user-images.githubusercontent.com/48051912/106787993-aebd7200-6650-11eb-8075-af31ab865cc5.png',
+    ],
+    otherCase: {
+      name: 'PhotoPaint',
+      src:
+        'https://user-images.githubusercontent.com/48051912/105644734-6c00da80-5e97-11eb-83b7-d8eb145ff417.png',
+      alt: '',
+      pathname: '/projects/photo-paint',
+    },
+  },
+  {
+    idNumber: '01',
+    type: 'Case Study',
     title: 'PhotoPaint',
     subTitle:
       'Photo library for images, possible to create the perfect image with the build-in editor.',
+    thumbImg:
+      'https://user-images.githubusercontent.com/48051912/115306726-84b42000-a168-11eb-86f9-d50e368be3ea.png',
     thirdTitle: 'PhotoPaint',
     page_slug: '/projects/photo-paint',
     slug: 'photo-paint',
-    services: 'Front-end Development',
+    services: 'Full Stack Development',
     typeOfProject: `Progressive Web App, Web API`,
     languages: 'HTML, CSS, JS, NodeJS, Express, Handlebars, GIT',
     livePreview: 'https://photopaint.herokuapp.com/',
@@ -50,6 +98,8 @@ export let projects = [
     title: 'Ring-Ring',
     subTitle:
       'Dashboard tool about cycling information build for policy makers in Amsterdam.',
+    thumbImg:
+      'https://user-images.githubusercontent.com/48051912/115306726-84b42000-a168-11eb-86f9-d50e368be3ea.png',
     thirdTitle: 'Ring-Ring Dashboard',
     page_slug: '/projects/ring-ring',
     slug: 'ring-ring',
@@ -96,6 +146,8 @@ export let projects = [
     title: 'Dat.io',
     subTitle:
       'Full dating application, for students which can be matched based on movie preferences.',
+    thumbImg:
+      'https://user-images.githubusercontent.com/48051912/115306726-84b42000-a168-11eb-86f9-d50e368be3ea.png',
     thirdTitle: 'Dating application',
     page_slug: '/projects/datio-dating-application',
     slug: 'datio-dating-application',

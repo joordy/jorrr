@@ -9,7 +9,6 @@
   p {
     font-family: 'Inter', sans-serif;
     margin: 50px 0;
-    font-size: $basic-font-size;
   }
 </style>
 

@@ -33,8 +33,8 @@
       margin-left: calc((100vw - 800px) / -2);
     }
     @include lightMode {
-      background-color: #e7e5e5;
-      color: $ui-dark-blue;
+      /* background-color: #e7e5e5; */
+      /* color: $ui-dark-blue; */
     }
     article {
       height: 100%;

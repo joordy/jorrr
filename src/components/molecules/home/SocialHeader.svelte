@@ -27,7 +27,7 @@
       margin: 0 auto;
       background-color: $ui-soft-white;
       @include lightMode {
-        background-color: $ui-dark-blue;
+        /* background-color: $ui-dark-blue; */
       }
     }
   }

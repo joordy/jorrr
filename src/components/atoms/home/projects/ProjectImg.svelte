@@ -1,4 +1,5 @@
 <script>
+  // Exports
   export let project
 </script>
 
@@ -33,9 +34,4 @@
   }
 </style>
 
-<article>
-  <img
-    src="https://user-images.githubusercontent.com/48051912/115161820-055b1980-a0a0-11eb-975a-e21692192d42.png"
-    alt=""
-  />
-</article>
+<article><img src={project.thumbImg} alt="" /></article>

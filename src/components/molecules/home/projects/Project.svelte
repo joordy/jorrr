@@ -1,7 +1,4 @@
 <script>
-  // Animations
-  import SlideBottom from '@/components/animations/SlideBottom.svelte'
-
   // Components
   import ProjectTitle from '@/components/atoms/home/projects/ProjectTitle.svelte'
   import ProjectImg from '@/components/atoms/home/projects/ProjectImg.svelte'

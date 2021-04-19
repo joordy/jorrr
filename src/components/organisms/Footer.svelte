@@ -18,9 +18,9 @@
     display: grid;
     place-items: center;
     @include lightMode {
-      background-color: #e7e5e5;
+      /* background-color: #e7e5e5; */
       * {
-        color: $ui-dark-blue;
+        /* color: $ui-dark-blue; */
       }
     }
     section {

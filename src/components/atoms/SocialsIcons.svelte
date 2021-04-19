@@ -21,7 +21,7 @@
       font-size: 1.5rem;
       transition: 0.2s;
       @include lightMode {
-        color: $ui-dark-blue;
+        /* color: $ui-dark-blue; */
       }
 
       &:hover {

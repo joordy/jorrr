@@ -16,13 +16,13 @@
   * {
     color: $ui-soft-white !important;
     @include lightMode {
-      color: #1a1824 !important;
+      /* color: #1a1824 !important; */
     }
   }
   main {
     background-color: $ui-black;
     @include lightMode {
-      background-color: #f6f6f6;
+      /* background-color: #f6f6f6; */
     }
   }
 </style>
