@@ -4,8 +4,9 @@
 
   // Components
   import BlockTitle from '@/components/atoms/BlockTitle.svelte'
-  import MyProject from '@/components/molecules/home/Project.svelte'
+  import MyProject from '@/components/molecules/home/projects/Project.svelte'
 
+  // Exports
   export let projects
 </script>
 
@@ -20,7 +21,7 @@
       grid-template-columns: 1fr;
       grid-gap: 2rem;
       @include size-s {
-        grid-template-columns: auto auto;
+        grid-template-columns: 1fr 1fr;
       }
     }
   }

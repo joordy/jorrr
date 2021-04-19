@@ -48,7 +48,7 @@
 
 <section id="about">
   <SlideBottom>
-    <BlockTitle pageSectionTitle="Who am I" />
+    <BlockTitle pageSectionTitle="About" />
   </SlideBottom>
   <article>
     <SlideBottom>

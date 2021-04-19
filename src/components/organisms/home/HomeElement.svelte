@@ -3,8 +3,8 @@
   import SlideBottom from '@/components/animations/SlideBottom.svelte'
 
   // Components
-  import HeaderImage from '@/components/molecules/home/HeaderImage.svelte'
-  import HeaderText from '@/components/molecules/home/HeaderText.svelte'
+  import HeaderImage from '@/components/molecules/home/intro/HeaderImage.svelte'
+  import HeaderText from '@/components/molecules/home/intro/HeaderText.svelte'
 </script>
 
 <style lang="scss">

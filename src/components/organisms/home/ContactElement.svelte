@@ -1,42 +1,45 @@
 <script>
-  // Animations & Components
+  // Animations
   import SlideBottom from '@/components/animations/SlideBottom.svelte'
+
+  // Components
   import BlockTitle from '@/components/atoms/BlockTitle.svelte'
-  import ButtonLight from '@/components/atoms/ButtonLight.svelte'
+  import ContactForm from '@/components/molecules/home/contact/ContactForm.svelte'
+  import ContactIntro from '@/components/molecules/home/contact/ContactIntro.svelte'
 </script>
 
 <style lang="scss">
   @import 'src/styles/index.scss';
 
   section {
-    min-height: 35rem;
     @include size-s {
       padding-bottom: 5rem;
     }
-  }
-  h3 {
-    margin-top: 3em;
-    font-size: $h3-size;
-    font-weight: 700;
-  }
-  p {
-    font-family: 'IBM Plex Mono', monospace;
-    max-width: 330px;
-    margin: $margin2 0;
-  }
-  /* button {
-    padding: 0.5rem 1rem;
-    border: none;
-    background-color: transparent;
-    font-weight: 700;
-    text-decoration: none;
-    color: $ui-blue;
-    border-bottom: 2px solid $ui-blue;
-    transition: 0.3s;
-    &:hover {
-      transform: scale(1.1);
+    article {
+      margin-top: 1rem;
+      display: block;
+      @include size-s {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+        .from-left {
+          grid-column: 1 / 2;
+          transform: translateX(-50%);
+        }
+        .from-right {
+          grid-column: 2 / 3;
+          transform: translateX(50%);
+        }
+        .from-left,
+        .from-right {
+          transition: transform 400ms ease-in;
+        }
+      }
+      @include size-l {
+        grid-gap: 6em;
+      }
     }
-  } */
+  }
 </style>
 
 <section id="contact">
@@ -44,16 +47,12 @@
     <BlockTitle pageSectionTitle="Contact" />
   </SlideBottom>
 
-  <SlideBottom>
-    <h3>Get In Touch</h3>
-
-    <p>
-      Are you interested in working with me? Please feel free to contact me for
-      a project or a collaboration together.
-    </p>
-
-    <a href="#">Mail mij</a>
-
-    <!-- <ButtonLight linkTO="/contact" textCTA="Contact me!" /> -->
-  </SlideBottom>
+  <article>
+    <SlideBottom>
+      <ContactIntro />
+    </SlideBottom>
+    <SlideBottom>
+      <ContactForm />
+    </SlideBottom>
+  </article>
 </section>

@@ -1,6 +1,6 @@
 <script>
-  import Header from '@/components/organisms/other/Header.svelte'
-  import Footer from '@/components/organisms/other/Footer.svelte'
+  import Header from '@/components/organisms/Header.svelte'
+  import Footer from '@/components/organisms/Footer.svelte'
 
   export let segment
 </script>

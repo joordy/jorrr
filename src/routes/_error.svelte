@@ -1,5 +1,5 @@
 <script>
-  import ButtonLight from '@/components/atoms/ButtonLight.svelte'
+  import ButtonLight from '@/components/atoms/home/intro/ButtonLight.svelte'
 
   export let status
   export let error

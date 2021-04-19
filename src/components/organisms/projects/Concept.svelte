@@ -2,6 +2,12 @@
   // Animations
   import SlideBottom from '@/components/animations/SlideBottom.svelte'
 
+  // Components
+  import ConceptOne from '@/components/molecules/projects/concept/ConceptOne.svelte'
+  import ConceptTwo from '@/components/molecules/projects/concept/ConceptTwo.svelte'
+  import ConceptImg from '@/components/molecules/projects/concept/ConceptImg.svelte'
+
+  // Exports
   export let project
 </script>
 
@@ -10,22 +16,10 @@
 
   section {
     padding-top: 2em;
-    h2,
-    p {
-      font-family: 'Inter', sans-serif;
-    }
     h2 {
+      font-family: 'Inter', sans-serif;
       margin: 75px 0px 25px 0px;
       font-size: $h2-size;
-    }
-    p {
-      margin: 50px 0;
-      font-size: $basic-font-size;
-    }
-    img {
-      width: 100%;
-      height: auto;
-      border-radius: 4px;
     }
   }
 </style>
@@ -36,12 +30,14 @@
   </SlideBottom>
 
   <SlideBottom>
-    <p>{project.assignment[0]}</p>
+    <ConceptOne {project} />
   </SlideBottom>
 
-  <SlideBottom><img src={project.introImage} alt="" /></SlideBottom>
+  <SlideBottom>
+    <ConceptImg {project} />
+  </SlideBottom>
 
   <SlideBottom>
-    <p>{project.assignment[1]}</p>
+    <ConceptTwo {project} />
   </SlideBottom>
 </section>

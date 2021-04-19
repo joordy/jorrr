@@ -1,11 +1,13 @@
 <script>
-  import Goal from '@/components/organisms/projects/Goal.svelte'
+  // Components
+  import Process from '@/components/organisms/projects/Process.svelte'
   import LiveView from '@/components/organisms/projects/LiveView.svelte'
   import MoreCases from '@/components/organisms/projects/MoreCases.svelte'
   import Concept from '@/components/organisms/projects/Concept.svelte'
   import ProjectHeader from '@/components/organisms/projects/ProjectHeader.svelte'
   import Result from '@/components/organisms/projects/Result.svelte'
 
+  // Exports
   export let project
 </script>
 
@@ -32,7 +34,7 @@
   <section class="mainWrapper">
     <ProjectHeader {project} />
     <Concept {project} />
-    <Goal {project} />
+    <Process {project} />
     <Result {project} />
     <LiveView {project} />
     <MoreCases {project} />

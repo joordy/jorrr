@@ -2,6 +2,10 @@
   // Animations
   import SlideBottom from '@/components/animations/SlideBottom.svelte'
 
+  // Components
+  import ProcessText from '@/components/molecules/projects/process/ProcessText.svelte'
+
+  // Exports
   export let project
 </script>
 
@@ -28,8 +32,6 @@
   </SlideBottom>
 
   <SlideBottom>
-    {#each project.process as processText}
-      <p>{processText}</p>
-    {/each}
+    <ProcessText {project} />
   </SlideBottom>
 </section>

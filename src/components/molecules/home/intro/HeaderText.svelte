@@ -1,7 +1,7 @@
 <script>
   // Components
-  import ButtonLight from '@/components/atoms/ButtonLight.svelte'
-  import ButtonDark from '@/components/atoms/ButtonDark.svelte'
+  import ButtonLight from '@/components/atoms/home/intro/ButtonLight.svelte'
+  import ButtonDark from '@/components/atoms/home/intro/ButtonDark.svelte'
 </script>
 
 <style lang="scss">
