@@ -30,7 +30,7 @@
       bottom: 2em;
       display: flex;
       width: inherit;
-      color: #191a1e;
+      color: $ui-green;
       opacity: 0.6;
       span {
         transition: 0.2s;
@@ -50,7 +50,7 @@
     p {
       margin-left: 2em;
       span {
-        color: $ui-blue;
+        color: $ui-green;
       }
     }
   }

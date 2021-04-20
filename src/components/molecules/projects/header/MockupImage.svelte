@@ -6,7 +6,7 @@
 <style lang="scss">
   @import 'src/styles/index.scss';
 
-  article {
+  /* article {
     height: 300px;
     width: 90%;
     margin: 2em auto 0 auto;
@@ -32,8 +32,8 @@
         filter: blur(150px);
         margin-top: 12em;
         @include lightMode {
-          /* filter: blur(90px); */
-          /* background-color: #757575; */
+          filter: blur(90px);
+          background-color: #757575;
         }
       }
       // image
@@ -49,17 +49,35 @@
           height: 100%;
         }
         img {
-          height: 100%;
+          height: auto;
           width: 100%;
           object-fit: cover;
-          transform: scale(1.2);
+          @include size-m {
+            transform: scale(1.2);
+          }
         }
       }
+    }
+  } */
+
+  article {
+    width: 100%;
+    position: relative;
+    height: 300px;
+    /* overflow: hidden; */
+    img {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      transform: rotate(20deg);
     }
   }
 </style>
 
-<article>
+<article><img src={project.thumbImg} /></article>
+<!-- <article>
   <div />
-  <div><img src={project.mockupImage} /></div>
-</article>
+  <div><img src={project.thumbImg} /></div>
+</article> -->
+
+<!-- <div><img src={project.mockupImage} /></div> -->

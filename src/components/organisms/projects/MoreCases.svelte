@@ -21,14 +21,14 @@
     }
     a {
       text-decoration: none;
-      color: $ui-black;
+      color: $ui-soft-white;
       div {
         width: calc(100% - 2em);
         min-height: 300px;
         max-height: 350px;
         margin: 25px 0 25px 0;
         padding: 2em 1em;
-        background-color: rgba($color: #f5f5f5, $alpha: 1);
+        background-color: #04020b;
         position: relative;
         overflow: hidden;
         transition: 0.2s;
@@ -47,7 +47,7 @@
       @include size-l {
         div {
           &:hover {
-            color: $ui-blue;
+            color: $ui-green;
             transform: scale(1.05);
             img {
               transform: scale(1.2);

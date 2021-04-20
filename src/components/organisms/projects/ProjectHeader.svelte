@@ -14,7 +14,58 @@
   @import 'src/styles/index.scss';
 
   section {
-    width: calc(100% + 40px);
+    margin-top: 60px;
+    width: 100%;
+    text-align: center;
+    h2 {
+      font-size: 2.5rem;
+      padding: 7rem 0 3rem;
+    }
+    h3 {
+      font-size: 1rem;
+      font-weight: 300;
+      width: 80%;
+      max-width: 25rem;
+      margin: 0 auto 3rem auto;
+    }
+    aside {
+      position: relative;
+      div {
+        position: absolute;
+        background-color: white;
+        filter: blur(79px);
+        width: 60%;
+        height: 28vw;
+        max-height: 425px;
+        top: 70px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      img {
+        width: 100%;
+        transition: 0.3s;
+        position: relative;
+        &:hover {
+          transform: scale(1.025);
+        }
+      }
+    }
+    @include size-s {
+      h2 {
+        font-size: 5rem;
+      }
+      h3 {
+        margin-bottom: 5rem;
+      }
+    }
+    @include size-m {
+      h2 {
+        padding: 10rem 0 3rem;
+      }
+    }
+  }
+
+  /* width: calc(100% + 40px);
     margin-left: -20px;
     overflow: hidden;
     background-color: $ui-black;
@@ -31,35 +82,19 @@
       height: 700px;
       width: calc(100vw);
       margin-left: calc((100vw - 800px) / -2);
-    }
-    @include lightMode {
-      /* background-color: #e7e5e5; */
-      /* color: $ui-dark-blue; */
-    }
-    article {
-      height: 100%;
-      margin: 5em auto;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      @include size-m {
-        width: 90%;
-        flex-wrap: nowrap;
-      }
-      @include size-l {
-        width: 80vw;
-        min-width: 800px;
-        max-width: 1050px;
-      }
-    }
-  }
+    } */
 </style>
 
 <section>
-  <SlideBottom>
-    <article>
-      <IntroText {project} />
-      <MockupImage {project} />
-    </article>
-  </SlideBottom>
+  <article>
+    <SlideBottom>
+      <h2>{project.title}</h2>
+      <h3>{project.subTitle}</h3>
+
+      <aside>
+        <div id="backblur" />
+        <img src={project.mockupImage} alt="" id="headerImg" />
+      </aside>
+    </SlideBottom>
+  </article>
 </section>

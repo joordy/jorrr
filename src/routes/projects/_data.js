@@ -26,10 +26,6 @@ export let projects = [
       'https://user-images.githubusercontent.com/48051912/109642877-cb679f80-7b53-11eb-8de3-9c67d573e28f.png',
     introImage:
       'https://user-images.githubusercontent.com/48051912/109642883-cd316300-7b53-11eb-8e61-73bed74d7b1c.png',
-    smallImageSlider: [
-      'https://user-images.githubusercontent.com/48051912/109642883-cd316300-7b53-11eb-8e61-73bed74d7b1c.png',
-      'https://user-images.githubusercontent.com/48051912/109642887-cdc9f980-7b53-11eb-8ab1-c7d47b052378.png',
-    ],
     largeImageSlider: [
       'https://user-images.githubusercontent.com/48051912/106788004-b11fcc00-6650-11eb-9386-7fd142b5a31b.png',
       'https://user-images.githubusercontent.com/48051912/106788003-b0873580-6650-11eb-96e9-50e6e74b0d3f.png',
@@ -73,10 +69,6 @@ export let projects = [
       'https://user-images.githubusercontent.com/48051912/109642877-cb679f80-7b53-11eb-8de3-9c67d573e28f.png',
     introImage:
       'https://user-images.githubusercontent.com/48051912/109642883-cd316300-7b53-11eb-8e61-73bed74d7b1c.png',
-    smallImageSlider: [
-      'https://user-images.githubusercontent.com/48051912/109642883-cd316300-7b53-11eb-8e61-73bed74d7b1c.png',
-      'https://user-images.githubusercontent.com/48051912/109642887-cdc9f980-7b53-11eb-8ab1-c7d47b052378.png',
-    ],
     largeImageSlider: [
       'https://user-images.githubusercontent.com/48051912/106788004-b11fcc00-6650-11eb-9386-7fd142b5a31b.png',
       'https://user-images.githubusercontent.com/48051912/106788003-b0873580-6650-11eb-96e9-50e6e74b0d3f.png',
@@ -87,7 +79,7 @@ export let projects = [
     otherCase: {
       name: 'Ring-Ring',
       src:
-        'https://user-images.githubusercontent.com/48051912/105644734-6c00da80-5e97-11eb-83b7-d8eb145ff417.png',
+        'https://user-images.githubusercontent.com/48051912/115460123-2a7a9400-a228-11eb-9d49-84004e6a4dc7.png',
       alt: '',
       pathname: '/projects/ring-ring',
     },
@@ -99,7 +91,7 @@ export let projects = [
     subTitle:
       'Dashboard tool about cycling information build for policy makers in Amsterdam.',
     thumbImg:
-      'https://user-images.githubusercontent.com/48051912/115306726-84b42000-a168-11eb-86f9-d50e368be3ea.png',
+      'https://user-images.githubusercontent.com/48051912/115458742-6876b880-a226-11eb-9101-efec0278f3a6.png',
     thirdTitle: 'Ring-Ring Dashboard',
     page_slug: '/projects/ring-ring',
     slug: 'ring-ring',
@@ -117,20 +109,16 @@ export let projects = [
       `After creating various concepts, and present them to our client, we started with creating several designs. Each week we've iterated through the designs with our client and coaches, to improve them to a high-quality dashboard tool.`,
     ],
     mockupImage:
-      'https://user-images.githubusercontent.com/48051912/105644734-6c00da80-5e97-11eb-83b7-d8eb145ff417.png',
+      'https://user-images.githubusercontent.com/48051912/115460123-2a7a9400-a228-11eb-9d49-84004e6a4dc7.png',
     introImage:
-      'https://user-images.githubusercontent.com/48051912/105644949-dbc39500-5e98-11eb-9a9d-f06619245db0.png',
-    smallImageSlider: [
-      'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-      'https://user-images.githubusercontent.com/48051912/96302594-60308d00-0ff9-11eb-858b-f7b4c97afa7d.png',
-    ],
+      'https://user-images.githubusercontent.com/48051912/115460133-2e0e1b00-a228-11eb-82fa-4d5b1469e9cc.png',
     largeImageSlider: [
-      'https://user-images.githubusercontent.com/48051912/105645344-36f68700-5e9b-11eb-84a2-7068f7caca76.jpg',
-      'https://user-images.githubusercontent.com/48051912/105645343-35c55a00-5e9b-11eb-93a6-c5db3442ed1f.jpg',
-      'https://user-images.githubusercontent.com/48051912/105645336-30680f80-5e9b-11eb-824b-f41c69683480.jpg',
-      'https://user-images.githubusercontent.com/48051912/105645342-33fb9680-5e9b-11eb-8b10-4f429ddea5d8.jpg',
-      'https://user-images.githubusercontent.com/48051912/105645345-378f1d80-5e9b-11eb-8a82-0cf29202713d.jpg',
-      'https://user-images.githubusercontent.com/48051912/105645346-378f1d80-5e9b-11eb-81f9-f0f1f4efded6.jpg',
+      'https://user-images.githubusercontent.com/48051912/115460123-2a7a9400-a228-11eb-9d49-84004e6a4dc7.png',
+      'https://user-images.githubusercontent.com/48051912/115460129-2cdcee00-a228-11eb-8bd4-18a00b5f2c15.png',
+      'https://user-images.githubusercontent.com/48051912/115460131-2d758480-a228-11eb-86d0-8e9d69f84d72.png',
+      'https://user-images.githubusercontent.com/48051912/115460133-2e0e1b00-a228-11eb-82fa-4d5b1469e9cc.png',
+      'https://user-images.githubusercontent.com/48051912/115460139-2ea6b180-a228-11eb-9b53-b295b7cf9f1f.png',
+      'https://user-images.githubusercontent.com/48051912/115460143-2f3f4800-a228-11eb-8ced-0b0457190802.png',
     ],
     otherCase: {
       name: 'PhotoPaint',
@@ -178,7 +166,7 @@ export let projects = [
     otherCase: {
       name: 'Ring-Ring',
       src:
-        'https://user-images.githubusercontent.com/48051912/105644734-6c00da80-5e97-11eb-83b7-d8eb145ff417.png',
+        'https://user-images.githubusercontent.com/48051912/115460123-2a7a9400-a228-11eb-9d49-84004e6a4dc7.png',
       alt: '',
       pathname: '/projects/ring-ring',
     },
