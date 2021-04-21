@@ -74,23 +74,27 @@
   <SlideBottom>
     <article>
       <aside>
-        <h2>Concept</h2>
-        {#each project.assignment as assignment}
-          <p>{assignment}</p>
-        {/each}
+        <SlideBottom>
+          <h2>Concept</h2>
+          {#each project.assignment as assignment}
+            <p>{assignment}</p>
+          {/each}
+        </SlideBottom>
       </aside>
       <aside>
-        <h4>Services:</h4>
-        <p>{project.services}</p>
-        <hr />
-        <h4>Tools:</h4>
-        <p>{project.languages}</p>
-        <hr />
-        <h4>Github repository:</h4>
-        <a href={project.codePreview}>{project.codePreview}</a>
-        <hr />
-        <h4>Live website:</h4>
-        <a href={project.livePreview}>{project.livePreview}</a>
+        <SlideBottom>
+          <h4>Services:</h4>
+          <p>{project.services}</p>
+          <hr />
+          <h4>Tools:</h4>
+          <p>{project.languages}</p>
+          <hr />
+          <h4>Github repository:</h4>
+          <a href={project.codePreview}>{project.codePreview}</a>
+          <hr />
+          <h4>Live website:</h4>
+          <a href={project.livePreview}>{project.livePreview}</a>
+        </SlideBottom>
       </aside>
     </article>
   </SlideBottom>

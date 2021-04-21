@@ -6,7 +6,6 @@
   @import 'src/styles/index.scss';
 
   .title__block {
-    /* width: 80%; */
     padding-top: 6.25rem;
     position: relative;
     h2 {
@@ -28,15 +27,7 @@
         $ui-black 74.35%
       );
       @include size-s {
-        bottom: 6px;
         height: 100px;
-      }
-      @include lightMode {
-        /* background: linear-gradient(
-          180deg,
-          rgba(246, 246, 246, 0) 44.87%,
-          rgba(246, 246, 246, 1) 74.35%
-        ); */
       }
     }
   }

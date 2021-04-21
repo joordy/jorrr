@@ -35,9 +35,9 @@
   }
 </style>
 
-<section id="cases">
+<section id="projects">
   <SlideBottom>
-    <BlockTitle pageSectionTitle="Cases" />
+    <BlockTitle pageSectionTitle="Projects" />
   </SlideBottom>
 
   <div class="projectWrapper">

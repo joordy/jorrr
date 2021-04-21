@@ -33,8 +33,8 @@
       div {
         position: absolute;
         background-color: white;
-        filter: blur(79px);
-        width: 60%;
+        filter: blur(319px);
+        width: 30%;
         height: 28vw;
         max-height: 425px;
         top: 70px;
@@ -42,7 +42,9 @@
         transform: translateX(-50%);
       }
       img {
-        width: 100%;
+        width: auto;
+        max-width: 100%;
+        max-height: 550px;
         transition: 0.3s;
         position: relative;
         &:hover {
