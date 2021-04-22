@@ -1,54 +1,53 @@
 export let projects = [
-  {
-    idNumber: '01',
-    type: 'Case Study',
-    title: 'iCall',
-    subTitle: `A video-call platform where you can connect with your friends, and get random Cat Fact's`,
-    thumbImg:
-      'https://user-images.githubusercontent.com/48051912/115306726-84b42000-a168-11eb-86f9-d50e368be3ea.png',
-    thirdTitle: 'iCall',
-    page_slug: '/projects/i-call',
-    slug: 'i-call',
-    services: 'Full Stack Development',
-    typeOfProject: `Real Time Application, WebRTC Connection`,
-    languages: 'HTML, CSS, JS, NodeJS, Express, Handlebars, GIT, SocketIO',
-    livePreview: 'https://i-call.herokuapp.com/',
-    githubSource: 'https://github.com/joordy/i-call',
-    assignment: [
-      `The assignment was a part of the minor CMD Web Design & Development, to develop a web application in combination with a available web API. The application must contain several conditions, such as a Progressive Web Application, high performance based, and progressive enhanced. No requirements were set for the functionalities and the design of the application.`,
-      `The project focused on getting started with a web API. By first developing a Single Page App, the basis of the application has been created. After this has been completed, I converted the application to a NodeJS application. This makes it now a Progressive Web App.`,
-    ],
-    process: [
-      `Before we converted this application to a Progressive Web App, we've build it as a Single Page Web Application. This application was written with a virtual DOM, the data was fetched from an external API and cleaned up.`,
-      `After finishing the Single Page Web Application, I've converted it to a NodeJS server with Express and Express Handlebars. By converting to a server-side application, it's now possible to use this application as a Progressive Web App. The project has also several Progressive Enhancement features, such as editing the image, and download the images with this styling.`,
-    ],
-    mockupImage:
-      'https://user-images.githubusercontent.com/48051912/109642877-cb679f80-7b53-11eb-8de3-9c67d573e28f.png',
-    introImage:
-      'https://user-images.githubusercontent.com/48051912/109642883-cd316300-7b53-11eb-8e61-73bed74d7b1c.png',
-    largeImageSlider: [
-      'https://user-images.githubusercontent.com/48051912/106788004-b11fcc00-6650-11eb-9386-7fd142b5a31b.png',
-      'https://user-images.githubusercontent.com/48051912/106788003-b0873580-6650-11eb-96e9-50e6e74b0d3f.png',
-      'https://user-images.githubusercontent.com/48051912/106788289-0cea5500-6651-11eb-962a-5ac8d022380e.png',
-      'https://user-images.githubusercontent.com/48051912/106787998-afee9f00-6650-11eb-9936-36a45a503e00.png',
-      'https://user-images.githubusercontent.com/48051912/106787993-aebd7200-6650-11eb-8075-af31ab865cc5.png',
-    ],
-    otherCase: {
-      name: 'PhotoPaint',
-      src:
-        'https://user-images.githubusercontent.com/48051912/105644734-6c00da80-5e97-11eb-83b7-d8eb145ff417.png',
-      alt: '',
-      pathname: '/projects/photo-paint',
-    },
-  },
+  // {
+  //   idNumber: '01',
+  //   type: 'Case Study',
+  //   title: 'iCall',
+  //   subTitle: `A video-call platform where you can connect with your friends, and get random Cat Fact's`,
+  //   thumbImg: './assets/images/icall/ringring_banner.png',
+  //   // 'https://user-images.githubusercontent.com/48051912/115306726-84b42000-a168-11eb-86f9-d50e368be3ea.png',
+  //   thirdTitle: 'iCall',
+  //   page_slug: '/projects/i-call',
+  //   slug: 'i-call',
+  //   services: 'Full Stack Development',
+  //   typeOfProject: `Real Time Application, WebRTC Connection`,
+  //   languages: 'HTML, CSS, JS, NodeJS, Express, Handlebars, GIT, SocketIO',
+  //   livePreview: 'https://i-call.herokuapp.com/',
+  //   githubSource: 'https://github.com/joordy/i-call',
+  //   assignment: [
+  //     `The assignment was a part of the minor CMD Web Design & Development, to develop a web application in combination with a available web API. The application must contain several conditions, such as a Progressive Web Application, high performance based, and progressive enhanced. No requirements were set for the functionalities and the design of the application.`,
+  //     `The project focused on getting started with a web API. By first developing a Single Page App, the basis of the application has been created. After this has been completed, I converted the application to a NodeJS application. This makes it now a Progressive Web App.`,
+  //   ],
+  //   process: [
+  //     `Before we converted this application to a Progressive Web App, we've build it as a Single Page Web Application. This application was written with a virtual DOM, the data was fetched from an external API and cleaned up.`,
+  //     `After finishing the Single Page Web Application, I've converted it to a NodeJS server with Express and Express Handlebars. By converting to a server-side application, it's now possible to use this application as a Progressive Web App. The project has also several Progressive Enhancement features, such as editing the image, and download the images with this styling.`,
+  //   ],
+  //   mockupImage: 'assets/images/icall/ringring_mockup_header.png',
+  //   introImage:
+  //     'https://user-images.githubusercontent.com/48051912/109642883-cd316300-7b53-11eb-8e61-73bed74d7b1c.png',
+  //   largeImageSlider: [
+  //     'https://user-images.githubusercontent.com/48051912/106788004-b11fcc00-6650-11eb-9386-7fd142b5a31b.png',
+  //     'https://user-images.githubusercontent.com/48051912/106788003-b0873580-6650-11eb-96e9-50e6e74b0d3f.png',
+  //     'https://user-images.githubusercontent.com/48051912/106788289-0cea5500-6651-11eb-962a-5ac8d022380e.png',
+  //     'https://user-images.githubusercontent.com/48051912/106787998-afee9f00-6650-11eb-9936-36a45a503e00.png',
+  //     'https://user-images.githubusercontent.com/48051912/106787993-aebd7200-6650-11eb-8075-af31ab865cc5.png',
+  //   ],
+  //   otherCase: {
+  //     name: 'Ring-Ring',
+  //     src:
+  //       'https://user-images.githubusercontent.com/48051912/115460123-2a7a9400-a228-11eb-9d49-84004e6a4dc7.png',
+  //     alt: '',
+  //     pathname: '/projects/ring-ring',
+  //   },
+  // },
   {
     idNumber: '02',
     type: 'Case Study',
     title: 'PhotoPaint',
     subTitle:
       'Photo library for images, possible to create the perfect image with the build-in editor.',
-    thumbImg:
-      'https://user-images.githubusercontent.com/48051912/115306726-84b42000-a168-11eb-86f9-d50e368be3ea.png',
+    thumbImg: './assets/images/photopaint/photopaint_banner.png',
+    // 'https://user-images.githubusercontent.com/48051912/115306726-84b42000-a168-11eb-86f9-d50e368be3ea.png',
     thirdTitle: 'PhotoPaint',
     page_slug: '/projects/photo-paint',
     slug: 'photo-paint',
@@ -65,8 +64,7 @@ export let projects = [
       `Before we converted this application to a Progressive Web App, we've build it as a Single Page Web Application. This application was written with a virtual DOM, the data was fetched from an external API and cleaned up.`,
       `After finishing the Single Page Web Application, I've converted it to a NodeJS server with Express and Express Handlebars. By converting to a server-side application, it's now possible to use this application as a Progressive Web App. The project has also several Progressive Enhancement features, such as editing the image, and download the images with this styling.`,
     ],
-    mockupImage:
-      'https://user-images.githubusercontent.com/48051912/115474788-86501780-a23e-11eb-8b2c-b46f95fd63f1.png',
+    mockupImage: './assets/images/photopaint/photopaint_mockup_header.png',
     introImage:
       'https://user-images.githubusercontent.com/48051912/109642883-cd316300-7b53-11eb-8e61-73bed74d7b1c.png',
     largeImageSlider: [
@@ -97,8 +95,7 @@ export let projects = [
     title: 'Ring-Ring',
     subTitle:
       'Dashboard tool about cycling information build for policy makers in Amsterdam.',
-    thumbImg:
-      'https://user-images.githubusercontent.com/48051912/115458742-6876b880-a226-11eb-9101-efec0278f3a6.png',
+    thumbImg: './assets/images/ringring/ringring_banner.png',
     thirdTitle: 'Ring-Ring Dashboard',
     page_slug: '/projects/ring-ring',
     slug: 'ring-ring',
@@ -115,8 +112,7 @@ export let projects = [
       `The main goal of this project was to work together with different roles. My role in this project was to work as a Front-end Developer. As the only developer in the group, I had all the freedom I wanted, to work with my own code-stack. In this project I've worked with the Sapper framework of SvelteJS, and the ChartJS library. Also I implemented Atomic Design in this project, together with multiple states such as loading and error.`,
       `After creating various concepts, and present them to our client, we started with creating several designs. Each week we've iterated through the designs with our client and coaches, to improve them to a high-quality dashboard tool.`,
     ],
-    mockupImage:
-      'https://user-images.githubusercontent.com/48051912/115460123-2a7a9400-a228-11eb-9d49-84004e6a4dc7.png',
+    mockupImage: './assets/images/ringring/ringring_mockup_header.png',
     introImage:
       'https://user-images.githubusercontent.com/48051912/115460133-2e0e1b00-a228-11eb-82fa-4d5b1469e9cc.png',
     largeImageSlider: [
@@ -134,11 +130,10 @@ export let projects = [
       // 'https://user-images.githubusercontent.com/48051912/115460143-2f3f4800-a228-11eb-8ced-0b0457190802.png',
     ],
     otherCase: {
-      name: 'PhotoPaint',
-      src:
-        'https://user-images.githubusercontent.com/48051912/109642877-cb679f80-7b53-11eb-8de3-9c67d573e28f.png',
-      alt: '',
-      pathname: '/projects/photo-paint',
+      name: 'iCall',
+      src: './assets/images/icall/ringring_mockup_header.png',
+      alt: 'RingRing case mockup image',
+      pathname: '/projects/i-call',
     },
   },
   {
@@ -147,8 +142,7 @@ export let projects = [
     title: 'Dat.io',
     subTitle:
       'Full dating application, for students which can be matched based on movie preferences.',
-    thumbImg:
-      'https://user-images.githubusercontent.com/48051912/115306726-84b42000-a168-11eb-86f9-d50e368be3ea.png',
+    thumbImg: './assets/images/datio/datio_banner.png',
     thirdTitle: 'Dating application',
     page_slug: '/projects/datio-dating-application',
     slug: 'datio-dating-application',
@@ -165,23 +159,27 @@ export let projects = [
       `The mail goal for this assessment was to work with the back-end programming language NodeJS, in combination with a NoSQL database, MongoDB. The application makes usage of an Express web server, and EJS templating engine, to display all the database information in semantic HTML code.`,
       `With this project we also looked at a good UX for the user, what is the best way to use a dating app? By implementing the correct user-flow, it has been made as easy as possible for the user to filter with the perfectly matched person `,
     ],
-    mockupImage:
-      'https://user-images.githubusercontent.com/48051912/115475472-f8752c00-a23f-11eb-9959-bd09860edeec.png',
-    introImage:
-      'https://user-images.githubusercontent.com/48051912/106788003-b0873580-6650-11eb-96e9-50e6e74b0d3f.png',
+    mockupImage: './assets/images/datio/datio_mockup_header.png',
+    // introImage:
+    //   'https://user-images.githubusercontent.com/48051912/106788003-b0873580-6650-11eb-96e9-50e6e74b0d3f.png',
     largeImageSlider: [
-      'https://user-images.githubusercontent.com/48051912/106788004-b11fcc00-6650-11eb-9386-7fd142b5a31b.png',
-      'https://user-images.githubusercontent.com/48051912/106788003-b0873580-6650-11eb-96e9-50e6e74b0d3f.png',
-      'https://user-images.githubusercontent.com/48051912/106788289-0cea5500-6651-11eb-962a-5ac8d022380e.png',
-      'https://user-images.githubusercontent.com/48051912/106787998-afee9f00-6650-11eb-9936-36a45a503e00.png',
-      'https://user-images.githubusercontent.com/48051912/106787993-aebd7200-6650-11eb-8075-af31ab865cc5.png',
+      'https://user-images.githubusercontent.com/48051912/115576071-70d10100-a2c3-11eb-9389-a21eaa545edf.png',
+      'https://user-images.githubusercontent.com/48051912/115576083-73cbf180-a2c3-11eb-90a1-44b1df4ef01b.png',
+      'https://user-images.githubusercontent.com/48051912/115576085-73cbf180-a2c3-11eb-8cef-289d34194103.png',
+      'https://user-images.githubusercontent.com/48051912/115576089-74648800-a2c3-11eb-8c8f-c236880a7bc2.png',
+      'https://user-images.githubusercontent.com/48051912/115576090-74fd1e80-a2c3-11eb-9204-3448be4a24df.png',
+      'https://user-images.githubusercontent.com/48051912/115576092-7595b500-a2c3-11eb-8234-d82349fed509.png',
+      // 'https://user-images.githubusercontent.com/48051912/106788004-b11fcc00-6650-11eb-9386-7fd142b5a31b.png',
+      // 'https://user-images.githubusercontent.com/48051912/106788003-b0873580-6650-11eb-96e9-50e6e74b0d3f.png',
+      // 'https://user-images.githubusercontent.com/48051912/106788289-0cea5500-6651-11eb-962a-5ac8d022380e.png',
+      // 'https://user-images.githubusercontent.com/48051912/106787998-afee9f00-6650-11eb-9936-36a45a503e00.png',
+      // 'https://user-images.githubusercontent.com/48051912/106787993-aebd7200-6650-11eb-8075-af31ab865cc5.png',
     ],
     otherCase: {
-      name: 'Ring-Ring',
-      src:
-        'https://user-images.githubusercontent.com/48051912/115460123-2a7a9400-a228-11eb-9d49-84004e6a4dc7.png',
+      name: 'PhotoPaint',
+      src: './assets/images/photopaint/photopaint_mockup_header.png',
       alt: '',
-      pathname: '/projects/ring-ring',
+      pathname: '/projects/photo-paint',
     },
   },
 ]
