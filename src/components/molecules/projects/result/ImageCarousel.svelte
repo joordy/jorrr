@@ -38,7 +38,6 @@
     position: relative;
     width: 100%;
     margin: 0 auto;
-    /* overflow: hidden; */
     .backblur {
       background-color: white;
       position: absolute;
@@ -103,7 +102,7 @@
 <article on:mouseover={stopPlay} on:mouseleave={autoPlay} class="container">
   <div class="backblur" />
 
-  <div class="slider" style="left: -{positionLeft}%;">
+  <div class="slider" style="left: calc(-{positionLeft}%);">
     {#each images as img}<img src={img} alt="" />{/each}
   </div>
   <div class="arrow">

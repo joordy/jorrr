@@ -13,6 +13,8 @@
 <style lang="scss">
   @import 'src/styles/index.scss';
   section {
+    /* overflow: hidden; */
+
     h2 {
       font-family: 'Inter', sans-serif;
       margin: 75px 0 25px 0;
