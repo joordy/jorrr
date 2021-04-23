@@ -13,8 +13,23 @@
 <style lang="scss">
   @import 'src/styles/index.scss';
   .swipe-holder {
+    margin: 50px 0;
     height: 55vw;
     width: 100%;
+    .backblur {
+      background-color: white;
+      position: absolute;
+      filter: blur(160px);
+      width: 30%;
+      height: 60%;
+      /* max-height: 425px; */
+      top: 40%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+    }
+    img {
+      position: relative;
+    }
     @include size-s {
       height: 43vw;
       max-height: 540px;
@@ -50,6 +65,7 @@
             <SwipeItem><img class="img-fluid" src={image} alt="" /></SwipeItem>
           {/each}
         </Swipe>
+        <div class="backblur" />
       </div>
 
       <div class="card-body">

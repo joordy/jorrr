@@ -5,8 +5,14 @@
   @import 'src/styles/index.scss';
 
   form {
+    margin-bottom: 3rem;
     fieldset {
       border: none;
+      input {
+        -webkit-appearance: auto;
+        -moz-appearance: auto;
+        appearance: auto;
+      }
       div {
         display: flex;
         flex-direction: column;
@@ -14,6 +20,7 @@
         label {
           margin-bottom: 0.5rem;
         }
+
         input,
         textarea {
           border-radius: 4px;

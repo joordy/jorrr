@@ -32,12 +32,6 @@
     width: 100%;
     background-color: $ui-black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    @include lightMode {
-      /* background-color: #ebebeb; */
-      * {
-        /* color: $ui-dark-blue; */
-      }
-    }
     div {
       display: flex;
       justify-content: space-between;
@@ -94,11 +88,13 @@
             a {
               text-decoration: none;
               font-weight: 700;
-              color: $ui-inActive;
+              /* color: $ui-inActive; */
+              color: #8d8e8e;
               transition: 0.2s;
               font-size: $basic-font-size;
               &:hover {
                 color: $ui-green;
+                transform: scale(1.025);
               }
               @include size-s {
                 font-size: $basic-font-size;
@@ -135,12 +131,13 @@
       <ul>
         <li><a href="#home">.home()</a></li>
         <li><a href="#about">.about() </a></li>
-        <li><a href="#projects">.projects() </a></li>
+        <li><a href="#cases">.cases() </a></li>
         <li><a href="#contact">.contact() </a></li>
         <li>
           <a
             href="https://develop.jorrr.dev/files/CV_JordyFronik.pdf"
             target="_blank"
+            rel="noreferrer"
           >.cv()
           </a>
         </li>
