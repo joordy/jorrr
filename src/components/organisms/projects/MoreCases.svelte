@@ -19,44 +19,39 @@
       font-family: 'Inter', sans-serif;
       font-size: $h2-size;
     }
-    .more__cases {
-      a {
-        box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.1),
-          0 6px 20px 0 rgba(255, 255, 255, 0.1);
-        text-decoration: none;
-        color: $ui-soft-white;
-        div {
-          width: calc(100% - 2em);
-          min-height: 300px;
-          max-height: 350px;
-          margin: 25px 0 25px 0;
-          padding: 2em 1em;
-          background-color: #04020b;
-          position: relative;
-          overflow: hidden;
+    a {
+      text-decoration: none;
+      color: $ui-soft-white;
+      div {
+        width: calc(100% - 2em);
+        min-height: 300px;
+        max-height: 350px;
+        margin: 25px 0 25px 0;
+        padding: 2em 1em;
+        background-color: #04020b;
+        position: relative;
+        overflow: hidden;
+        transition: 0.2s;
+        img {
+          position: absolute;
+          right: -95px;
+          max-width: 80%;
+          height: auto;
+          max-height: 100%;
+          margin: auto 0;
+          top: 0;
+          bottom: 0;
           transition: 0.2s;
-          img {
-            position: absolute;
-            right: -95px;
-            /* max-width: 80%; */
-            width: auto;
-            height: auto;
-            max-height: 70%;
-            margin: auto 0;
-            top: 0;
-            bottom: 0;
-            transition: 0.2s;
-          }
         }
-        @include size-l {
-          div {
-            &:hover {
-              color: $ui-green;
-              transform: scale(1.05);
-              img {
-                transform: scale(1.2);
-                margin-right: 4em;
-              }
+      }
+      @include size-l {
+        div {
+          &:hover {
+            color: $ui-green;
+            transform: scale(1.05);
+            img {
+              transform: scale(1.2);
+              margin-right: 3em;
             }
           }
         }
@@ -65,16 +60,14 @@
   }
 </style>
 
-<section>
-  <SlideBottom>
-    <section class="more__cases">
-      <h2>More:</h2>
-      <a rel="prefetch" href={project.otherCase.pathname}>
-        <div>
-          <OtherInfo {project} />
-          <img src={project.otherCase.src} alt={project.otherCase.alt} />
-        </div>
-      </a>
-    </section>
-  </SlideBottom>
-</section>
+<SlideBottom>
+  <section class="more__cases">
+    <h2>More:</h2>
+    <a rel="prefetch" href={project.otherCase.pathname}>
+      <div>
+        <OtherInfo {project} />
+        <img src={project.otherCase.src} alt={project.otherCase.alt} />
+      </div>
+    </a>
+  </section>
+</SlideBottom>

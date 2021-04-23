@@ -3,8 +3,7 @@
   import SlideBottom from '@/components/animations/SlideBottom.svelte'
 
   // Components
-  // import CaseImageSlider from '@/components/molecules/projects/result/CaseImageSlider.svelte'
-  import ImageCarousel from '@/components/molecules/projects/result/ImageCarousel.svelte'
+  import CaseImageSlider from '@/components/molecules/projects/result/CaseImageSlider.svelte'
 
   // Exports
   export let project
@@ -13,14 +12,11 @@
 <style lang="scss">
   @import 'src/styles/index.scss';
   section {
-    /* overflow: hidden; */
-
     h2 {
       font-family: 'Inter', sans-serif;
       margin: 75px 0 25px 0;
       font-size: $h2-size;
     }
-
     /* article {
       display: flex;
       flex-direction: row;
@@ -53,7 +49,14 @@
     <h2>Result</h2>
   </SlideBottom>
 
+  <!-- <LargeCarousel {project} /> -->
   <SlideBottom>
-    <ImageCarousel projectImages={project.largeImageSlider} />
+    <!-- test -->
+    <article>
+      <!-- {#each project.largeImageSlider as sliderImg}
+        <img src={sliderImg} alt="" />
+      {/each} -->
+      <CaseImageSlider images={project.largeImageSlider} />
+    </article>
   </SlideBottom>
 </section>

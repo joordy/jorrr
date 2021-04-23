@@ -94,13 +94,11 @@
             a {
               text-decoration: none;
               font-weight: 700;
-              /* color: $ui-inActive; */
-              color: #8d8e8e;
+              color: $ui-inActive;
               transition: 0.2s;
               font-size: $basic-font-size;
               &:hover {
                 color: $ui-green;
-                transform: scale(1.025);
               }
               @include size-s {
                 font-size: $basic-font-size;
@@ -143,7 +141,6 @@
           <a
             href="https://develop.jorrr.dev/files/CV_JordyFronik.pdf"
             target="_blank"
-            rel="noreferrer"
           >.cv()
           </a>
         </li>
