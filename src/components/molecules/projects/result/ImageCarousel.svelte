@@ -2,31 +2,31 @@
   export let projectImages
 
   let currId = 0
-  const images = projectImages
+  let images = projectImages
 
-  const imgLen = images.length
+  let imgLen = images.length
   let positionLeft = 0
-  const moveSlider = () => {
+  let moveSlider = () => {
     positionLeft = currId * 100
   }
-  const next = () => {
+  let next = () => {
     currId = currId === imgLen - 1 ? 0 : currId + 1
     moveSlider()
   }
 
-  const prev = () => {
+  let prev = () => {
     currId = currId === 0 ? imgLen - 1 : currId - 1
     moveSlider()
   }
-  const getIndex = (index) => {
+  let getIndex = (index) => {
     currId = index
     moveSlider()
   }
   let interval = setInterval(next, 2000)
-  const autoPlay = () => {
+  let autoPlay = () => {
     interval = setInterval(next, 2000)
   }
-  const stopPlay = () => {
+  let stopPlay = () => {
     clearInterval(interval)
   }
 </script>
