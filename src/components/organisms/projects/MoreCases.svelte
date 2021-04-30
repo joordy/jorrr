@@ -69,7 +69,7 @@
   <SlideBottom>
     <section class="more__cases">
       <h2>More:</h2>
-      <a rel="prefetch" href={project.otherCase.pathname}>
+      <a href={project.otherCase.pathname}>
         <div>
           <OtherInfo {project} />
           <img src={project.otherCase.src} alt={project.otherCase.alt} />

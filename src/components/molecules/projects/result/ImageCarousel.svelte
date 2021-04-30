@@ -38,6 +38,7 @@
     position: relative;
     width: 100%;
     margin: 0 auto;
+    height: 60vw;
     .backblur {
       background-color: white;
       position: absolute;
@@ -53,9 +54,10 @@
       position: relative;
       transition: left 0.5s;
       margin-bottom: 3rem;
+      height: 100%;
       img {
         width: 100%;
-        height: auto;
+        height: 100%;
         object-fit: cover;
         flex-shrink: 0;
       }
@@ -94,6 +96,13 @@
         &.active {
           background-color: $ui-green;
         }
+      }
+    }
+    @include size-s {
+      height: auto;
+      img {
+        /* width: auto; */
+        /* height: auto; */
       }
     }
   }

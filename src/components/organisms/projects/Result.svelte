@@ -54,6 +54,6 @@
   </SlideBottom>
 
   <SlideBottom>
-    <ImageCarousel projectImages={project.largeImageSlider} />
+    <!-- <ImageCarousel projectImages={project.largeImageSlider} /> -->
   </SlideBottom>
 </section>

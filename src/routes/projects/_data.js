@@ -1,38 +1,40 @@
 export let projects = [
-  // {
-  //   idNumber: '01',
-  //   type: 'Case Study',
-  //   title: 'iCall',
-  //   subTitle: `A video-call platform where you can connect with your friends, and get random Cat Fact's`,
-  //   thumbImg: './assets/images/icall/icall_banner.png',
-  //   thirdTitle: 'iCall',
-  //   page_slug: '/projects/i-call',
-  //   slug: 'i-call',
-  //   services: 'Full Stack Development',
-  //   typeOfProject: `Real Time Application, WebRTC Connection`,
-  //   languages: 'HTML, CSS, JS, NodeJS, Express, Handlebars, GIT, SocketIO',
-  //   livePreview: 'https://i-call.herokuapp.com/',
-  //   githubSource: 'https://github.com/joordy/i-call',
-  //   assignment: [
-  //     `The assignment was a part of the minor CMD Web Design & Development, to develop a web application in combination with a available web API. The application must contain several conditions, such as a Progressive Web Application, high performance based, and progressive enhanced. No requirements were set for the functionalities and the design of the application.`,
-  //     `The project focused on getting started with a web API. By first developing a Single Page App, the basis of the application has been created. After this has been completed, I converted the application to a NodeJS application. This makes it now a Progressive Web App.`,
-  //   ],
-  //   process: [
-  //     `Before we converted this application to a Progressive Web App, we've build it as a Single Page Web Application. This application was written with a virtual DOM, the data was fetched from an external API and cleaned up.`,
-  //     `After finishing the Single Page Web Application, I've converted it to a NodeJS server with Express and Express Handlebars. By converting to a server-side application, it's now possible to use this application as a Progressive Web App. The project has also several Progressive Enhancement features, such as editing the image, and download the images with this styling.`,
-  //   ],
-  //   mockupImage: './assets/images/icall/icall_mockup_header.png',
-  //   largeImageSlider: [
-  //    './assets/images/icall/icall_mockup_1.png',
-  //   ],
-  //   otherCase: {
-  //     name: 'Ring-Ring',
-  //     src:
-  //       './assets/images/ringring/ringring_mockup_header.png',
-  //     alt: '',
-  //     pathname: '/projects/ring-ring',
-  //   },
-  // },
+  {
+    idNumber: '01',
+    type: 'Case Study',
+    title: 'iCall',
+    subTitle: `A video-call platform where you can connect with your friends, and get random Cat Fact's`,
+    thumbImg: './assets/images/icall/icall_banner.png',
+    thirdTitle: 'iCall',
+    page_slug: '/projects/i-call',
+    slug: 'i-call',
+    services: 'Full Stack Development',
+    typeOfProject: `Real Time Application, WebRTC Connection`,
+    languages: 'HTML, CSS, JS, NodeJS, Express, Handlebars, GIT, SocketIO',
+    livePreview: 'https://i-call.herokuapp.com/',
+    githubSource: 'https://github.com/joordy/i-call',
+    assignment: [
+      `The assignment was a part of the minor CMD Web Design & Development, to develop a web application in combination with a available web API. The application must contain several conditions, such as a Progressive Web Application, high performance based, and progressive enhanced. No requirements were set for the functionalities and the design of the application.`,
+      `The project focused on getting started with a web API. By first developing a Single Page App, the basis of the application has been created. After this has been completed, I converted the application to a NodeJS application. This makes it now a Progressive Web App.`,
+    ],
+    process: [
+      `Before we converted this application to a Progressive Web App, we've build it as a Single Page Web Application. This application was written with a virtual DOM, the data was fetched from an external API and cleaned up.`,
+      `After finishing the Single Page Web Application, I've converted it to a NodeJS server with Express and Express Handlebars. By converting to a server-side application, it's now possible to use this application as a Progressive Web App. The project has also several Progressive Enhancement features, such as editing the image, and download the images with this styling.`,
+    ],
+    mockupImage: './assets/images/icall/icall_mockup_header.png',
+    largeImageSlider: [
+      './assets/images/icall/icall_mockup_2.png',
+      './assets/images/icall/icall_mockup_3.png',
+      // './assets/images/icall/icall_mockup_1.png',
+    ],
+    otherCase: {
+      name: 'PhotoPaint',
+      src:
+        './assets/images/photopaint/photopaint_mockup_header.png',
+      alt: '',
+      pathname: '/projects/photo-paint',
+    },
+  },
   {
     idNumber: '02',
     type: 'Case Study',
@@ -105,9 +107,9 @@ export let projects = [
       './assets/images/ringring/ringring_mockup_6.png',
     ],
     otherCase: {
-      name: 'photopaint',
-      src: './assets/images/photopaint/photopaint_mockup_header.png',
-      alt: 'RingRing case mockup image',
+      name: 'iCall',
+      src: './assets/images/icall/icall_mockup_header.png',
+      alt: 'icall case mockup image',
       pathname: '/projects/i-call',
     },
   },
