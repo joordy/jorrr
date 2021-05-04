@@ -17,21 +17,20 @@
     color: $ui-soft-white;
     display: grid;
     place-items: center;
-    @include lightMode {
-      /* background-color: #e7e5e5; */
-      * {
-        /* color: $ui-dark-blue; */
-      }
-    }
     section {
       height: 50px;
       display: grid;
       place-items: center;
       p {
         text-align: center;
-        font-size: 12px;
+        font-size: 14px;
         margin-bottom: $margin2;
         padding: 0em 2em;
+        span {
+          font-size: 20px;
+          position: relative;
+          top: 2px;
+        }
       }
     }
   }
@@ -39,7 +38,7 @@
 
 <footer>
   <section>
-    <p>&copy; {date} — Designed & Built by Jordy Fronik</p>
-    <SocialsIcons />
+    <p><span>&copy;</span> {date} — Jordy Fronik</p>
+    <SocialsIcons width={'250px'} />
   </section>
 </footer>

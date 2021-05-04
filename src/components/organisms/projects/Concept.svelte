@@ -3,9 +3,6 @@
   import SlideBottom from '@/components/animations/SlideBottom.svelte'
 
   // Components
-  import ConceptOne from '@/components/molecules/projects/concept/ConceptOne.svelte'
-  import ConceptTwo from '@/components/molecules/projects/concept/ConceptTwo.svelte'
-  import ConceptImg from '@/components/molecules/projects/concept/ConceptImg.svelte'
 
   // Exports
   export let project

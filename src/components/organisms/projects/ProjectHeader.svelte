@@ -3,8 +3,6 @@
   import SlideBottom from '@/components/animations/SlideBottom.svelte'
 
   // Components
-  import IntroText from '@/components/molecules/projects/header/IntroText.svelte'
-  import MockupImage from '@/components/molecules/projects/header/MockupImage.svelte'
 
   // Exports
   export let project

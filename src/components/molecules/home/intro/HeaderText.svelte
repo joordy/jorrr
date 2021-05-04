@@ -40,12 +40,13 @@
 </style>
 
 <aside class="intro">
-  <h2>Hi, I'm Jordy Fronik</h2>
+  <h2>Hi there!</h2>
   <p>
-    I'm a freelance
-    <span>Creative Developer & Designer</span>
-    that build websites and applications for the internet. Do you want to know
-    more about me or my work? Read on!
+    My name is
+    <span>Jordy Fronik</span>, a freelance
+    <span>Creative Developer & Designer</span>, who likes to build things that
+    stand out in the digital world. The combination between my passion for
+    design and technology ensures a beautiful end result.
   </p>
 
   <div>
