@@ -12,7 +12,7 @@ export let projects = [
     typeOfProject: `Real Time Application, WebRTC Connection`,
     languages: 'HTML, CSS, JS, NodeJS, Express, Handlebars, GIT, SocketIO',
     livePreview: 'https://i-call.herokuapp.com/',
-    githubSource: 'https://github.com/joordy/i-call',
+    codePreview: 'https://github.com/joordy/i-call',
     assignment: [
       `The assignment was a part of the minor CMD Web Design & Development, to develop a web application in combination with a available web API. The application must contain several conditions, such as a Progressive Web Application, high performance based, and progressive enhanced. No requirements were set for the functionalities and the design of the application.`,
       `The project focused on getting started with a web API. By first developing a Single Page App, the basis of the application has been created. After this has been completed, I converted the application to a NodeJS application. This makes it now a Progressive Web App.`,

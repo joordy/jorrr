@@ -31,14 +31,13 @@
           max-height: 350px;
           margin: 25px 0 25px 0;
           padding: 2em 1em;
-          background-color: #04020b;
+          background-color: #1e2021;
           position: relative;
           overflow: hidden;
           transition: 0.2s;
           img {
             position: absolute;
             right: -95px;
-            /* max-width: 80%; */
             width: auto;
             height: auto;
             max-height: 70%;
@@ -47,15 +46,17 @@
             bottom: 0;
             transition: 0.2s;
           }
+          &:hover {
+            color: $ui-green;
+          }
         }
-        @include size-l {
+        @include size-s {
           div {
             &:hover {
-              color: $ui-green;
               transform: scale(1.05);
               img {
-                transform: scale(1.2);
-                margin-right: 4em;
+                transform: scale(1.05);
+                margin-right: 2em;
               }
             }
           }

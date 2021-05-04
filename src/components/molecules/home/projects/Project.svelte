@@ -12,14 +12,14 @@
 
   section {
     height: auto;
-    background-color: #161617;
+    background-color: #1e2021;
     border-radius: 8px;
     padding: 1rem;
     position: relative;
     transition: 0.3s;
     overflow: hidden;
-    box-shadow: 0 0px 20px 0 rgba(255, 255, 255, 0.1),
-      0 0px 18px 0 rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0px 20px 0 rgba(255, 255, 255, 0.01),
+      0 0px 18px 0 rgba(255, 255, 255, 0.01);
     a {
       color: $ui-soft-white;
       width: 100%;

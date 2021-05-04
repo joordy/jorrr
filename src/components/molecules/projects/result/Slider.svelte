@@ -1,26 +1,24 @@
 <script>
+  import Previous from '@/components/atoms/projects/Previous.svelte'
+  import Next from '@/components/atoms/projects/Next.svelte'
+  import SlideImg from '@/components/atoms/projects/SlideImg.svelte'
+
   export let projectImages
 
-  let positionLeft = 0
-  let currId = 0
+  let leftPosition = 0
 
-  let next = () => {
-    let toFarLeft = positionLeft > projectImages.length * 100 - 200
-    if (!toFarLeft) {
-      positionLeft = positionLeft + 100
-    }
+  $: handleToRight = (event) => {
+    leftPosition = event.detail.left
   }
 
-  let prev = () => {
-    let left = positionLeft < 1
-    if (!left) {
-      positionLeft = positionLeft - 100
-    } else {
-    }
+  $: handleToLeft = (event) => {
+    leftPosition = event.detail.left
   }
 </script>
 
 <style lang="scss">
+  @import 'src/styles/index.scss';
+
   article {
     width: 100%;
     margin: 0 auto;
@@ -30,31 +28,17 @@
       width: 100%;
       position: relative;
       transition: left 0.5s;
-      img {
-        width: 100%;
-        height: auto;
-      }
-    }
-
-    button {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      &:nth-of-type(1) {
-        left: 0;
-      }
-      &:nth-of-type(2) {
-        right: 0;
-      }
     }
   }
 </style>
 
 <article>
-  <div style="left: calc(-{positionLeft}%);">
-    {#each projectImages as src}<img {src} alt="" id="images" />{/each}
+  <div style="left: calc(-{leftPosition}%);">
+    {#each projectImages as src}
+      <SlideImg {src} />
+    {/each}
   </div>
 
-  <button id="prev" on:click={prev}>Prev</button>
-  <button id="next" on:click={next}>Next</button>
+  <Previous {leftPosition} {projectImages} on:greet={handleToLeft} />
+  <Next {leftPosition} {projectImages} on:greet={handleToRight} />
 </article>
