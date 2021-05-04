@@ -3,8 +3,9 @@
   import SlideBottom from '@/components/animations/SlideBottom.svelte'
 
   // Components
-  // import CaseImageSlider from '@/components/molecules/projects/result/CaseImageSlider.svelte'
+  import CaseImageSlider from '@/components/molecules/projects/result/CaseImageSlider.svelte'
   import ImageCarousel from '@/components/molecules/projects/result/ImageCarousel.svelte'
+  import Slider from '@/components/molecules/projects/result/Slider.svelte'
 
   // Exports
   export let project
@@ -55,5 +56,6 @@
 
   <SlideBottom>
     <!-- <ImageCarousel projectImages={project.largeImageSlider} /> -->
+    <Slider projectImages={project.largeImageSlider} />
   </SlideBottom>
 </section>
