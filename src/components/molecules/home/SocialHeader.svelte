@@ -17,7 +17,7 @@
       bottom: 0;
     }
     article {
-      width: 1.5rem;
+      width: 2rem;
       margin: 0 auto;
       margin-bottom: 1rem;
     }

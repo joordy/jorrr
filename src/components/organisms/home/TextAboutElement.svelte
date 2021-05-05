@@ -32,7 +32,7 @@
         }
       }
       @include size-l {
-        grid-gap: 6em;
+        grid-gap: 3em;
       }
       div {
         p {
@@ -40,6 +40,11 @@
           width: 100%;
           margin-bottom: $margin1;
           line-height: 1.5;
+          a {
+            color: $ui-green;
+            text-decoration: none;
+            font-weight: 700;
+          }
         }
       }
     }
@@ -52,6 +57,40 @@
   </SlideBottom>
   <article>
     <SlideBottom>
+      <div>
+        <p>
+          My name is Jordy Fronik, 24 years old from Purmerend, the Netherlands,
+          and I'm a creative Developer & Designer. I'm interested in everything
+          related to digital design. Currently I'm studying Communication &
+          Multimedia Design at the University of Applied Sciences in Amsterdam.
+        </p>
+
+        <p>
+          I like to solve hard design problems, creating smart user interfaces,
+          and developing stuff for the internet. Whether that be websites,
+          applications, or something else.
+        </p>
+      </div>
+    </SlideBottom>
+
+    <SlideBottom>
+      <div>
+        <p>
+          My goal is to always develop products which has a good User Experience
+          & Interaction, and high performance experiences. You can check out my
+          <a href="www.github.com/joordy">GitHub</a>
+          for more code!
+        </p>
+      </div>
+    </SlideBottom>
+
+    <!-- <p>
+      I like to resolve design problems, create smart user interface and
+      imagine useful interaction, developing rich web experiences & web
+      applications. When not working or futzing around with code, I study
+      how to escape from University. Actually for hire.
+    </p> -->
+    <!-- <SlideBottom>
       <div>
         <p>
           I am a Front-end Developer from Purmerend, in the Netherlands.
@@ -74,6 +113,6 @@
           Development, you can view my work to see what I have created.
         </p>
       </div>
-    </SlideBottom>
+    </SlideBottom> -->
   </article>
 </section>
