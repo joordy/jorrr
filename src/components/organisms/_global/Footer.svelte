@@ -12,15 +12,17 @@
     bottom: 0;
     z-index: -1;
     width: 100%;
-    height: 200px;
+    height: 225px;
     background-color: #222222;
     color: $ui-soft-white;
     display: grid;
     place-items: center;
     section {
-      height: 50px;
-      display: grid;
-      place-items: center;
+      height: 85px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       p {
         text-align: center;
         font-size: 14px;

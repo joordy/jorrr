@@ -39,7 +39,5 @@
     <Concept {project} />
     <Result {project} />
     <MoreCases {project} />
-    <!-- <Process {project} /> -->
-    <!-- <LiveView {project} /> -->
   </section>
 </main>

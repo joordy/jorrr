@@ -3,7 +3,7 @@
   import SlideBottom from '@/components/animations/SlideBottom.svelte'
 
   // Components
-  import Slider from '@/components/molecules/projects/result/Slider.svelte'
+  import Slider from '@/components/molecules/projects/slider/Slider.svelte'
 
   // Exports
   export let project
@@ -22,10 +22,10 @@
 
 <section>
   <SlideBottom>
-    <h2>Result</h2>
+    <h2>Verzin een naam</h2>
   </SlideBottom>
 
   <SlideBottom>
-    <Slider projectImages={project.largeImageSlider} />
+    <Slider projectImages={project.imgSlider} />
   </SlideBottom>
 </section>

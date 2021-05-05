@@ -23,7 +23,7 @@
     }
     div {
       width: 0.175rem;
-      height: 290px;
+      height: 225px;
       margin: 0 auto;
       background-color: #8d8e8e;
 

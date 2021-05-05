@@ -1,6 +1,5 @@
 export let projects = [
   {
-    idNumber: '01',
     type: 'Case Study',
     title: 'iCall',
     subTitle: `A video-call platform where you can connect with your friends, and get random Cat Fact's`,
@@ -10,22 +9,18 @@ export let projects = [
     slug: 'i-call',
     services: 'Full Stack Development',
     typeOfProject: `Real Time Application, WebRTC Connection`,
-    languages: 'HTML, CSS, JS, NodeJS, Express, Handlebars, GIT, SocketIO',
+    languages: 'HTML, CSS, JS, NodeJS, Express, Handlebars, SocketIO, PeerJS',
     livePreview: 'https://i-call.herokuapp.com/',
     codePreview: 'https://github.com/joordy/i-call',
     assignment: [
-      `The assignment was a part of the minor CMD Web Design & Development, to develop a web application in combination with a available web API. The application must contain several conditions, such as a Progressive Web Application, high performance based, and progressive enhanced. No requirements were set for the functionalities and the design of the application.`,
-      `The project focused on getting started with a web API. By first developing a Single Page App, the basis of the application has been created. After this has been completed, I converted the application to a NodeJS application. This makes it now a Progressive Web App.`,
-    ],
-    process: [
-      `Before we converted this application to a Progressive Web App, we've build it as a Single Page Web Application. This application was written with a virtual DOM, the data was fetched from an external API and cleaned up.`,
-      `After finishing the Single Page Web Application, I've converted it to a NodeJS server with Express and Express Handlebars. By converting to a server-side application, it's now possible to use this application as a Progressive Web App. The project has also several Progressive Enhancement features, such as editing the image, and download the images with this styling.`,
+      `Goal: creating a real-time connection between multiple users, in combination with a API.`,
+      `This project was an assignment, as part of the minor CMD Web Design & Development from the Amsterdam University of Applied Sciences.`,
+      `iCall is a service which offers a video connection between multiple users. The organizer can create a private room, and invite others by a unique invitation code. If there are other users in the same room, the users can video call and chat with each other. As a bonus, it is possible to get a funny cat fact if the user sends a specific text in the chat. The entire room is then given a fun fact about cats.`,
     ],
     mockupImage: './assets/images/icall/icall_mockup_header.png',
-    largeImageSlider: [
+    imgSlider: [
       './assets/images/icall/icall_mockup_2.png',
       './assets/images/icall/icall_mockup_3.png',
-      // './assets/images/icall/icall_mockup_1.png',
     ],
     otherCase: {
       name: 'PhotoPaint',
@@ -36,7 +31,6 @@ export let projects = [
     },
   },
   {
-    idNumber: '02',
     type: 'Case Study',
     title: 'PhotoPaint',
     subTitle:
@@ -51,15 +45,18 @@ export let projects = [
     livePreview: 'https://photopaint.herokuapp.com/',
     codePreview: 'https://github.com/joordy/PhotoPaint-PWA',
     assignment: [
-      `The assignment was a part of the minor CMD Web Design & Development, to develop a web application in combination with a available web API. The application must contain several conditions, such as a Progressive Web Application, high performance based, and progressive enhanced. No requirements were set for the functionalities and the design of the application.`,
-      `The project focused on getting started with a web API. By first developing a Single Page App, the basis of the application has been created. After this has been completed, I converted the application to a NodeJS application. This makes it now a Progressive Web App.`,
+      `Goal: develop a full-stack web aplpication in combination with a available web API.`,
+      `This project was an assignment, as part of the minor CMD Web Design & Development from the Amsterdam University of Applied Sciences.`,
+      `Photopaint offers a image library based on the Unsplash API. The user can find images based on trending images, or a specific search query. When the user has found the image he was looking for, it can be edited on the detail page. This photo can then be saved in the user's local storage for later on.`
     ],
-    process: [
-      `Before we converted this application to a Progressive Web App, we've build it as a Single Page Web Application. This application was written with a virtual DOM, the data was fetched from an external API and cleaned up.`,
-      `After finishing the Single Page Web Application, I've converted it to a NodeJS server with Express and Express Handlebars. By converting to a server-side application, it's now possible to use this application as a Progressive Web App. The project has also several Progressive Enhancement features, such as editing the image, and download the images with this styling.`,
-    ],
+    // process: [
+      // `The assignment was a part of the minor CMD Web Design & Development, to develop a web application in combination with a available web API. The application must contain several conditions, such as a Progressive Web Application, high performance based, and progressive enhanced. No requirements were set for the functionalities and the design of the application.`,
+      // `The project focused on getting started with a web API. By first developing a Single Page App, the basis of the application has been created. After this has been completed, I converted the application to a NodeJS application. This makes it now a Progressive Web App.`,
+      //   `Before we converted this application to a Progressive Web App, we've build it as a Single Page Web Application. This application was written with a virtual DOM, the data was fetched from an external API and cleaned up.`,
+      //   `After finishing the Single Page Web Application, I've converted it to a NodeJS server with Express and Express Handlebars. By converting to a server-side application, it's now possible to use this application as a Progressive Web App. The project has also several Progressive Enhancement features, such as editing the image, and download the images with this styling.`,
+    // ],
     mockupImage: './assets/images/photopaint/photopaint_mockup_header.png',
-    largeImageSlider: [
+    imgSlider: [
       './assets/images/photopaint/photopaint_mockup_1.png',
       './assets/images/photopaint/photopaint_mockup_2.png',
       './assets/images/photopaint/photopaint_mockup_3.png',
@@ -84,21 +81,24 @@ export let projects = [
     thirdTitle: 'Ring-Ring Dashboard',
     page_slug: '/projects/ring-ring',
     slug: 'ring-ring',
-    services: 'Front-end development & User Interface Design',
+    services: 'Front-end development & UI Design',
     typeOfProject: 'Data visualization',
     languages: 'HTML, CSS, JavaScript, ChartJS, MapBox, SvelteJS',
     livePreview: 'https://ringring.jorrr.dev',
     codePreview: 'https://github.com/joordy/ringring',
     assignment: [
-      `The concept of this dashboard tool is to be suitable for policy makers, so that they have an overview of all the cycling data in Amsterdam (depending on dataset). With this overview tool they have insights of the traffic conditions of Amsterdam. The tool should contain different data-visualization formats using the Ring-Ring dataset they provided us.`,
-      `For this project, together with my teammates, I developed a dashboard overview in which the entire dataset is summarized. For example, all cycling statistics can be viewed under the statistics overview, and the feedback from all users falls under the feedback overview.`,
+      `Goal: Develop a tool for policymakers to improve cycling conditions. Information will be retrieved from an API.`,
+      `This project was an assignment, as part of the study Communication and Multimedia Design from the Amsterdam University of Applied Sciences.`,
+      'The Ring-Ring dashboard is a tool that presents information based on an API with various data-visualisations to policy makers. The overview offers a glimpse of bicycle traffic in and around Amsterdam. The purpose of the dashboard is to convey the information so that policymakers can take action to improve conditions. For example, there is an overview of all bicycle rides, but also of the collected feedback of the ridden ride.'
     ],
-    process: [
-      `The main goal of this project was to work together with different roles. My role in this project was to work as a Front-end Developer. As the only developer in the group, I had all the freedom I wanted, to work with my own code-stack. In this project I've worked with the Sapper framework of SvelteJS, and the ChartJS library. Also I implemented Atomic Design in this project, together with multiple states such as loading and error.`,
-      `After creating various concepts, and present them to our client, we started with creating several designs. Each week we've iterated through the designs with our client and coaches, to improve them to a high-quality dashboard tool.`,
-    ],
+    // process: [
+      // `The concept of this dashboard tool is to be suitable for policy makers, so that they have an overview of all the cycling data in Amsterdam (depending on dataset). With this overview tool they have insights of the traffic conditions of Amsterdam. The tool should contain different data-visualization formats using the Ring-Ring dataset they provided us.`,
+      // `For this project, together with my teammates, I developed a dashboard overview in which the entire dataset is summarized. For example, all cycling statistics can be viewed under the statistics overview, and the feedback from all users falls under the feedback overview.`,
+      //   `The main goal of this project was to work together with different roles. My role in this project was to work as a Front-end Developer. As the only developer in the group, I had all the freedom I wanted, to work with my own code-stack. In this project I've worked with the Sapper framework of SvelteJS, and the ChartJS library. Also I implemented Atomic Design in this project, together with multiple states such as loading and error.`,
+      //   `After creating various concepts, and present them to our client, we started with creating several designs. Each week we've iterated through the designs with our client and coaches, to improve them to a high-quality dashboard tool.`,
+    // ],
     mockupImage: './assets/images/ringring/ringring_mockup_header.png',
-    largeImageSlider: [
+    imgSlider: [
       './assets/images/ringring/ringring_mockup_1.png',
       './assets/images/ringring/ringring_mockup_2.png',
       './assets/images/ringring/ringring_mockup_3.png',
@@ -107,10 +107,10 @@ export let projects = [
       './assets/images/ringring/ringring_mockup_6.png',
     ],
     otherCase: {
-      name: 'iCall',
-      src: './assets/images/icall/icall_mockup_header.png',
-      alt: 'icall case mockup image',
-      pathname: '/projects/i-call',
+      name: 'Dat.io',
+      src: './assets/images/datio/datio_mockup_morecases.png',
+      alt: 'Dat.io case mockup image',
+      pathname: '/projects/datio-dating-application',
     },
   },
   {
@@ -123,21 +123,22 @@ export let projects = [
     thirdTitle: 'Dating application',
     page_slug: '/projects/datio-dating-application',
     slug: 'datio-dating-application',
-    services: 'Front-end Development & User Experience Design',
+    services: 'Front-end Development & UX Design',
     typeOfProject: 'Back-end, Databases',
     languages: 'HTML, CSS, JavaScript, NodeJS, Express, EJS, GIT',
     livePreview: 'https://bt-datingapp.herokuapp.com/signIn',
     codePreview: 'https://github.com/joordy/Dat.io',
     assignment: [
-      `Dat.io is a dating application build for students which can match with each other based on their prefered movie preferences. With the application, it's possible for the users to register and sign-in, filter all the users, like them, and if the interest is mutual, they will match.`,
-      `This project is built with two other Front-end Developer students, and all the functionalities are linked to each other. With the different functionalities, it was possible to develop a complete dating application.`,
+      `Goal: Develop a dating application with at least three functionalities.`,
+      `This project was an assignment, as part of the study Communication and Multimedia Design from the Amsterdam University of Applied Sciences.`,
+      `Dat.io is a dating application build for students which can match with each other based on their prefered movie preferences. With the application, it's possible for the users to register and sign-in, filter all the users, like them, and if the interest is mutual, they will match. This project is built with two other Front-end Developer students, and all the functionalities are linked to each other. With the different functionalities, it was possible to develop a complete dating application.`,
     ],
-    process: [
-      `The mail goal for this assessment was to work with the back-end programming language NodeJS, in combination with a NoSQL database, MongoDB. The application makes usage of an Express web server, and EJS templating engine, to display all the database information in semantic HTML code.`,
-      `With this project we also looked at a good UX for the user, what is the best way to use a dating app? By implementing the correct user-flow, it has been made as easy as possible for the user to filter with the perfectly matched person `,
-    ],
+    // process: [
+    //   `The mail goal for this assessment was to work with the back-end programming language NodeJS, in combination with a NoSQL database, MongoDB. The application makes usage of an Express web server, and EJS templating engine, to display all the database information in semantic HTML code.`,
+    //   `With this project we also looked at a good UX for the user, what is the best way to use a dating app? By implementing the correct user-flow, it has been made as easy as possible for the user to filter with the perfectly matched person `,
+    // ],
     mockupImage: './assets/images/datio/datio_mockup_header.png',
-    largeImageSlider: [
+    imgSlider: [
       './assets/images/datio/datio_mockup_1.png',
       './assets/images/datio/datio_mockup_2.png',
       './assets/images/datio/datio_mockup_3.png',
