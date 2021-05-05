@@ -21,9 +21,9 @@
 </style>
 
 <section>
-  <SlideBottom>
+  <!-- <SlideBottom>
     <h2>Verzin een naam</h2>
-  </SlideBottom>
+  </SlideBottom> -->
 
   <SlideBottom>
     <Slider projectImages={project.imgSlider} />
