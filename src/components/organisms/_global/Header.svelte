@@ -134,8 +134,14 @@
         <li><a href="#cases">.cases() </a></li>
         <li><a href="#contact">.contact() </a></li>
         <li>
-          <a
+          <!-- <a
             href="https://develop.jorrr.dev/files/CV_JordyFronik.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >.cv()
+          </a> -->
+          <a
+            href="https://read.cv/joordy"
             target="_blank"
             rel="noreferrer"
           >.cv()

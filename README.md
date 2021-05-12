@@ -1,4 +1,6 @@
-# sapper-template
+# Jorrr portfolio website
+
+<!-- # sapper-template
 
 The default template for setting up a [Sapper](https://github.com/sveltejs/sapper) project. Can use either Rollup or webpack as bundler.
 
@@ -135,4 +137,4 @@ npm install -D @sveltejs/svelte-virtual-list
 
 ## Bugs and feedback
 
-Sapper is in early development, and may have the odd rough edge here and there. Please be vocal over on the [Sapper issue tracker](https://github.com/sveltejs/sapper/issues).
+Sapper is in early development, and may have the odd rough edge here and there. Please be vocal over on the [Sapper issue tracker](https://github.com/sveltejs/sapper/issues). -->
