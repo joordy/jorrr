@@ -1,3 +1,21 @@
+<script>
+  // Svelte stores
+  import { state } from '@/stores/contactPopup.js'
+
+  let state_value
+  const unsubscribe = state.subscribe((value) => {
+    state_value = value
+  })
+
+  function changeState() {
+    if (!state_value) {
+      state.update((state) => (state = true))
+    } else {
+      state.update((state) => (state = false))
+    }
+  }
+</script>
+
 <style lang="scss">
   @import 'src/styles/index.scss';
 
@@ -18,3 +36,5 @@
   Are you interested in working with me? Please feel free to contact me for a
   project or a collaboration together.
 </p>
+
+<button on:click={changeState}>Contact me</button>
