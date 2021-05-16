@@ -1,6 +1,7 @@
 <script>
   // Components
   import IndexPage from '@/components/templates/IndexPage.svelte'
+  import PopUp from '@/components/templates/PopUp.svelte'
 
   // Page data
   import { projects } from './projects/_data'
@@ -23,4 +24,7 @@
 </svelte:head>
 
 <IndexPage {projects} />
-<h1>State is {state_value}</h1>
+
+{#if state_value}
+  <PopUp />
+{/if}

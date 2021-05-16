@@ -47,12 +47,10 @@
     <BlockTitle pageSectionTitle="Contact" />
   </SlideBottom>
 
-  <article>
-    <SlideBottom>
-      <ContactIntro />
-    </SlideBottom>
-    <SlideBottom>
-      <ContactForm />
-    </SlideBottom>
-  </article>
+  <SlideBottom>
+    <ContactIntro />
+    <!-- <SlideBottom> -->
+    <!-- <ContactForm /> -->
+    <!-- </SlideBottom> -->
+  </SlideBottom>
 </section>

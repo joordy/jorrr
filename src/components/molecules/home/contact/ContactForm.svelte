@@ -5,7 +5,8 @@
   @import 'src/styles/index.scss';
 
   form {
-    margin-bottom: 3rem;
+    margin: 0 0 2rem;
+    text-align: left;
     fieldset {
       border: none;
       input {
@@ -20,7 +21,6 @@
         label {
           margin-bottom: 0.5rem;
         }
-
         input,
         textarea {
           border-radius: 4px;
