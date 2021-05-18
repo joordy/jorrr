@@ -57,15 +57,8 @@
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
-        h1 {
-          font-family: 'Inter', sans-serif;
-          margin: 0 0 0 1rem;
-          font-size: 18px;
-          font-weight: 700;
-          transition: 0.2s;
-          @include size-s {
-            font-size: 24px;
-          }
+        span {
+          font-size: 0;
         }
       }
       nav {
@@ -109,6 +102,7 @@
 <header>
   <div class="navWrapper">
     <a href="/" class="websiteTitle">
+      <span>Jordy Fronik</span>
       <svg
         width="36"
         height="36"

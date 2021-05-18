@@ -33,6 +33,7 @@
     color: $ui-soft-white;
     text-align: right;
     article {
+      box-shadow: 0px 0px 15px #5d5b5b;
       position: relative;
       top: 50%;
       transform: translateY(-50%);

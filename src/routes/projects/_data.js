@@ -3,7 +3,8 @@ export let projects = [
     type: 'Case Study',
     title: 'iCall',
     subTitle: `A video-call platform where you can connect with your friends, and get random Cat Fact's`,
-    thumbImg: './assets/images/icall/icall_banner.png',
+    thumbImg:
+      'https://debianab.sirv.com/portfolio/icall/icall_banner.png?w=750',
     thirdTitle: 'iCall',
     page_slug: '/projects/i-call',
     slug: 'i-call',
@@ -17,15 +18,20 @@ export let projects = [
       `This project was an assignment, as part of the minor CMD Web Design & Development from the Amsterdam University of Applied Sciences.`,
       `iCall is a service which offers a video connection between multiple users. The organizer can create a private room, and invite others by a unique invitation code. If there are other users in the same room, the users can video call and chat with each other. As a bonus, it is possible to get a funny cat fact if the user sends a specific text in the chat. The entire room is then given a fun fact about cats.`,
     ],
-    mockupImage: './assets/images/icall/icall_mockup_header.png',
+    mockupImage:
+      'https://debianab.sirv.com/portfolio/icall/icall_mockup_header.png?w=2000',
+    // mockupImage: './assets/images/icall/icall_mockup_header.png',
     imgSlider: [
-      './assets/images/icall/icall_mockup_2.png',
-      './assets/images/icall/icall_mockup_3.png',
+      // './assets/images/icall/icall_mockup_2.png',
+      // './assets/images/icall/icall_mockup_3.png',
+      'https://debianab.sirv.com/portfolio/icall/icall_mockup_2.png?w=1500',
+      'https://debianab.sirv.com/portfolio/icall/icall_mockup_3.png?w=1500',
     ],
     otherCase: {
       name: 'PhotoPaint',
       src:
-        './assets/images/photopaint/photopaint_mockup_header.png',
+        'https://debianab.sirv.com/portfolio/photopaint/photopaint_mockup_header.png?w=1000',
+      // src: './assets/images/photopaint/photopaint_mockup_header.png',
       alt: '',
       pathname: '/projects/photo-paint',
     },
@@ -35,7 +41,8 @@ export let projects = [
     title: 'PhotoPaint',
     subTitle:
       'Photo library for images, possible to create the perfect image with the build-in editor.',
-    thumbImg: './assets/images/photopaint/photopaint_banner.png',
+    thumbImg:
+      'https://debianab.sirv.com/portfolio/photopaint/photopaint_banner.png?w=750',
     thirdTitle: 'PhotoPaint',
     page_slug: '/projects/photo-paint',
     slug: 'photo-paint',
@@ -47,26 +54,28 @@ export let projects = [
     assignment: [
       `Goal: develop a full-stack web aplpication in combination with a available web API.`,
       `This project was an assignment, as part of the minor CMD Web Design & Development from the Amsterdam University of Applied Sciences.`,
-      `Photopaint offers a image library based on the Unsplash API. The user can find images based on trending images, or a specific search query. When the user has found the image he was looking for, it can be edited on the detail page. This photo can then be saved in the user's local storage for later on.`
+      `Photopaint offers a image library based on the Unsplash API. The user can find images based on trending images, or a specific search query. When the user has found the image he was looking for, it can be edited on the detail page. This photo can then be saved in the user's local storage for later on.`,
     ],
     // process: [
-      // `The assignment was a part of the minor CMD Web Design & Development, to develop a web application in combination with a available web API. The application must contain several conditions, such as a Progressive Web Application, high performance based, and progressive enhanced. No requirements were set for the functionalities and the design of the application.`,
-      // `The project focused on getting started with a web API. By first developing a Single Page App, the basis of the application has been created. After this has been completed, I converted the application to a NodeJS application. This makes it now a Progressive Web App.`,
-      //   `Before we converted this application to a Progressive Web App, we've build it as a Single Page Web Application. This application was written with a virtual DOM, the data was fetched from an external API and cleaned up.`,
-      //   `After finishing the Single Page Web Application, I've converted it to a NodeJS server with Express and Express Handlebars. By converting to a server-side application, it's now possible to use this application as a Progressive Web App. The project has also several Progressive Enhancement features, such as editing the image, and download the images with this styling.`,
+    // `The assignment was a part of the minor CMD Web Design & Development, to develop a web application in combination with a available web API. The application must contain several conditions, such as a Progressive Web Application, high performance based, and progressive enhanced. No requirements were set for the functionalities and the design of the application.`,
+    // `The project focused on getting started with a web API. By first developing a Single Page App, the basis of the application has been created. After this has been completed, I converted the application to a NodeJS application. This makes it now a Progressive Web App.`,
+    //   `Before we converted this application to a Progressive Web App, we've build it as a Single Page Web Application. This application was written with a virtual DOM, the data was fetched from an external API and cleaned up.`,
+    //   `After finishing the Single Page Web Application, I've converted it to a NodeJS server with Express and Express Handlebars. By converting to a server-side application, it's now possible to use this application as a Progressive Web App. The project has also several Progressive Enhancement features, such as editing the image, and download the images with this styling.`,
     // ],
-    mockupImage: './assets/images/photopaint/photopaint_mockup_header.png',
+    mockupImage:
+      'https://debianab.sirv.com/portfolio/photopaint/photopaint_mockup_header.png?w=2000',
     imgSlider: [
-      './assets/images/photopaint/photopaint_mockup_1.png',
-      './assets/images/photopaint/photopaint_mockup_2.png',
-      './assets/images/photopaint/photopaint_mockup_3.png',
-      './assets/images/photopaint/photopaint_mockup_4.png',
-      './assets/images/photopaint/photopaint_mockup_5.png',
-      './assets/images/photopaint/photopaint_mockup_6.png',
+      'https://debianab.sirv.com/portfolio/photopaint/photopaint_mockup_1.png?w=1500',
+      'https://debianab.sirv.com/portfolio/photopaint/photopaint_mockup_2.png?w=1500',
+      'https://debianab.sirv.com/portfolio/photopaint/photopaint_mockup_3.png?w=1500',
+      'https://debianab.sirv.com/portfolio/photopaint/photopaint_mockup_4.png?w=1500',
+      'https://debianab.sirv.com/portfolio/photopaint/photopaint_mockup_5.png?w=1500',
+      'https://debianab.sirv.com/portfolio/photopaint/photopaint_mockup_6.png?w=1500',
     ],
     otherCase: {
       name: 'Ring-Ring',
-      src: './assets/images/ringring/ringring_mockup_header.png',
+      src:
+        'https://debianab.sirv.com/portfolio/ringring/ringring_mockup_header.png?w=1000',
       alt: '',
       pathname: '/projects/ring-ring',
     },
@@ -77,7 +86,8 @@ export let projects = [
     title: 'Ring-Ring',
     subTitle:
       'Dashboard tool about cycling information build for policy makers in Amsterdam.',
-    thumbImg: './assets/images/ringring/ringring_banner.png',
+    thumbImg:
+      'https://debianab.sirv.com/portfolio/ringring/ringring_banner.png?w=750',
     thirdTitle: 'Ring-Ring Dashboard',
     page_slug: '/projects/ring-ring',
     slug: 'ring-ring',
@@ -89,26 +99,28 @@ export let projects = [
     assignment: [
       `Goal: Develop a tool for policymakers to improve cycling conditions. Information will be retrieved from an API.`,
       `This project was an assignment, as part of the study Communication and Multimedia Design from the Amsterdam University of Applied Sciences.`,
-      'The Ring-Ring dashboard is a tool that presents information based on an API with various data-visualisations to policy makers. The overview offers a glimpse of bicycle traffic in and around Amsterdam. The purpose of the dashboard is to convey the information so that policymakers can take action to improve conditions. For example, there is an overview of all bicycle rides, but also of the collected feedback of the ridden ride.'
+      'The Ring-Ring dashboard is a tool that presents information based on an API with various data-visualisations to policy makers. The overview offers a glimpse of bicycle traffic in and around Amsterdam. The purpose of the dashboard is to convey the information so that policymakers can take action to improve conditions. For example, there is an overview of all bicycle rides, but also of the collected feedback of the ridden ride.',
     ],
     // process: [
-      // `The concept of this dashboard tool is to be suitable for policy makers, so that they have an overview of all the cycling data in Amsterdam (depending on dataset). With this overview tool they have insights of the traffic conditions of Amsterdam. The tool should contain different data-visualization formats using the Ring-Ring dataset they provided us.`,
-      // `For this project, together with my teammates, I developed a dashboard overview in which the entire dataset is summarized. For example, all cycling statistics can be viewed under the statistics overview, and the feedback from all users falls under the feedback overview.`,
-      //   `The main goal of this project was to work together with different roles. My role in this project was to work as a Front-end Developer. As the only developer in the group, I had all the freedom I wanted, to work with my own code-stack. In this project I've worked with the Sapper framework of SvelteJS, and the ChartJS library. Also I implemented Atomic Design in this project, together with multiple states such as loading and error.`,
-      //   `After creating various concepts, and present them to our client, we started with creating several designs. Each week we've iterated through the designs with our client and coaches, to improve them to a high-quality dashboard tool.`,
+    // `The concept of this dashboard tool is to be suitable for policy makers, so that they have an overview of all the cycling data in Amsterdam (depending on dataset). With this overview tool they have insights of the traffic conditions of Amsterdam. The tool should contain different data-visualization formats using the Ring-Ring dataset they provided us.`,
+    // `For this project, together with my teammates, I developed a dashboard overview in which the entire dataset is summarized. For example, all cycling statistics can be viewed under the statistics overview, and the feedback from all users falls under the feedback overview.`,
+    //   `The main goal of this project was to work together with different roles. My role in this project was to work as a Front-end Developer. As the only developer in the group, I had all the freedom I wanted, to work with my own code-stack. In this project I've worked with the Sapper framework of SvelteJS, and the ChartJS library. Also I implemented Atomic Design in this project, together with multiple states such as loading and error.`,
+    //   `After creating various concepts, and present them to our client, we started with creating several designs. Each week we've iterated through the designs with our client and coaches, to improve them to a high-quality dashboard tool.`,
     // ],
-    mockupImage: './assets/images/ringring/ringring_mockup_header.png',
+    mockupImage:
+      'https://debianab.sirv.com/portfolio/ringring/ringring_mockup_header.png?w=2000',
     imgSlider: [
-      './assets/images/ringring/ringring_mockup_1.png',
-      './assets/images/ringring/ringring_mockup_2.png',
-      './assets/images/ringring/ringring_mockup_3.png',
-      './assets/images/ringring/ringring_mockup_4.png',
-      './assets/images/ringring/ringring_mockup_5.png',
-      './assets/images/ringring/ringring_mockup_6.png',
+      'https://debianab.sirv.com/portfolio/ringring/ringring_mockup_1.png?w=1500',
+      'https://debianab.sirv.com/portfolio/ringring/ringring_mockup_2.png?w=1500',
+      'https://debianab.sirv.com/portfolio/ringring/ringring_mockup_3.png?w=1500',
+      'https://debianab.sirv.com/portfolio/ringring/ringring_mockup_4.png?w=1500',
+      'https://debianab.sirv.com/portfolio/ringring/ringring_mockup_5.png?w=1500',
+      'https://debianab.sirv.com/portfolio/ringring/ringring_mockup_6.png?w=1500',
     ],
     otherCase: {
       name: 'iCall',
-      src: './assets/images/icall/icall_mockup_morecases.png',
+      src:
+        'https://debianab.sirv.com/portfolio/icall/icall_mockup_header.png?w=1000',
       alt: 'icall case mockup image',
       pathname: '/projects/i-call',
     },
@@ -153,7 +165,7 @@ export let projects = [
   //     pathname: '/projects/photo-paint',
   //   },
   // },
-    // {
+  // {
   //   idNumber: '03',
   //   type: 'Side project',
   //   title: 'JorTools',

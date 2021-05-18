@@ -13,6 +13,7 @@
     img {
       transform: rotate(10deg) translateX(-10%) translateY(17.5%);
       width: 150%;
+      height: auto;
     }
     @include size-xs {
       img {
@@ -34,4 +35,6 @@
   }
 </style>
 
-<article><img src={project.thumbImg} alt="" /></article>
+<article>
+  <img width="600" height="400" src={project.thumbImg} alt="" />
+</article>

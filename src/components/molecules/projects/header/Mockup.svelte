@@ -34,5 +34,11 @@
 
 <aside>
   <div id="backblur" />
-  <img src={project.mockupImage} alt="" id="headerImg" />
+  <img
+    width="600"
+    height="400"
+    src={project.mockupImage}
+    alt="Mockup image of {project.title}"
+    id="headerImg"
+  />
 </aside>

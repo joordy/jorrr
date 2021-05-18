@@ -15,7 +15,7 @@
 
   section {
     padding: 5rem 0;
-    h2 {
+    h3 {
       font-family: 'Inter', sans-serif;
       margin: 75px 0px 25px 0px;
       font-size: $h2-size;
@@ -62,7 +62,7 @@
 <section>
   <SlideBottom>
     <SlideBottom>
-      <h2>Concept</h2>
+      <h3>Concept</h3>
     </SlideBottom>
     <article>
       <SlideBottom>

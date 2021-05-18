@@ -16,11 +16,11 @@
     margin-top: 60px;
     width: 100%;
     text-align: center;
-    h2 {
+    h1 {
       font-size: 2.5rem;
       padding: 7rem 0 3rem;
     }
-    h3 {
+    h2 {
       font-size: 1rem;
       font-weight: 300;
       width: 80%;
@@ -28,15 +28,15 @@
       margin: 0 auto 3rem auto;
     }
     @include size-s {
-      h2 {
+      h1 {
         font-size: 5rem;
       }
-      h3 {
+      h2 {
         margin-bottom: 5rem;
       }
     }
     @include size-m {
-      h2 {
+      h1 {
         padding: 10rem 0 3rem;
       }
     }
@@ -46,8 +46,8 @@
 <section>
   <article>
     <SlideBottom>
-      <h2>{project.title}</h2>
-      <h3>{project.subTitle}</h3>
+      <h1>{project.title}</h1>
+      <h2>{project.subTitle}</h2>
     </SlideBottom>
 
     <SlideBottom>

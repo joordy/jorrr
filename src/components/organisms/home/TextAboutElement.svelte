@@ -76,43 +76,17 @@
     <SlideBottom>
       <div>
         <p>
-          My goal is to always develop products which has a good User Experience
-          & Interaction, and high performance experiences. You can check out my
-          <a href="www.github.com/joordy">GitHub</a>
-          for more code!
+          My goal is to develop products / services which has a good User
+          Experience & Interaction, and high performance experiences. You can
+          check out my
+          <a
+            href="https://www.github.com/joordy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >GitHub</a>
+          for more code projects!
         </p>
       </div>
     </SlideBottom>
-
-    <!-- <p>
-      I like to resolve design problems, create smart user interface and
-      imagine useful interaction, developing rich web experiences & web
-      applications. When not working or futzing around with code, I study
-      how to escape from University. Actually for hire.
-    </p> -->
-    <!-- <SlideBottom>
-      <div>
-        <p>
-          I am a Front-end Developer from Purmerend, in the Netherlands.
-          Currently I'm studying Communication & Multimedia Design at the
-          University of Applied Sciences in Amsterdam.
-        </p>
-        <p>
-          I love writing code for the internet, whether that be websites,
-          applications, or something else. My goal is to always develop products
-          which has a good User Experience & Interaction, and high performance
-          experiences.
-        </p>
-      </div>
-    </SlideBottom>
-    <SlideBottom>
-      <div>
-        <p>
-          During my education I gained my experience with Front-end Development,
-          User Experience & User Interaction. I've mainly focused on Front-end
-          Development, you can view my work to see what I have created.
-        </p>
-      </div>
-    </SlideBottom> -->
   </article>
 </section>

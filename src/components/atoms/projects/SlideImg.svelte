@@ -9,4 +9,10 @@
   }
 </style>
 
-<img {src} alt="" id="images" />
+<img
+  {src}
+  alt="Image of current project"
+  id="images"
+  width="600"
+  height="400"
+/>

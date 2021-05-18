@@ -20,6 +20,9 @@
     hr {
       margin: 1rem 0;
     }
+    p {
+      margin-bottom: 0.5rem;
+    }
     a {
       color: $ui-green;
       font-weight: 500;

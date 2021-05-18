@@ -10,6 +10,10 @@
   @import 'src/styles/index.scss';
 
   aside {
+    margin-top: 2rem;
+    @include size-m {
+      margin-top: 0;
+    }
     h4 {
       margin-bottom: 0.5rem;
     }

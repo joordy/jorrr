@@ -13,8 +13,8 @@
     justify-content: center;
     align-items: center;
     span {
-      width: 40px;
-      height: 40px;
+      width: 32px;
+      height: 32px;
       position: absolute;
       display: flex;
       justify-content: center;
@@ -30,28 +30,28 @@
         }
       }
       &:nth-of-type(1) {
-        animation: right-1 3s infinite cubic-bezier(0, 0, 0.49, 1.02);
+        animation: right-1 5s infinite cubic-bezier(0, 0, 0.49, 1.02);
       }
       &:nth-of-type(2) {
-        animation: right-2 3s infinite cubic-bezier(0, 0, 0.49, 1.02);
+        animation: right-2 5s infinite cubic-bezier(0, 0, 0.49, 1.02);
       }
       &:nth-of-type(3) {
-        animation: right-3 3s infinite cubic-bezier(0, 0, 0.49, 1.02);
+        animation: right-3 5s infinite cubic-bezier(0, 0, 0.49, 1.02);
       }
       &:nth-of-type(4) {
-        animation: right-4 3s infinite cubic-bezier(0, 0, 0.49, 1.02);
+        animation: right-4 5s infinite cubic-bezier(0, 0, 0.49, 1.02);
       }
       &:nth-of-type(5) {
-        animation: right-5 3s infinite cubic-bezier(0, 0, 0.49, 1.02);
+        animation: right-5 5s infinite cubic-bezier(0, 0, 0.49, 1.02);
       }
       &:nth-of-type(6) {
-        animation: right-6 3s infinite cubic-bezier(0, 0, 0.49, 1.02);
+        animation: right-6 5s infinite cubic-bezier(0, 0, 0.49, 1.02);
       }
       &:nth-of-type(7) {
-        animation: right-7 3s infinite cubic-bezier(0, 0, 0.49, 1.02);
+        animation: right-7 5s infinite cubic-bezier(0, 0, 0.49, 1.02);
       }
       &:nth-of-type(8) {
-        animation: right-8 3s infinite cubic-bezier(0, 0, 0.49, 1.02);
+        animation: right-8 5s infinite cubic-bezier(0, 0, 0.49, 1.02);
       }
     }
   }
@@ -59,110 +59,182 @@
   @keyframes right-1 {
     0% {
       transform: rotate(0deg) translateY(0px);
+      -moz-transition: rotate(0deg) translateY(0px);
+      -webkit-transition: rotate(0deg) translateY(0px);
+      -o-transition: rotate(0deg) translateY(0px);
     }
     33%,
     66%,
     90% {
       transform: rotate(45deg) translateY($mobile-offset);
+      -moz-transition: rotate(45deg) translateY($mobile-offset);
+      -webkit-transition: rotate(45deg) translateY($mobile-offset);
+      -o-transition: rotate(45deg) translateY($mobile-offset);
     }
     100% {
       transform: rotate(45deg) translateY(0px);
+      -moz-transition: rotate(45deg) translateY(0px);
+      -webkit-transition: rotate(45deg) translateY(0px);
+      -o-transition: rotate(45deg) translateY(0px);
     }
   }
   @keyframes right-2 {
     0% {
       transform: rotate(0deg) translateY(0px);
+      -moz-transition: rotate(0deg) translateY(0px);
+      -webkit-transition: rotate(0deg) translateY(0px);
+      -o-transition: rotate(0deg) translateY(0px);
     }
     33%,
     66%,
     90% {
       transform: rotate(90deg) translateY($mobile-offset);
+      -moz-transition: rotate(90deg) translateY($mobile-offset);
+      -webkit-transition: rotate(90deg) translateY($mobile-offset);
+      -o-transition: rotate(90deg) translateY($mobile-offset);
     }
     100% {
       transform: rotate(90deg) translateY(0px);
+      -moz-transition: rotate(90deg) translateY(0px);
+      -webkit-transition: rotate(90deg) translateY(0px);
+      -o-transition: rotate(90deg) translateY(0px);
     }
   }
   @keyframes right-3 {
     0% {
       transform: rotate(0deg) translateY(0px);
+      -moz-transition: rotate(0deg) translateY(0px);
+      -webkit-transition: rotate(0deg) translateY(0px);
+      -o-transition: rotate(0deg) translateY(0px);
     }
     33%,
     66%,
     90% {
       transform: rotate(135deg) translateY($mobile-offset);
+      -moz-transition: rotate(135deg) translateY($mobile-offset);
+      -webkit-transition: rotate(135deg) translateY($mobile-offset);
+      -o-transition: rotate(135deg) translateY($mobile-offset);
     }
     100% {
       transform: rotate(135deg) translateY(0px);
+      -moz-transition: rotate(135deg) translateY(0px);
+      -webkit-transition: rotate(135deg) translateY(0px);
+      -o-transition: rotate(135deg) translateY(0px);
     }
   }
 
   @keyframes right-4 {
     0% {
       transform: rotate(0deg) translateY(0px);
+      -moz-transition: rotate(0deg) translateY(0px);
+      -webkit-transition: rotate(0deg) translateY(0px);
+      -o-transition: rotate(0deg) translateY(0px);
     }
     33%,
     66%,
     90% {
       transform: rotate(180deg) translateY($mobile-offset);
+      -moz-transition: rotate(180deg) translateY($mobile-offset);
+      -webkit-transition: rotate(180deg) translateY($mobile-offset);
+      -o-transition: rotate(180deg) translateY($mobile-offset);
     }
     100% {
       transform: rotate(180deg) translateY(0px);
+      -moz-transition: rotate(180deg) translateY(0px);
+      -webkit-transition: rotate(180deg) translateY(0px);
+      -o-transition: rotate(180deg) translateY(0px);
     }
   }
 
   @keyframes right-5 {
     0% {
       transform: rotate(0deg) translateY(0px);
+      -moz-transition: rotate(0deg) translateY(0px);
+      -webkit-transition: rotate(0deg) translateY(0px);
+      -o-transition: rotate(0deg) translateY(0px);
     }
     33%,
     66%,
     90% {
       transform: rotate(225deg) translateY($mobile-offset);
+      -moz-transition: rotate(225deg) translateY($mobile-offset);
+      -webkit-transition: rotate(225deg) translateY($mobile-offset);
+      -o-transition: rotate(225deg) translateY($mobile-offset);
     }
     100% {
       transform: rotate(225deg) translateY(0px);
+      -moz-transition: rotate(225deg) translateY(0px);
+      -webkit-transition: rotate(225deg) translateY(0px);
+      -o-transition: rotate(225deg) translateY(0px);
     }
   }
 
   @keyframes right-6 {
     0% {
       transform: rotate(0deg) translateY(0px);
+      -moz-transition: rotate(0deg) translateY(0px);
+      -webkit-transition: rotate(0deg) translateY(0px);
+      -o-transition: rotate(0deg) translateY(0px);
     }
     33%,
     66%,
     90% {
       transform: rotate(270deg) translateY($mobile-offset);
+      -moz-transition: rotate(270deg) translateY($mobile-offset);
+      -webkit-transition: rotate(270deg) translateY($mobile-offset);
+      -o-transition: rotate(270deg) translateY($mobile-offset);
     }
     100% {
       transform: rotate(270deg) translateY(0px);
+      -moz-transition: rotate(270deg) translateY(0px);
+      -webkit-transition: rotate(270deg) translateY(0px);
+      -o-transition: rotate(270deg) translateY(0px);
     }
   }
 
   @keyframes right-7 {
     0% {
       transform: rotate(0deg) translateY(0px);
+      -moz-transition: rotate(0deg) translateY(0px);
+      -webkit-transition: rotate(0deg) translateY(0px);
+      -o-transition: rotate(0deg) translateY(0px);
     }
     33%,
     66%,
     90% {
       transform: rotate(315deg) translateY($mobile-offset);
+      -moz-transition: rotate(315deg) translateY($mobile-offset);
+      -webkit-transition: rotate(315deg) translateY($mobile-offset);
+      -o-transition: rotate(315deg) translateY($mobile-offset);
     }
     100% {
       transform: rotate(315deg) translateY(0px);
+      -moz-transition: rotate(315deg) translateY(0px);
+      -webkit-transition: rotate(315deg) translateY(0px);
+      -o-transition: rotate(315deg) translateY(0px);
     }
   }
 
   @keyframes right-8 {
     0% {
       transform: rotate(0deg) translateY(0px);
+      -moz-transition: rotate(0deg) translateY(0px);
+      -webkit-transition: rotate(0deg) translateY(0px);
+      -o-transition: rotate(0deg) translateY(0px);
     }
     33%,
     66%,
     90% {
       transform: rotate(360deg) translateY($mobile-offset);
+      -moz-transition: rotate(360deg) translateY($mobile-offset);
+      -webkit-transition: rotate(360deg) translateY($mobile-offset);
+      -o-transition: rotate(360deg) translateY($mobile-offset);
     }
     100% {
       transform: rotate(360deg) translateY(0px);
+      -moz-transition: rotate(360deg) translateY(0px);
+      -webkit-transition: rotate(360deg) translateY(0px);
+      -o-transition: rotate(360deg) translateY(0px);
     }
   }
 
@@ -170,110 +242,182 @@
     @keyframes right-1 {
       0% {
         transform: rotate(0deg) translateY(0px);
+        -moz-transition: rotate(0deg) translateY(0px);
+        -webkit-transition: rotate(0deg) translateY(0px);
+        -o-transition: rotate(0deg) translateY(0px);
       }
       33%,
       66%,
       90% {
         transform: rotate(45deg) translateY($desktop-offset);
+        -moz-transition: rotate(45deg) translateY($desktop-offset);
+        -webkit-transition: rotate(45deg) translateY($desktop-offset);
+        -o-transition: rotate(45deg) translateY($desktop-offset);
       }
       100% {
         transform: rotate(45deg) translateY(0px);
+        -moz-transition: rotate(45deg) translateY(0px);
+        -webkit-transition: rotate(45deg) translateY(0px);
+        -o-transition: rotate(45deg) translateY(0px);
       }
     }
     @keyframes right-2 {
       0% {
         transform: rotate(0deg) translateY(0px);
+        -moz-transition: rotate(0deg) translateY(0px);
+        -webkit-transition: rotate(0deg) translateY(0px);
+        -o-transition: rotate(0deg) translateY(0px);
       }
       33%,
       66%,
       90% {
         transform: rotate(90deg) translateY($desktop-offset);
+        -moz-transition: rotate(90deg) translateY($desktop-offset);
+        -webkit-transition: rotate(90deg) translateY($desktop-offset);
+        -o-transition: rotate(90deg) translateY($desktop-offset);
       }
       100% {
         transform: rotate(90deg) translateY(0px);
+        -moz-transition: rotate(90deg) translateY(0px);
+        -webkit-transition: rotate(90deg) translateY(0px);
+        -o-transition: rotate(90deg) translateY(0px);
       }
     }
     @keyframes right-3 {
       0% {
         transform: rotate(0deg) translateY(0px);
+        -moz-transition: rotate(0deg) translateY(0px);
+        -webkit-transition: rotate(0deg) translateY(0px);
+        -o-transition: rotate(0deg) translateY(0px);
       }
       33%,
       66%,
       90% {
         transform: rotate(135deg) translateY($desktop-offset);
+        -moz-transition: rotate(135deg) translateY($desktop-offset);
+        -webkit-transition: rotate(135deg) translateY($desktop-offset);
+        -o-transition: rotate(135deg) translateY($desktop-offset);
       }
       100% {
         transform: rotate(135deg) translateY(0px);
+        -moz-transition: rotate(135deg) translateY(0px);
+        -webkit-transition: rotate(135deg) translateY(0px);
+        -o-transition: rotate(135deg) translateY(0px);
       }
     }
 
     @keyframes right-4 {
       0% {
         transform: rotate(0deg) translateY(0px);
+        -moz-transition: rotate(0deg) translateY(0px);
+        -webkit-transition: rotate(0deg) translateY(0px);
+        -o-transition: rotate(0deg) translateY(0px);
       }
       33%,
       66%,
       90% {
         transform: rotate(180deg) translateY($desktop-offset);
+        -moz-transition: rotate(180deg) translateY($desktop-offset);
+        -webkit-transition: rotate(180deg) translateY($desktop-offset);
+        -o-transition: rotate(180deg) translateY($desktop-offset);
       }
       100% {
         transform: rotate(180deg) translateY(0px);
+        -moz-transition: rotate(180deg) translateY(0px);
+        -webkit-transition: rotate(180deg) translateY(0px);
+        -o-transition: rotate(180deg) translateY(0px);
       }
     }
 
     @keyframes right-5 {
       0% {
         transform: rotate(0deg) translateY(0px);
+        -moz-transition: rotate(0deg) translateY(0px);
+        -webkit-transition: rotate(0deg) translateY(0px);
+        -o-transition: rotate(0deg) translateY(0px);
       }
       33%,
       66%,
       90% {
         transform: rotate(225deg) translateY($desktop-offset);
+        -moz-transition: rotate(225deg) translateY($desktop-offset);
+        -webkit-transition: rotate(225deg) translateY($desktop-offset);
+        -o-transition: rotate(225deg) translateY($desktop-offset);
       }
       100% {
         transform: rotate(225deg) translateY(0px);
+        -moz-transition: rotate(225deg) translateY(0px);
+        -webkit-transition: rotate(225deg) translateY(0px);
+        -o-transition: rotate(225deg) translateY(0px);
       }
     }
 
     @keyframes right-6 {
       0% {
         transform: rotate(0deg) translateY(0px);
+        -moz-transition: rotate(0deg) translateY(0px);
+        -webkit-transition: rotate(0deg) translateY(0px);
+        -o-transition: rotate(0deg) translateY(0px);
       }
       33%,
       66%,
       90% {
         transform: rotate(270deg) translateY($desktop-offset);
+        -moz-transition: rotate(270deg) translateY($desktop-offset);
+        -webkit-transition: rotate(270deg) translateY($desktop-offset);
+        -o-transition: rotate(270deg) translateY($desktop-offset);
       }
       100% {
         transform: rotate(270deg) translateY(0px);
+        -moz-transition: rotate(270deg) translateY(0px);
+        -webkit-transition: rotate(270deg) translateY(0px);
+        -o-transition: rotate(270deg) translateY(0px);
       }
     }
 
     @keyframes right-7 {
       0% {
         transform: rotate(0deg) translateY(0px);
+        -moz-transition: rotate(0deg) translateY(0px);
+        -webkit-transition: rotate(0deg) translateY(0px);
+        -o-transition: rotate(0deg) translateY(0px);
       }
       33%,
       66%,
       90% {
         transform: rotate(315deg) translateY($desktop-offset);
+        -moz-transition: rotate(315deg) translateY($desktop-offset);
+        -webkit-transition: rotate(315deg) translateY($desktop-offset);
+        -o-transition: rotate(315deg) translateY($desktop-offset);
       }
       100% {
         transform: rotate(315deg) translateY(0px);
+        -moz-transition: rotate(315deg) translateY(0px);
+        -webkit-transition: rotate(315deg) translateY(0px);
+        -o-transition: rotate(315deg) translateY(0px);
       }
     }
 
     @keyframes right-8 {
       0% {
         transform: rotate(0deg) translateY(0px);
+        -moz-transition: rotate(0deg) translateY(0px);
+        -webkit-transition: rotate(0deg) translateY(0px);
+        -o-transition: rotate(0deg) translateY(0px);
       }
       33%,
       66%,
       90% {
         transform: rotate(360deg) translateY($desktop-offset);
+        -moz-transition: rotate(360deg) translateY($desktop-offset);
+        -webkit-transition: rotate(360deg) translateY($desktop-offset);
+        -o-transition: rotate(360deg) translateY($desktop-offset);
       }
       100% {
         transform: rotate(360deg) translateY(0px);
+        -moz-transition: rotate(360deg) translateY(0px);
+        -webkit-transition: rotate(360deg) translateY(0px);
+        -o-transition: rotate(360deg) translateY(0px);
       }
     }
   }
