@@ -1,4 +1,5 @@
 <script>
+  // Components
   import SocialsIcons from '@/components/atoms/SocialsIcons.svelte'
 </script>
 
@@ -19,17 +20,13 @@
     article {
       width: 2rem;
       margin: 0 auto;
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
     }
     div {
       width: 0.175rem;
       height: 225px;
       margin: 0 auto;
       background-color: #8d8e8e;
-
-      @include lightMode {
-        /* background-color: $ui-dark-blue; */
-      }
     }
   }
 </style>

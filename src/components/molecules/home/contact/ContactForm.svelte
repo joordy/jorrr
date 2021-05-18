@@ -10,9 +10,9 @@
     fieldset {
       border: none;
       input {
-        -webkit-appearance: auto;
-        -moz-appearance: auto;
-        appearance: auto;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
       }
       div {
         display: flex;

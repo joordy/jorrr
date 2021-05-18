@@ -1,7 +1,4 @@
 <script>
-  // Animations
-  import SlideBottom from '@/components/animations/SlideBottom.svelte'
-
   // Exports
   export let project
 </script>

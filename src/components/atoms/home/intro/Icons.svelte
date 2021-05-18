@@ -19,15 +19,18 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      animation-delay: 1s;
-      svg {
-        width: 100%;
-        height: 100%;
-        path {
-          &:hover {
+      animation-delay: 3s;
+      &:hover {
+        cursor: pointer;
+        svg {
+          path {
             fill: $ui-green;
           }
         }
+      }
+      svg {
+        width: 100%;
+        height: 100%;
       }
       &:nth-of-type(1) {
         animation: right-1 5s infinite cubic-bezier(0, 0, 0.49, 1.02);

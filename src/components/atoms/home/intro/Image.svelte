@@ -1,5 +1,5 @@
 <script>
-  // let src = 'PictureOfMe.svg'
+  // exports
   export let src
 </script>
 
@@ -16,21 +16,6 @@
     @include size-m {
       max-height: 250px;
     }
-    /* position: absolute;
-    z-index: 1;
-    width: 70%;
-    max-width: 250px;
-    margin: 0 auto;
-    &:after {
-      content: '';
-      filter: blur(1em);
-      background: #000;
-    }
-    @include size-m {
-      width: 70%;
-      max-width: 450px;
-      margin: unset;
-    } */
   }
 </style>
 

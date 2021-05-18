@@ -1,10 +1,13 @@
 <script>
+  // Components
   import Previous from '@/components/atoms/projects/Previous.svelte'
   import Next from '@/components/atoms/projects/Next.svelte'
   import SlideImg from '@/components/atoms/projects/SlideImg.svelte'
 
+  // Exports
   export let projectImages
 
+  // Navigation buttons
   let leftPosition = 0
 
   $: handleToRight = (event) => {

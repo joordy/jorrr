@@ -26,13 +26,19 @@
       max-width: 330px;
       margin: $margin2 0;
     }
-    span {
+    button {
       font-weight: 700;
+      font-size: 1rem;
       color: $ui-green;
       cursor: pointer;
       transition: 0.2s;
+      border: none;
+      outline: none;
+      background-color: transparent;
       &:hover {
-        transform: scale(1.05);
+        transform: scale(1.15);
+        /* backdrop-filter: blur(10px); */
+        /* box-shadow: 0px 0px 7.5px 20px rgba($color: $ui-green, $alpha: 0.3); */
       }
     }
   }
@@ -44,5 +50,5 @@
     Are you interested in working with me? Please feel free to contact me for a
     project or a collaboration together.
   </p>
-  <span on:click={changeState}>Contact me</span>
+  <button on:click={changeState}>Contact me</button>
 </article>

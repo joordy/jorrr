@@ -1,4 +1,5 @@
 <script>
+  // exports
   export let textCTA
   export let linkTO
 </script>
@@ -9,7 +10,7 @@
   a {
     min-width: 75px;
     height: 30px;
-    padding: 0.5em 2em;
+    padding: 0.375em 2em;
     border-radius: 8px;
     border: 2px solid $ui-green;
     background-color: transparent;

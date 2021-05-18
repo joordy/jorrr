@@ -1,4 +1,5 @@
 <script>
+  // exports
   export let textCTA
   export let linkTO
 </script>

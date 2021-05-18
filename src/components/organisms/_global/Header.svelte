@@ -1,6 +1,8 @@
 <script>
+  // Svelte imports
   import { onMount } from 'svelte'
 
+  // Change height of header when scrolled down
   onMount(() => {
     const scrollFunction = () => {
       if (

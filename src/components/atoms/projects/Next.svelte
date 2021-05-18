@@ -1,6 +1,8 @@
 <script>
+  // Svelte imports
   import { createEventDispatcher } from 'svelte'
 
+  // exports
   export let leftPosition
   export let projectImages
 

@@ -4,7 +4,6 @@
 
   // Components
   import BlockTitle from '@/components/atoms/BlockTitle.svelte'
-  import ContactForm from '@/components/molecules/home/contact/ContactForm.svelte'
   import ContactIntro from '@/components/molecules/home/contact/ContactIntro.svelte'
 </script>
 
@@ -49,8 +48,5 @@
 
   <SlideBottom>
     <ContactIntro />
-    <!-- <SlideBottom> -->
-    <!-- <ContactForm /> -->
-    <!-- </SlideBottom> -->
   </SlideBottom>
 </section>

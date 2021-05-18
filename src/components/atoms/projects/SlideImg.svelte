@@ -1,4 +1,5 @@
 <script>
+  // exports
   export let src
 </script>
 
