@@ -7,7 +7,7 @@
 <style lang="scss">
   @import 'src/styles/index.scss';
 
-  .intro {
+  aside {
     margin: 0 auto 2em auto;
     width: 100%;
     h2 {
@@ -25,10 +25,9 @@
     div {
       margin-top: 3em;
       display: flex;
-      justify-content: start;
+      justify-content: space-between;
       width: 100%;
       @include size-s {
-        justify-content: space-between;
         max-width: 390px;
       }
     }

@@ -88,7 +88,6 @@
             a {
               text-decoration: none;
               font-weight: 700;
-              /* color: $ui-inActive; */
               color: #8d8e8e;
               transition: 0.2s;
               font-size: $basic-font-size;
@@ -124,7 +123,6 @@
           fill="#EDF2EF"
         />
       </svg>
-      <!-- <h1>Jordy Fronik</h1> -->
     </a>
 
     <nav>

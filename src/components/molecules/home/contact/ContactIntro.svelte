@@ -40,11 +40,9 @@
 
 <article>
   <h3>Let's work together</h3>
-
   <p>
     Are you interested in working with me? Please feel free to contact me for a
     project or a collaboration together.
   </p>
-
   <span on:click={changeState}>Contact me</span>
 </article>

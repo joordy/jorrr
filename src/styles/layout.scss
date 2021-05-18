@@ -37,12 +37,19 @@ main {
     transition: 0.2s;
     @include size-xs {
       width: calc(100% - 10vw);
+      max-width: 550px;
     }
     @include size-s {
+      width: 80vw !important;
+      max-width: 700px;
+    }
+    @include size-m {
       width: 70vw !important;
+      max-width: 800px;
     }
     @include size-l {
-      width: 920px !important;
+      width: 60vw !important;
+      max-width: 920px;
     }
   }
 }

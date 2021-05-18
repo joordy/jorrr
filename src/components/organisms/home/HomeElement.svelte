@@ -21,6 +21,12 @@
       padding-top: clamp(5em, 25vw, 22.5em);
       padding-bottom: clamp(5em, 25vw, 22.5em);
       grid-template-columns: 1fr 1fr;
+      grid-gap: 2rem;
+    }
+    @include size-m {
+      left: 0;
+      width: 100%;
+      grid-template-columns: 3fr 4fr;
     }
   }
 </style>
