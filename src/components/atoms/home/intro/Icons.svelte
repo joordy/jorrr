@@ -33,28 +33,78 @@
         height: 100%;
       }
       &:nth-of-type(1) {
-        animation: right-1 5s infinite cubic-bezier(0, 0, 0.49, 1.02);
+        transform: rotate(45deg) translateY($mobile-offset);
+        -moz-transition: rotate(45deg) translateY($mobile-offset);
+        -webkit-transition: rotate(45deg) translateY($mobile-offset);
+        -o-transition: rotate(45deg) translateY($mobile-offset);
       }
       &:nth-of-type(2) {
-        animation: right-2 5s infinite cubic-bezier(0, 0, 0.49, 1.02);
+        transform: rotate(90deg) translateY($mobile-offset);
+        -moz-transition: rotate(90deg) translateY($mobile-offset);
+        -webkit-transition: rotate(90deg) translateY($mobile-offset);
+        -o-transition: rotate(90deg) translateY($mobile-offset);
       }
       &:nth-of-type(3) {
-        animation: right-3 5s infinite cubic-bezier(0, 0, 0.49, 1.02);
+        transform: rotate(135deg) translateY($mobile-offset);
+        -moz-transition: rotate(135deg) translateY($mobile-offset);
+        -webkit-transition: rotate(135deg) translateY($mobile-offset);
+        -o-transition: rotate(135deg) translateY($mobile-offset);
       }
       &:nth-of-type(4) {
-        animation: right-4 5s infinite cubic-bezier(0, 0, 0.49, 1.02);
+        transform: rotate(180deg) translateY($mobile-offset);
+        -moz-transition: rotate(180deg) translateY($mobile-offset);
+        -webkit-transition: rotate(180deg) translateY($mobile-offset);
+        -o-transition: rotate(180deg) translateY($mobile-offset);
       }
       &:nth-of-type(5) {
-        animation: right-5 5s infinite cubic-bezier(0, 0, 0.49, 1.02);
+        transform: rotate(225deg) translateY($mobile-offset);
+        -moz-transition: rotate(225deg) translateY($mobile-offset);
+        -webkit-transition: rotate(225deg) translateY($mobile-offset);
+        -o-transition: rotate(225deg) translateY($mobile-offset);
       }
       &:nth-of-type(6) {
-        animation: right-6 5s infinite cubic-bezier(0, 0, 0.49, 1.02);
+        transform: rotate(270deg) translateY($mobile-offset);
+        -moz-transition: rotate(270deg) translateY($mobile-offset);
+        -webkit-transition: rotate(270deg) translateY($mobile-offset);
+        -o-transition: rotate(270deg) translateY($mobile-offset);
       }
       &:nth-of-type(7) {
-        animation: right-7 5s infinite cubic-bezier(0, 0, 0.49, 1.02);
+        transform: rotate(315deg) translateY($mobile-offset);
+        -moz-transition: rotate(315deg) translateY($mobile-offset);
+        -webkit-transition: rotate(315deg) translateY($mobile-offset);
+        -o-transition: rotate(315deg) translateY($mobile-offset);
       }
       &:nth-of-type(8) {
-        animation: right-8 5s infinite cubic-bezier(0, 0, 0.49, 1.02);
+        transform: rotate(360deg) translateY($mobile-offset);
+        -moz-transition: rotate(360deg) translateY($mobile-offset);
+        -webkit-transition: rotate(360deg) translateY($mobile-offset);
+        -o-transition: rotate(360deg) translateY($mobile-offset);
+      }
+      @include size-s {
+        &:nth-of-type(1) {
+          animation: right-1 5s infinite cubic-bezier(0, 0, 0.49, 1.02);
+        }
+        &:nth-of-type(2) {
+          animation: right-2 5s infinite cubic-bezier(0, 0, 0.49, 1.02);
+        }
+        &:nth-of-type(3) {
+          animation: right-3 5s infinite cubic-bezier(0, 0, 0.49, 1.02);
+        }
+        &:nth-of-type(4) {
+          animation: right-4 5s infinite cubic-bezier(0, 0, 0.49, 1.02);
+        }
+        &:nth-of-type(5) {
+          animation: right-5 5s infinite cubic-bezier(0, 0, 0.49, 1.02);
+        }
+        &:nth-of-type(6) {
+          animation: right-6 5s infinite cubic-bezier(0, 0, 0.49, 1.02);
+        }
+        &:nth-of-type(7) {
+          animation: right-7 5s infinite cubic-bezier(0, 0, 0.49, 1.02);
+        }
+        &:nth-of-type(8) {
+          animation: right-8 5s infinite cubic-bezier(0, 0, 0.49, 1.02);
+        }
       }
     }
   }
@@ -125,7 +175,6 @@
       -o-transition: rotate(135deg) translateY(0px);
     }
   }
-
   @keyframes right-4 {
     0% {
       transform: rotate(0deg) translateY(0px);
@@ -148,7 +197,6 @@
       -o-transition: rotate(180deg) translateY(0px);
     }
   }
-
   @keyframes right-5 {
     0% {
       transform: rotate(0deg) translateY(0px);

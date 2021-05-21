@@ -22,6 +22,7 @@
     img {
       width: auto;
       max-width: 100%;
+      height: auto;
       max-height: 550px;
       transition: 0.3s;
       position: relative;
